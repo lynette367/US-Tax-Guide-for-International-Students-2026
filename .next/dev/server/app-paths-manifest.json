@@ -1,0 +1,9 @@
+{
+  "/aupair/page": "app/aupair/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/immigration/page": "app/immigration/page.js",
+  "/page": "app/page.js",
+  "/study/page": "app/study/page.js",
+  "/volunteer/page": "app/volunteer/page.js",
+  "/work/page": "app/work/page.js"
+}
