@@ -305,10 +305,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FooterH
 const metadata = {
     metadataBase: new URL("https://mapleworld.example.com"),
     title: {
-        default: "MapleWorld · 温暖开启 · 探险风格",
+        default: "MapleWorld · 开启探索",
         template: "%s · MapleWorld"
     },
-    description: "MapleWorld · 温柔安全的跨国旅程陪伴，提供留学、志愿者、互惠生、出国工作与移民规划。",
+    description: "MapleWorld · 跨国旅程从我开始，提供留学、志愿者、互惠生、出国工作与移民规划。",
     keywords: [
         "MapleWorld",
         "留学",
@@ -319,14 +319,14 @@ const metadata = {
     ],
     openGraph: {
         title: "MapleWorld · 大世界 · 小探险",
-        description: "See The World · Live Your Story · MapleWorld 以温柔与安全感陪伴你的全球冒险。",
+        description: "See The World · Live Your Story · MapleWorld 你的故事，从探索世界开始。",
         url: "https://mapleworld.example.com",
         images: [
             {
                 url: "/og-image.png",
                 width: 1200,
                 height: 630,
-                alt: "MapleWorld · 温暖出国"
+                alt: "MapleWorld · 出国探索"
             }
         ]
     },
@@ -336,7 +336,7 @@ const metadata = {
         }
     ],
     icons: {
-        icon: "/favicon.ico"
+        icon: '/favicon.ico'
     }
 };
 function RootLayout({ children }) {
@@ -354,7 +354,7 @@ function RootLayout({ children }) {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Header"], {}, void 0, false, {
                         fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 65,
+                        lineNumber: 67,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -362,28 +362,28 @@ function RootLayout({ children }) {
                         children: children
                     }, void 0, false, {
                         fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 66,
+                        lineNumber: 68,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$FooterHope$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FooterHope"], {}, void 0, false, {
                         fileName: "[project]/src/app/layout.tsx",
-                        lineNumber: 67,
+                        lineNumber: 69,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/layout.tsx",
-                lineNumber: 64,
+                lineNumber: 66,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 61,
+            lineNumber: 63,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 55,
+        lineNumber: 57,
         columnNumber: 5
     }, this);
 }

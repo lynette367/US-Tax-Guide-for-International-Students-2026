@@ -41,14 +41,11 @@ export const metadata: Metadata = {
     ],
   },
   authors: [{ name: "MapleWorld Team" }],
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon.ico", type: "image/x-icon" },
-    ],
-    shortcut: "/favicon.ico",
-    apple: "/favicon.ico",
-  },
+  icons: 
+  {
+    icon: '/favicon.ico', // 简单地指向 /public 根目录下的文件
+},
+  
 };
 
 export default function RootLayout({
