@@ -7,7 +7,6 @@ const navItems = [
   { label: "互惠生", href: "/aupair" },
   { label: "出国工作", href: "/work" },
   { label: "移民", href: "/immigration" },
-  { label: "联系我们", href: "/contact" },
 ];
 
 export function Header() {
@@ -19,7 +18,7 @@ export function Header() {
             MapleWorld
           </span>
           <p className="hidden text-sm text-brand-ink/80 sm:block">
-            温暖出国 · 手绘探险风格
+            只要准备一张机票，就可以飞往世界各地
           </p>
         </div>
 
@@ -38,16 +37,10 @@ export function Header() {
         <div className="flex items-center gap-3">
           <Link
             href="/contact"
-            className="hidden rounded-full border border-brand-ink/10 px-4 py-2 text-sm font-semibold text-brand-ink/80 transition hover:bg-white/80 sm:block"
+            className="inline-flex items-center justify-center rounded-full bg-brand-pink px-4 py-2 text-sm font-semibold text-brand-ink shadow-[0_15px_40px_rgba(247,198,217,0.55)] transition hover:scale-105 hover:bg-brand-pink/90"
           >
             免费咨询
           </Link>
-          <button
-            type="button"
-            className="inline-flex items-center justify-center rounded-full bg-brand-pink px-4 py-2 text-sm font-semibold text-brand-ink shadow-[0_15px_40px_rgba(247,198,217,0.55)] transition hover:scale-105 hover:bg-brand-pink/90"
-          >
-            ☁︎
-          </button>
         </div>
       </div>
 

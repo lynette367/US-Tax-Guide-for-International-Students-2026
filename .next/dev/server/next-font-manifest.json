@@ -1,24 +1,6 @@
 {
   "app": {
-    "[project]/src/app/aupair/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
     "[project]/src/app/contact/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/immigration/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/study/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/volunteer/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/work/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ]
   },

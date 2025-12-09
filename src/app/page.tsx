@@ -1,9 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ServiceCardHope } from "@/components/ServiceCardHope";
 import { WhyUsHope } from "@/components/WhyUsHope";
 import { BrandStoryHope } from "@/components/BrandStoryHope";
-import Traveler from "@/components/illustrations/Traveler";
-import Airplane from "@/components/illustrations/Airplane";
 import Cloud from "@/components/illustrations/Cloud";
 import WorldMap from "@/components/illustrations/WorldMap";
 
@@ -62,26 +61,39 @@ export default function Home() {
               href="/contact"
               className="w-full sm:w-auto rounded-full bg-brand-pinkdeep px-8 py-3 text-white shadow-[0_25px_60px_rgba(200,127,155,0.45)] transition hover:bg-brand-pinkhover"
             >
-              和顾问聊聊你的未来
+              聊聊你的未来
             </Link>
             <Link
               href="#services"
               className="w-full sm:w-auto rounded-full border border-brand-ink/30 bg-white/70 px-8 py-3 text-brand-ink transition hover:bg-white"
             >
-              看看我可以从哪里开始
+              看看从哪开始
             </Link>
           </div>
         </div>
 
-        {/* 插画 - 移动端缩小 */}
-        <div className="pointer-events-none absolute bottom-0 left-[5%] w-[40%] max-w-[130px] sm:w-auto sm:max-w-[220px]">
-          <Traveler />
+        {/* 插画 - 占 Hero 板块 1/4 大小，位于左下角 */}
+        <div className="absolute bottom-0 left-0 w-[60vw] h-[60vh] min-w-[200px] min-h-[200px] max-w-[600px] max-h-[600px]">
+          <Image
+            src="/images/hero/traveler.jpg"
+            alt="小男孩拖着行李箱"
+            width={1650}
+            height={1275}
+            className="w-full h-full object-contain opacity-80"
+            priority
+            unoptimized
+          />
         </div>
 
-        <div className="pointer-events-none absolute right-[10%] top-[10%] hidden sm:block">
-          <div className="airplane-glide">
-            <Airplane />
-          </div>
+        <div className="absolute top-0 right-0 w-[30vw] h-[30vh] max-w-[300px] max-h-[300px]">
+          <Image
+            src="/images/hero/airplane.png"
+            alt="飞机"
+            width={300}
+            height={300}
+            className="w-full h-full object-contain"
+            priority
+          />
         </div>
 
         <div className="pointer-events-none absolute right-[12%] top-1/2 hidden sm:block">
@@ -113,17 +125,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 第三屏：Why MapleWorld */}
-      <div className="mt-8 sm:mt-12">
-        <WhyUsHope />
-      </div>
-
-      {/* 第四屏：品牌故事 */}
-      <div className="mt-8 sm:mt-12">
-        <BrandStoryHope />
-      </div>
-
-      {/* 第五屏：联系我们 */}
+      {/* 第三屏：联系我们 */}
       <section className="px-4 pt-12 sm:pt-16 lg:pt-20 pb-0 mt-8 sm:mt-12">
         <div className="mx-auto max-w-4xl rounded-[24px] sm:rounded-[32px] border border-brand-pink/30 bg-white/90 p-6 sm:p-10 md:p-12 text-center text-brand-ink shadow-[0_15px_60px_rgba(244,185,200,0.35)]">
           <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/60">

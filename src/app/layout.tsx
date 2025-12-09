@@ -14,7 +14,7 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   metadataBase: new URL("https://mapleworld.example.com"),
   title: {
-    default: "MapleWorld · 温暖出国 · 手绘探险风格",
+    default: "MapleWorld · 温暖开启 · 探险风格",
     template: "%s · MapleWorld",
   },
   description: "MapleWorld · 温柔安全的跨国旅程陪伴，提供留学、志愿者、互惠生、出国工作与移民规划。",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "出国工作",
   ],
   openGraph: {
-    title: "MapleWorld · 温暖出国 · 手绘探险风格",
+    title: "MapleWorld · 大世界 · 小探险",
     description:
       "See The World · Live Your Story · MapleWorld 以温柔与安全感陪伴你的全球冒险。",
     url: "https://mapleworld.example.com",
@@ -52,7 +52,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="zh-CN">
+    <html
+      lang="zh-CN"
+      data-theme="light"
+      style={{ colorScheme: "light" }}
+      suppressHydrationWarning
+    >
       <body
         className={`${nunito.variable} bg-transparent text-brand-ink antialiased`}
       >

@@ -24,46 +24,6 @@ export function BrandStoryHope() {
             MapleWorld 都会陪你，一步一步，
             把未来变得不再可怕，而是一次真正的故事出发。
           </p>
-
-          {/* 插画占位：人物坐在行李箱上 - 移动端缩小 */}
-          <div className="mt-8 sm:mt-12 flex justify-center opacity-80">
-            <svg
-              width="180"
-              height="160"
-              viewBox="0 0 180 160"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-[60%] max-w-[180px] h-auto sm:w-auto"
-            >
-              {/* 行李箱 */}
-              <rect
-                x="60"
-                y="70"
-                width="70"
-                height="45"
-                rx="10"
-                stroke="#4E4A4C"
-                strokeWidth="4"
-              />
-              <circle cx="75" cy="120" r="6" fill="#4E4A4C" />
-              <circle cx="115" cy="120" r="6" fill="#4E4A4C" />
-
-              {/* 坐着的小人 */}
-              <circle cx="95" cy="40" r="16" stroke="#4E4A4C" strokeWidth="4" />
-              <path
-                d="M95 56 C95 80 90 95 87 110"
-                stroke="#4E4A4C"
-                strokeWidth="4"
-                strokeLinecap="round"
-              />
-              <path
-                d="M95 75 L120 75"
-                stroke="#4E4A4C"
-                strokeWidth="4"
-                strokeLinecap="round"
-              />
-            </svg>
-          </div>
         </div>
       </div>
     </section>
