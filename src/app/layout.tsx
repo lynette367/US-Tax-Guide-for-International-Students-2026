@@ -14,10 +14,10 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   metadataBase: new URL("https://mapleworld.example.com"),
   title: {
-    default: "MapleWorld · 温暖开启 · 探险风格",
+    default: "MapleWorld · 开启探索",
     template: "%s · MapleWorld",
   },
-  description: "MapleWorld · 温柔安全的跨国旅程陪伴，提供留学、志愿者、互惠生、出国工作与移民规划。",
+  description: "MapleWorld · 跨国旅程从我开始，提供留学、志愿者、互惠生、出国工作与移民规划。",
   keywords: [
     "MapleWorld",
     "留学",
@@ -29,20 +29,25 @@ export const metadata: Metadata = {
   openGraph: {
     title: "MapleWorld · 大世界 · 小探险",
     description:
-      "See The World · Live Your Story · MapleWorld 以温柔与安全感陪伴你的全球冒险。",
+      "See The World · Live Your Story · MapleWorld 你的故事，从探索世界开始。",
     url: "https://mapleworld.example.com",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "MapleWorld · 温暖出国",
+        alt: "MapleWorld · 出国探索",
       },
     ],
   },
   authors: [{ name: "MapleWorld Team" }],
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon.ico", type: "image/x-icon" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
