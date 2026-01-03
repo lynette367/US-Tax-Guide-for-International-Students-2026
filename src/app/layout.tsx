@@ -12,7 +12,10 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mapleworld.example.com"),
+  metadataBase: new URL("https://www.mapleworld.online"),
+  alternates: {
+    canonical: "/tools/opt-tax",
+  },
   title: {
     default: "MapleWorld · 开启探索",
     template: "%s · MapleWorld",
@@ -41,11 +44,11 @@ export const metadata: Metadata = {
     ],
   },
   authors: [{ name: "MapleWorld Team" }],
-  icons: 
+  icons:
   {
     icon: '/favicon.ico', // 简单地指向 /public 根目录下的文件
-},
-  
+  },
+
 };
 
 export default function RootLayout({

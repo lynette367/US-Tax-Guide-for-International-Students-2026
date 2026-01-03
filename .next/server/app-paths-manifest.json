@@ -1,0 +1,21 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/archive/[...slug]/page": "app/archive/[...slug]/page.js",
+  "/archive/aupair/page": "app/archive/aupair/page.js",
+  "/archive/contact/page": "app/archive/contact/page.js",
+  "/archive/immigration/page": "app/archive/immigration/page.js",
+  "/archive/page": "app/archive/page.js",
+  "/archive/study/page": "app/archive/study/page.js",
+  "/archive/volunteer/page": "app/archive/volunteer/page.js",
+  "/archive/work/page": "app/archive/work/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/guides/[slug]/page": "app/guides/[slug]/page.js",
+  "/guides/page": "app/guides/page.js",
+  "/opt-turbotax/page": "app/opt-turbotax/page.js",
+  "/page": "app/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/tools/opt-tax/page": "app/tools/opt-tax/page.js"
+}

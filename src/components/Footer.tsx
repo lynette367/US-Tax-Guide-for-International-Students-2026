@@ -1,12 +1,8 @@
 import Link from "next/link";
 
 const quickLinks = [
-  { label: "留学 Study", href: "/study" },
-  { label: "国际志愿者", href: "/volunteer" },
-  { label: "互惠生", href: "/aupair" },
-  { label: "出国工作", href: "/work" },
-  { label: "移民", href: "/immigration" },
-  { label: "联系我们", href: "/contact" },
+  { label: "指南 Guides", href: "/guides" },
+  { label: "工具 Tools", href: "/tools/opt-tax" },
 ];
 
 export function Footer() {

@@ -36,14 +36,12 @@ export async function POST(request: NextRequest) {
       timestamp: new Date().toISOString(),
     });
 
-    // 发送邮件
-    try {
-      await sendContactEmail({ name, contact, topic, message });
-    } catch (emailError) {
-      console.error("邮件发送失败：", emailError);
-      // 即使邮件发送失败，也返回成功，避免用户重复提交
-      // 可以在后台处理邮件重试
-    }
+    // 发送邮件 logic removed as requested, currently only logging
+    // try {
+    //   await sendContactEmail({ name, contact, topic, message });
+    // } catch (emailError) {
+    //   console.error("邮件发送失败：", emailError);
+    // }
 
     return NextResponse.json(
       {

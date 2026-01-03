@@ -44,24 +44,16 @@ const navItems = [
         href: "/"
     },
     {
-        label: "留学",
-        href: "/study"
+        label: "30 秒判断",
+        href: "/#fit"
     },
     {
-        label: "国际志愿者",
-        href: "/volunteer"
+        label: "领取清单",
+        href: "/#cta"
     },
     {
-        label: "互惠生",
-        href: "/aupair"
-    },
-    {
-        label: "出国工作",
-        href: "/work"
-    },
-    {
-        label: "移民",
-        href: "/immigration"
+        label: "免责声明",
+        href: "/#disclaimer"
     }
 ];
 function Header() {
@@ -79,21 +71,21 @@ function Header() {
                                 children: "MapleWorld"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Header.tsx",
-                                lineNumber: 17,
+                                lineNumber: 15,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "hidden text-sm text-brand-ink/80 sm:block",
-                                children: "只要准备一张机票，就可以飞往世界各地"
+                                children: "只要准备一张机票，就可以去往世界每个角落"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Header.tsx",
-                                lineNumber: 20,
+                                lineNumber: 18,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/Header.tsx",
-                        lineNumber: 16,
+                        lineNumber: 14,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -104,41 +96,34 @@ function Header() {
                                 children: item.label
                             }, item.href, false, {
                                 fileName: "[project]/src/components/Header.tsx",
-                                lineNumber: 27,
+                                lineNumber: 25,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
-                        lineNumber: 25,
+                        lineNumber: 23,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex items-center gap-3",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/contact",
+                            href: "/#cta",
                             className: "inline-flex items-center justify-center rounded-full bg-brand-pink px-4 py-2 text-sm font-semibold text-brand-ink shadow-[0_15px_40px_rgba(247,198,217,0.55)] transition hover:scale-105 hover:bg-brand-pink/90",
-                            children: "免费咨询"
+                            children: "领取清单"
                         }, void 0, false, {
                             fileName: "[project]/src/components/Header.tsx",
-                            lineNumber: 38,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Header.tsx",
-                        lineNumber: 37,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/Header.tsx",
-                lineNumber: 15,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "fixed inset-x-0 top-0 z-[-1] h-32 bg-white/80 backdrop-blur-lg"
-            }, void 0, false, {
-                fileName: "[project]/src/components/Header.tsx",
-                lineNumber: 47,
+                lineNumber: 13,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -149,18 +134,18 @@ function Header() {
                         children: item.label
                     }, item.href, false, {
                         fileName: "[project]/src/components/Header.tsx",
-                        lineNumber: 51,
+                        lineNumber: 49,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/src/components/Header.tsx",
-                lineNumber: 49,
+                lineNumber: 47,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/components/Header.tsx",
-        lineNumber: 14,
+        lineNumber: 12,
         columnNumber: 5
     }, this);
 }
@@ -173,113 +158,25 @@ __turbopack_context__.s([
     ()=>FooterHope
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
 ;
-;
-const links = [
-    {
-        label: "留学 Study",
-        href: "/study"
-    },
-    {
-        label: "国际志愿者 Volunteer",
-        href: "/volunteer"
-    },
-    {
-        label: "互惠生 Au Pair",
-        href: "/aupair"
-    },
-    {
-        label: "出国工作 Work Abroad",
-        href: "/work"
-    },
-    {
-        label: "移民 Immigration",
-        href: "/immigration"
-    },
-    {
-        label: "联系我们 Contact",
-        href: "/contact"
-    }
-];
 function FooterHope() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
-        className: "mt-24 bg-brand-warmwhite px-4 pt-16 pb-10",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mx-auto flex max-w-[68.75rem] flex-col gap-12 md:flex-row md:justify-between",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "max-w-sm",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xs uppercase tracking-[0.35em] text-brand-ink/50",
-                                children: "MAPLEWORLD"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/FooterHope.tsx",
-                                lineNumber: 17,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                className: "mt-3 text-2xl font-semibold text-brand-ink",
-                                children: "温柔 · 安全 · 希望 · 陪伴"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/FooterHope.tsx",
-                                lineNumber: 20,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mt-4 text-sm text-brand-ink/70 leading-relaxed",
-                                children: "MapleWorld 相信，每一段走向世界的旅程，都值得被认真对待。 我们用温柔的方式陪你走过那些不确定的时刻。"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/FooterHope.tsx",
-                                lineNumber: 23,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/FooterHope.tsx",
-                        lineNumber: 16,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-2 gap-4 text-sm md:grid-cols-3",
-                        children: links.map((i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                href: i.href,
-                                className: "rounded-xl border border-brand-pink/20 bg-white/80 px-4 py-3 text-brand-ink transition hover:scale-[1.02] hover:shadow-[0_8px_20px_rgba(244,185,200,0.3)]",
-                                children: i.label
-                            }, i.href, false, {
-                                fileName: "[project]/src/components/FooterHope.tsx",
-                                lineNumber: 31,
-                                columnNumber: 13
-                            }, this))
-                    }, void 0, false, {
-                        fileName: "[project]/src/components/FooterHope.tsx",
-                        lineNumber: 29,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/FooterHope.tsx",
-                lineNumber: 15,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "mx-auto mt-16 max-w-[68.75rem] border-t border-brand-ink/10 pt-6 text-center text-xs text-brand-ink/50",
-                children: [
-                    "© ",
-                    new Date().getFullYear(),
-                    " MapleWorld · All rights reserved."
-                ]
-            }, void 0, true, {
-                fileName: "[project]/src/components/FooterHope.tsx",
-                lineNumber: 42,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
+        className: "mt-12 border-t border-brand-ink/5 bg-brand-warmwhite px-4 py-8",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "mx-auto max-w-[68.75rem] text-center text-xs text-brand-ink/50",
+            children: [
+                "© ",
+                new Date().getFullYear(),
+                " MapleWorld · All rights reserved."
+            ]
+        }, void 0, true, {
+            fileName: "[project]/src/components/FooterHope.tsx",
+            lineNumber: 4,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
         fileName: "[project]/src/components/FooterHope.tsx",
-        lineNumber: 14,
+        lineNumber: 3,
         columnNumber: 5
     }, this);
 }

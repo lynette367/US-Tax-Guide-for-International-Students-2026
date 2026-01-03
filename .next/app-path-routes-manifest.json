@@ -1,0 +1,21 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/contact/route": "/api/contact",
+  "/archive/[...slug]/page": "/archive/[...slug]",
+  "/archive/aupair/page": "/archive/aupair",
+  "/archive/contact/page": "/archive/contact",
+  "/archive/immigration/page": "/archive/immigration",
+  "/archive/page": "/archive",
+  "/archive/study/page": "/archive/study",
+  "/archive/volunteer/page": "/archive/volunteer",
+  "/archive/work/page": "/archive/work",
+  "/favicon.ico/route": "/favicon.ico",
+  "/guides/[slug]/page": "/guides/[slug]",
+  "/guides/page": "/guides",
+  "/opt-turbotax/page": "/opt-turbotax",
+  "/page": "/",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/tools/opt-tax/page": "/tools/opt-tax"
+}
