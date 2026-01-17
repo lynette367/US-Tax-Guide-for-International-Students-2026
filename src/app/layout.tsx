@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Nunito } from "next/font/google";
 import { Header } from "@/components/Header";
 import { FooterHope } from "@/components/FooterHope";
@@ -63,6 +64,19 @@ export default function RootLayout({
       style={{ colorScheme: "light" }}
       suppressHydrationWarning
     >
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-5JK5TTVP1J"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-5JK5TTVP1J');
+        `}
+      </Script>
       <body
         className={`${nunito.variable} bg-transparent text-brand-ink antialiased`}
       >
