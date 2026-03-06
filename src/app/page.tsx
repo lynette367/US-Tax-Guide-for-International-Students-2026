@@ -197,19 +197,25 @@ export default function Home() {
       <section className="px-4 py-12 sm:py-16 lg:py-20">
         <div className="page-shell">
           <div className="max-w-3xl">
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
-              痛点共鸣
-            </p>
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
               你可能也被这些问题困住过
             </h2>
           </div>
           <div className="mt-6 rounded-[28px] border border-brand-pink/40 bg-white/85 p-6 sm:p-8 shadow-[0_18px_60px_rgba(244,185,200,0.3)]">
             <ul className="grid gap-4 text-sm sm:text-base text-brand-ink/80">
-              {painPoints.map((point) => (
+              {painPoints.map((point, index) => (
                 <li key={point} className="flex gap-3">
                   <span className="mt-1 h-2 w-2 rounded-full bg-brand-pinkdeep" />
-                  <span>{point}</span>
+                  {index === 0 ? (
+                    <Link
+                      href="/form-8843-guide"
+                      className="font-semibold text-brand-pinkdeep hover:underline"
+                    >
+                      《2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）》
+                    </Link>
+                  ) : (
+                    <span>{point}</span>
+                  )}
                 </li>
               ))}
             </ul>

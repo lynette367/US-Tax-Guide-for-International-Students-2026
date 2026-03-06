@@ -936,7 +936,214 @@ function OptTaxToolPage() {
                         }, this),
                         view === "quiz" && renderQuestion(),
                         view === "result" && renderResult(),
-                        view === "exit" && renderExit()
+                        view === "exit" && renderExit(),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "sr-only",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    children: "How to Determine F1 Tax Status (Resident vs Non-Resident)"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                    lineNumber: 513,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    children: "Use this tool to determine if you should file as a Resident Alien or Non-Resident Alien for tax purposes. This affects your eligibility for F1 Tax Refund and which forms (1040 vs 1040-NR) you need to use."
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                    lineNumber: 514,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Step 1: Check Visa Status"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                                    lineNumber: 521,
+                                                    columnNumber: 19
+                                                }, this),
+                                                " - Are you currently on an F-1 Visa and receiving income during OPT (Optional Practical Training)?"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                            lineNumber: 520,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Step 2: Identify Income Sources"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                                    lineNumber: 525,
+                                                    columnNumber: 19
+                                                }, this),
+                                                " - Do you have income reported on Form W-2, Form 1099, or self-employment income?"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                            lineNumber: 524,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Step 3: Substantial Presence Test (SPT)"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                                    lineNumber: 529,
+                                                    columnNumber: 19
+                                                }, this),
+                                                " - Verify your entry year to see if you are exempt from the Substantial Presence Test (usually first 5 calendar years for F1 students)."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                            lineNumber: 528,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Step 4: Determine Tax Year"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                                    lineNumber: 534,
+                                                    columnNumber: 19
+                                                }, this),
+                                                " - Confirm which tax year you are filing for (e.g., 2025, 2026) to apply correct IRS rules."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                            lineNumber: 533,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Step 5: Check for 1042-S"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                                    lineNumber: 538,
+                                                    columnNumber: 19
+                                                }, this),
+                                                " - Did you receive Form 1042-S for scholarships or treaty-exempt income? This is common for international students."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                            lineNumber: 537,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Step 6: FICA Tax Exemption"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                                    lineNumber: 543,
+                                                    columnNumber: 19
+                                                }, this),
+                                                " - Check your pay stubs for Social Security and Medicare tax deductions. Non-residents on F1 are typically exempt."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                            lineNumber: 542,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Step 7: Choose Filing Method"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                                    lineNumber: 548,
+                                                    columnNumber: 19
+                                                }, this),
+                                                " - Decide between using DIY tax software (like Sprintax for non-residents) or hiring a CPA."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                            lineNumber: 547,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Step 8: Maximize F1 Tax Refund"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                                    lineNumber: 552,
+                                                    columnNumber: 19
+                                                }, this),
+                                                " - Ensure you claim all treaty benefits and deductions available to your specific status (Resident vs Non-Resident)."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                            lineNumber: 551,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                                    lineNumber: 519,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                            lineNumber: 512,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                            type: "application/ld+json",
+                            dangerouslySetInnerHTML: {
+                                __html: JSON.stringify({
+                                    "@context": "https://schema.org",
+                                    "@type": "SoftwareApplication",
+                                    "name": "F1 Tax Status Determiner",
+                                    "applicationCategory": "FinanceApplication",
+                                    "operatingSystem": "Web",
+                                    "description": "An online tool to help F1 students/OPT workers determine their US tax residency status (Resident vs Non-Resident Alien).",
+                                    "offers": {
+                                        "@type": "Offer",
+                                        "price": "0",
+                                        "priceCurrency": "USD"
+                                    },
+                                    "mainEntity": {
+                                        "@type": "HowTo",
+                                        "name": "How to Determine F1 Tax Residency Status",
+                                        "step": [
+                                            {
+                                                "@type": "HowToStep",
+                                                "name": "Check Visa Status",
+                                                "text": "Confirm if you are on an F-1 Visa and have income."
+                                            },
+                                            {
+                                                "@type": "HowToStep",
+                                                "name": "Identify Income Types",
+                                                "text": "Check for W-2, 1099, or 1042-S forms."
+                                            },
+                                            {
+                                                "@type": "HowToStep",
+                                                "name": "Verify Entry Year",
+                                                "text": "Determine if you are within the 5-year exemption period for the Substantial Presence Test."
+                                            },
+                                            {
+                                                "@type": "HowToStep",
+                                                "name": "Check FICA Taxes",
+                                                "text": "See if Social Security or Medicare taxes were withheld erroneously."
+                                            }
+                                        ]
+                                    }
+                                })
+                            }
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/tools/opt-tax/page.tsx",
+                            lineNumber: 558,
+                            columnNumber: 13
+                        }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/tools/opt-tax/page.tsx",

@@ -6,7 +6,8 @@ export type GuideFAQ = {
 type GuideBlock =
   | { type: "paragraph"; text: string }
   | { type: "list"; items: string[]; ordered?: boolean }
-  | { type: "table"; headers: string[]; rows: string[][] };
+  | { type: "table"; headers: string[]; rows: string[][] }
+  | { type: "quiz"; id: string };
 
 export type GuideSection = {
   heading: string;

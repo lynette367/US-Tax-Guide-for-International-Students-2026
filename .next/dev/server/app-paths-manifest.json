@@ -1,6 +1,6 @@
 {
+  "/form-8843-guide/page": "app/form-8843-guide/page.js",
   "/guides/[slug]/page": "app/guides/[slug]/page.js",
-  "/guides/page": "app/guides/page.js",
   "/page": "app/page.js",
   "/tools/opt-tax/page": "app/tools/opt-tax/page.js"
 }

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGuideBySlug, guides } from "@/lib/guides";
+import TaxQuiz from "@/components/TaxQuiz";
 
 export function generateStaticParams() {
   return guides.map((guide) => ({ slug: guide.slug }));
@@ -75,8 +76,8 @@ export default async function GuideDetailPage({
                           <ListTag
                             key={blockIndex}
                             className={`space-y-2 ${block.ordered
-                                ? "list-decimal pl-5"
-                                : "list-disc pl-5"
+                              ? "list-decimal pl-5"
+                              : "list-disc pl-5"
                               }`}
                           >
                             {block.items.map((item) => (
@@ -121,6 +122,9 @@ export default async function GuideDetailPage({
                             </table>
                           </div>
                         );
+                      }
+                      if (block.type === "quiz") {
+                        return <TaxQuiz key={blockIndex} />;
                       }
                       return null;
                     })}
