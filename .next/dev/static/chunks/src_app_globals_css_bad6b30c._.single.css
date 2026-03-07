@@ -1042,6 +1042,10 @@
     }
   }
 
+  .\!bg-white {
+    background-color: var(--color-white) !important;
+  }
+
   .bg-\[\#F7C6D9\] {
     background-color: #f7c6d9;
   }

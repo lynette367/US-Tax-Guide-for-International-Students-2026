@@ -213,6 +213,13 @@ export default function Home() {
                     >
                       《2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）》
                     </Link>
+                  ) : index === 1 ? (
+                    <Link
+                      href="/form-8843-amend-guide"
+                      className="font-semibold text-brand-pinkdeep hover:underline"
+                    >
+                      《2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略》
+                    </Link>
                   ) : (
                     <span>{point}</span>
                   )}
