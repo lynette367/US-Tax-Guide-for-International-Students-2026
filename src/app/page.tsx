@@ -201,31 +201,25 @@ export default function Home() {
               你可能也被这些问题困住过
             </h2>
           </div>
-          <div className="mt-6 rounded-[28px] border border-brand-pink/40 bg-white/85 p-6 sm:p-8 shadow-[0_18px_60px_rgba(244,185,200,0.3)]">
-            <ul className="grid gap-4 text-sm sm:text-base text-brand-ink/80">
-              {painPoints.map((point, index) => (
-                <li key={point} className="flex gap-3">
-                  <span className="mt-1 h-2 w-2 rounded-full bg-brand-pinkdeep" />
-                  {index === 0 ? (
-                    <Link
-                      href="/form-8843-guide"
-                      className="font-semibold text-brand-pinkdeep hover:underline"
-                    >
-                      《2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）》
-                    </Link>
-                  ) : index === 1 ? (
-                    <Link
-                      href="/form-8843-amend-guide"
-                      className="font-semibold text-brand-pinkdeep hover:underline"
-                    >
-                      《2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略》
-                    </Link>
-                  ) : (
-                    <span>{point}</span>
-                  )}
-                </li>
-              ))}
-            </ul>
+          <div className="mt-6 rounded-[28px] border border-brand-pink/40 bg-white/85 p-6 sm:p-8 shadow-[0_18px_60px_rgba(244,185,200,0.3)] flex flex-col gap-4">
+            <Link
+              href="/form-8843-guide"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                《2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）》
+              </span>
+            </Link>
+            <Link
+              href="/form-8843-amend-guide"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                《2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略》
+              </span>
+            </Link>
           </div>
           <Link
             href="/guides"
