@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import TaxQuiz from "@/components/TaxQuiz";
 import Link from "next/link";
 
@@ -60,6 +61,15 @@ export default function Form8843GuidePage() {
                             <h2 className="text-2xl sm:text-3xl font-semibold mt-12 mb-6 text-brand-ink">
                                 手把手教你填 2026 最新 Form 8843
                             </h2>
+                            <div className="my-8 flex justify-center">
+                                <Image 
+                                    src="/images/form-8843-sample.webp"
+                                    alt="IRS Form 8843 Sample for 2025 Tax Year - Official Statement for Exempt Individuals and Individuals with a Medical Condition"
+                                    width={1200}
+                                    height={1600}
+                                    className="rounded-2xl border border-brand-pink/30 shadow-lg"
+                                />
+                            </div>
                             <p className="text-brand-ink/75">Form 8843 分为几个部分，学生（F/J/M/Q）通常只需要关注 <strong>Part I</strong> 和 <strong>Part III</strong>。</p>
 
                             <h3 className="text-xl font-semibold mt-8 mb-4">Part I: General Information</h3>

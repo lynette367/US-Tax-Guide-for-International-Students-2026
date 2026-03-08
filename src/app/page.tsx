@@ -1,8 +1,32 @@
 import Link from "next/link";
 import Image from "next/image";
+import type { Metadata } from "next";
 import Cloud from "@/components/illustrations/Cloud";
 import WorldMap from "@/components/illustrations/WorldMap";
 import { ContactForm } from "@/components/ContactForm";
+
+export const metadata: Metadata = {
+  title: "2026 留学生报税指南 - MapleWorld",
+  description: "MapleWorld 为 2026 报税季留学生提供专业的 Form 8843 填写指南、W-2 缺失补救方案及 30 秒报税身份自测工具。手把手教 F1/OPT/STEM 延期同学合法合规完成美国报税，保护在美身份。",
+  keywords: "2026 报税, Form 8843 教程, F1 报税身份自测, W-2 没收到怎么办, OPT 报税指南, 留学生退税, 1040-NR 修改",
+  alternates: {
+    canonical: "https://www.mapleworld.online/",
+  },
+  openGraph: {
+    title: "2026 留学生报税指南 - MapleWorld",
+    description: "Form 8843、W-2 缺失、报税身份判定，留学生需要的一站式税务工具箱。",
+    url: "https://www.mapleworld.online/",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "MapleWorld 2026 报税工具箱",
+      },
+    ],
+  },
+};
 
 const painPoints = [
   "用 TurboTax 会不会把我当 resident 报了？它主要面向居民报税，F1 很多时候是 nonresident，选错身份就麻烦。",
@@ -416,6 +440,22 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Structured Data (JSON-LD) for SEO */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebApplication",
+            "name": "MapleWorld Tax Tool",
+            "description": "2026 美国留学生报税身份自测及 8843 填报工具",
+            "applicationCategory": "TaxCalculation",
+            "operatingSystem": "All",
+            "url": "https://www.mapleworld.online/"
+          })
+        }}
+      />
     </main>
   );
 }

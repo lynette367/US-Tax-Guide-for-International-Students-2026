@@ -14,27 +14,23 @@ const nunito = Nunito({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.mapleworld.online"),
-  alternates: {
-    canonical: "/tools/opt-tax",
-  },
   title: {
     default: "MapleWorld - 2026 留学生 OPT 报税与 Form 8843 填写指南",
     template: "%s · MapleWorld",
   },
-  description: "MapleWorld · 跨国旅程从我开始，提供留学、志愿者、互惠生、出国工作与移民规划。",
+  description: "MapleWorld 为 2026 报税季留学生提供专业的 Form 8843 填写指南及税务工具。",
   keywords: [
     "MapleWorld",
-    "留学",
-    "国际志愿者",
-    "互惠生",
-    "移民",
-    "出国工作",
+    "2026 报税",
+    "Form 8843",
+    "留学生",
   ],
   openGraph: {
-    title: "MapleWorld · 大世界 · 小探险",
+    title: "MapleWorld - 2026 留学生报税指南",
     description:
-      "See The World · Live Your Story · MapleWorld 你的故事，从探索世界开始。",
-    url: "https://mapleworld.example.com",
+      "一站式解决留学生报税难题：Form 8843、W-2 缺失补救及身份自测。",
+    url: "https://www.mapleworld.online/",
+    type: "website",
     images: [
       {
         url: "/og-image.png",

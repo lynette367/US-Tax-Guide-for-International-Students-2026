@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import TaxQuiz from "@/components/TaxQuiz";
 import CopyableEmail from "@/components/CopyableEmail";
 import W2Estimator from "@/components/W2Estimator";
@@ -101,6 +102,15 @@ export default function W2MissingGuidePage() {
                 <p className="text-brand-ink/75 leading-7 text-center">
                   别被复杂的表单吓到。翻开你 2025 年最后一张工资单（通常是 12 月底发的那张），找到 YTD (Year-to-Date) 这一栏。输入下方数值，我们将自动为你匹配到 Form 4852 的对应格子里。
                 </p>
+                <div className="mt-8 mb-4 flex justify-center">
+                  <Image 
+                    src="/images/How-to-find-YTD-on-paystub-for-Form-4852.webp"
+                    alt="Paycheck stub example showing YTD for Form 4852"
+                    width={800}
+                    height={450}
+                    className="rounded-2xl border border-brand-pink/30 shadow-md"
+                  />
+                </div>
               </div>
 
               <W2Estimator />
