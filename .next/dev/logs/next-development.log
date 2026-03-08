@@ -1,3 +1,52 @@
-[00:00:00.917] Server  LOG      ✓ Ready in 700ms
-[00:00:06.512] Server  LOG      ○ Compiling / ...
-[00:00:07.555] Browser WARN    Image with src "/images/hero/airplane.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:00.896] Server  LOG      ✓ Ready in 693ms
+[00:00:06.735] Server  LOG      ○ Compiling / ...
+[00:00:07.731] Browser WARN    Image with src "/images/hero/airplane.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:07.769] Server  LOG      ✓ Compiled in 29ms
+[00:04:19.973] Server  LOG      ✓ Compiled in 44ms
+[00:04:21.987] Server  ERROR    ⨯ ReferenceError: W2Estimator is not defined
+[00:04:22.110] Browser ERROR   uncaughtError: ReferenceError: W2Estimator is not defined
+[00:04:23.113] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:08:19.428] Server  LOG      ✓ Compiled in 44ms
+[00:33:19.233] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="w2-missing..." loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/w2-missin..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                  <SegmentViewNode type="page" pagePath="w2-missing...">
+                    <SegmentTrieNode>
+                    <W2MissingGuidePage>
+                      <main className="pb-16 text...">
+                        <section className="px-4 py-12...">
+                          <div className="page-shell">
+                            <article className="max-w-3xl ...">
+                              <p>
+                              <h1>
+                              <div className="prose pros...">
+                                <p>
+                                <h2>
+                                <p>
+                                <h2>
+                                <p>
+                                <div>
+                                <CopyableEmail>
+                                <h2>
+                                <p>
+                                <div>
+                                <h2>
+                                <div>
+>                               <p className="text-brand-ink/75 leading-7 mb-4">
+>                                 <p className="font-semibold text-brand-pinkdeep mb-2">
+                                  ...
+                                ...
+                              ...
+                  ...
+                ...
+      ...
+
+[00:35:55.703] Server  LOG      ✓ Compiled in 41ms

@@ -207,7 +207,7 @@ const metadata = {
         canonical: "/tools/opt-tax"
     },
     title: {
-        default: "MapleWorld · 开启探索",
+        default: "MapleWorld - 2026 留学生 OPT 报税与 Form 8843 填写指南",
         template: "%s · MapleWorld"
     },
     description: "MapleWorld · 跨国旅程从我开始，提供留学、志愿者、互惠生、出国工作与移民规划。",

@@ -220,6 +220,15 @@ export default function Home() {
                 《2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略》
               </span>
             </Link>
+            <Link
+              href="/w2-missing-guide"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                《2026 报税季：F1 学生没收到 W-2 表格怎么办？教你 4 步联系雇主及 IRS 替代方案》
+              </span>
+            </Link>
           </div>
           <Link
             href="/guides"
