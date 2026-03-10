@@ -471,138 +471,166 @@ export default function OptTaxToolPage() {
     <main className="pb-16 text-brand-ink">
       <section className="px-4 py-12 sm:py-16">
         <div className="page-shell">
-          <div className="mx-auto flex max-w-3xl flex-col gap-6">
-            <div className="flex items-center">
-              <button
-                type="button"
-                onClick={() => {
-                  if (step === 1) {
-                    window.location.href = "/";
-                  } else {
-                    setStep(step - 1);
-                  }
+          <div className="mx-auto flex max-w-5xl flex-col lg:flex-row gap-8">
+            <div className="flex-1 flex flex-col gap-6">
+              <div className="flex items-center">
+                <button
+                  type="button"
+                  onClick={() => {
+                    if (step === 1) {
+                      window.location.href = "/";
+                    } else {
+                      setStep(step - 1);
+                    }
+                  }}
+                  className="group flex items-center gap-2 text-sm font-semibold text-brand-ink/60 hover:text-brand-ink transition"
+                >
+                  <span className="text-lg transition-transform group-hover:-translate-x-1">
+                    ←
+                  </span>
+                  {step === 1 ? "返回首页" : "返回上一题"}
+                </button>
+              </div>
+
+              <div className="rounded-[20px] border border-brand-pink/40 bg-white/90 p-4 shadow-[0_12px_40px_rgba(244,185,200,0.25)]">
+                <div className="flex items-center justify-between text-xs text-brand-ink/60">
+                  <span>第 {progressStep}/{totalSteps} 题</span>
+                  <span>{progressPercent}%</span>
+                </div>
+                <div className="mt-3 h-2 w-full rounded-full bg-brand-pink/30">
+                  <div
+                    className="h-2 rounded-full bg-brand-pinkdeep transition-all"
+                    style={{ width: `${progressPercent}%` }}
+                  />
+                </div>
+              </div>
+
+              {view === "quiz" && renderQuestion()}
+              {view === "result" && renderResult()}
+              {view === "exit" && renderExit()}
+
+              {/* Hidden SEO Content */}
+              <div className="sr-only">
+                <h2>How to Determine F1 Tax Status (Resident vs Non-Resident)</h2>
+                <p>
+                  Use this tool to determine if you should file as a Resident Alien
+                  or Non-Resident Alien for tax purposes. This affects your eligibility
+                  for F1 Tax Refund and which forms (1040 vs 1040-NR) you need to use.
+                </p>
+                <ol>
+                  <li>
+                    <strong>Step 1: Check Visa Status</strong> - Are you currently on an
+                    F-1 Visa and receiving income during OPT (Optional Practical Training)?
+                  </li>
+                  <li>
+                    <strong>Step 2: Identify Income Sources</strong> - Do you have income
+                    reported on Form W-2, Form 1099, or self-employment income?
+                  </li>
+                  <li>
+                    <strong>Step 3: Substantial Presence Test (SPT)</strong> -
+                    Verify your entry year to see if you are exempt from the Substantial
+                    Presence Test (usually first 5 calendar years for F1 students).
+                  </li>
+                  <li>
+                    <strong>Step 4: Determine Tax Year</strong> - Confirm which tax year
+                    you are filing for (e.g., 2025, 2026) to apply correct IRS rules.
+                  </li>
+                  <li>
+                    <strong>Step 5: Check for 1042-S</strong> - Did you receive Form
+                    1042-S for scholarships or treaty-exempt income? This is common for
+                    international students.
+                  </li>
+                  <li>
+                    <strong>Step 6: FICA Tax Exemption</strong> - Check your pay stubs
+                    for Social Security and Medicare tax deductions. Non-residents on F1
+                    are typically exempt.
+                  </li>
+                  <li>
+                    <strong>Step 7: Choose Filing Method</strong> - Decide between using
+                    DIY tax software (like Sprintax for non-residents) or hiring a CPA.
+                  </li>
+                  <li>
+                    <strong>Step 8: Maximize F1 Tax Refund</strong> - Ensure you claim
+                    all treaty benefits and deductions available to your specific status
+                    (Resident vs Non-Resident).
+                  </li>
+                </ol>
+              </div>
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "SoftwareApplication",
+                    "name": "F1 Tax Status Determiner",
+                    "applicationCategory": "FinanceApplication",
+                    "operatingSystem": "Web",
+                    "description":
+                      "An online tool to help F1 students/OPT workers determine their US tax residency status (Resident vs Non-Resident Alien).",
+                    "offers": {
+                      "@type": "Offer",
+                      "price": "0",
+                      "priceCurrency": "USD",
+                    },
+                    "mainEntity": {
+                      "@type": "HowTo",
+                      "name": "How to Determine F1 Tax Residency Status",
+                      "step": [
+                        {
+                          "@type": "HowToStep",
+                          "name": "Check Visa Status",
+                          "text":
+                            "Confirm if you are on an F-1 Visa and have income.",
+                        },
+                        {
+                          "@type": "HowToStep",
+                          "name": "Identify Income Types",
+                          "text": "Check for W-2, 1099, or 1042-S forms.",
+                        },
+                        {
+                          "@type": "HowToStep",
+                          "name": "Verify Entry Year",
+                          "text":
+                            "Determine if you are within the 5-year exemption period for the Substantial Presence Test.",
+                        },
+                        {
+                          "@type": "HowToStep",
+                          "name": "Check FICA Taxes",
+                          "text":
+                            "See if Social Security or Medicare taxes were withheld erroneously.",
+                        },
+                      ],
+                    },
+                  }),
                 }}
-                className="group flex items-center gap-2 text-sm font-semibold text-brand-ink/60 hover:text-brand-ink transition"
-              >
-                <span className="text-lg transition-transform group-hover:-translate-x-1">
-                  ←
-                </span>
-                {step === 1 ? "返回首页" : "返回上一题"}
-              </button>
+              />
             </div>
 
-            <div className="rounded-[20px] border border-brand-pink/40 bg-white/90 p-4 shadow-[0_12px_40px_rgba(244,185,200,0.2)]">
-              <div className="flex items-center justify-between text-xs text-brand-ink/60">
-                <span>第 {progressStep}/{totalSteps} 题</span>
-                <span>{progressPercent}%</span>
+            <aside className="w-full lg:w-80 shrink-0 space-y-6">
+              <div className="soft-card !p-6">
+                <h3 className="font-bold text-brand-ink mb-4">相关报税指南</h3>
+                <div className="space-y-4">
+                  <Link href="/w2-missing-guide" className="group block">
+                    <p className="text-[10px] text-brand-pinkdeep font-bold mb-1 uppercase tracking-wider">01. W-2 缺失补救</p>
+                    <h4 className="text-sm font-bold group-hover:text-brand-pinkdeep transition leading-snug">W-2 还没收到怎么办？教你 4 步强制补救</h4>
+                  </Link>
+                  <Link href="/form-8843-guide" className="group block pt-4 border-t border-brand-pink/10">
+                    <p className="text-[10px] text-brand-pinkdeep font-bold mb-1 uppercase tracking-wider">02. 8843 教程</p>
+                    <h4 className="text-sm font-bold group-hover:text-brand-pinkdeep transition leading-snug">Form 8843 填写保姆级教程 (2026版)</h4>
+                  </Link>
+                  <Link href="/form-8843-amend-guide" className="group block pt-4 border-t border-brand-pink/10">
+                    <p className="text-[10px] text-brand-pinkdeep font-bold mb-1 uppercase tracking-wider">03. 修正申报</p>
+                    <h4 className="text-sm font-bold group-hover:text-brand-pinkdeep transition leading-snug">8843 填错了/漏填了？手把手教你修正</h4>
+                  </Link>
+                </div>
               </div>
-              <div className="mt-3 h-2 w-full rounded-full bg-brand-pink/30">
-                <div
-                  className="h-2 rounded-full bg-brand-pinkdeep transition-all"
-                  style={{ width: `${progressPercent}%` }}
-                />
+
+              <div className="rounded-3xl bg-[#f2dac4]/30 border border-[#e6b8a2]/30 p-5 shadow-sm">
+                <p className="text-xs text-brand-ink/70 leading-relaxed font-medium">
+                  💡 <span className="font-bold text-brand-ink">报税提醒：</span> 大多数 F1 学生在美前 5 年均为 Non-resident，务必确认后再选择报税工具，避免身份违规。
+                </p>
               </div>
-            </div>
-
-            {view === "quiz" && renderQuestion()}
-            {view === "result" && renderResult()}
-            {view === "exit" && renderExit()}
-
-            {/* Hidden SEO Content */}
-            <div className="sr-only">
-              <h2>How to Determine F1 Tax Status (Resident vs Non-Resident)</h2>
-              <p>
-                Use this tool to determine if you should file as a Resident Alien
-                or Non-Resident Alien for tax purposes. This affects your eligibility
-                for F1 Tax Refund and which forms (1040 vs 1040-NR) you need to use.
-              </p>
-              <ol>
-                <li>
-                  <strong>Step 1: Check Visa Status</strong> - Are you currently on an
-                  F-1 Visa and receiving income during OPT (Optional Practical Training)?
-                </li>
-                <li>
-                  <strong>Step 2: Identify Income Sources</strong> - Do you have income
-                  reported on Form W-2, Form 1099, or self-employment income?
-                </li>
-                <li>
-                  <strong>Step 3: Substantial Presence Test (SPT)</strong> -
-                  Verify your entry year to see if you are exempt from the Substantial
-                  Presence Test (usually first 5 calendar years for F1 students).
-                </li>
-                <li>
-                  <strong>Step 4: Determine Tax Year</strong> - Confirm which tax year
-                  you are filing for (e.g., 2025, 2026) to apply correct IRS rules.
-                </li>
-                <li>
-                  <strong>Step 5: Check for 1042-S</strong> - Did you receive Form
-                  1042-S for scholarships or treaty-exempt income? This is common for
-                  international students.
-                </li>
-                <li>
-                  <strong>Step 6: FICA Tax Exemption</strong> - Check your pay stubs
-                  for Social Security and Medicare tax deductions. Non-residents on F1
-                  are typically exempt.
-                </li>
-                <li>
-                  <strong>Step 7: Choose Filing Method</strong> - Decide between using
-                  DIY tax software (like Sprintax for non-residents) or hiring a CPA.
-                </li>
-                <li>
-                  <strong>Step 8: Maximize F1 Tax Refund</strong> - Ensure you claim
-                  all treaty benefits and deductions available to your specific status
-                  (Resident vs Non-Resident).
-                </li>
-              </ol>
-            </div>
-            <script
-              type="application/ld+json"
-              dangerouslySetInnerHTML={{
-                __html: JSON.stringify({
-                  "@context": "https://schema.org",
-                  "@type": "SoftwareApplication",
-                  "name": "F1 Tax Status Determiner",
-                  "applicationCategory": "FinanceApplication",
-                  "operatingSystem": "Web",
-                  "description":
-                    "An online tool to help F1 students/OPT workers determine their US tax residency status (Resident vs Non-Resident Alien).",
-                  "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD",
-                  },
-                  "mainEntity": {
-                    "@type": "HowTo",
-                    "name": "How to Determine F1 Tax Residency Status",
-                    "step": [
-                      {
-                        "@type": "HowToStep",
-                        "name": "Check Visa Status",
-                        "text":
-                          "Confirm if you are on an F-1 Visa and have income.",
-                      },
-                      {
-                        "@type": "HowToStep",
-                        "name": "Identify Income Types",
-                        "text": "Check for W-2, 1099, or 1042-S forms.",
-                      },
-                      {
-                        "@type": "HowToStep",
-                        "name": "Verify Entry Year",
-                        "text":
-                          "Determine if you are within the 5-year exemption period for the Substantial Presence Test.",
-                      },
-                      {
-                        "@type": "HowToStep",
-                        "name": "Check FICA Taxes",
-                        "text":
-                          "See if Social Security or Medicare taxes were withheld erroneously.",
-                      },
-                    ],
-                  },
-                }),
-              }}
-            />
+            </aside>
           </div>
         </div>
       </section>
