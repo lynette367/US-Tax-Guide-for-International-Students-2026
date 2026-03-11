@@ -3,8 +3,8 @@ import TaxQuiz from "@/components/TaxQuiz";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-    title: "2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略",
-    description: "2026年寄早了或填错了 Form 8843 怎么办？本指南手把手教你如何提交 Amended Return（修正申报），包含 1040-X 填写要点及 $5000 税收协定追回。规避 H1B 审计风险，在 3 年法定追诉期内合规修正。内附 2026 最新版 PDF 标注范例。",
+    title: "2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略(附 PDF 下载)",
+    description: "2026年寄早了或填错了 Form 8843 怎么办？本指南手把手教你如何提交 Amended Return（修正申报），包含 1040-X 填写要点及 $5000 税收协定追回。规避 H1B 审计风险，在 3 年法定追诉期内合规修正。内附 2026 最新版 PDF 标注范例。本站提供最新版表格下载及手把手带填指南。",
     alternates: {
         canonical: "https://www.mapleworld.online/form-8843-amend-guide",
     },
@@ -20,7 +20,7 @@ export default function Form8843AmendGuidePage() {
                             Guide / 修正申报
                         </p>
                         <h1 className="mt-2 text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
-                            2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略
+                            2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略(附 PDF 下载)
                         </h1>
 
                         <div className="mt-6 text-lg text-brand-ink/80 leading-relaxed">

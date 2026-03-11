@@ -6,8 +6,8 @@ import W2Estimator from "@/components/W2Estimator";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "2026 报税季：F1 学生没收到 W-2 怎么办？(含联系雇主邮件模板与 Form 4852 教程)",
-  description: "针对 2026 报税，手把手教 OPT/CPT 留学生解决 W-2 缺失问题。提供中英文催取邮件模板，讲解如何使用 IRS Form 4852 替代报税，规避逾期风险。",
+  title: "2026 报税季：F1 学生没收到 W-2 怎么办？(含联系雇主邮件模板与 Form 4852 教程)(附 PDF 下载)",
+  description: "针对 2026 报税，手把手教 OPT/CPT 留学生解决 W-2 缺失问题。提供中英文催取邮件模板，讲解如何使用 IRS Form 4852 替代报税，规避逾期风险。本站提供最新版表格下载及手把手带填指南。",
   alternates: {
     canonical: "https://www.mapleworld.online/w2-missing-guide",
   },
@@ -40,7 +40,7 @@ export default function W2MissingGuidePage() {
               Guide / 2026 报税
             </p>
             <h1 className="mt-2 text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
-              F1/OPT 学生 W-2 缺失补救指南 (2026版)
+              F1/OPT 学生 W-2 缺失补救指南 (2026版)(附 PDF 下载)
             </h1>
 
             <div className="prose prose-pink max-w-none mt-10">

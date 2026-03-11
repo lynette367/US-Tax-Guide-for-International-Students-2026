@@ -232,7 +232,7 @@ export default function Home() {
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
               <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
-                《2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）》
+                《2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）(附 PDF 下载)》
               </span>
             </Link>
             <Link
@@ -241,7 +241,7 @@ export default function Home() {
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
               <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
-                《2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略》
+                《2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略(附 PDF 下载)》
               </span>
             </Link>
             <Link
@@ -250,7 +250,16 @@ export default function Home() {
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
               <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
-                《2026 报税季：F1 学生没收到 W-2 表格怎么办？教你 4 步联系雇主及 IRS 替代方案》
+                《2026 报税季：F1 学生没收到 W-2 表格怎么办？教你 4 步联系雇主及 IRS 替代方案(附 PDF 下载)》
+              </span>
+            </Link>
+            <Link
+              href="/1042-vs-1042-s"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                《1042 vs 1042-S 有什么区别？2026 留学生报税表格最全解析(附 PDF 下载)》
               </span>
             </Link>
           </div>

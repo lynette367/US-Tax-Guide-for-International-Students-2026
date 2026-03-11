@@ -4,8 +4,8 @@ import TaxQuiz from "@/components/TaxQuiz";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-    title: "2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）",
-    description: "2026年OPT/STEM延期学生如何填Form 8843？本教程涵盖1040-NR、FICA退税及中美$5000免税协定（Treaty）详解。内含2026最新表单示例，助你3分钟完成无收入申报，规避H1B申请后的税务审计风险。",
+    title: "2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）(附 PDF 下载)",
+    description: "2026年OPT/STEM延期学生如何填Form 8843？本教程涵盖1040-NR、FICA退税及中美$5000免税协定（Treaty）详解。内含2026最新表单示例。本站提供最新版表格下载及手把手带填指南。助你3分钟完成无收入申报，规避H1B申请后的税务审计风险。",
     alternates: {
         canonical: "https://www.mapleworld.online/form-8843-guide",
     },
@@ -21,7 +21,7 @@ export default function Form8843GuidePage() {
                             Guide / 2026 报税
                         </p>
                         <h1 className="mt-2 text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
-                            2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）
+                            2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）(附 PDF 下载)
                         </h1>
 
                         <p className="mt-6 text-lg text-brand-ink/80 leading-relaxed">
