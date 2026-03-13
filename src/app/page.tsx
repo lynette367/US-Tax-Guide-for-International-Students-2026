@@ -419,42 +419,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="cta" className="px-4 py-12 sm:py-16 lg:py-20 bg-brand-pink/10">
-        <div className="page-shell">
-          <div className="rounded-[32px] border border-brand-pink/40 bg-white/95 p-6 sm:p-10 text-center text-brand-ink shadow-[0_20px_60px_rgba(244,185,200,0.3)]">
-            <h2 className="mt-3 text-2xl sm:text-3xl md:text-4xl font-semibold">
-              领取清单，把流程拉回可控
-            </h2>
-            <p className="mt-3 text-sm sm:text-base text-brand-ink/75">
-              这是一个“先把坑标出来”的包，让你知道下一步该怎么走。
-            </p>
-            {/* Client-side form logic wrapper would be improved by extracting to component, but inline for now as requested */}
-            <ContactForm />
-            <p className="mt-4 text-xs text-brand-ink/60">
-              报税季通常从 1 月下旬开始接受申报，具体以 IRS 公告为准，越早准备越不慌。
-            </p>
-          </div>
-        </div>
-      </section>
 
-      <section id="disclaimer" className="px-4 pb-16 sm:pb-20">
-        <div className="page-shell">
-          <div className="rounded-[28px] border border-brand-pink/40 bg-brand-pink/15 p-6 sm:p-8 text-brand-ink">
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/60">
-              免责声明与边界
-            </p>
-            <h2 className="mt-2 text-xl sm:text-2xl font-semibold">
-              先把边界说清楚
-            </h2>
-            <ul className="mt-4 space-y-2 text-sm sm:text-base text-brand-ink/75">
-              <li>我不是 CPA/EA，这不是税务或法律服务。</li>
-              <li>不提供代报/代填。</li>
-              <li>不保证退税金额或结果。</li>
-              <li>内容仅为信息整理与个人经验分享。</li>
-            </ul>
-          </div>
-        </div>
-      </section>
 
       {/* Structured Data (JSON-LD) for SEO */}
       <script

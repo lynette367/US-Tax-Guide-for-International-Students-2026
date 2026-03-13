@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import { Nunito } from "next/font/google";
 import { Header } from "@/components/Header";
-import { FooterHope } from "@/components/FooterHope";
+import { Footer } from "@/components/Footer";
 import "./globals.css";
 
 const nunito = Nunito({
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "MapleWorld · 出国探索",
+        alt: "MapleWorld · opt 留学生报税",
       },
     ],
   },
@@ -79,7 +79,7 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col">
           <Header />
           <div className="flex-1 pt-6">{children}</div>
-          <FooterHope />
+          <Footer />
         </div>
       </body>
     </html>

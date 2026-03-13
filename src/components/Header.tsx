@@ -3,8 +3,6 @@ import Link from "next/link";
 const navItems = [
   { label: "首页", href: "/" },
   { label: "30 秒判断", href: "/#fit" },
-  { label: "领取清单", href: "/#cta" },
-  { label: "免责声明", href: "/#disclaimer" },
 ];
 
 export function Header() {
@@ -31,15 +29,15 @@ export function Header() {
             </Link>
           ))}
         </nav>
-
         <div className="flex items-center gap-3">
           <Link
-            href="/#cta"
-            className="inline-flex items-center justify-center rounded-full bg-brand-pink px-4 py-2 text-sm font-semibold text-brand-ink shadow-[0_15px_40px_rgba(247,198,217,0.55)] transition hover:scale-105 hover:bg-brand-pink/90"
+            href="/#footer"
+            className="inline-flex items-center justify-center rounded-full bg-brand-pinkdeep px-5 py-2 text-sm font-bold text-white shadow-lg transition hover:scale-105 hover:bg-brand-pinkhover"
           >
-            领取清单
+            扫码咨询
           </Link>
         </div>
+
       </div>
 
 
