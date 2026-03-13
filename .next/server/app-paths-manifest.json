@@ -1,4 +1,5 @@
 {
+  "/1042-vs-1042-s/page": "app/1042-vs-1042-s/page.js",
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/api/contact/route": "app/api/contact/route.js",
@@ -11,11 +12,15 @@
   "/archive/volunteer/page": "app/archive/volunteer/page.js",
   "/archive/work/page": "app/archive/work/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/form-8843-amend-guide/page": "app/form-8843-amend-guide/page.js",
+  "/form-8843-guide/page": "app/form-8843-guide/page.js",
   "/guides/[slug]/page": "app/guides/[slug]/page.js",
   "/guides/page": "app/guides/page.js",
   "/opt-turbotax/page": "app/opt-turbotax/page.js",
   "/page": "app/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
-  "/tools/opt-tax/page": "app/tools/opt-tax/page.js"
+  "/tax-deadlines-2026/page": "app/tax-deadlines-2026/page.js",
+  "/tools/opt-tax/page": "app/tools/opt-tax/page.js",
+  "/w2-missing-guide/page": "app/w2-missing-guide/page.js"
 }

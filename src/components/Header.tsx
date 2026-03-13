@@ -16,7 +16,7 @@ export function Header() {
             MapleWorld
           </span>
           <p className="hidden text-sm text-brand-ink/80 sm:block">
-            只要准备一张机票，就可以去往世界每个角落
+            美国 F1 + OPT 报税，把不该亏的税拿回来
           </p>
         </div>
 

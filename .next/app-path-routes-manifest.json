@@ -1,4 +1,5 @@
 {
+  "/1042-vs-1042-s/page": "/1042-vs-1042-s",
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
   "/api/contact/route": "/api/contact",
@@ -11,11 +12,15 @@
   "/archive/volunteer/page": "/archive/volunteer",
   "/archive/work/page": "/archive/work",
   "/favicon.ico/route": "/favicon.ico",
+  "/form-8843-amend-guide/page": "/form-8843-amend-guide",
+  "/form-8843-guide/page": "/form-8843-guide",
   "/guides/[slug]/page": "/guides/[slug]",
   "/guides/page": "/guides",
   "/opt-turbotax/page": "/opt-turbotax",
   "/page": "/",
   "/robots.txt/route": "/robots.txt",
   "/sitemap.xml/route": "/sitemap.xml",
-  "/tools/opt-tax/page": "/tools/opt-tax"
+  "/tax-deadlines-2026/page": "/tax-deadlines-2026",
+  "/tools/opt-tax/page": "/tools/opt-tax",
+  "/w2-missing-guide/page": "/w2-missing-guide"
 }

@@ -5,16 +5,18 @@ import Cloud from "@/components/illustrations/Cloud";
 import WorldMap from "@/components/illustrations/WorldMap";
 import { ContactForm } from "@/components/ContactForm";
 
+import TaxCountdown from "@/components/TaxCountdown";
+
 export const metadata: Metadata = {
-  title: "2026 留学生报税指南 - MapleWorld",
-  description: "MapleWorld 为 2026 报税季留学生提供专业的 Form 8843 填写指南、W-2 缺失补救方案及 30 秒报税身份自测工具。手把手教 F1/OPT/STEM 延期同学合法合规完成美国报税，保护在美身份。",
-  keywords: "2026 报税, Form 8843 教程, F1 报税身份自测, W-2 没收到怎么办, OPT 报税指南, 留学生退税, 1040-NR 修改",
+  title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
+  description: "MapleWorld 为 2026 报税季留学生提供专业的 Form 8843 填写指南、W-2 缺失补救方案及 30 秒报税身份自测工具。实时查看 2026 美国留学生报税倒计时，助你避开逾期罚款。",
+  keywords: "2026 报税, 报税截止日期 2026, F1 报税倒计时, Form 8843 教程, F1 报税身份自测, W-2 没收到怎么办, OPT 报税指南, 留学生退税",
   alternates: {
     canonical: "https://www.mapleworld.online/",
   },
   openGraph: {
-    title: "2026 留学生报税指南 - MapleWorld",
-    description: "Form 8843、W-2 缺失、报税身份判定，留学生需要的一站式税务工具箱。",
+    title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
+    description: "Form 8843、W-2 缺失、报税身份判定，实时报税时间表提醒，留学生需要的一站式税务工具箱。",
     url: "https://www.mapleworld.online/",
     type: "website",
     images: [
@@ -163,10 +165,14 @@ export default function Home() {
           <p className="text-xs font-semibold uppercase tracking-[0.4em] text-brand-ink/70">
             F1 + OPT 报税
           </p>
-          <h1 className="text-3xl sm:text-5xl md:text-6xl font-semibold leading-tight text-brand-ink drop-shadow-sm">
-            美国 F1 + OPT 报税
-            <span className="block mt-2 text-brand-pinkdeep">把不该亏的税拿回来</span>
-          </h1>
+          <h1 className="sr-only">2026 留学生报税截止时间倒计时</h1>
+          <TaxCountdown />
+          <Link 
+            href="/tax-deadlines-2026"
+            className="text-sm font-semibold text-brand-pinkdeep/80 hover:text-brand-pinkdeep underline underline-offset-4"
+          >
+            查看 2026 报税关键时间表 →
+          </Link>
 
           {/* Judgment Box */}
           <div className="mt-4 w-full max-w-lg rounded-[24px] border border-white/60 bg-white/40 p-6 backdrop-blur-md shadow-[0_20px_50px_rgba(247,198,217,0.4)] transition hover:shadow-[0_25px_60px_rgba(247,198,217,0.5)]">

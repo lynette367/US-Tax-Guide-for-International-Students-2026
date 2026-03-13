@@ -144,6 +144,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/1042-vs-1042-s",
+      "regex": "^/1042\\-vs\\-1042\\-s(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/1042\\-vs\\-1042\\-s(?:/)?$"
+    },
+    {
       "page": "/api/contact",
       "regex": "^/api/contact(?:/)?$",
       "routeKeys": {},
@@ -198,6 +204,18 @@
       "namedRegex": "^/favicon\\.ico(?:/)?$"
     },
     {
+      "page": "/form-8843-amend-guide",
+      "regex": "^/form\\-8843\\-amend\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/form\\-8843\\-amend\\-guide(?:/)?$"
+    },
+    {
+      "page": "/form-8843-guide",
+      "regex": "^/form\\-8843\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/form\\-8843\\-guide(?:/)?$"
+    },
+    {
       "page": "/guides",
       "regex": "^/guides(?:/)?$",
       "routeKeys": {},
@@ -222,10 +240,22 @@
       "namedRegex": "^/sitemap\\.xml(?:/)?$"
     },
     {
+      "page": "/tax-deadlines-2026",
+      "regex": "^/tax\\-deadlines\\-2026(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tax\\-deadlines\\-2026(?:/)?$"
+    },
+    {
       "page": "/tools/opt-tax",
       "regex": "^/tools/opt\\-tax(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/tools/opt\\-tax(?:/)?$"
+    },
+    {
+      "page": "/w2-missing-guide",
+      "regex": "^/w2\\-missing\\-guide(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/w2\\-missing\\-guide(?:/)?$"
     }
   ],
   "dataRoutes": [],

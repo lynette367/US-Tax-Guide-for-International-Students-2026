@@ -1,3 +1,227 @@
-[00:00:00.948] Server  LOG      ✓ Ready in 719ms
-[00:00:06.254] Server  LOG      ○ Compiling / ...
-[00:00:07.548] Browser WARN    Image with src "/images/hero/airplane.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:00.995] Server  LOG      ✓ Ready in 757ms
+[00:00:06.182] Server  LOG      ○ Compiling / ...
+[00:00:06.798] Server  ERROR    ⨯ ./src/app/page.tsx:10:22
+Ecmascript file had an error
+   8 | import dynamic from "next/dynamic";
+   9 |
+> 10 | const TaxCountdown = dynamic(() => import("@/components/TaxCountdown"), { 
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   ssr: false,
+     | ^^^^^^^^^^^^^
+> 12 |   loading: () => (
+     | ^^^^^^^^^^^^^
+> 13 |     <div className="flex animate-pulse items-center justify-center space-x-2 text-2xl font-bold text-brand-ink/30">
+     | ^^^^^^^^^^^^^
+> 14 |       <span>00</span>:<span>00</span>:<span>00</span>:<span>00</span>
+     | ^^^^^^^^^^^^^
+> 15 |     </div>
+     | ^^^^^^^^^^^^^
+> 16 |   )
+     | ^^^^^^^^^^^^^
+> 17 | });
+     | ^^^
+  18 |
+  19 | export const metadata: Metadata = {
+  20 |   title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+
+[00:00:07.525] Browser ERROR   uncaughtError: Error: ./src/app/page.tsx:10:22
+Ecmascript file had an error
+   8 | import dynamic from "next/dynamic";
+   9 |
+> 10 | const TaxCountdown = dynamic(() => import("@/components/TaxCountdown"), { 
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   ssr: false,
+     | ^^^^^^^^^^^^^
+> 12 |   loading: () => (
+     | ^^^^^^^^^^^^^
+> 13 |     <div className="flex animate-pulse items-center justify-center space-x-2 text-2xl font-bold text-brand-ink/30">
+     | ^^^^^^^^^^^^^
+> 14 |       <span>00</span>:<span>00</span>:<span>00</span>:<span>00</span>
+     | ^^^^^^^^^^^^^
+> 15 |     </div>
+     | ^^^^^^^^^^^^^
+> 16 |   )
+     | ^^^^^^^^^^^^^
+> 17 | });
+     | ^^^
+  18 |
+  19 | export const metadata: Metadata = {
+  20 |   title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+
+
+[00:00:07.704] Browser ERROR   ./src/app/page.tsx:10:22
+Ecmascript file had an error
+   8 | import dynamic from "next/dynamic";
+   9 |
+> 10 | const TaxCountdown = dynamic(() => import("@/components/TaxCountdown"), { 
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   ssr: false,
+     | ^^^^^^^^^^^^^
+> 12 |   loading: () => (
+     | ^^^^^^^^^^^^^
+> 13 |     <div className="flex animate-pulse items-center justify-center space-x-2 text-2xl font-bold text-brand-ink/30">
+     | ^^^^^^^^^^^^^
+> 14 |       <span>00</span>:<span>00</span>:<span>00</span>:<span>00</span>
+     | ^^^^^^^^^^^^^
+> 15 |     </div>
+     | ^^^^^^^^^^^^^
+> 16 |   )
+     | ^^^^^^^^^^^^^
+> 17 | });
+     | ^^^
+  18 |
+  19 | export const metadata: Metadata = {
+  20 |   title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:00:09.188] Browser ERROR   ./src/app/page.tsx:10:22
+Ecmascript file had an error
+   8 | import dynamic from "next/dynamic";
+   9 |
+> 10 | const TaxCountdown = dynamic(() => import("@/components/TaxCountdown"), { 
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   ssr: false,
+     | ^^^^^^^^^^^^^
+> 12 |   loading: () => (
+     | ^^^^^^^^^^^^^
+> 13 |     <div className="flex animate-pulse items-center justify-center space-x-2 text-2xl font-bold text-brand-ink/30">
+     | ^^^^^^^^^^^^^
+> 14 |       <span>00</span>:<span>00</span>:<span>00</span>:<span>00</span>
+     | ^^^^^^^^^^^^^
+> 15 |     </div>
+     | ^^^^^^^^^^^^^
+> 16 |   )
+     | ^^^^^^^^^^^^^
+> 17 | });
+     | ^^^
+  18 |
+  19 | export const metadata: Metadata = {
+  20 |   title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:01:48.584] Browser ERROR   ./src/app/page.tsx:10:22
+Ecmascript file had an error
+   8 | import dynamic from "next/dynamic";
+   9 |
+> 10 | const TaxCountdown = dynamic(() => import("@/components/TaxCountdown"), { 
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   ssr: false,
+     | ^^^^^^^^^^^^^
+> 12 |   loading: () => (
+     | ^^^^^^^^^^^^^
+> 13 |     <div className="flex animate-pulse items-center justify-center space-x-2 text-2xl font-bold text-brand-ink/30">
+     | ^^^^^^^^^^^^^
+> 14 |       <span>00</span>:<span>00</span>:<span>00</span>:<span>00</span>
+     | ^^^^^^^^^^^^^
+> 15 |     </div>
+     | ^^^^^^^^^^^^^
+> 16 |   )
+     | ^^^^^^^^^^^^^
+> 17 | });
+     | ^^^
+  18 |
+  19 | export const metadata: Metadata = {
+  20 |   title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:01:48.584] Browser ERROR   ./src/components/TaxCountdown.tsx:50:3
+Parsing ecmascript source code failed
+  48 |   }
+  49 |
+> 50 |   return (
+     |   ^^^^^^^^
+> 51 |     <div className="flex flex-col items-center gap-1 sm:gap-2">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 52 |       <div className="flex items-center justify-center gap-2 text-3xl sm:text-5xl md:text-6xl font-black tracking-tighter text-brand-ink">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 53 |         <div className="flex flex-col items-center">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 54 |           <span className="tabular-nums">{timeLeft.days.toString().padStart(2, "0")}</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 55 |           <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-brand-ink/50 mt-1">Days</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 56 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 57 |         <span className="mb-6 opacity-30">:</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 58 |         <div className="flex flex-col items-center">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 59 |           <span className="tabular-nums">{timeLeft.hours.toString().padStart(2, "0")}</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 60 |           <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-brand-ink/50 mt-1">Hrs</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 61 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 62 |         <span className="mb-6 opacity-30">:</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 63 |         <div className="flex flex-col items-center">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 64 |           <span className="tabular-nums">{timeLeft.minutes.toString().padStart(2, "0")}</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 65 |           <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-brand-ink/50 mt-1">Min</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 66 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 67 |         <span className="mb-6 opacity-30">:</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 68 |         <div className="flex flex-col items-center">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 69 |           <span className="tabular-nums">{timeLeft.seconds.toString().padStart(2, "0")}</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 70 |           <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-brand-ink/50 mt-1">Sec</span>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 71 |         </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 72 |       </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 73 |       <p className="text-xs sm:text-sm font-semibold text-brand-ink/60 mt-1">
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 74 |         2026 报税截止倒计时 (4月15日)
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 75 |       </p>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 76 |     </div>
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 77 |   );
+     | ^^^^^
+  78 | }
+  79 |
+
+Return statement is not allowed here
+
+Import trace:
+  Server Component:
+    ./src/components/TaxCountdown.tsx
+    ./src/app/page.tsx
+[00:01:59.260] Browser ERROR   ./src/app/page.tsx:10:22
+Ecmascript file had an error
+   8 | import dynamic from "next/dynamic";
+   9 |
+> 10 | const TaxCountdown = dynamic(() => import("@/components/TaxCountdown"), { 
+     |                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 11 |   ssr: false,
+     | ^^^^^^^^^^^^^
+> 12 |   loading: () => (
+     | ^^^^^^^^^^^^^
+> 13 |     <div className="flex animate-pulse items-center justify-center space-x-2 text-2xl font-bold text-brand-ink/30">
+     | ^^^^^^^^^^^^^
+> 14 |       <span>00</span>:<span>00</span>:<span>00</span>:<span>00</span>
+     | ^^^^^^^^^^^^^
+> 15 |     </div>
+     | ^^^^^^^^^^^^^
+> 16 |   )
+     | ^^^^^^^^^^^^^
+> 17 | });
+     | ^^^
+  18 |
+  19 | export const metadata: Metadata = {
+  20 |   title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
+
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+[00:02:16.915] Server  LOG      ✓ Compiled in 95ms
+[00:02:17.598] Browser WARN    Image with src "/images/hero/airplane.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
