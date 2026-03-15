@@ -1,15 +1,16 @@
-[00:00:00.683] Server  LOG      ✓ Ready in 506ms
-[00:00:06.094] Server  LOG      ○ Compiling / ...
-[00:00:07.460] Browser WARN    Image with src "/images/hero/airplane.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:11:52.306] Browser WARN    Image with src "/images/hero/airplane.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:58.473] Server  LOG      ✓ Compiled in 357ms
-[00:13:27.320] Browser WARN    Image with src "/images/hero/airplane.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:15:24.599] Server  LOG      ✓ Compiled in 100ms
-[00:18:49.432] Server  LOG      ✓ Compiled in 74ms
-[00:29:54.654] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:29:54.654] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:29:54.654] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
-[00:29:54.886] Server  LOG      ✓ Compiled in 0ms
-[00:29:54.887] Browser ERROR   unhandledRejection: undefined
-[00:29:55.214] Browser WARN    Image with src "/images/hero/airplane.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:29:57.457] Browser WARN    Image with src "/images/2026-us-tax-help-qr.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:01.037] Server  LOG      ✓ Ready in 804ms
+[00:00:06.098] Server  LOG      ○ Compiling / ...
+[00:00:07.404] Browser WARN    Image with src "/images/hero/airplane.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:17.171] Browser WARN    Image with src "/images/2026-us-tax-help-qr.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:02:50.293] Server  LOG      ✓ Compiled in 33ms
+[00:03:35.507] Server  LOG      ✓ Compiled in 25ms
+[00:03:38.949] Browser WARN    Image with src "/images/2026-us-tax-help-qr.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:39.190] Browser ERROR   uncaughtError: TypeError: undefined is not an object (evaluating 'r["@context"].toLowerCase')
+[00:03:53.063] Server  LOG      ✓ Compiled in 37ms
+[00:03:56.003] Browser WARN    Image with src "/images/2026-us-tax-help-qr.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:03:56.228] Browser ERROR   uncaughtError: TypeError: undefined is not an object (evaluating 'r["@context"].toLowerCase')
+[00:04:26.178] Server  LOG      ✓ Compiled in 23ms
+[00:04:29.819] Browser WARN    Image with src "/images/2026-us-tax-help-qr.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:04:30.045] Browser ERROR   uncaughtError: TypeError: undefined is not an object (evaluating 'r["@context"].toLowerCase')
+[00:05:54.810] Server  LOG      ✓ Compiled in 90ms
+[00:06:18.726] Browser WARN    Image with src "/images/2026-us-tax-help-qr.webp" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

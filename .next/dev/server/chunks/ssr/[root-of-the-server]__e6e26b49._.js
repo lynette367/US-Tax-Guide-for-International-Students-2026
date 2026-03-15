@@ -29,8 +29,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const metadata = {
-    title: 'Form 1042 vs 1042-S: 核心区别全解析 & 2026 留学生报税指南',
-    description: '不知道该报 Form 1042 还是 1042-S？本文详细解析 2026 报税截止日、1042-S vs W-2 区别及 F1/J1 留学生 1040-NR 申报要点，助你避开 IRS 逾期罚款。',
+    title: 'Form 1042 vs 1042-S: 核心区别全解析 & 2026 留学生报税指南(附 PDF 下载)',
+    description: '不知道该报 Form 1042 还是 1042-S？本文详细解析 2026 报税截止日、1042-S vs W-2 区别及 F1/J1 留学生 1040-NR 申报要点，助你避开 IRS 逾期罚款。本站提供最新版表格下载及手把手带填指南。',
     keywords: '1042 vs 1042-S, Form 1042-S instructions, 1042-S due date, 留学生报税 2026',
     alternates: {
         canonical: 'https://www.mapleworld.online/1042-vs-1042-s'
@@ -56,7 +56,7 @@ function Page() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "mt-2 text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight",
-                            children: "1042 vs 1042-S 有什么区别？2026 留学生报税表格最全解析"
+                            children: "1042 vs 1042-S 有什么区别？2026 留学生报税表格最全解析(附 PDF 下载)"
                         }, void 0, false, {
                             fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
                             lineNumber: 23,
@@ -600,31 +600,111 @@ function Page() {
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mt-12 rounded-[28px] border border-brand-pink/40 bg-white/95 p-8 shadow-[0_20px_60px_rgba(244,185,200,0.3)] text-center",
+                                    className: "mt-12 rounded-[28px] border border-brand-pink/40 bg-white/95 p-8 shadow-[0_20px_60px_rgba(244,185,200,0.3)]",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                             className: "text-xl sm:text-2xl font-bold mb-4 text-brand-ink",
-                                            children: "还不确定你的报税身份？"
+                                            children: "资源下载与自测"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
                                             lineNumber: 122,
                                             columnNumber: 33
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-brand-ink/75 mb-6",
-                                            children: "如果你不确定自己是 Resident 还是 Non-resident，或者不知道该填哪份表，可以使用我们的 30 秒自测工具："
-                                        }, void 0, false, {
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "grid gap-6 sm:grid-cols-2",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "soft-card !bg-brand-pink/5",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                            className: "font-semibold mb-2",
+                                                            children: "官方表格下载"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
+                                                            lineNumber: 125,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-sm text-brand-ink/70 mb-4",
+                                                            children: "从 IRS 官网获取 2025/2026 最新版表单 PDF。"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
+                                                            lineNumber: 126,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "flex flex-col gap-2",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                    href: "https://www.irs.gov/pub/irs-pdf/f1042.pdf",
+                                                                    target: "_blank",
+                                                                    className: "text-sm text-brand-pinkdeep font-bold hover:underline",
+                                                                    children: "Form 1042 下载 →"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
+                                                                    lineNumber: 128,
+                                                                    columnNumber: 45
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                    href: "https://www.irs.gov/pub/irs-pdf/f1042s.pdf",
+                                                                    target: "_blank",
+                                                                    className: "text-sm text-brand-pinkdeep font-bold hover:underline",
+                                                                    children: "Form 1042-S 下载 →"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
+                                                                    lineNumber: 129,
+                                                                    columnNumber: 45
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
+                                                            lineNumber: 127,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
+                                                    lineNumber: 124,
+                                                    columnNumber: 37
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "soft-card !bg-brand-pink/5 text-center flex flex-col items-center justify-center",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                            className: "font-semibold mb-2",
+                                                            children: "身份判定工具"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
+                                                            lineNumber: 133,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-sm text-brand-ink/70 mb-4",
+                                                            children: "30 秒自测你的 Resident/Non-resident 身份。"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
+                                                            lineNumber: 134,
+                                                            columnNumber: 41
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                            href: "/tools/opt-tax",
+                                                            className: "inline-flex items-center justify-center rounded-full bg-brand-pinkdeep px-6 py-2.5 text-xs font-bold text-white shadow-md transition hover:bg-brand-pinkhover active:scale-95",
+                                                            children: "开始自测 →"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
+                                                            lineNumber: 135,
+                                                            columnNumber: 41
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
+                                                    lineNumber: 132,
+                                                    columnNumber: 37
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
                                             fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
                                             lineNumber: 123,
-                                            columnNumber: 33
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                            href: "/tools/opt-tax",
-                                            className: "inline-flex items-center justify-center rounded-full bg-brand-pinkdeep px-8 py-4 text-sm font-bold text-white shadow-lg transition hover:bg-brand-pinkhover active:scale-95",
-                                            children: "去 30 秒自测身份 →"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
-                                            lineNumber: 124,
                                             columnNumber: 33
                                         }, this)
                                     ]
@@ -647,12 +727,12 @@ function Page() {
                                 children: "免责声明：本内容仅为个人经验分享与税务信息整理，不构成法律、税务或专业建议。 如有疑问，请咨询专业会计师 (CPA) 或直接联系 IRS。"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
-                                lineNumber: 134,
+                                lineNumber: 147,
                                 columnNumber: 29
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/1042-vs-1042-s/page.tsx",
-                            lineNumber: 133,
+                            lineNumber: 146,
                             columnNumber: 25
                         }, this)
                     ]

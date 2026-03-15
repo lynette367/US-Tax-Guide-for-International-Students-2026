@@ -468,10 +468,10 @@ export default function OptTaxToolPage() {
   };
 
   return (
-    <main className="pb-16 text-brand-ink">
+    <main className="pb-8 text-brand-ink">
       <section className="px-4 py-12 sm:py-16">
         <div className="page-shell">
-          <div className="mx-auto flex max-w-5xl flex-col lg:flex-row gap-8">
+          <div className="mx-auto flex max-w-5xl flex-col lg:flex-row gap-6">
             <div className="flex-1 flex flex-col gap-6">
               <div className="flex items-center">
                 <button
@@ -492,6 +492,15 @@ export default function OptTaxToolPage() {
                 </button>
               </div>
 
+              <div className="mb-2">
+                <h1 className="text-3xl sm:text-4xl font-bold text-brand-ink leading-tight">
+                  2026 留学生报税身份自测 (SPT 计算器)
+                </h1>
+                <p className="mt-3 text-brand-ink/70 leading-relaxed max-w-2xl">
+                  不确定是 NRA 还是 Resident？使用我们的 SPT 自动计算器。专为留学生设计，涵盖 F1 签证 5 年豁免规则。
+                </p>
+              </div>
+
               <div className="rounded-[20px] border border-brand-pink/40 bg-white/90 p-4 shadow-[0_12px_40px_rgba(244,185,200,0.25)]">
                 <div className="flex items-center justify-between text-xs text-brand-ink/60">
                   <span>第 {progressStep}/{totalSteps} 题</span>
@@ -508,6 +517,82 @@ export default function OptTaxToolPage() {
               {view === "quiz" && renderQuestion()}
               {view === "result" && renderResult()}
               {view === "exit" && renderExit()}
+
+              {/* SPT Educational Content */}
+              <div className="mt-12 space-y-10 border-t border-brand-pink/20 pt-12 text-brand-ink">
+                <section>
+                  <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-pink/20 text-brand-pinkdeep text-sm">01</span>
+                    什么是 Substantial Presence Test (SPT)？
+                  </h2>
+                  <div className="prose prose-slate max-w-none">
+                    <p className="leading-relaxed text-brand-ink/80">
+                      IRS 通过 <strong>Substantial Presence Test (SPT)</strong>，即“实质居住测试”，来判定你是否属于美国税法上的“居民外籍人士”(Resident Alien) 或“非居民外籍人士”(Non-Resident Alien)。
+                    </p>
+                    <div className="my-6 p-6 rounded-2xl bg-white/50 border border-brand-pink/20 shadow-sm">
+                      <p className="text-sm font-bold text-brand-pinkdeep mb-3 uppercase tracking-wider">SPT 计算公式</p>
+                      <div className="text-lg sm:text-xl font-mono text-center py-4 bg-brand-ink/5 rounded-xl">
+                        当年天数 + <span className="text-brand-pinkdeep">1/3</span> × (前一年天数) + <span className="text-brand-pinkdeep">1/6</span> × (前两年天数) ≥ 183
+                      </div>
+                      <p className="mt-4 text-xs text-brand-ink/60 text-center italic">
+                        * 如果计算结果大于或等于 183 天，你即被视为 Resident Alien。
+                      </p>
+                    </div>
+                  </div>
+                </section>
+
+                <section>
+                  <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-pink/20 text-brand-pinkdeep text-sm">02</span>
+                    进阶规则：为什么 F1/J1 留学生通常被判定为 NRA？
+                  </h2>
+                  <div className="grid gap-6 sm:grid-cols-2">
+                    <div className="p-6 rounded-2xl border border-brand-pink/10 bg-white/40">
+                      <h3 className="text-lg font-bold mb-3">“豁免个人” (Exempt Individual) 规则详解</h3>
+                      <p className="text-sm text-brand-ink/75 leading-relaxed">
+                        F-1 或 J-1 身份的留学生在税法上属于 <strong>Exempt Individual</strong>。这并不意味着豁免缴税，而是意味着你在计算 SPT 时，前 5 个日历年的居住天数<strong>不计入</strong> 183 天的统计。
+                      </p>
+                    </div>
+                    <div className="p-6 rounded-2xl border border-brand-pink/10 bg-white/40">
+                      <h3 className="text-lg font-bold mb-3">如何计算 F1 的 5 年豁免期？</h3>
+                      <p className="text-sm text-brand-ink/75 leading-relaxed">
+                        5 年豁免期是按<strong>日历年 (Calendar Year)</strong> 计算的。只要你在某一年内在美国停留过（哪怕只有 1 天），该年即算作 1 年。例如，2023 年 12 月 31 日入境，2023 年就是你的第 1 年。
+                      </p>
+                    </div>
+                  </div>
+                </section>
+
+                <section>
+                  <h2 className="text-2xl font-bold mb-6 flex items-center gap-3">
+                    <span className="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-pink/20 text-brand-pinkdeep text-sm">03</span>
+                    判定身份后的下一步建议
+                  </h2>
+                  <div className="rounded-3xl bg-brand-pinkdeep text-white p-8 shadow-xl">
+                    <div className="grid gap-8 sm:grid-cols-2">
+                      <div>
+                        <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center mb-4 text-xl">📄</div>
+                        <h4 className="text-lg font-bold mb-2">如果你是 NRA (非居民)</h4>
+                        <p className="text-sm text-white/90 leading-relaxed mb-4">
+                          你通常需要申报 1040-NR。恭喜，你大概率符合 <strong>$5,000 中美税务协定 (Treaty)</strong> 免税额。
+                        </p>
+                        <Link href="/1042-vs-1042-s" className="text-xs font-bold underline underline-offset-4 hover:text-white transition">
+                          查看 1042-S 报税攻略 →
+                        </Link>
+                      </div>
+                      <div className="pt-8 sm:pt-0 sm:border-l border-white/20 sm:pl-8">
+                        <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center mb-4 text-xl">💻</div>
+                        <h4 className="text-lg font-bold mb-2">如果你是 RA (居民)</h4>
+                        <p className="text-sm text-white/90 leading-relaxed mb-4">
+                          你现在和美国公民一样需要申报 1040 全球所得。
+                        </p>
+                        <p className="text-xs font-medium text-white/70">
+                          建议使用 TurboTax、H&R Block 或 Cash App Taxes 等主流软件进行申报。
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+              </div>
 
               {/* Hidden SEO Content */}
               <div className="sr-only">
@@ -562,45 +647,51 @@ export default function OptTaxToolPage() {
                   __html: JSON.stringify({
                     "@context": "https://schema.org",
                     "@type": "SoftwareApplication",
-                    "name": "F1 Tax Status Determiner",
-                    "applicationCategory": "FinanceApplication",
+                    "name": "Substantial Presence Test (SPT) 计算器",
+                    "applicationCategory": "BusinessApplication",
                     "operatingSystem": "Web",
                     "description":
-                      "An online tool to help F1 students/OPT workers determine their US tax residency status (Resident vs Non-Resident Alien).",
+                      "专为留学生设计的 SPT 自动计算器，涵盖 F1 签证 5 年豁免规则，助力判定报税身份。",
                     "offers": {
                       "@type": "Offer",
                       "price": "0",
                       "priceCurrency": "USD",
                     },
-                    "mainEntity": {
-                      "@type": "HowTo",
-                      "name": "How to Determine F1 Tax Residency Status",
-                      "step": [
-                        {
-                          "@type": "HowToStep",
-                          "name": "Check Visa Status",
-                          "text":
-                            "Confirm if you are on an F-1 Visa and have income.",
+                  }),
+                }}
+              />
+              <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": [
+                      {
+                        "@type": "Question",
+                        "name": "什么是 Substantial Presence Test (SPT)？",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "SPT 是 IRS 用于判定外籍人士是否属于美国税法居民的测试。计算公式为：当年在美天数 + 1/3 前一年天数 + 1/6 前两年天数。如果总和达 183 天，则被视为居民。",
                         },
-                        {
-                          "@type": "HowToStep",
-                          "name": "Identify Income Types",
-                          "text": "Check for W-2, 1099, or 1042-S forms.",
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "F1 留学生前 5 年算 NRA 吗？",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "是的。F1 留学生被视为 Exempt Individual，在前 5 个日历年内，其在美天数不计入 SPT 统计，因此通常判定为 NRA（非居民）。",
                         },
-                        {
-                          "@type": "HowToStep",
-                          "name": "Verify Entry Year",
-                          "text":
-                            "Determine if you are within the 5-year exemption period for the Substantial Presence Test.",
+                      },
+                      {
+                        "@type": "Question",
+                        "name": "报税身份判定错会有什么后果？",
+                        "acceptedAnswer": {
+                          "@type": "Answer",
+                          "text": "身份判定错误可能导致税务欺诈风险、丢失 Treaty 优惠或影响未来的绿卡申请。务必在申报前确认身份。",
                         },
-                        {
-                          "@type": "HowToStep",
-                          "name": "Check FICA Taxes",
-                          "text":
-                            "See if Social Security or Medicare taxes were withheld erroneously.",
-                        },
-                      ],
-                    },
+                      },
+                    ],
                   }),
                 }}
               />
