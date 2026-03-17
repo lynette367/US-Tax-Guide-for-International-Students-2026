@@ -67,8 +67,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const metadata = {
-    title: "2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）",
-    description: "2026年OPT/STEM延期学生如何填Form 8843？本教程涵盖1040-NR、FICA退税及中美$5000免税协定（Treaty）详解。内含2026最新表单示例，助你3分钟完成无收入申报，规避H1B申请后的税务审计风险。",
+    title: "2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）(附 PDF 下载)",
+    description: "2026年OPT/STEM延期学生如何填Form 8843？本教程涵盖1040-NR、FICA退税及中美$5000免税协定（Treaty）详解。内含2026最新表单示例。本站提供最新版表格下载及手把手带填指南。助你3分钟完成无收入申报，规避H1B申请后的税务审计风险。",
     alternates: {
         canonical: "https://www.mapleworld.online/form-8843-guide"
     }
@@ -93,7 +93,7 @@ function Form8843GuidePage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "mt-2 text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight",
-                            children: "2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）"
+                            children: "2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）(附 PDF 下载)"
                         }, void 0, false, {
                             fileName: "[project]/src/app/form-8843-guide/page.tsx",
                             lineNumber: 23,

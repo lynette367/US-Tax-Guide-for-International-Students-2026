@@ -62,5 +62,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.9,
     },
+    {
+      url: `${baseUrl}/form-8843-tutorial-2026`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 1.0,
+    },
   ];
 }

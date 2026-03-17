@@ -9,8 +9,8 @@ import TaxCountdown from "@/components/TaxCountdown";
 
 export const metadata: Metadata = {
   title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
-  description: "MapleWorld 为 2026 报税季留学生提供专业的 Form 8843 填写指南、W-2 缺失补救方案及 30 秒报税身份自测工具。实时查看 2026 美国留学生报税倒计时，助你避开逾期罚款。",
-  keywords: "2026 报税, 报税截止日期 2026, F1 报税倒计时, Form 8843 教程, F1 报税身份自测, W-2 没收到怎么办, OPT 报税指南, 留学生退税",
+  description: "MapleWorld 为 2026 报税季留学生提供专业的 Form 8843 填写教学助手、W-2 缺失补救方案及身份自测工具。实时查看 2026 美国留学生报税倒计时，助你避开逾期罚款并完成合规申报。",
+  keywords: "2026 报税, Form 8843 填写教学, 8843 表格下载, F1 报税倒计时, Form 8843 教程, F1 报税身份自测, W-2 没收到怎么办, OPT 报税指南, 留学生退税",
   alternates: {
     canonical: "https://www.mapleworld.online/",
   },
@@ -162,12 +162,9 @@ export default function Home() {
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-brand-pink/60" />
 
         <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center gap-6 sm:gap-8 text-center px-4">
-          <p className="text-xs font-semibold uppercase tracking-[0.4em] text-brand-ink/70">
-            F1 + OPT 报税
-          </p>
           <h1 className="sr-only">2026 留学生报税截止时间倒计时</h1>
           <TaxCountdown />
-          <Link 
+          <Link
             href="/tax-deadlines-2026"
             className="text-sm font-semibold text-brand-pinkdeep/80 hover:text-brand-pinkdeep underline underline-offset-4"
           >
@@ -201,7 +198,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="absolute top-0 right-0 w-[30vw] h-[30vh] max-w-[300px] max-h-[300px]">
+        <div className="absolute top-10 right-0 w-[30vw] h-[30vh] max-w-[300px] max-h-[300px]">
           <Image
             src="/images/hero/airplane.png"
             alt="飞机"
@@ -232,6 +229,9 @@ export default function Home() {
             </h2>
           </div>
           <div className="mt-6 rounded-[28px] border border-brand-pink/40 bg-white/85 p-6 sm:p-8 shadow-[0_18px_60px_rgba(244,185,200,0.3)] flex flex-col gap-4">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
+              Guides / 教程
+            </p>
             <Link
               href="/form-8843-guide"
               className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
@@ -269,52 +269,30 @@ export default function Home() {
               </span>
             </Link>
           </div>
-          <Link
-            href="/guides"
-            className="mt-6 block rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)] transition hover:shadow-[0_26px_70px_rgba(244,185,200,0.35)]"
+          <div
+            className="mt-6 block rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)] flex flex-col gap-4"
           >
             <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
-              Guides / 工具
+              Tools / 工具
             </p>
-            <h3 className="mt-2 text-lg sm:text-xl font-semibold text-brand-ink">
-              判断型指南与工具入口
-            </h3>
-            <p className="mt-2 text-sm sm:text-base text-brand-ink/70">
-              从判断型指南进入，再跳转到工具做 3 分钟路径判断。
-            </p>
-          </Link>
-        </div>
-      </section>
-
-      <section id="fit" className="px-4 py-12 sm:py-16 lg:py-20 bg-brand-pink/15">
-        <div className="page-shell">
-          <div className="text-center">
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
-              30 秒判断
-            </p>
-            <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
-              适合 / 不适合
-            </h2>
-          </div>
-          <div className="mt-8 grid gap-6 md:grid-cols-2">
-            <div className="soft-card">
-              <h3 className="text-lg sm:text-xl font-semibold text-brand-ink">适合你</h3>
-              <ul className="mt-4 space-y-3 text-sm sm:text-base text-brand-ink/75">
-                <li>F1 身份 + OPT/实习有收入</li>
-                <li>第一次自己报税</li>
-                <li>担心选错表格或身份</li>
-                <li>愿意按步骤操作，慢一点也没关系</li>
-              </ul>
-            </div>
-            <div className="soft-card">
-              <h3 className="text-lg sm:text-xl font-semibold text-brand-ink">可能不适合</h3>
-              <ul className="mt-4 space-y-3 text-sm sm:text-base text-brand-ink/75">
-                <li>你希望有人代报/代填</li>
-                <li>需要法律/税务执照服务</li>
-                <li>涉及复杂投资/公司税</li>
-                <li>需要保证具体金额</li>
-              </ul>
-            </div>
+            <Link
+              href="/guides"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                《判断型指南：先定路径，再做决定》
+              </span>
+            </Link>
+            <Link
+              href="/form-8843-tutorial-2026"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep bg-brand-pink/10 p-4 rounded-2xl border border-brand-pink/20 transition hover:scale-[1.01]"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <span className="font-bold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                ✨【2026 独家】Form 8843 在线填写助手 (手把手辅助版) —— 5 分钟搞定免税声明
+              </span>
+            </Link>
           </div>
         </div>
       </section>
@@ -323,7 +301,7 @@ export default function Home() {
         <div className="page-shell">
           <div className="max-w-3xl">
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
-              这些是明确可帮到你的
+              这些是可以帮到你的
             </h2>
           </div>
           <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">

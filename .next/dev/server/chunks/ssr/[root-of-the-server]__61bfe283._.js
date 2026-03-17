@@ -65,8 +65,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 const metadata = {
-    title: "2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略",
-    description: "2026年寄早了或填错了 Form 8843 怎么办？本指南手把手教你如何提交 Amended Return（修正申报），包含 1040-X 填写要点及 $5000 税收协定追回。规避 H1B 审计风险，在 3 年法定追诉期内合规修正。内附 2026 最新版 PDF 标注范例。",
+    title: "2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略(附 PDF 下载)",
+    description: "2026年寄早了或填错了 Form 8843 怎么办？本指南手把手教你如何提交 Amended Return（修正申报），包含 1040-X 填写要点及 $5000 税收协定追回。规避 H1B 审计风险，在 3 年法定追诉期内合规修正。内附 2026 最新版 PDF 标注范例。本站提供最新版表格下载及手把手带填指南。",
     alternates: {
         canonical: "https://www.mapleworld.online/form-8843-amend-guide"
     }
@@ -91,7 +91,7 @@ function Form8843AmendGuidePage() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                             className: "mt-2 text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight",
-                            children: "2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略"
+                            children: "2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略(附 PDF 下载)"
                         }, void 0, false, {
                             fileName: "[project]/src/app/form-8843-amend-guide/page.tsx",
                             lineNumber: 22,
