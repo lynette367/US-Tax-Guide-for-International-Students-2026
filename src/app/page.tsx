@@ -410,7 +410,12 @@ export default function Home() {
             "description": "2026 美国留学生报税身份自测及 8843 填报工具",
             "applicationCategory": "TaxCalculation",
             "operatingSystem": "All",
-            "url": "https://www.mapleworld.online/"
+            "url": "https://www.mapleworld.online/",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
           })
         }}
       />

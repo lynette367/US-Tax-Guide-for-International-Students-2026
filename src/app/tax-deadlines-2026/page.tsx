@@ -40,15 +40,30 @@ export default function TaxDeadlinesPage() {
     "@context": "https://schema.org",
     "@type": "Event",
     "name": "2026 美国留学生报税截止日期",
-    "startDate": "2026-04-15",
+    "startDate": "2026-04-15T00:00:00",
+    "endDate": "2026-04-15T23:59:59",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "image": "https://www.mapleworld.online/images/form-8843-sample.webp",
     "description": "2026 报税季关键节点：1042-S 发放（3月16日），W-2 发放（1月31日），报税截止（4月15日）。",
     "location": {
-      "@type": "Place",
-      "name": "Internal Revenue Service (IRS)",
-      "address": {
-        "@type": "PostalAddress",
-        "addressCountry": "US"
-      }
+      "@type": "VirtualLocation",
+      "url": "https://www.mapleworld.online/tax-deadlines-2026"
+    },
+    "organizer": {
+      "@type": "Organization",
+      "name": "MapleWorld",
+      "url": "https://www.mapleworld.online"
+    },
+    "performer": {
+      "@type": "Person",
+      "name": "Taxpayer"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "url": "https://www.mapleworld.online/tax-deadlines-2026"
     }
   };
 

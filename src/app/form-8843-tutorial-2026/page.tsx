@@ -24,6 +24,16 @@ export default function Form8843Tutorial() {
     "@type": "HowTo",
     "name": "如何填写 2026 Form 8843",
     "description": "为 F1/J1 留学生开启的 2026 最新 Form 8843 填写指南。",
+    "inLanguage": "zh-CN",
+    "datePublished": "2026-03",
+    "publisher": {
+      "@type": "Organization",
+      "name": "MapleWorld",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.mapleworld.online/logo.png"
+      }
+    },
     "step": [
       {
         "@type": "HowToStep",
