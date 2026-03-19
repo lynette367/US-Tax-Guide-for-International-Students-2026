@@ -204,6 +204,12 @@
       "namedRegex": "^/favicon\\.ico(?:/)?$"
     },
     {
+      "page": "/fica-refund-calculator",
+      "regex": "^/fica\\-refund\\-calculator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/fica\\-refund\\-calculator(?:/)?$"
+    },
+    {
       "page": "/form-8843-amend-guide",
       "regex": "^/form\\-8843\\-amend\\-guide(?:/)?$",
       "routeKeys": {},
@@ -214,6 +220,12 @@
       "regex": "^/form\\-8843\\-guide(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/form\\-8843\\-guide(?:/)?$"
+    },
+    {
+      "page": "/form-8843-tutorial-2026",
+      "regex": "^/form\\-8843\\-tutorial\\-2026(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/form\\-8843\\-tutorial\\-2026(?:/)?$"
     },
     {
       "page": "/guides",
@@ -244,6 +256,12 @@
       "regex": "^/tax\\-deadlines\\-2026(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/tax\\-deadlines\\-2026(?:/)?$"
+    },
+    {
+      "page": "/tools",
+      "regex": "^/tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools(?:/)?$"
     },
     {
       "page": "/tools/opt-tax",

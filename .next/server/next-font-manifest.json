@@ -1,6 +1,39 @@
 {
   "app": {
-    "[project]/src/app/1042-vs-1042-s/page": [
+    "[project]/src/app/(guides)/1042-vs-1042-s/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(guides)/form-8843-amend-guide/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(guides)/form-8843-guide/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(guides)/guides/[slug]/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(guides)/guides/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(guides)/tax-deadlines-2026/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(guides)/w2-missing-guide/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(tools)/fica-refund-calculator/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(tools)/form-8843-tutorial-2026/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(tools)/opt-turbotax/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(tools)/tools/opt-tax/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/(tools)/tools/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ],
     "[project]/src/app/_not-found/page": [
@@ -30,31 +63,7 @@
     "[project]/src/app/archive/work/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ],
-    "[project]/src/app/form-8843-amend-guide/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/form-8843-guide/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/guides/[slug]/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/guides/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/opt-turbotax/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
     "[project]/src/app/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/tax-deadlines-2026/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/tools/opt-tax/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/w2-missing-guide/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ]
   },

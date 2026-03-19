@@ -71,6 +71,14 @@ const steps = [
 
 const stories = [
   {
+    title: "FICA 税（SSN/Medicare）误扣",
+    content:
+      "OPT留学生前五年免缴FICA税，一旦被误扣，个人每笔薪资会直接损失7.65%（社保6.2%+医保1.45%）。按月薪3000美元算，每月被扣约230美元，全年损失近2800美元；薪资越高，误扣金额越大，且这笔钱无法享受对应福利，不及时追回会造成实打实的经济亏损。",
+    href: "/fica-refund-calculator",
+    image: "/images/fica-calculator-icon.png",
+    anchorText: "[自测：F1/OPT FICA 退税金额计算器]",
+  },
+  {
     title: "我第一次差点用错身份",
     content:
       "当时看到 TurboTax 的流程很顺，我就直接往下填了。填到身份那一步才意识到自己可能是 nonresident。最怕的是选错身份导致后续表格全错。后来我按天数判断做了对照表，才知道应该走 1040NR。",
@@ -79,6 +87,11 @@ const stories = [
     title: "等 1042-S 那几周特别焦虑",
     content:
       "室友都已经报完了，我还在等 1042-S。因为不知道它什么时候到，我一直不敢提交。后来我整理了一张材料到达时间表，知道该等哪一份、可以先做哪一份，心里才稳下来。",
+  },
+  {
+    title: "W2 和 1099 收入都漏报了",
+    content:
+      "W2是雇佣薪资报表，1099是兼职/ freelance等杂项收入报表，IRS会同步收到两份报表数据。漏报任何一类收入，都会被IRS判定少缴税款，不仅要补缴欠税，还要加收利息和罚款，情节严重还会触发税务核查。发现漏报需尽快提交1040-X修正表，主动补救可降低处罚力度。",
   },
   {
     title: "州税把我绕晕了",
@@ -301,6 +314,65 @@ export default function Home() {
         <div className="page-shell">
           <div className="max-w-3xl">
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
+              F1/OPT 留学生报税 5 大红线（避坑工具）
+            </h2>
+          </div>
+          <div className="mt-8 grid gap-6 md:grid-cols-3">
+            {stories.map((story) => {
+              const cardContent = (
+                <article className="flex flex-col h-full">
+                  <header className="flex items-start gap-3">
+                    {'image' in story && story.image && (
+                      <div className="shrink-0 pt-0.5">
+                        <Image
+                          src={story.image}
+                          alt="F1 OPT 留学生 FICA 退税计算工具图标"
+                          title="点击进入 FICA 退税计算器"
+                          width={28}
+                          height={28}
+                          className="rounded-lg object-contain shadow-sm"
+                          unoptimized
+                        />
+                      </div>
+                    )}
+                    <h3 className="text-lg font-semibold text-brand-ink leading-snug">{story.title}</h3>
+                  </header>
+                  <p className="mt-3 text-sm leading-relaxed text-brand-ink/70 flex-1">
+                    {story.content}
+                  </p>
+                  {'anchorText' in story && story.anchorText && (
+                    <footer className="mt-5 text-sm font-semibold text-brand-pinkdeep group-hover:underline underline-offset-4">
+                      {story.anchorText}
+                    </footer>
+                  )}
+                </article>
+              );
+
+              const cardClass = "group block rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)] h-full";
+              const hoverClass = story.href ? " transition hover:shadow-[0_20px_60px_rgba(247,198,217,0.4)] hover:scale-[1.01]" : "";
+
+              return story.href ? (
+                <Link
+                  key={story.title}
+                  href={story.href}
+                  className={cardClass + hoverClass}
+                >
+                  {cardContent}
+                </Link>
+              ) : (
+                <div key={story.title} className={cardClass}>
+                  {cardContent}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-4 py-12 sm:py-16 lg:py-20">
+        <div className="page-shell">
+          <div className="max-w-3xl">
+            <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
               这些是可以帮到你的
             </h2>
           </div>
@@ -344,28 +416,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-4 py-12 sm:py-16 lg:py-20">
-        <div className="page-shell">
-          <div className="max-w-3xl">
-            <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
-              常见踩坑故事
-            </h2>
-          </div>
-          <div className="mt-8 grid gap-6 md:grid-cols-3">
-            {stories.map((story) => (
-              <div
-                key={story.title}
-                className="rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)]"
-              >
-                <h3 className="text-lg font-semibold text-brand-ink">{story.title}</h3>
-                <p className="mt-3 text-sm leading-relaxed text-brand-ink/70">
-                  {story.content}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
 
 
@@ -415,6 +465,21 @@ export default function Home() {
               "@type": "Offer",
               "price": "0",
               "priceCurrency": "USD"
+            },
+            "hasPart": {
+              "@type": "ItemList",
+              "name": "F1/OPT 留学生报税 5 大红线（避坑工具）",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                    "@type": "SoftwareApplication",
+                    "name": "F1/OPT FICA 退税自动计算器 2026",
+                    "url": "https://www.mapleworld.online/fica-refund-calculator"
+                  }
+                }
+              ]
             }
           })
         }}

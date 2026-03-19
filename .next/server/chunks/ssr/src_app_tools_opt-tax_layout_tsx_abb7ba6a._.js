@@ -1,3 +1,0 @@
-module.exports=[44486,a=>{"use strict";function b({children:a}){return a}a.s(["default",()=>b,"metadata",0,{title:"2026 F1/OPT 报税身份自测与路径判定工具 - MapleWorld",description:"30秒在线自测你的美国报税身份（Resident vs Non-resident），获取 2026 报税季专属表单清单与 W-2 缺失补救方案。",keywords:["F1 报税身份自测","OPT 报税路径","1040-NR 判定","Substantial Presence Test 工具","留学生退税","Form 8843 教程","W-2 没收到怎么办"],alternates:{canonical:"https://www.mapleworld.online/tools/opt-tax"}}])}];
-
-//# sourceMappingURL=src_app_tools_opt-tax_layout_tsx_abb7ba6a._.js.map

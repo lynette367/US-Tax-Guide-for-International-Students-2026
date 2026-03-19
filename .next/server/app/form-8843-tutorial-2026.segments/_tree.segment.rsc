@@ -1,0 +1,3 @@
+:HL["/_next/static/chunks/851e663806f11165.css","style"]
+:HL["/_next/static/media/07454f8ad8aaac57-s.p.fc65572f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"NPO6h6JtzjbSPCiXsu0WV","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"(tools)","paramType":null,"paramKey":"(tools)","hasRuntimePrefetch":false,"slots":{"children":{"name":"form-8843-tutorial-2026","paramType":null,"paramKey":"form-8843-tutorial-2026","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
