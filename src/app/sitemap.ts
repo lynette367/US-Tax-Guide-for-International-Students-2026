@@ -75,6 +75,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     {
+      url: `${baseUrl}/turbotax-pitfalls-2026`,
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/tools`,
       lastModified: now,
       changeFrequency: "weekly",
