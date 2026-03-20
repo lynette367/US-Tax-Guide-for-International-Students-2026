@@ -3,6 +3,7 @@ import Image from "next/image";
 import TaxQuiz from "../../../components/TaxQuiz";
 import Link from "next/link";
 import { Breadcrumbs } from "../../../components/Breadcrumbs";
+import Sidebar8843 from "../../../components/Sidebar8843";
 
 export const metadata: Metadata = {
     title: "2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）(附 PDF 下载)",
@@ -17,8 +18,9 @@ export default function Form8843GuidePage() {
         <main className="pb-16 text-brand-ink">
             <section className="px-4 py-12 sm:py-16">
                 <div className="page-shell">
-                    <article className="max-w-3xl mx-auto">
-                        <Breadcrumbs 
+                    <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8 lg:gap-12 items-start">
+                        <article className="min-w-0">
+                            <Breadcrumbs 
                             items={[
                                 { label: "报税攻略", href: "/guides" },
                                 { label: "8843 指南" }
@@ -145,6 +147,10 @@ export default function Form8843GuidePage() {
                             </p>
                         </section>
                     </article>
+                    <aside className="lg:sticky lg:top-24">
+                        <Sidebar8843 />
+                    </aside>
+                    </div>
                 </div>
             </section>
         </main>

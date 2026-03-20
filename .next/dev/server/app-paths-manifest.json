@@ -1,4 +1,5 @@
 {
-  "/(tools)/fica-refund-calculator/page": "app/(tools)/fica-refund-calculator/page.js",
+  "/(tools)/turbotax-pitfalls-2026/page": "app/(tools)/turbotax-pitfalls-2026/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js"
 }

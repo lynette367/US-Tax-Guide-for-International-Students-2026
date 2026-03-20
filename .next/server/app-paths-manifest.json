@@ -11,6 +11,7 @@
   "/(tools)/opt-turbotax/page": "app/(tools)/opt-turbotax/page.js",
   "/(tools)/tools/opt-tax/page": "app/(tools)/tools/opt-tax/page.js",
   "/(tools)/tools/page": "app/(tools)/tools/page.js",
+  "/(tools)/turbotax-pitfalls-2026/page": "app/(tools)/turbotax-pitfalls-2026/page.js",
   "/_global-error/page": "app/_global-error/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/api/contact/route": "app/api/contact/route.js",

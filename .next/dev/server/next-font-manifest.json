@@ -1,6 +1,9 @@
 {
   "app": {
-    "[project]/src/app/(tools)/fica-refund-calculator/page": [
+    "[project]/src/app/(tools)/turbotax-pitfalls-2026/page": [
+      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
+    ],
+    "[project]/src/app/_not-found/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ],
     "[project]/src/app/page": [

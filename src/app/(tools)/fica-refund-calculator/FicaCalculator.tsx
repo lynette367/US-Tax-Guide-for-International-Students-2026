@@ -12,7 +12,7 @@ export default function FicaCalculator() {
     if (!amount) return;
     const isExempt = taxYear - arrivalYear < 5;
     const amt = parseFloat(amount) || 0;
-    
+
     if (isExempt) {
       setResult({
         isExempt: true,
@@ -29,12 +29,8 @@ export default function FicaCalculator() {
   const years = Array.from({ length: 15 }, (_, i) => new Date().getFullYear() - i + 2); // 2028 down to 2014
 
   return (
-    <div className="w-full max-w-xl mx-auto my-8 p-6 sm:p-8 rounded-[32px] bg-white/70 backdrop-blur-xl border border-white/60 shadow-[0_24px_80px_rgba(247,198,217,0.35)] relative overflow-hidden">
-      {/* Decorative Blob */}
-      <div className="absolute top-0 right-0 -mr-16 -mt-16 w-48 h-48 bg-brand-pink/30 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 left-0 -ml-16 -mb-16 w-56 h-56 bg-amber-100/40 rounded-full blur-3xl pointer-events-none" />
-
-      <h3 className="text-xl sm:text-2xl font-bold text-center text-brand-ink mb-2 relative z-10">FICA 退税计算器</h3>
+    <div className="w-full max-w-xl mx-auto my-8 p-6 sm:p-8 rounded-[32px] bg-[#FFFDF3] border border-amber-100 shadow-[0_20px_60px_rgba(247,198,217,0.25)] relative overflow-hidden">
+      <h3 className="text-xl sm:text-2xl font-bold text-center text-brand-ink mb-2">FICA 退税计算器</h3>
       <p className="text-sm text-center text-brand-ink/60 mb-8 relative z-10">只需 3 秒，测算你被多扣了多少冤枉钱</p>
 
       <div className="space-y-6 relative z-10">

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Form8843Stepper from "../../../components/Form8843Stepper";
 import { Breadcrumbs } from "../../../components/Breadcrumbs";
+import Sidebar8843 from "../../../components/Sidebar8843";
 
 export const metadata: Metadata = {
   title: "2026 Form 8843 填写教学：F1/J1 留学生免税声明全攻略 - MapleWorld",
@@ -97,8 +98,9 @@ export default function Form8843Tutorial() {
       </section>
 
       <article className="page-shell mt-20">
-        <div className="max-w-3xl mx-auto prose prose-brand-ink">
-          <h2 className="text-2xl sm:text-3xl font-bold text-brand-ink">为什么 8843 这么重要/不填的后果？</h2>
+        <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-[1fr_300px] gap-8 lg:gap-12 items-start">
+          <div className="min-w-0 prose prose-brand-ink max-w-none">
+            <h2 className="text-2xl sm:text-3xl font-bold text-brand-ink">为什么 8843 这么重要/不填的后果？</h2>
           <p className="mt-4 text-brand-ink/80 leading-relaxed">
             Form 8843 虽然不是税表，但它决定了你的税务居民身份。如果不按时提交，IRS 可能会认定你为 Resident Alien，从而导致无法享受中美税收协定，甚至影响未来的签证或绿卡申请。对于 F/J 签证持有人，这是保持“非居民”身份合法豁免天数的唯一凭证。
           </p>
@@ -146,6 +148,10 @@ export default function Form8843Tutorial() {
           <p className="mt-6 text-sm text-brand-ink/60 italic">
             * 提示：建议使用 USPS Certified Mail 邮寄，并保留 Tracking Number 以防丢件。
           </p>
+          </div>
+          <aside className="lg:sticky lg:top-24">
+            <Sidebar8843 />
+          </aside>
         </div>
       </article>
 

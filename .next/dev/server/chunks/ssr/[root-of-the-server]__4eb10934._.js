@@ -83,7 +83,7 @@ function FicaRefundCalculatorPage() {
         "applicationCategory": "FinanceApplication",
         "url": "https://www.mapleworld.online/fica-refund-calculator",
         "description": "专门为 F1/OPT 留学生设计的 FICA (Social Security & Medicare) 退税计算工具。自动判定免税资格并估算可退金额。",
-        "image": "https://www.mapleworld.online/images/fica-calculator-icon.png",
+        "image": "https://www.mapleworld.online/images/fica-calculator-icon.webp",
         "offers": {
             "@type": "Offer",
             "price": "0",
@@ -98,10 +98,10 @@ function FicaRefundCalculatorPage() {
             "实时计算退税金额",
             "提供 Form 843 填表指导"
         ],
-        "screenshot": "https://www.mapleworld.online/images/fica-calculator-icon.png"
+        "screenshot": "https://www.mapleworld.online/images/fica-calculator-icon.webp"
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
-        className: "min-h-screen bg-[#fafafa]",
+        className: "min-h-screen bg-brand-pink/10 pb-16 text-brand-ink",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
                 type: "application/ld+json",
@@ -114,13 +114,13 @@ function FicaRefundCalculatorPage() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                className: "mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8",
+                className: "page-shell pt-12 sm:pt-16 pb-8 mx-auto max-w-4xl",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                         className: "mb-12 text-center flex flex-col items-center",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/images/fica-calculator-icon.png",
+                                src: "/images/fica-calculator-icon.webp",
                                 alt: "F1 OPT FICA Tax Refund Calculator 2026",
                                 width: 120,
                                 height: 120,
@@ -151,7 +151,9 @@ function FicaRefundCalculatorPage() {
                                         lineNumber: 65,
                                         columnNumber: 13
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/tools",
+                                        className: "hover:text-brand-pinkdeep transition",
                                         children: "Tools"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
@@ -225,409 +227,416 @@ function FicaRefundCalculatorPage() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "prose prose-brand max-w-none mt-16 prose-headings:text-brand-ink prose-p:text-brand-ink/80 prose-li:text-brand-ink/80",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-2xl font-bold mt-12 mb-6 pb-2 border-b border-brand-pink/20",
-                                children: "为什么 F1/OPT 学生通常不需要交 FICA 税？"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                lineNumber: 85,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "pl-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold mt-6 mb-3",
-                                        children: "什么是 Social Security 和 Medicare Tax？"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 87,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: [
-                                            "这两项税统称为 ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "FICA 税 (Federal Insurance Contributions Act)"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 89,
-                                                columnNumber: 23
-                                            }, this),
-                                            "。Social Security tax 税率通常为 6.2%，Medicare tax 为 1.45%，加起来总共占薪水的 ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "7.65%"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 89,
-                                                columnNumber: 147
-                                            }, this),
-                                            "。 这是用来资助美国养老、伤残和医疗福利的税金，由员工和雇主各缴一半。"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 88,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold mt-6 mb-3",
-                                        children: "什么是 Exempt Individual 身份？"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 93,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: [
-                                            "IRS 规定，持有 ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "F-1、J-1、M-1、Q-1"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 95,
-                                                columnNumber: 25
-                                            }, this),
-                                            " 签证的非居民外籍人士（Nonresident Alien），在其停留美国的前 5 个日历年（Calendar Years）内，属于 Exempt Individual。 在 Exempt 期间，你在校内工作或经过授权的 CPT/OPT 校外工作所赚取的工资，均 ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "豁免缴纳 FICA 税"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 96,
-                                                columnNumber: 61
-                                            }, this),
-                                            "。通常到了第 6 年，按“实质居留测试”（Substantial Presence Test），才会变为 Resident Alien，此时才需要开始缴纳 FICA。"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 94,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "mt-4 p-4 bg-brand-pink/5 rounded-xl border border-brand-pink/20 text-sm",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "mt-16 rounded-[32px] border border-brand-pink/40 bg-[#FDF8F0] p-6 sm:p-10 shadow-[0_18px_60px_rgba(244,185,200,0.25)] relative",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "prose prose-brand max-w-none prose-headings:text-brand-ink prose-p:text-brand-ink/80 prose-li:text-brand-ink/80",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-2xl font-bold mt-0 mb-6 pb-2 border-b border-brand-pink/20",
+                                    children: "为什么 F1/OPT 学生通常不需要交 FICA 税？"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                    lineNumber: 86,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "pl-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold mt-6 mb-3",
+                                            children: "什么是 Social Security 和 Medicare Tax？"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 88,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: [
+                                                "这两项税统称为 ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: "🚨 提醒："
+                                                    children: "FICA 税 (Federal Insurance Contributions Act)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                    lineNumber: 99,
-                                                    columnNumber: 18
+                                                    lineNumber: 90,
+                                                    columnNumber: 25
                                                 }, this),
-                                                "如果你的雇主是不太熟悉外籍员工税法的 HR 或挂靠公司，常常会把你当成美国公民或绿卡居民，错误地从你薪水扣掉这 7.65%。如果不讨回来，钱就真白给了 IRS！"
+                                                "。Social Security tax 税率通常为 6.2%，Medicare tax 为 1.45%，加起来总共占薪水的 ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "7.65%"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 90,
+                                                    columnNumber: 149
+                                                }, this),
+                                                "。 这是用来资助美国养老、伤残和医疗福利的税金，由员工和雇主各缴一半。"
                                             ]
                                         }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 89,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold mt-6 mb-3",
+                                            children: "什么是 Exempt Individual 身份？"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 94,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            children: [
+                                                "IRS 规定，持有 ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "F-1、J-1、M-1、Q-1"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 96,
+                                                    columnNumber: 27
+                                                }, this),
+                                                " 签证的非居民外籍人士（Nonresident Alien），在其停留美国的前 5 个日历年（Calendar Years）内，属于 Exempt Individual。 在 Exempt 期间，你在校内工作或经过授权的 CPT/OPT 校外工作所赚取的工资，均 ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "豁免缴纳 FICA 税"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 97,
+                                                    columnNumber: 63
+                                                }, this),
+                                                "。通常到了第 6 年，按“实质居留测试”（Substantial Presence Test），才会变为 Resident Alien，此时才需要开始缴纳 FICA。"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 95,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "mt-4 p-4 bg-brand-pink/5 rounded-xl border border-brand-pink/20 text-sm",
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                        children: "🚨 提醒："
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                        lineNumber: 100,
+                                                        columnNumber: 20
+                                                    }, this),
+                                                    "如果你的雇主是不太熟悉外籍员工税法的 HR 或挂靠公司，常常会把你当成美国公民或绿卡居民，错误地从你薪水扣掉这 7.65%。如果不讨回来，钱就真白给了 IRS！"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                lineNumber: 100,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
                                             lineNumber: 99,
                                             columnNumber: 15
                                         }, this)
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 98,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                lineNumber: 86,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-2xl font-bold mt-16 mb-6 pb-2 border-b border-brand-pink/20",
-                                children: "发现税被扣错了？拿回税款的两个步骤"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                lineNumber: 103,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                children: "如果你确认自己仍在免税期，却在 W-2 上的 Box 4 和 Box 6 看到了金额，你可以通过以下两个方案拿回钱。"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                lineNumber: 104,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "pl-4",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold mt-6 mb-3",
-                                        children: "方案一：向雇主要回 Refund from Employer（最快途径）"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 107,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: [
-                                            "IRS 官方强烈建议你",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "首先联系雇主"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 109,
-                                                columnNumber: 26
-                                            }, this),
-                                            "进行退税。你可以拿着你的 F1 签证、I-20 及护照，向公司 HR 或 Payroll 部门说明：“我当前属于 Nonresident Alien 状态，享有 FICA 免税待遇，请帮我调整系统并退还今年错扣的款项”。"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 108,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: [
-                                            "如果是在同一个税年内发现的（比如 2026 年底发现 2026 年扣错了），雇主通常可以在下个 Paycheck 直接把钱补发给你，并修正你的 W-2 (或下发 W-2c)。",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "这是最省事的方法！"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 112,
-                                                columnNumber: 102
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 111,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-xl font-semibold mt-8 mb-3",
-                                        children: "方案二：向 IRS 提交 Form 843 & 8316 申请退税"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 115,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "如果雇主拒绝退还（比如雇主说：“财务封账了退不了” 或者 “你已经离职了”），你就只能自己硬着头皮找 IRS 把钱要回来了。"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 116,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        children: "你需要邮寄以下材料组合给 IRS，要求索回被误扣的税款："
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 119,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                        className: "list-disc pl-6 space-y-2 marker:text-brand-pinkdeep",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: "Form 843, Claim for Refund and Request for Abatement"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 121,
-                                                columnNumber: 15
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                children: "Form 8316, Information Regarding Request for Refund of Social Security Tax"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 122,
-                                                columnNumber: 15
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 120,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                lineNumber: 106,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-2xl font-bold mt-16 mb-6 pb-2 border-b border-brand-pink/20",
-                                children: "申请 FICA 退税需要准备哪些材料？"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                lineNumber: 126,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                children: "自己向 IRS 申请 FICA 退税（寄送 Form 843），通常需要打包以下材料复印件："
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                lineNumber: 127,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                className: "list-disc pl-6 space-y-2 marker:text-brand-pinkdeep mb-8",
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Form 843、Form 8316"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 129,
-                                                columnNumber: 17
-                                            }, this),
-                                            "（填好并签名）"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 129,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: [
-                                            "误扣税年度的 ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "W-2"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 130,
-                                                columnNumber: 24
-                                            }, this),
-                                            " 表格复印件"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 130,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "护照首页"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 131,
-                                                columnNumber: 17
-                                            }, this),
-                                            "复印件及包含当时有效美签页的复印件"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 131,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "I-94"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 132,
-                                                columnNumber: 17
-                                            }, this),
-                                            " 出入境记录（网上下载）"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 132,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: [
-                                            "当年对应的 ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "I-20"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 133,
-                                                columnNumber: 23
-                                            }, this),
-                                            "（并有 CPT 或 OPT 的授权页）"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 133,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "EAD 卡"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 134,
-                                                columnNumber: 17
-                                            }, this),
-                                            "正反面复印件（针对 OPT 学生）"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 134,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: [
-                                            "一份 ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "雇主拒绝退税的证明信（Written Statement from Employer）"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 135,
-                                                columnNumber: 20
-                                            }, this),
-                                            "，如果在特殊情况下你拿不到公司的证明，你需要提交由你自己签名的陈述信，解释为何无法拿到。"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 135,
-                                        columnNumber: 13
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        children: [
-                                            "当年的 ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: "Form 1040-NR"
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 136,
-                                                columnNumber: 21
-                                            }, this),
-                                            " 复印件（如果你当年还需要递交联邦所得税的话）"
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 136,
-                                        columnNumber: 13
-                                    }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                lineNumber: 128,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                    lineNumber: 87,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-2xl font-bold mt-16 mb-6 pb-2 border-b border-brand-pink/20",
+                                    children: "发现税被扣错了？拿回税款的两个步骤"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                    lineNumber: 104,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    children: "如果你确认自己仍在免税期，却在 W-2 上的 Box 4 和 Box 6 看到了金额，你可以通过以下两个方案拿回钱。"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                    lineNumber: 105,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "pl-4",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold mt-6 mb-3",
+                                            children: "方案一：向雇主要回 Refund from Employer（最快途径）"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 108,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            children: [
+                                                "IRS 官方强烈建议你",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "首先联系雇主"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 110,
+                                                    columnNumber: 28
+                                                }, this),
+                                                "进行退税。你可以拿着你的 F1 签证、I-20 及护照，向公司 HR 或 Payroll 部门说明：“我当前属于 Nonresident Alien 状态，享有 FICA 免税待遇，请帮我调整系统并退还今年错扣的款项”。"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 109,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            children: [
+                                                "如果是在同一个税年内发现的（比如 2026 年底发现 2026 年扣错了），雇主通常可以在下个 Paycheck 直接把钱补发给你，并修正你的 W-2 (或下发 W-2c)。",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "这是最省事的方法！"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 113,
+                                                    columnNumber: 104
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 112,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                            className: "text-xl font-semibold mt-8 mb-3",
+                                            children: "方案二：向 IRS 提交 Form 843 & 8316 申请退税"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 116,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            children: "如果雇主拒绝退还（比如雇主说：“财务封账了退不了” 或者 “你已经离职了”），你就只能自己硬着头皮找 IRS 把钱要回来了。"
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 117,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            children: "你需要邮寄以下材料组合给 IRS，要求索回被误扣的税款："
+                                        }, void 0, false, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 120,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                            className: "list-disc pl-6 space-y-2 marker:text-brand-pinkdeep",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "Form 843, Claim for Refund and Request for Abatement"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 122,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                    children: "Form 8316, Information Regarding Request for Refund of Social Security Tax"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 123,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 121,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                    lineNumber: 107,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-2xl font-bold mt-16 mb-6 pb-2 border-b border-brand-pink/20",
+                                    children: "申请 FICA 退税需要准备哪些材料？"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                    lineNumber: 127,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    children: "自己向 IRS 申请 FICA 退税（寄送 Form 843），通常需要打包以下材料复印件："
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                    lineNumber: 128,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "list-disc pl-6 space-y-2 marker:text-brand-pinkdeep mb-8",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Form 843、Form 8316"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 130,
+                                                    columnNumber: 19
+                                                }, this),
+                                                "（填好并签名）"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 130,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                "误扣税年度的 ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "W-2"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 131,
+                                                    columnNumber: 26
+                                                }, this),
+                                                " 表格复印件"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 131,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "护照首页"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 132,
+                                                    columnNumber: 19
+                                                }, this),
+                                                "复印件及包含当时有效美签页的复印件"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 132,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "I-94"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 133,
+                                                    columnNumber: 19
+                                                }, this),
+                                                " 出入境记录（网上下载）"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 133,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                "当年对应的 ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "I-20"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 134,
+                                                    columnNumber: 25
+                                                }, this),
+                                                "（并有 CPT 或 OPT 的授权页）"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 134,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "EAD 卡"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 135,
+                                                    columnNumber: 19
+                                                }, this),
+                                                "正反面复印件（针对 OPT 学生）"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 135,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                "一份 ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "雇主拒绝退税的证明信（Written Statement from Employer）"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 136,
+                                                    columnNumber: 22
+                                                }, this),
+                                                "，如果在特殊情况下你拿不到公司的证明，你需要提交由你自己签名的陈述信，解释为何无法拿到。"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 136,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: [
+                                                "当年的 ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    children: "Form 1040-NR"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                                    lineNumber: 137,
+                                                    columnNumber: 23
+                                                }, this),
+                                                " 复印件（如果你当年还需要递交联邦所得税的话）"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                            lineNumber: 137,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                                    lineNumber: 129,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
+                            lineNumber: 84,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                        lineNumber: 83,
-                        columnNumber: 9
+                        lineNumber: 82,
+                        columnNumber: 29
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "mt-16 pt-12 border-t border-brand-ink/10",
+                        className: "mt-16",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 className: "text-2xl font-bold text-brand-ink mb-8",
                                 children: "常见问题 (FAQ)"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                lineNumber: 143,
+                                lineNumber: 145,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "grid gap-4",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
-                                        className: "group rounded-[24px] border border-brand-pink/35 bg-white p-5 shadow-sm transition hover:shadow-md",
+                                        className: "group rounded-[24px] border border-brand-pink/35 bg-white/90 p-5 shadow-[0_12px_40px_rgba(244,185,200,0.2)] transition hover:shadow-md hover:scale-[1.01]",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
                                                 className: "cursor-pointer text-base font-semibold text-brand-ink group-open:text-brand-pinkdeep",
                                                 children: "自己向 IRS 递交 Form 843 需要多久能拿到退款？"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 146,
+                                                lineNumber: 148,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -638,31 +647,31 @@ function FicaRefundCalculatorPage() {
                                                         children: "6 个月到 1 年以上"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 152,
                                                         columnNumber: 60
                                                     }, this),
                                                     "才能收到邮寄来的支票。这也就是为什么我们强烈建议你优先找雇主退！"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 149,
+                                                lineNumber: 151,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 145,
+                                        lineNumber: 147,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
-                                        className: "group rounded-[24px] border border-brand-pink/35 bg-white p-5 shadow-sm transition hover:shadow-md",
+                                        className: "group rounded-[24px] border border-brand-pink/35 bg-white/90 p-5 shadow-[0_12px_40px_rgba(244,185,200,0.2)] transition hover:shadow-md hover:scale-[1.01]",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
                                                 className: "cursor-pointer text-base font-semibold text-brand-ink group-open:text-brand-pinkdeep",
                                                 children: "我可以把 Form 843 和其他税表 (如 1040-NR、8843) 放在同一个信封寄吗？"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 154,
+                                                lineNumber: 156,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -672,31 +681,31 @@ function FicaRefundCalculatorPage() {
                                                         children: "最好不要。"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 160,
                                                         columnNumber: 17
                                                     }, this),
                                                     " Form 843 属于专门处理豁免退款的独立部门，其邮寄地址通常与你寄送 1040-NR 退报税或 8843 声明的地址不同（具体地址以当年的 Form 843 Instructions 为准）。分开寄送能防止文件丢失和处理延误。"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 157,
+                                                lineNumber: 159,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 153,
+                                        lineNumber: 155,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("details", {
-                                        className: "group rounded-[24px] border border-brand-pink/35 bg-white p-5 shadow-sm transition hover:shadow-md",
+                                        className: "group rounded-[24px] border border-brand-pink/35 bg-white/90 p-5 shadow-[0_12px_40px_rgba(244,185,200,0.2)] transition hover:shadow-md hover:scale-[1.01]",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("summary", {
                                                 className: "cursor-pointer text-base font-semibold text-brand-ink group-open:text-brand-pinkdeep",
                                                 children: "我的配偶 (F2签证) 需要缴纳 FICA 税吗？"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 162,
+                                                lineNumber: 164,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -704,25 +713,25 @@ function FicaRefundCalculatorPage() {
                                                 children: "F2 签证通常不允许工作，因此不会有缴纳 FICA 税的问题。如果 F2 转为其他允许工作且属于 Resident Alien 的身份（如 H1B/H4 EAD 等），则受普通的税法约束。"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                                lineNumber: 165,
+                                                lineNumber: 167,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                        lineNumber: 161,
+                                        lineNumber: 163,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                                lineNumber: 144,
+                                lineNumber: 146,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
-                        lineNumber: 142,
+                        lineNumber: 144,
                         columnNumber: 9
                     }, this)
                 ]

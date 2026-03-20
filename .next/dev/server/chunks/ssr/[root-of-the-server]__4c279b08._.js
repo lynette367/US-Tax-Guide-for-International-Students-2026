@@ -126,7 +126,9 @@ function Breadcrumbs({ items }) {
 
 __turbopack_context__.s([
     "default",
-    ()=>ToolsPage
+    ()=>ToolsPage,
+    "metadata",
+    ()=>metadata
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.react-server.js [app-rsc] (ecmascript)");
@@ -134,6 +136,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Breadcr
 ;
 ;
 ;
+const metadata = {
+    title: "留学生报税工具箱：身份判断与计算器 - MapleWorld",
+    description: "汇集了针对 F1/OPT 留学生的报税实用工具：包括 FICA 退税自动计算器、SPT 实质居留测试自测、Form 8843 在线填写助手等，助你轻松拿回应退税款。",
+    keywords: "报税工具, FICA 退税计算器, Form 8843 填写, 留学生退税工具, SPT 测试, F1 报税软件",
+    alternates: {
+        canonical: "https://www.mapleworld.online/tools"
+    }
+};
 function ToolsPage() {
     const tools = [
         {
@@ -153,6 +163,12 @@ function ToolsPage() {
             description: "OPT 可以用 TurboTax 吗？回答 8 个问题，拿到你的报税路径建议。",
             href: "/opt-turbotax",
             cta: "开始判定"
+        },
+        {
+            title: "F1/OPT FICA 退税金额计算器",
+            description: "一键测算被误扣的 Social Security 与 Medicare 税，详细梳理 向雇主 / IRS 提交 Form 843 全流程要回退款。",
+            href: "/fica-refund-calculator",
+            cta: "计算退税"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -173,7 +189,7 @@ function ToolsPage() {
                                 ]
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                                lineNumber: 31,
+                                lineNumber: 47,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -181,7 +197,7 @@ function ToolsPage() {
                                 children: "Tools"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                                lineNumber: 36,
+                                lineNumber: 52,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -189,7 +205,7 @@ function ToolsPage() {
                                 children: "报税工具：简化你的申报流程"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                                lineNumber: 39,
+                                lineNumber: 55,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -197,13 +213,13 @@ function ToolsPage() {
                                 children: "这些工具旨在帮助你快速做出判断，节省研究税法的时间。"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                                lineNumber: 42,
+                                lineNumber: 58,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                        lineNumber: 30,
+                        lineNumber: 46,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -216,7 +232,7 @@ function ToolsPage() {
                                         children: tool.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                                        lineNumber: 53,
+                                        lineNumber: 69,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -224,7 +240,7 @@ function ToolsPage() {
                                         children: tool.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 72,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -233,34 +249,34 @@ function ToolsPage() {
                                         children: tool.cta
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 75,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, tool.href, true, {
                                 fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                                lineNumber: 49,
+                                lineNumber: 65,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                        lineNumber: 47,
+                        lineNumber: 63,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/(tools)/tools/page.tsx",
-                lineNumber: 29,
+                lineNumber: 45,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/(tools)/tools/page.tsx",
-            lineNumber: 28,
+            lineNumber: 44,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/(tools)/tools/page.tsx",
-        lineNumber: 27,
+        lineNumber: 43,
         columnNumber: 5
     }, this);
 }

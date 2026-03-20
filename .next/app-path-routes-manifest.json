@@ -11,6 +11,7 @@
   "/(tools)/opt-turbotax/page": "/opt-turbotax",
   "/(tools)/tools/opt-tax/page": "/tools/opt-tax",
   "/(tools)/tools/page": "/tools",
+  "/(tools)/turbotax-pitfalls-2026/page": "/turbotax-pitfalls-2026",
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
   "/api/contact/route": "/api/contact",

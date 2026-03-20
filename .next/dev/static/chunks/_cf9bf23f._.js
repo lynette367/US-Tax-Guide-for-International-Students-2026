@@ -38,28 +38,14 @@ function FicaCalculator() {
         length: 15
     }, (_, i)=>new Date().getFullYear() - i + 2); // 2028 down to 2014
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "w-full max-w-xl mx-auto my-8 p-6 sm:p-8 rounded-[32px] bg-white/70 backdrop-blur-xl border border-white/60 shadow-[0_24px_80px_rgba(247,198,217,0.35)] relative overflow-hidden",
+        className: "w-full max-w-xl mx-auto my-8 p-6 sm:p-8 rounded-[32px] bg-[#FFFDF3] border border-amber-100 shadow-[0_20px_60px_rgba(247,198,217,0.25)] relative overflow-hidden",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute top-0 right-0 -mr-16 -mt-16 w-48 h-48 bg-brand-pink/30 rounded-full blur-3xl pointer-events-none"
-            }, void 0, false, {
-                fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                lineNumber: 34,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-0 left-0 -ml-16 -mb-16 w-56 h-56 bg-amber-100/40 rounded-full blur-3xl pointer-events-none"
-            }, void 0, false, {
-                fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                lineNumber: 35,
-                columnNumber: 7
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                className: "text-xl sm:text-2xl font-bold text-center text-brand-ink mb-2 relative z-10",
+                className: "text-xl sm:text-2xl font-bold text-center text-brand-ink mb-2",
                 children: "FICA 退税计算器"
             }, void 0, false, {
                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                lineNumber: 37,
+                lineNumber: 33,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -67,7 +53,7 @@ function FicaCalculator() {
                 children: "只需 3 秒，测算你被多扣了多少冤枉钱"
             }, void 0, false, {
                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                lineNumber: 38,
+                lineNumber: 34,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -80,7 +66,7 @@ function FicaCalculator() {
                                 children: "1. 你的首次 F1 入境年份"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                lineNumber: 42,
+                                lineNumber: 38,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -95,18 +81,18 @@ function FicaCalculator() {
                                         ]
                                     }, `arr-${y}`, true, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 45,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                lineNumber: 43,
+                                lineNumber: 39,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                        lineNumber: 41,
+                        lineNumber: 37,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -116,7 +102,7 @@ function FicaCalculator() {
                                 children: "2. 报税年度 (Tax Year)"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                lineNumber: 55,
+                                lineNumber: 51,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -131,18 +117,18 @@ function FicaCalculator() {
                                         ]
                                     }, `tax-${y}`, true, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                        lineNumber: 62,
+                                        lineNumber: 58,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                lineNumber: 56,
+                                lineNumber: 52,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                        lineNumber: 54,
+                        lineNumber: 50,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -152,7 +138,7 @@ function FicaCalculator() {
                                 children: "3. W-2 上被扣的 FICA 税总额 ($)"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                lineNumber: 68,
+                                lineNumber: 64,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -160,7 +146,7 @@ function FicaCalculator() {
                                 children: "通常在 W-2 上的 Box 4 (Social Security tax) + Box 6 (Medicare tax)"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                lineNumber: 69,
+                                lineNumber: 65,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -171,7 +157,7 @@ function FicaCalculator() {
                                         children: "$"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                        lineNumber: 71,
+                                        lineNumber: 67,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -182,19 +168,19 @@ function FicaCalculator() {
                                         className: "w-full rounded-2xl border-white/50 bg-white/80 pl-8 pr-4 py-3 text-brand-ink shadow-sm focus:border-brand-pinkdeep focus:ring-brand-pinkdeep transition"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                        lineNumber: 72,
+                                        lineNumber: 68,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                lineNumber: 70,
+                                lineNumber: 66,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                        lineNumber: 67,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -203,7 +189,7 @@ function FicaCalculator() {
                         children: "测算退税结果"
                     }, void 0, false, {
                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                        lineNumber: 82,
+                        lineNumber: 78,
                         columnNumber: 9
                     }, this),
                     result && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -216,7 +202,7 @@ function FicaCalculator() {
                                     children: "🎉"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                    lineNumber: 93,
+                                    lineNumber: 89,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -226,7 +212,7 @@ function FicaCalculator() {
                                             children: "符合豁免条件"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 91,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -237,24 +223,24 @@ function FicaCalculator() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                                lineNumber: 96,
+                                                lineNumber: 92,
                                                 columnNumber: 89
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                            lineNumber: 96,
+                                            lineNumber: 92,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 90,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                            lineNumber: 92,
+                            lineNumber: 88,
                             columnNumber: 15
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex items-start gap-3",
@@ -264,7 +250,7 @@ function FicaCalculator() {
                                     children: "⚠️"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                    lineNumber: 101,
+                                    lineNumber: 97,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -274,7 +260,7 @@ function FicaCalculator() {
                                             children: "已转为 Resident Alien"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                            lineNumber: 103,
+                                            lineNumber: 99,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -282,30 +268,30 @@ function FicaCalculator() {
                                             children: result.message
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 100,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                                    lineNumber: 102,
+                                    lineNumber: 98,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                            lineNumber: 100,
+                            lineNumber: 96,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                        lineNumber: 90,
+                        lineNumber: 86,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/(tools)/fica-refund-calculator/FicaCalculator.tsx",
-                lineNumber: 40,
+                lineNumber: 36,
                 columnNumber: 7
             }, this)
         ]

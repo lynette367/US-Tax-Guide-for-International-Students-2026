@@ -75,13 +75,18 @@ const stories = [
     content:
       "OPT留学生前五年免缴FICA税，一旦被误扣，个人每笔薪资会直接损失7.65%（社保6.2%+医保1.45%）。按月薪3000美元算，每月被扣约230美元，全年损失近2800美元；薪资越高，误扣金额越大，且这笔钱无法享受对应福利，不及时追回会造成实打实的经济亏损。",
     href: "/fica-refund-calculator",
-    image: "/images/fica-calculator-icon.png",
+    image: "/images/fica-calculator-icon.webp",
     anchorText: "[自测：F1/OPT FICA 退税金额计算器]",
   },
   {
-    title: "我第一次差点用错身份",
+    title: "留学生报税软件避坑",
     content:
-      "当时看到 TurboTax 的流程很顺，我就直接往下填了。填到身份那一步才意识到自己可能是 nonresident。最怕的是选错身份导致后续表格全错。后来我按天数判断做了对照表，才知道应该走 1040NR。",
+      "为什么 F1/OPT 不建议直接用 TurboTax？详解身份判定与报错风险。",
+    href: "/turbotax-pitfalls-2026",
+    image: "/images/turbotax-warning-icon.webp",
+    anchorText: "立即避坑 →",
+    ariaLabel: "OPT 报税软件选择避坑",
+    itemProp: "itemListElement"
   },
   {
     title: "等 1042-S 那几周特别焦虑",
@@ -352,13 +357,20 @@ export default function Home() {
               const hoverClass = story.href ? " transition hover:shadow-[0_20px_60px_rgba(247,198,217,0.4)] hover:scale-[1.01]" : "";
 
               return story.href ? (
-                <Link
+                <div
                   key={story.title}
-                  href={story.href}
-                  className={cardClass + hoverClass}
+                  className="tax-card"
+                  aria-label={'ariaLabel' in story ? story.ariaLabel : undefined}
+                  itemProp={'itemProp' in story ? story.itemProp : undefined}
                 >
-                  {cardContent}
-                </Link>
+                  <Link
+                    href={story.href}
+                    title={'ariaLabel' in story ? story.ariaLabel : story.title}
+                    className={cardClass + hoverClass}
+                  >
+                    {cardContent}
+                  </Link>
+                </div>
               ) : (
                 <div key={story.title} className={cardClass}>
                   {cardContent}
@@ -481,6 +493,30 @@ export default function Home() {
                 }
               ]
             }
+          })
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            "name": "2026 留学生报税避坑专题",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "FICA 税误扣计算器",
+                "url": "https://www.mapleworld.online/fica-refund-calculator"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "TurboTax 报税避坑指南",
+                "url": "https://www.mapleworld.online/turbotax-pitfalls-2026"
+              }
+            ]
           })
         }}
       />

@@ -1,5 +1,15 @@
 import Link from "next/link";
 import { Breadcrumbs } from "../../../components/Breadcrumbs";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "留学生报税工具箱：身份判断与计算器 - MapleWorld",
+  description: "汇集了针对 F1/OPT 留学生的报税实用工具：包括 FICA 退税自动计算器、SPT 实质居留测试自测、Form 8843 在线填写助手等，助你轻松拿回应退税款。",
+  keywords: "报税工具, FICA 退税计算器, Form 8843 填写, 留学生退税工具, SPT 测试, F1 报税软件",
+  alternates: {
+    canonical: "https://www.mapleworld.online/tools",
+  },
+};
 
 export default function ToolsPage() {
   const tools = [
@@ -20,6 +30,12 @@ export default function ToolsPage() {
       description: "OPT 可以用 TurboTax 吗？回答 8 个问题，拿到你的报税路径建议。",
       href: "/opt-turbotax",
       cta: "开始判定",
+    },
+    {
+      title: "F1/OPT FICA 退税金额计算器",
+      description: "一键测算被误扣的 Social Security 与 Medicare 税，详细梳理 向雇主 / IRS 提交 Form 843 全流程要回退款。",
+      href: "/fica-refund-calculator",
+      cta: "计算退税",
     },
   ];
 

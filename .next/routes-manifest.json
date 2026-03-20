@@ -270,6 +270,12 @@
       "namedRegex": "^/tools/opt\\-tax(?:/)?$"
     },
     {
+      "page": "/turbotax-pitfalls-2026",
+      "regex": "^/turbotax\\-pitfalls\\-2026(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/turbotax\\-pitfalls\\-2026(?:/)?$"
+    },
+    {
       "page": "/w2-missing-guide",
       "regex": "^/w2\\-missing\\-guide(?:/)?$",
       "routeKeys": {},
