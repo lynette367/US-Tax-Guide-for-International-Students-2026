@@ -76,32 +76,52 @@ const stories = [
       "OPT留学生前五年免缴FICA税，一旦被误扣，个人每笔薪资会直接损失7.65%（社保6.2%+医保1.45%）。按月薪3000美元算，每月被扣约230美元，全年损失近2800美元；薪资越高，误扣金额越大，且这笔钱无法享受对应福利，不及时追回会造成实打实的经济亏损。",
     href: "/fica-refund-calculator",
     image: "/images/fica-calculator-icon.webp",
+    alt: "F1/OPT 留学生 FICA 退税金额计算器",
     anchorText: "[自测：F1/OPT FICA 退税金额计算器]",
   },
   {
     title: "留学生报税软件避坑",
     content:
-      "为什么 F1/OPT 不建议直接用 TurboTax？详解身份判定与报错风险。",
+      "为什么 F1/OPT 不建议直接用 TurboTax？误用报税软件可能导致身份合规风险！针对 F1/OPT 身份，深入解析 TurboTax 的 Resident Alien 设定缺陷，对比 Sprintax 等专供工具的优劣。一文读懂用错软件对 H1B 及绿卡申请的潜在影响，精准避坑，稳妥退税。",
     href: "/turbotax-pitfalls-2026",
     image: "/images/turbotax-warning-icon.webp",
+    alt: "F1/OPT 留学生使用 TurboTax 报税的合规性风险提示",
     anchorText: "立即避坑 →",
     ariaLabel: "OPT 报税软件选择避坑",
     itemProp: "itemListElement"
   },
   {
-    title: "等 1042-S 那几周特别焦虑",
+    title: "1042-s到底是啥？留学生报税为啥要报1042-s？",
     content:
-      "室友都已经报完了，我还在等 1042-S。因为不知道它什么时候到，我一直不敢提交。后来我整理了一张材料到达时间表，知道该等哪一份、可以先做哪一份，心里才稳下来。",
+      "收到1042-s表格的时候我都懵了，我根本不知道这是什么。我只是一个拿F1签证的留学生，只是在学校里面帮了一下下教授整理资料……\n真的只有一小下下，总共就收了562刀……\n不要告诉我这么点钱也会交税吧？",
+    href: "/1042-vs-1042-s",
+    image: "/images/1042-vs-1042-s-comparison.webp",
+    alt: "F1/OPT 留学生 1042-s 报税指南",
+    anchorText: "立即扫盲 →",
+    ariaLabel: "1042-s 报税指南",
+    itemProp: "itemListElement"
   },
   {
     title: "W2 和 1099 收入都漏报了",
     content:
-      "W2是雇佣薪资报表，1099是兼职/ freelance等杂项收入报表，IRS会同步收到两份报表数据。漏报任何一类收入，都会被IRS判定少缴税款，不仅要补缴欠税，还要加收利息和罚款，情节严重还会触发税务核查。发现漏报需尽快提交1040-X修正表，主动补救可降低处罚力度。",
+      "W2是雇佣薪资报表，1099是兼职/ freelance等杂项收入报表，IRS会同步收到两份报表数据。漏报任何一类收入，都会被IRS判定少缴税款，不仅要补缴欠税，还要加收利息和罚款。发现漏报需尽快提交1040-X修正表，主动补救可降低处罚力度，保护税务合规记录。",
+    href: "/amend-w2-1099",
+    image: "/images/lifebuoy-icon.png",
+    anchorText: "立即补救 →",
+    ariaLabel: "2026 留学生 W2 1099 漏报补救指南",
+    itemProp: "itemListElement",
+    priority: "urgent"
   },
   {
-    title: "州税把我绕晕了",
+    title: "中美税收协定省钱工具",
     content:
-      "我以为联邦报完就结束了，结果又看到州税。NR 和 resident 的州税规则不太一样，我看了半天还是没弄懂。最后我做了一个“州税是否需要”的判断清单，先确认是否必须申报，再决定要不要走工具。",
+      "F1/OPT 身份在美前五年通常可享受中美税收协定，减免部分或全部联邦所得税。白白多交 $500 给 IRS？F1/OPT 专属的 $5000 免税额度你用了吗？详解 Article 20(c) 申请流程，助你拿回属于自己的退税款。",
+    href: "/f1-tax-treaty-calculator",
+    image: "/images/tax-treaty-calculator-icon.png",
+    alt: "F1 OPT 留学生中美税收协定减免额计算器",
+    anchorText: "立即计算 →",
+    ariaLabel: "F1 OPT 留学生税收协定减免额计算",
+    itemProp: "itemListElement"
   },
 ];
 
@@ -342,7 +362,7 @@ export default function Home() {
                     )}
                     <h3 className="text-lg font-semibold text-brand-ink leading-snug">{story.title}</h3>
                   </header>
-                  <p className="mt-3 text-sm leading-relaxed text-brand-ink/70 flex-1">
+                  <p className="mt-3 text-sm leading-relaxed text-brand-ink/70 flex-1 whitespace-pre-line">
                     {story.content}
                   </p>
                   {'anchorText' in story && story.anchorText && (
@@ -365,8 +385,9 @@ export default function Home() {
                 >
                   <Link
                     href={story.href}
-                    title={'ariaLabel' in story ? story.ariaLabel : story.title}
+                    title={'ariaLabel' in story ? (story as any).ariaLabel : story.title}
                     className={cardClass + hoverClass}
+                    data-priority={'priority' in story ? (story as any).priority : undefined}
                   >
                     {cardContent}
                   </Link>

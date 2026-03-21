@@ -2,11 +2,11 @@ import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Breadcrumbs } from "../../../components/Breadcrumbs";
+import { Tax1042SAssessment } from "../../../components/Tax1042SAssessment";
 
 export const metadata: Metadata = {
-    title: 'Form 1042 vs 1042-S: 核心区别全解析 & 2026 留学生报税指南(附 PDF 下载)',
-    description: '不知道该报 Form 1042 还是 1042-S？本文详细解析 2026 报税截止日、1042-S vs W-2 区别及 F1/J1 留学生 1040-NR 申报要点，助你避开 IRS 逾期罚款。本站提供最新版表格下载及手把手带填指南。',
-    keywords: '1042 vs 1042-S, Form 1042-S instructions, 1042-S due date, 留学生报税 2026',
+    title: '1042 是啥？2026 留学生 1042-S 报税终极解惑',
+    description: '如果你在信封上看到 1042 字样，它通常指的就是 Form 1042-S。本文为 2026 留学生提供 1042-S 报税全指南，包含 1042-S vs W2 对比、中美税收协定 $5000 免税额申报及 3.21 还没收到表的补救方案。',
     alternates: {
         canonical: 'https://www.mapleworld.online/1042-vs-1042-s',
     },
@@ -15,137 +15,158 @@ export const metadata: Metadata = {
 export default function Page() {
     return (
         <main className="pb-16 text-brand-ink">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "FAQPage",
+                        "mainEntity": [
+                            {
+                                "@type": "Question",
+                                "name": "1042 和 1042-S 有什么区别？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "1042 是雇主向 IRS 提交的年度汇总表，而 1042-S 是发给留学生个人的收入凭证。留学生报税时使用的是 1042-S。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "错过 3.16 还没收到 1042-S 怎么办？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "如果你确定有奖学金或使用了 Tax Treaty，请联系学校财务处。如果 3.21 仍未收到，建议先等待，不要盲目提交以免后期需要修正申报。"
+                                }
+                            },
+                            {
+                                "@type": "Question",
+                                "name": "收到 1042-S 还需要报 W2 吗？",
+                                "acceptedAnswer": {
+                                    "@type": "Answer",
+                                    "text": "是的，如果你既有工资收入（W-2）又有奖学金/免税额（1042-S），这两张表都需要在 1040-NR 中申报。"
+                                }
+                            }
+                        ]
+                    })
+                }}
+            />
             <section className="px-4 py-12 sm:py-16">
                 <div className="page-shell">
                     <article className="max-w-3xl mx-auto">
-                        <Breadcrumbs 
+                        <Breadcrumbs
                             items={[
                                 { label: "报税攻略", href: "/guides" },
                                 { label: "1042 专题" }
-                            ]} 
+                            ]}
                         />
-                        <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
+                        <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 mt-4">
                             Guide / 2026 报税
                         </p>
                         <h1 className="mt-2 text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
-                            1042 vs 1042-S 有什么区别？2026 留学生报税表格最全解析(附 PDF 下载)
+                            1042 是啥？2026 留学生 1042-S 报税终极解惑
                         </h1>
 
                         <div className="prose prose-pink max-w-none mt-10">
-                            <p className="text-brand-ink/75 leading-7">
-                                对赴美留学生而言，<strong>Form 1042</strong> 与 <strong>Form 1042-S</strong> 是核心税务表格，但用途、主体与功能完全不同。简单说：Form 1042 是雇主/机构向 IRS 申报的年度汇总表，Form 1042-S 是开给非居民个人的收入明细单，二者是“总表与分表”的配套关系。
-                            </p>
+                            <div className="bg-brand-pink/5 border-l-4 border-brand-pinkdeep p-5 my-8 rounded-r-2xl">
+                                <p className="text-brand-ink/85 leading-relaxed m-0">
+                                    如果你在信封上看到 <strong>1042</strong> 字样，它通常指的就是 <strong>Form 1042-S</strong>。这是留学生因为奖学金或中美税收协定免税额而收到的一张非常关键的税表。
+                                </p>
+                            </div>
 
+                            <Tax1042SAssessment />
+
+                            <h2 id="what-is-1042" className="text-2xl sm:text-3xl font-bold mt-16 mb-6 text-brand-ink border-b-2 border-brand-pink/20 pb-2">
+                                快速扫盲：你手里的“1042”到底是什么？
+                            </h2>
+                            <p className="text-brand-ink/75 leading-7">
+                                很多同学看到信封上写着“1042”就慌了。其实 <strong>Form 1042-S</strong> (Foreign Person&apos;s U.S. Source Income Subject to Withholding) 是一张记录你作为非居民（Non-resident）在美收入的凭证。
+                            </p>
+                            <div className="grid gap-6 sm:grid-cols-2 my-8">
+                                <div className="p-6 rounded-2xl bg-white border border-brand-pink/20 shadow-sm transition hover:shadow-md">
+                                    <h3 className="text-lg font-bold mb-3 text-brand-ink">Box 1 & Box 2：解读免税额度</h3>
+                                    <p className="text-sm text-brand-ink/70 leading-relaxed">
+                                        这两个框里的代码决定了你的收入性质。如果你看到了 $5,000 的金额，那通常就是中美税收协定的免税部分。
+                                    </p>
+                                    <Link href="/f1-tax-treaty-calculator" className="text-brand-pinkdeep text-sm font-bold hover:underline block mt-4">
+                                        了解中美税收协定详情 →
+                                    </Link>
+                                </div>
+                                <div className="p-6 rounded-2xl bg-white border border-brand-pink/20 shadow-sm transition hover:shadow-md">
+                                    <h3 className="text-lg font-bold mb-3 text-brand-ink">为什么不是每人都有？</h3>
+                                    <p className="text-sm text-brand-ink/70 leading-relaxed">
+                                        只有涉及奖学金、助研金（RA/TA）中免税部分，或者明确申请了 Treaty 免税的同学才会收到。
+                                    </p>
+                                </div>
+                            </div>
+
+                            <h2 id="comparison" className="text-2xl sm:text-3xl font-bold mt-16 mb-6 text-brand-ink border-b-2 border-brand-pink/20 pb-2">
+                                傻傻分不清？1042-S vs. W-2 vs. 1099 核心区别对比
+                            </h2>
                             <div className="my-8 flex justify-center">
                                 <Image
                                     src="/images/form-1042-vs-1042-s-comparison.webp"
-                                    alt="IRS Form 1042 vs 1042-S 核心区别流程图 - 2026 留学生报税指南"
+                                    alt="留学生报税表单对比：W2, 1099-INT, 1042-S 的区别与用途"
                                     width={800}
                                     height={450}
                                     priority
                                     className="rounded-2xl border border-brand-pink/30 shadow-lg"
                                 />
                             </div>
+                            
+                            <h3 className="text-xl font-bold mt-10 mb-4 text-brand-ink">1042-S：奖学金与协议免税</h3>
+                            <p className="text-brand-ink/75 leading-7 text-sm sm:text-base">
+                                它是专门给“非居民个人”发的。如果你的学校把你的 $5,000 免税额度从 W-2 中扣除了，那么这部分钱就会单独出现在 1042-S 上。
+                            </p>
 
-                            <h2 className="text-2xl sm:text-3xl font-semibold mt-12 mb-6 text-brand-ink">
-                                一、核心定义与适用主体
+                            <h3 className="text-xl font-bold mt-10 mb-4 text-brand-ink">W-2：校内打工与实习工资</h3>
+                            <p className="text-brand-ink/75 leading-7 text-sm sm:text-base">
+                                这是最常见的工资表。如果你在图书馆打工或在外面实习（CPT/OPT），公司会发 W-2。注意：W-2 记录的是应税工资。
+                            </p>
+
+                            <h2 id="deadline-missing" className="text-2xl sm:text-3xl font-bold mt-16 mb-6 text-brand-ink border-b-2 border-brand-pink/20 pb-2">
+                                2026 关键节点：3.21 还没收到 1042-S 怎么办？
                             </h2>
-                            <ul className="list-disc pl-6 space-y-4 text-brand-ink/75">
-                                <li>
-                                    <strong>Form 1042（年度预扣税申报表）：</strong> 由美国高校、企业等付款方（代扣机构）填写，仅提交给 IRS，不发给个人。用于汇总申报一整年度向所有非美居民支付的美国来源收入、预扣税款总额，是机构层面的“总申报单”。仅非居民收入需用 Form 1042 申报，美居民不涉及。
-                                </li>
-                                <li>
-                                    <strong>Form 1042-S（外国人美国来源收入表）：</strong> 由付款方出具、留学生个人持有的“个人收入凭证”。记录你当年度获得的奖学金、助学金、treaty 免税工资等非雇佣类收入，及预扣税率、减免金额。F1/J1 签证学生最常收到，用于填报 Form 1040-NR 非居民税表。
-                                </li>
+                            <p className="text-brand-ink/75 leading-7">
+                                按照规定，学校应在 3 月 15 日前寄出。如果你到 <strong>2026.3.21</strong> 还没收到：
+                            </p>
+                            <ul className="list-disc pl-6 space-y-3 text-brand-ink/75 mt-4">
+                                <li className="text-sm sm:text-base"><strong>确定你是否真的有：</strong> 使用上方的判定器自测。</li>
+                                <li className="text-sm sm:text-base"><strong>检查电子版：</strong> 登录学校的 GLACIER 或财务系统，通常电子版比纸质快。</li>
+                                <li className="text-sm sm:text-base"><strong>该等还是该报？</strong> 如果你确定有 1042-S 却没收到，<strong>严禁先按 W-2 提交</strong>。漏报 1042-S 会导致 IRS 查税，后期修改（1040-X）非常麻烦。</li>
                             </ul>
 
-                            <h2 className="text-2xl sm:text-3xl font-semibold mt-12 mb-6 text-brand-ink">
-                                二、关键区别（2026 适用）
+                            <h2 id="how-to-file" className="text-2xl sm:text-3xl font-bold mt-16 mb-6 text-brand-ink border-b-2 border-brand-pink/20 pb-2">
+                                报税实操：如何将 1042-S 填入 1040-NR 申报表？
                             </h2>
-                            <div className="my-6 overflow-x-auto">
-                                <table className="min-w-full border-collapse border border-brand-pink/20 text-sm">
-                                    <thead>
-                                        <tr className="bg-brand-pink/10">
-                                            <th className="border border-brand-pink/20 px-4 py-3 text-left font-bold">维度</th>
-                                            <th className="border border-brand-pink/20 px-4 py-3 text-left font-bold">Form 1042</th>
-                                            <th className="border border-brand-pink/20 px-4 py-3 text-left font-bold">Form 1042-S</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody className="text-brand-ink/80 leading-relaxed">
-                                        <tr>
-                                            <td className="border border-brand-pink/20 px-4 py-3 font-semibold">填报主体</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">高校、企业等付款机构</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">同左（出具给个人）</td>
-                                        </tr>
-                                        <tr className="bg-brand-pink/5">
-                                            <td className="border border-brand-pink/20 px-4 py-3 font-semibold">接收对象</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">仅美国 IRS（国税局）</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">非居民个人（留学生）+ IRS</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="border border-brand-pink/20 px-4 py-3 font-semibold">申报内容</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">全年所有非居民收入、税款汇总</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">单一个人的单笔/同类收入明细</td>
-                                        </tr>
-                                        <tr className="bg-brand-pink/5">
-                                            <td className="border border-brand-pink/20 px-4 py-3 font-semibold">收入类型</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">奖学金、股息、版税、treaty 工资等</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">应税奖学金、免税 treaty 收入、助学金</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="border border-brand-pink/20 px-4 py-3 font-semibold">2026 Deadline</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">3月16日（15日为周日顺延）</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">3月16日（同左）</td>
-                                        </tr>
-                                        <tr className="bg-brand-pink/5">
-                                            <td className="border border-brand-pink/20 px-4 py-3 font-semibold">与 W-2 区别</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">非居民非工资类收入</td>
-                                            <td className="border border-brand-pink/20 px-4 py-3">1042-S vs W-2：W-2 是美居民工资单；1042-S 对应非居民 treaty/奖学金收入</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <p className="text-brand-ink/75 leading-7">
+                                在填写 1040-NR 时，1042-S 的信息主要对应在“Income Exempt from Tax”部分。
+                            </p>
+                            <div className="bg-brand-ink/5 p-6 rounded-2xl my-6">
+                                <p className="text-sm font-semibold mb-2">💡 专业提示：</p>
+                                <p className="text-sm text-brand-ink/70 italic">
+                                    “确保 1042-S 上的 Income Code 和 Tax Rate 与你的实际情况相符。常见的 1042-S 错误包括姓名拼写不一致或 SSN/ITIN 缺失，这会直接影响你的退税速度。”
+                                </p>
                             </div>
 
-                            <h2 className="text-2xl sm:text-3xl font-semibold mt-12 mb-6 text-brand-ink">
-                                三、2026 申报要点（Form 1042-S Instructions 2025/2026）
+                            <h2 id="faq" className="text-2xl sm:text-3xl font-bold mt-16 mb-6 text-brand-ink border-b-2 border-brand-pink/20 pb-2">
+                                常见问题 (FAQ)
                             </h2>
-                            <ol className="list-decimal pl-6 space-y-4 text-brand-ink/75">
-                                <li><strong>收入代码：</strong> 表单需标注收入代码（如 05=奖学金、06=股息），一单一码，多类收入需多张 Form 1042-S。</li>
-                                <li><strong>预扣税率：</strong> 基础 30%，中美税收协定可降至 14% 或全免（需 Form W-8BEN 表格）。</li>
-                                <li><strong>提交要求：</strong> 超 10 张需电子申报；纸质版需附 Form 1042-T 传送表。</li>
-                                <li><strong>留学生用途：</strong> Form 1042-S 是申报 Form 1040-NR 的必填附件，用于申请退税或证明免税收入。</li>
-                            </ol>
-
-                            <h2 className="text-2xl sm:text-3xl font-semibold mt-12 mb-6 text-brand-ink">
-                                四、常见误区
-                            </h2>
-                            <ul className="space-y-3 text-brand-ink/75">
-                                <li className="flex gap-2"><span>❌</span> <strong>1042 ≠ 1042-S：</strong> 前者机构总表、后者个人凭证，缺一不可。</li>
-                                <li className="flex gap-2"><span>❌</span> <strong>1042-S ≠ W-2：</strong> W-2 记录工资社保；1042-S 对应奖学金、treaty 免税收入。</li>
-                                <li className="flex gap-2"><span>❌</span> <strong>逾期罚款：</strong> 2026年3月16日（Deadline）后未申报，单张最高罚 660 美元。</li>
-                            </ul>
-
-                            <div className="mt-12 rounded-[28px] border border-brand-pink/40 bg-white/95 p-8 shadow-[0_20px_60px_rgba(244,185,200,0.3)]">
-                                <h2 className="text-xl sm:text-2xl font-bold mb-4 text-brand-ink">资源下载与自测</h2>
-                                <div className="grid gap-6 sm:grid-cols-2">
-                                    <div className="soft-card !bg-brand-pink/5">
-                                        <h3 className="font-semibold mb-2">官方表格下载</h3>
-                                        <p className="text-sm text-brand-ink/70 mb-4">从 IRS 官网获取 2025/2026 最新版表单 PDF。</p>
-                                        <div className="flex flex-col gap-2">
-                                            <a href="https://www.irs.gov/pub/irs-pdf/f1042.pdf" target="_blank" className="text-sm text-brand-pinkdeep font-bold hover:underline">Form 1042 下载 →</a>
-                                            <a href="https://www.irs.gov/pub/irs-pdf/f1042s.pdf" target="_blank" className="text-sm text-brand-pinkdeep font-bold hover:underline">Form 1042-S 下载 →</a>
-                                        </div>
-                                    </div>
-                                    <div className="soft-card !bg-brand-pink/5 text-center flex flex-col items-center justify-center">
-                                        <h3 className="font-semibold mb-2">身份判定工具</h3>
-                                        <p className="text-sm text-brand-ink/70 mb-4">30 秒自测你的 Resident/Non-resident 身份。</p>
-                                        <Link
-                                            href="/tools/opt-tax"
-                                            className="inline-flex items-center justify-center rounded-full bg-brand-pinkdeep px-6 py-2.5 text-xs font-bold text-white shadow-md transition hover:bg-brand-pinkhover active:scale-95"
-                                        >
-                                            开始自测 →
-                                        </Link>
-                                    </div>
+                            <div className="space-y-6">
+                                <div className="border-b border-brand-pink/10 pb-4">
+                                    <h3 className="text-lg font-bold text-brand-ink">1042 和 1042-S 有什么区别？</h3>
+                                    <p className="text-sm text-brand-ink/75 mt-2">1042 是雇主向 IRS 提交的年度汇总表，而 1042-S 是发给留学生个人的收入凭证。留学生报税时使用的是 1042-S。</p>
+                                </div>
+                                <div className="border-b border-brand-pink/10 pb-4">
+                                    <h3 className="text-lg font-bold text-brand-ink">错过 3.16 还没收到 1042-S 怎么办？</h3>
+                                    <p className="text-sm text-brand-ink/75 mt-2">如果你确定有奖学金或使用了 Tax Treaty，请联系学校财务处。如果 3.21 仍未收到，建议先等待，不要盲目提交以免后期需要修正申报。</p>
+                                </div>
+                                <div className="pb-4">
+                                    <h3 className="text-lg font-bold text-brand-ink">收到 1042-S 还需要报 W2 吗？</h3>
+                                    <p className="text-sm text-brand-ink/75 mt-2">
+                                        是的。已经按 W-2 报完税才收到 1042-S 怎么补救？请尽快参考我们的 
+                                        <Link href="/amend-w2-1099" className="text-brand-pinkdeep underline ml-1">漏报补救指南</Link> 
+                                        准备 1040-X。
+                                    </p>
                                 </div>
                             </div>
                         </div>

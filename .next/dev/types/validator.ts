@@ -110,6 +110,24 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../../src/app/(tools)/amend-w2-1099/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/amend-w2-1099">> = Specific
+  const handler = {} as typeof import("../../../src/app/(tools)/amend-w2-1099/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../src/app/(tools)/f1-tax-treaty-calculator/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/f1-tax-treaty-calculator">> = Specific
+  const handler = {} as typeof import("../../../src/app/(tools)/f1-tax-treaty-calculator/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/(tools)/fica-refund-calculator/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/fica-refund-calculator">> = Specific

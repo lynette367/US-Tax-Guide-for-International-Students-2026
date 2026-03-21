@@ -184,7 +184,7 @@ function TurbotaxPitfallsPage() {
             },
             {
                 "@type": "Question",
-                "name": "留学生 没有收入 需要报税吗？",
+                "name": "留学生没有收入需要报税吗？",
                 "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "需要。即使没有收入，如果在美停留天数符合要求，也要提交 Form 8843，向 IRS 声明你的非居民豁免天数，维持身份合规。"
@@ -318,7 +318,7 @@ function TurbotaxPitfallsPage() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         className: "m-0 text-xl font-bold text-[#b45309]",
-                                                        children: "⚠️ 报错后果警告"
+                                                        children: "报错后果警告"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(tools)/turbotax-pitfalls-2026/page.tsx",
                                                         lineNumber: 122,

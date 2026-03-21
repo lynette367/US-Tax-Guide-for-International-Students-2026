@@ -50,7 +50,7 @@ export default function TurbotaxPitfallsPage() {
       },
       {
         "@type": "Question",
-        "name": "留学生 没有收入 需要报税吗？",
+        "name": "留学生没有收入需要报税吗？",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "需要。即使没有收入，如果在美停留天数符合要求，也要提交 Form 8843，向 IRS 声明你的非居民豁免天数，维持身份合规。"
@@ -119,7 +119,7 @@ export default function TurbotaxPitfallsPage() {
                     <Image src="/images/turbotax-warning-icon.webp" alt="Why F1 OPT students should not use TurboTax" width={32} height={32} className="m-0" />
                   </div>
                   <div>
-                    <h3 className="m-0 text-xl font-bold text-[#b45309]">⚠️ 报错后果警告</h3>
+                    <h3 className="m-0 text-xl font-bold text-[#b45309]">报错后果警告</h3>
                     <p className="mt-2 text-[#92400e] text-sm leading-relaxed mb-0">
                       很多用错软件的留学生会惊喜地发现自己“退税变多了”，这通常是因为软件不仅把 FICA 税算成了你的退税，还给了你不该享受的 Standard Deduction（标准扣除额，通常仅 RA 可用）。这属于严重的税务合规问题！
                     </p>
