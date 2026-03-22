@@ -2,7 +2,15 @@
 
 import { useState, useEffect } from "react";
 
-export default function TaxCountdown() {
+interface TaxCountdownProps {
+  className?: string;
+  variant?: "inline" | "block";
+}
+
+export default function TaxCountdown({ 
+  className = "", 
+  variant = "inline" 
+}: TaxCountdownProps) {
   const [hasMounted, setHasMounted] = useState(false);
   const [timeLeft, setTimeLeft] = useState<{
     days: number;
@@ -36,44 +44,50 @@ export default function TaxCountdown() {
 
   if (!hasMounted || !timeLeft) {
     return (
-      <div className="flex animate-pulse items-center justify-center space-x-2 text-2xl font-bold text-brand-ink/30">
-        <span>00</span>
-        <span>:</span>
-        <span>00</span>
-        <span>:</span>
-        <span>00</span>
-        <span>:</span>
-        <span>00</span>
+      <span className={`animate-pulse opacity-30 ${className}`}>
+        00:00:00:00
+      </span>
+    );
+  }
+
+  const pad = (n: number) => n.toString().padStart(2, "0");
+
+  if (variant === "block") {
+    return (
+      <div className={`flex items-center justify-center gap-2 sm:gap-4 ${className}`}>
+        <div className="flex flex-col items-center">
+          <span className="text-3xl sm:text-5xl md:text-6xl font-black tabular-nums">{pad(timeLeft.days)}</span>
+          <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest opacity-50 mt-1">Days</span>
+        </div>
+        <span className="text-2xl sm:text-4xl md:text-5xl opacity-30 mb-6">:</span>
+        <div className="flex flex-col items-center">
+          <span className="text-3xl sm:text-5xl md:text-6xl font-black tabular-nums">{pad(timeLeft.hours)}</span>
+          <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest opacity-50 mt-1">Hrs</span>
+        </div>
+        <span className="text-2xl sm:text-4xl md:text-5xl opacity-30 mb-6">:</span>
+        <div className="flex flex-col items-center">
+          <span className="text-3xl sm:text-5xl md:text-6xl font-black tabular-nums">{pad(timeLeft.minutes)}</span>
+          <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest opacity-50 mt-1">Min</span>
+        </div>
+        <span className="text-2xl sm:text-4xl md:text-5xl opacity-30 mb-6">:</span>
+        <div className="flex flex-col items-center">
+          <span className="text-3xl sm:text-5xl md:text-6xl font-black tabular-nums">{pad(timeLeft.seconds)}</span>
+          <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest opacity-50 mt-1">Sec</span>
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="flex flex-col items-center gap-1 sm:gap-2">
-      <div className="flex items-center justify-center gap-2 text-3xl sm:text-5xl md:text-6xl font-black tracking-tighter text-brand-ink">
-        <div className="flex flex-col items-center">
-          <span className="tabular-nums">{timeLeft.days.toString().padStart(2, "0")}</span>
-          <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-brand-ink/50 mt-1">Days</span>
-        </div>
-        <span className="mb-6 opacity-30">:</span>
-        <div className="flex flex-col items-center">
-          <span className="tabular-nums">{timeLeft.hours.toString().padStart(2, "0")}</span>
-          <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-brand-ink/50 mt-1">Hrs</span>
-        </div>
-        <span className="mb-6 opacity-30">:</span>
-        <div className="flex flex-col items-center">
-          <span className="tabular-nums">{timeLeft.minutes.toString().padStart(2, "0")}</span>
-          <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-brand-ink/50 mt-1">Min</span>
-        </div>
-        <span className="mb-6 opacity-30">:</span>
-        <div className="flex flex-col items-center">
-          <span className="tabular-nums">{timeLeft.seconds.toString().padStart(2, "0")}</span>
-          <span className="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-brand-ink/50 mt-1">Sec</span>
-        </div>
-      </div>
-      <p className="text-xs sm:text-sm font-semibold text-brand-ink/60 mt-1">
-        2026 报税截止倒计时 (4月15日)
-      </p>
-    </div>
+    <span className={`inline-flex items-center gap-1 font-mono tracking-tight font-bold ${className}`}>
+      <span className="tabular-nums">{pad(timeLeft.days)}</span>
+      <span className="opacity-30 font-normal">:</span>
+      <span className="tabular-nums">{pad(timeLeft.hours)}</span>
+      <span className="opacity-30 font-normal">:</span>
+      <span className="tabular-nums">{pad(timeLeft.minutes)}</span>
+      <span className="opacity-30 font-normal">:</span>
+      <span className="tabular-nums">{pad(timeLeft.seconds)}</span>
+    </span>
   );
 }
+

@@ -184,23 +184,59 @@ function Sidebar8843() {
                 className: "space-y-4",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/fica-refund-calculator",
-                            className: "block group",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-sm font-medium text-brand-ink/90 group-hover:text-brand-pinkdeep transition-colors leading-relaxed",
-                                children: "💡 填完 8843 了？别忘了检查你的 FICA 税是否被误扣"
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/form-8843-tutorial-2026",
+                                className: "block mt-8 text-center bg-brand-pink hover:bg-brand-pinkdeep/90 text-white font-bold py-4 px-4 rounded-2xl transition-all shadow-[0_4px_15px_rgba(224,64,106,0.2)] hover:shadow-[0_6px_20px_rgba(224,64,106,0.3)] hover:-translate-y-0.5 active:scale-[0.98] text-sm leading-snug",
+                                children: [
+                                    "已确认必须申报？",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/components/Sidebar8843.tsx",
+                                        lineNumber: 15,
+                                        columnNumber: 33
+                                    }, this),
+                                    "点击进入 8843 手把手填表教学 →"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/Sidebar8843.tsx",
+                                lineNumber: 11,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/1042-vs-1042-s",
+                                className: "block mt-4 text-center bg-[#d4a373] hover:bg-[#c6915b] text-white font-bold py-4 px-4 rounded-2xl transition-all shadow-[0_4px_15px_rgba(212,163,115,0.2)] hover:shadow-[0_6px_20px_rgba(212,163,115,0.3)] hover:-translate-y-0.5 active:scale-[0.98] text-sm leading-snug",
+                                children: [
+                                    "1042-S 还没收到？",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/components/Sidebar8843.tsx",
+                                        lineNumber: 22,
+                                        columnNumber: 37
+                                    }, this),
+                                    "点此查看详细说明 →"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/Sidebar8843.tsx",
+                                lineNumber: 18,
+                                columnNumber: 21
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: "/fica-refund-calculator",
+                                className: "block group",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-sm font-medium text-brand-ink/90 group-hover:text-brand-pinkdeep transition-colors leading-relaxed",
+                                    children: "💡 填完 8843 了？别忘了检查你的 FICA 税是否被误扣"
+                                }, void 0, false, {
+                                    fileName: "[project]/src/components/Sidebar8843.tsx",
+                                    lineNumber: 26,
+                                    columnNumber: 25
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar8843.tsx",
-                                lineNumber: 12,
-                                columnNumber: 25
+                                lineNumber: 25,
+                                columnNumber: 21
                             }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/Sidebar8843.tsx",
-                            lineNumber: 11,
-                            columnNumber: 21
-                        }, this)
-                    }, void 0, false, {
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/src/components/Sidebar8843.tsx",
                         lineNumber: 10,
                         columnNumber: 17
@@ -214,17 +250,17 @@ function Sidebar8843() {
                                 children: "⚠️ OPT 报税避坑：到底能不能用 TurboTax？"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar8843.tsx",
-                                lineNumber: 19,
+                                lineNumber: 33,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Sidebar8843.tsx",
-                            lineNumber: 18,
+                            lineNumber: 32,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Sidebar8843.tsx",
-                        lineNumber: 17,
+                        lineNumber: 31,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -236,17 +272,17 @@ function Sidebar8843() {
                                 children: "📄 留学生 W-2 没收到或寄丢了怎么办？"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/Sidebar8843.tsx",
-                                lineNumber: 26,
+                                lineNumber: 40,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/components/Sidebar8843.tsx",
-                            lineNumber: 25,
+                            lineNumber: 39,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/Sidebar8843.tsx",
-                        lineNumber: 24,
+                        lineNumber: 38,
                         columnNumber: 17
                     }, this)
                 ]

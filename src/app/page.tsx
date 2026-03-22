@@ -8,14 +8,13 @@ import { ContactForm } from "@/components/ContactForm";
 import TaxCountdown from "@/components/TaxCountdown";
 
 export const metadata: Metadata = {
-  title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
-  description: "MapleWorld 为 2026 报税季留学生提供专业的 Form 8843 填写教学助手、W-2 缺失补救方案及身份自测工具。实时查看 2026 美国留学生报税倒计时，助你避开逾期罚款并完成合规申报。",
-  keywords: "2026 报税, Form 8843 填写教学, 8843 表格下载, F1 报税倒计时, Form 8843 教程, F1 报税身份自测, W-2 没收到怎么办, OPT 报税指南, 留学生退税",
+  title: "2026 F1/OPT 留学生报税保姆级指南 - MapleWorld",
+  description: "MapleWorld专为留学生打造的 2026 报税避坑中心。提供 OPT/CPT 身份自测、1042-S 扫盲、FICA 退税及中美税收协定 $5000 申请教程。在 4.15 截止日前，助你合规完成 1040-NR 申报。",
   alternates: {
     canonical: "https://www.mapleworld.online/",
   },
   openGraph: {
-    title: "2026 留学生报税倒计时 & 指南 - MapleWorld",
+    title: "2026 F1/OPT 留学生报税保姆级指南 - MapleWorld",
     description: "Form 8843、W-2 缺失、报税身份判定，实时报税时间表提醒，留学生需要的一站式税务工具箱。",
     url: "https://www.mapleworld.online/",
     type: "website",
@@ -191,26 +190,57 @@ const faqs = [
   },
 ];
 
+const ClockIcon = ({ className }: { className?: string }) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className={className}
+  >
+    <circle cx="12" cy="12" r="10" />
+    <polyline points="12 6 12 12 16 14" />
+  </svg>
+);
+
 export default function Home() {
   return (
-    <main className="pb-16">
-      <section className="relative isolate flex min-h-screen items-center justify-center overflow-hidden bg-[#F7C6D9] bg-paper px-4 py-8 sm:py-12 text-brand-ink">
+    <main className="pb-16 text-brand-ink">
+      {/* Top Notification Bar Mode */}
+      <div className="bg-brand-pink/10 py-3 text-center text-sm font-medium border-b border-brand-pink/20">
+        距离 4.15 报税截止还有：<TaxCountdown className="text-brand-pinkdeep ml-1 font-mono tracking-tighter" />
+      </div>
+
+      <section className="relative isolate flex min-h-[90vh] items-center justify-center overflow-hidden bg-[#F7C6D9] bg-paper px-4 py-12 sm:py-20 lg:py-32">
         <WorldMap />
         <div className="pointer-events-none absolute inset-0 bg-white/10" />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-brand-pink/60" />
 
-        <div className="relative z-10 mx-auto flex max-w-3xl flex-col items-center gap-6 sm:gap-8 text-center px-4">
-          <h1 className="sr-only">2026 留学生报税截止时间倒计时</h1>
-          <TaxCountdown />
-          <Link
-            href="/tax-deadlines-2026"
-            className="text-sm font-semibold text-brand-pinkdeep/80 hover:text-brand-pinkdeep underline underline-offset-4"
-          >
-            查看 2026 报税关键时间表 →
-          </Link>
+        <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center gap-8 text-center px-4">
+          <h1 className="text-4xl font-extrabold tracking-tight sm:text-6xl md:text-7xl leading-[1.1] text-brand-ink drop-shadow-sm">
+            2026 F1/OPT 留学生<br className="hidden sm:block" />报税保姆级指南 & 避坑工具箱
+          </h1>
+
+          <div className="flex flex-col items-center gap-5">
+            <div className="flex items-center gap-2.5 px-6 py-3 rounded-full bg-white/50 border border-white/60 backdrop-blur-md shadow-lg text-brand-pinkdeep transform hover:scale-[1.02] transition-transform cursor-default">
+              <ClockIcon className="w-5 h-5 sm:w-6 sm:h-6 shrink-0 animate-pulse" />
+              <p className="font-bold text-base sm:text-lg">
+                距离 4.15 报税截止还有：<TaxCountdown />
+              </p>
+            </div>
+            <Link
+              href="/tax-deadlines-2026"
+              className="text-sm font-semibold text-brand-ink/60 hover:text-brand-pinkdeep underline underline-offset-4 decoration-brand-pink/30 hover:decoration-brand-pinkdeep transition-all"
+            >
+              查看 2026 报税关键时间表 →
+            </Link>
+          </div>
 
           {/* Judgment Box */}
-          <div className="mt-4 w-full max-w-lg rounded-[24px] border border-white/60 bg-white/40 p-6 backdrop-blur-md shadow-[0_20px_50px_rgba(247,198,217,0.4)] transition hover:shadow-[0_25px_60px_rgba(247,198,217,0.5)]">
+          <div className="mt-8 w-full max-w-lg rounded-[24px] border border-white/60 bg-white/40 p-6 backdrop-blur-md shadow-[0_20px_50px_rgba(247,198,217,0.4)] transition hover:shadow-[0_25px_60px_rgba(247,198,217,0.5)]">
             <p className="text-base sm:text-lg font-medium text-brand-ink/90">
               2026 留学生报税，你是 Resident 还是 Non-Resident？
             </p>
@@ -221,10 +251,9 @@ export default function Home() {
               3 秒自动判定我的身份 →
             </Link>
           </div>
-
         </div>
 
-        <div className="absolute bottom-0 left-0 w-[60vw] h-[60vh] min-w-[200px] min-h-[200px] max-w-[600px] max-h-[600px]">
+        <div className="absolute bottom-0 left-0 w-[60vw] h-[60vh] min-w-[200px] min-h-[200px] max-w-[600px] max-h-[600px] pointer-events-none">
           <Image
             src="/images/hero/traveler.jpg"
             alt="小男孩拖着行李箱"
@@ -236,7 +265,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="absolute top-10 right-0 w-[30vw] h-[30vh] max-w-[300px] max-h-[300px]">
+        <div className="absolute top-10 right-0 w-[30vw] h-[30vh] max-w-[300px] max-h-[300px] pointer-events-none">
           <Image
             src="/images/hero/airplane.png"
             alt="飞机"
@@ -267,7 +296,7 @@ export default function Home() {
             </h2>
           </div>
           <div className="mt-6 rounded-[28px] border border-brand-pink/40 bg-white/85 p-6 sm:p-8 shadow-[0_18px_60px_rgba(244,185,200,0.3)] flex flex-col gap-4">
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
               Guides / 教程
             </p>
             <Link
@@ -275,42 +304,42 @@ export default function Home() {
               className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
-              <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
-                《2026 最新 OPT 报税 Form 8843 填写保姆级教程（含 STEM 延期说明）(附 PDF 下载)》
-              </span>
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                《2026 F1留学生没收入也要报税吗？不报税的后果惩罚？（附Form 8843 PDF 下载）》
+              </h3>
             </Link>
             <Link
               href="/form-8843-amend-guide"
               className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
-              <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
                 《2026 Form 8843 填错了/寄早了？留学生修正申报 (Amended Return) 全攻略(附 PDF 下载)》
-              </span>
+              </h3>
             </Link>
             <Link
               href="/w2-missing-guide"
               className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
-              <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
                 《2026 报税季：F1 学生没收到 W-2 表格怎么办？教你 4 步联系雇主及 IRS 替代方案(附 PDF 下载)》
-              </span>
+              </h3>
             </Link>
             <Link
               href="/1042-vs-1042-s"
               className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
-              <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
                 《1042 vs 1042-S 有什么区别？2026 留学生报税表格最全解析(附 PDF 下载)》
-              </span>
+              </h3>
             </Link>
           </div>
           <div
             className="mt-6 block rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)] flex flex-col gap-4"
           >
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
               Tools / 工具
             </p>
             <Link
@@ -318,18 +347,18 @@ export default function Home() {
               className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
-              <span className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
                 《判断型指南：先定路径，再做决定》
-              </span>
+              </h3>
             </Link>
             <Link
               href="/form-8843-tutorial-2026"
               className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep bg-brand-pink/10 p-4 rounded-2xl border border-brand-pink/20 transition hover:scale-[1.01]"
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
-              <span className="font-bold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+              <h3 className="font-bold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep text-brand-ink">
                 ✨【2026 独家】Form 8843 在线填写助手 (手把手辅助版) —— 5 分钟搞定免税声明
-              </span>
+              </h3>
             </Link>
           </div>
         </div>
@@ -339,42 +368,43 @@ export default function Home() {
         <div className="page-shell">
           <div className="max-w-3xl">
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
-              F1/OPT 留学生报税 5 大红线（避坑工具）
+              2026 留学生报税 5 大避坑红线
             </h2>
           </div>
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {stories.map((story) => {
               const cardContent = (
                 <article className="flex flex-col h-full">
-                  <header className="flex items-start gap-3">
+                  <header className="flex items-start gap-4">
                     {'image' in story && story.image && (
-                      <div className="shrink-0 pt-0.5">
+                      <div className="shrink-0 p-1 bg-white rounded-xl shadow-sm border border-brand-pink/10">
                         <Image
                           src={story.image}
-                          alt="F1 OPT 留学生 FICA 退税计算工具图标"
-                          title="点击进入 FICA 退税计算器"
-                          width={28}
-                          height={28}
-                          className="rounded-lg object-contain shadow-sm"
+                          alt={story.alt || story.title}
+                          title={story.title}
+                          width={32}
+                          height={32}
+                          className="rounded-lg object-contain"
                           unoptimized
                         />
                       </div>
                     )}
-                    <h3 className="text-lg font-semibold text-brand-ink leading-snug">{story.title}</h3>
+                    <h3 className="text-lg font-bold text-brand-ink leading-snug group-hover:text-brand-pinkdeep transition-colors">
+                      {story.title}
+                    </h3>
                   </header>
-                  <p className="mt-3 text-sm leading-relaxed text-brand-ink/70 flex-1 whitespace-pre-line">
+                  <p className="mt-4 text-sm leading-relaxed text-brand-ink/70 flex-1 whitespace-pre-line">
                     {story.content}
                   </p>
                   {'anchorText' in story && story.anchorText && (
-                    <footer className="mt-5 text-sm font-semibold text-brand-pinkdeep group-hover:underline underline-offset-4">
+                    <footer className="mt-6 text-sm font-bold text-brand-pinkdeep group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
                       {story.anchorText}
                     </footer>
                   )}
                 </article>
               );
 
-              const cardClass = "group block rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)] h-full";
-              const hoverClass = story.href ? " transition hover:shadow-[0_20px_60px_rgba(247,198,217,0.4)] hover:scale-[1.01]" : "";
+              const cardClass = "group block rounded-[32px] border border-brand-pink/40 bg-white/90 p-7 shadow-[0_20px_60px_rgba(244,185,200,0.25)] h-full transition hover:shadow-[0_25px_70px_rgba(247,198,217,0.4)] hover:scale-[1.01]";
 
               return story.href ? (
                 <div
@@ -385,9 +415,7 @@ export default function Home() {
                 >
                   <Link
                     href={story.href}
-                    title={'ariaLabel' in story ? (story as any).ariaLabel : story.title}
-                    className={cardClass + hoverClass}
-                    data-priority={'priority' in story ? (story as any).priority : undefined}
+                    className={cardClass}
                   >
                     {cardContent}
                   </Link>
@@ -406,7 +434,7 @@ export default function Home() {
         <div className="page-shell">
           <div className="max-w-3xl">
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
-              这些是可以帮到你的
+              常用报税工具与指南
             </h2>
           </div>
           <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -426,52 +454,50 @@ export default function Home() {
       <section className="px-4 py-12 sm:py-16 lg:py-20 bg-brand-pink/10">
         <div className="page-shell">
           <div className="text-center">
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
               使用方式
             </p>
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
               五步把流程走顺
             </h2>
           </div>
-          <ol className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          <ol className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
             {steps.map((step, index) => (
               <li
                 key={step}
-                className="rounded-[24px] border border-brand-pink/40 bg-white/90 p-5 text-center shadow-[0_15px_45px_rgba(244,185,200,0.2)]"
+                className="relative rounded-[24px] border border-brand-pink/40 bg-white/90 p-6 text-center shadow-[0_15px_45px_rgba(244,185,200,0.2)] hover:scale-[1.03] transition-transform"
               >
-                <p className="text-xs font-semibold uppercase tracking-[0.3em] text-brand-ink/50">
+                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-pinkdeep text-white text-[10px] font-bold py-1 px-3 rounded-full">
                   Step {index + 1}
-                </p>
-                <p className="mt-2 text-sm font-semibold text-brand-ink">{step}</p>
+                </div>
+                <p className="mt-2 text-base font-bold text-brand-ink">{step}</p>
               </li>
             ))}
           </ol>
         </div>
       </section>
 
-
-
-
       <section className="px-4 py-12 sm:py-16 lg:py-20">
         <div className="page-shell">
           <div className="max-w-3xl">
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
+            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
               FAQ
             </p>
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
               常见问题
             </h2>
           </div>
-          <div className="mt-6 grid gap-4">
+          <div className="mt-8 grid gap-4">
             {faqs.map((faq) => (
               <details
                 key={faq.question}
-                className="rounded-[24px] border border-brand-pink/35 bg-white/90 p-5 shadow-[0_12px_40px_rgba(244,185,200,0.2)]"
+                className="group rounded-[24px] border border-brand-pink/35 bg-white/90 p-5 shadow-[0_12px_40px_rgba(244,185,200,0.2)] open:bg-brand-pink/5 transition-all"
               >
-                <summary className="cursor-pointer text-sm sm:text-base font-semibold text-brand-ink">
+                <summary className="cursor-pointer text-sm sm:text-base font-bold text-brand-ink list-none flex justify-between items-center">
                   {faq.question}
+                  <span className="text-brand-pinkdeep group-open:rotate-180 transition-transform font-mono text-xl">+</span>
                 </summary>
-                <p className="mt-3 text-sm leading-relaxed text-brand-ink/70">
+                <p className="mt-4 text-sm sm:text-base leading-relaxed text-brand-ink/70 border-t border-brand-pink/10 pt-4">
                   {faq.answer}
                 </p>
               </details>
@@ -479,8 +505,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-
 
       {/* Structured Data (JSON-LD) for SEO */}
       <script
@@ -499,43 +523,19 @@ export default function Home() {
               "price": "0",
               "priceCurrency": "USD"
             },
-            "hasPart": {
-              "@type": "ItemList",
-              "name": "F1/OPT 留学生报税 5 大红线（避坑工具）",
-              "itemListElement": [
-                {
+            "hasPart": [
+              {
+                "@type": "ItemList",
+                "name": "2026 留学生报税 5 大避坑红线",
+                "itemListElement": stories.map((story, index) => ({
                   "@type": "ListItem",
-                  "position": 1,
+                  "position": index + 1,
                   "item": {
                     "@type": "SoftwareApplication",
-                    "name": "F1/OPT FICA 退税自动计算器 2026",
-                    "url": "https://www.mapleworld.online/fica-refund-calculator"
+                    "name": story.title,
+                    "url": `https://www.mapleworld.online${story.href}`
                   }
-                }
-              ]
-            }
-          })
-        }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ItemList",
-            "name": "2026 留学生报税避坑专题",
-            "itemListElement": [
-              {
-                "@type": "ListItem",
-                "position": 1,
-                "name": "FICA 税误扣计算器",
-                "url": "https://www.mapleworld.online/fica-refund-calculator"
-              },
-              {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "TurboTax 报税避坑指南",
-                "url": "https://www.mapleworld.online/turbotax-pitfalls-2026"
+                }))
               }
             ]
           })
@@ -544,3 +544,4 @@ export default function Home() {
     </main>
   );
 }
+
