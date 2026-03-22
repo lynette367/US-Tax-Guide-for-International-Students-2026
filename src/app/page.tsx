@@ -288,7 +288,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-4 py-12 sm:py-16 lg:py-20">
+      <section className="px-4 pt-12 pb-0 sm:pt-16 sm:pb-0 lg:pt-20 lg:pb-0">
         <div className="page-shell">
           <div className="max-w-3xl">
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
@@ -360,11 +360,20 @@ export default function Home() {
                 ✨【2026 独家】Form 8843 在线填写助手 (手把手辅助版) —— 5 分钟搞定免税声明
               </h3>
             </Link>
+            <Link
+              href="/opt-late-filing-guide"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                《2026 OPT 报税逾期补救指南：罚款计算与身份风险详解》
+              </h3>
+            </Link>
           </div>
         </div>
       </section>
 
-      <section className="px-4 py-12 sm:py-16 lg:py-20">
+      <section className="px-4 pt-8 pb-10 sm:pt-16 lg:pt-10 lg:pb-10">
         <div className="page-shell">
           <div className="max-w-3xl">
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
@@ -430,7 +439,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-4 py-12 sm:py-16 lg:py-20">
+      <section className="px-4 pt-8 sm:pt-16 lg:pt-10">
         <div className="page-shell">
           <div className="max-w-3xl">
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">

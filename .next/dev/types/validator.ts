@@ -146,6 +146,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../../src/app/(tools)/opt-late-filing-guide/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/opt-late-filing-guide">> = Specific
+  const handler = {} as typeof import("../../../src/app/(tools)/opt-late-filing-guide/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/(tools)/opt-turbotax/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/opt-turbotax">> = Specific
