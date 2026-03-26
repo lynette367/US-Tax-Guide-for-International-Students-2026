@@ -204,6 +204,7 @@ const ClockIcon = ({ className }: { className?: string }) => (
 export default function Home() {
   return (
     <main className="pb-16 text-brand-ink">
+      <span style={{ display: 'none' }}>Impact-Site-Verification: eed619a2-8edf-4f11-9504-97edd29deaf9</span>
       {/* Top Notification Bar Mode */}
       <div className="bg-brand-pink/10 py-3 text-center text-sm font-medium border-b border-brand-pink/20">
         距离 4.15 报税截止还有：<TaxCountdown className="text-brand-pinkdeep ml-1 font-mono tracking-tighter" />
@@ -540,35 +541,35 @@ export default function Home() {
                 "name": "OPT报税五步走",
                 "description": "2026 留学生 F1/OPT 身份报税合规全流程导引",
                 "itemListElement": [
-                  { 
-                    "@type": "ListItem", 
-                    "position": 1, 
-                    "name": "确认“非税务居民”身份", 
-                    "item": "https://www.mapleworld.online/tools/opt-tax" 
+                  {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "确认“非税务居民”身份",
+                    "item": "https://www.mapleworld.online/tools/opt-tax"
                   },
-                  { 
-                    "@type": "ListItem", 
-                    "position": 2, 
-                    "name": "准备W-2/1099表格", 
-                    "item": "https://www.mapleworld.online/w2-missing-guide" 
+                  {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "准备W-2/1099表格",
+                    "item": "https://www.mapleworld.online/w2-missing-guide"
                   },
-                  { 
-                    "@type": "ListItem", 
-                    "position": 3, 
-                    "name": "填写1040-NR", 
-                    "item": "https://www.mapleworld.online/1040-nr-filling-guide" 
+                  {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "填写1040-NR",
+                    "item": "https://www.mapleworld.online/1040-nr-filling-guide"
                   },
-                  { 
-                    "@type": "ListItem", 
-                    "position": 4, 
-                    "name": "申报8843表", 
-                    "item": "https://www.mapleworld.online/form-8843-tutorial-2026" 
+                  {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "申报8843表",
+                    "item": "https://www.mapleworld.online/form-8843-tutorial-2026"
                   },
-                  { 
-                    "@type": "ListItem", 
-                    "position": 5, 
-                    "name": "邮寄/电子提交(e-file)", 
-                    "item": "https://www.mapleworld.online/turbotax-pitfalls-2026" 
+                  {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "name": "邮寄/电子提交(e-file)",
+                    "item": "https://www.mapleworld.online/turbotax-pitfalls-2026"
                   }
                 ]
               }
