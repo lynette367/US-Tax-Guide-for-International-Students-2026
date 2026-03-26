@@ -204,6 +204,7 @@ const ClockIcon = ({ className }: { className?: string }) => (
 export default function Home() {
   return (
     <main className="pb-16 text-brand-ink">
+      <span style={{ display: 'none' }}>Impact-Site-Verification: eed619a2-8edf-4f11-9504-97edd29deaf9</span>
       {/* Top Notification Bar Mode */}
       <div className="bg-brand-pink/10 py-3 text-center text-sm font-medium border-b border-brand-pink/20">
         距离 4.15 报税截止还有：<TaxCountdown className="text-brand-pinkdeep ml-1 font-mono tracking-tighter" />
