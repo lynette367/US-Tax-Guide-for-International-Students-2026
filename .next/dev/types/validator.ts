@@ -110,6 +110,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../../src/app/(tools)/1040-nr-filling-guide/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/1040-nr-filling-guide">> = Specific
+  const handler = {} as typeof import("../../../src/app/(tools)/1040-nr-filling-guide/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../src/app/(tools)/amend-w2-1099/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/amend-w2-1099">> = Specific

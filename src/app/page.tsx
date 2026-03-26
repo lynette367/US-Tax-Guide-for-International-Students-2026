@@ -61,11 +61,11 @@ const deliverables = [
 ];
 
 const steps = [
-  "收集材料",
-  "判断身份/居住状态",
-  "选择工具/路径",
-  "填写与校验",
-  "提交前检查",
+  "确认“非税务居民”身份",
+  "准备W-2/1099表格",
+  "填写1040-NR",
+  "申报8843表",
+  "邮寄/电子提交(e-file)"
 ];
 
 const stories = [
@@ -214,7 +214,7 @@ export default function Home() {
         距离 4.15 报税截止还有：<TaxCountdown className="text-brand-pinkdeep ml-1 font-mono tracking-tighter" />
       </div>
 
-      <section className="relative isolate flex min-h-[90vh] items-center justify-center overflow-hidden bg-[#F7C6D9] bg-paper px-4 py-12 sm:py-20 lg:py-32">
+      <section className="relative isolate flex min-h-[90vh] items-center justify-center overflow-hidden bg-[#F7C6D9] bg-paper px-4 pb-12 sm:pb-20 lg:pb-32">
         <WorldMap />
         <div className="pointer-events-none absolute inset-0 bg-white/10" />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 h-32 bg-brand-pink/60" />
@@ -369,6 +369,15 @@ export default function Home() {
                 《2026 OPT 报税逾期补救指南：罚款计算与身份风险详解》
               </h3>
             </Link>
+            <Link
+              href="/1040-nr-filling-guide"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                《2026 留学生 1040-NR 填写指南：手把手教你申报 $5000 免税额 (附 PDF 下载)》
+              </h3>
+            </Link>
           </div>
         </div>
       </section>
@@ -463,11 +472,8 @@ export default function Home() {
       <section className="px-4 py-12 sm:py-16 lg:py-20 bg-brand-pink/10">
         <div className="page-shell">
           <div className="text-center">
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
-              使用方式
-            </p>
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
-              五步把流程走顺
+              OPT报税五步走
             </h2>
           </div>
           <ol className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">

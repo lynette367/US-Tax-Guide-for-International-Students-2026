@@ -1,6 +1,4 @@
 {
-  "/(guides)/guides/page": "app/(guides)/guides/page.js",
-  "/(tools)/opt-late-filing-guide/page": "app/(tools)/opt-late-filing-guide/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js"
 }
