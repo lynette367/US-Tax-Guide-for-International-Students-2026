@@ -6,6 +6,7 @@ import WorldMap from "@/components/illustrations/WorldMap";
 import { ContactForm } from "@/components/ContactForm";
 
 import TaxCountdown from "@/components/TaxCountdown";
+import ProcessSteps from "@/components/ProcessSteps";
 
 export const metadata: Metadata = {
   title: "2026 F1/OPT 留学生报税保姆级指南 - MapleWorld",
@@ -60,13 +61,7 @@ const deliverables = [
   },
 ];
 
-const steps = [
-  "确认“非税务居民”身份",
-  "准备W-2/1099表格",
-  "填写1040-NR",
-  "申报8843表",
-  "邮寄/电子提交(e-file)"
-];
+// Steps moved to ProcessSteps.tsx
 
 const stories = [
   {
@@ -469,26 +464,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-4 py-12 sm:py-16 lg:py-20 bg-brand-pink/10">
+      <section id="steps" className="px-4 py-12 sm:py-16 lg:py-20 bg-brand-pink/10">
         <div className="page-shell">
           <div className="text-center">
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
               OPT报税五步走
             </h2>
           </div>
-          <ol className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
-            {steps.map((step, index) => (
-              <li
-                key={step}
-                className="relative rounded-[24px] border border-brand-pink/40 bg-white/90 p-6 text-center shadow-[0_15px_45px_rgba(244,185,200,0.2)] hover:scale-[1.03] transition-transform"
-              >
-                <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-brand-pinkdeep text-white text-[10px] font-bold py-1 px-3 rounded-full">
-                  Step {index + 1}
-                </div>
-                <p className="mt-2 text-base font-bold text-brand-ink">{step}</p>
-              </li>
-            ))}
-          </ol>
+          <ProcessSteps />
         </div>
       </section>
 
@@ -551,6 +534,43 @@ export default function Home() {
                     "url": `https://www.mapleworld.online${story.href}`
                   }
                 }))
+              },
+              {
+                "@type": "ItemList",
+                "name": "OPT报税五步走",
+                "description": "2026 留学生 F1/OPT 身份报税合规全流程导引",
+                "itemListElement": [
+                  { 
+                    "@type": "ListItem", 
+                    "position": 1, 
+                    "name": "确认“非税务居民”身份", 
+                    "item": "https://www.mapleworld.online/tools/opt-tax" 
+                  },
+                  { 
+                    "@type": "ListItem", 
+                    "position": 2, 
+                    "name": "准备W-2/1099表格", 
+                    "item": "https://www.mapleworld.online/w2-missing-guide" 
+                  },
+                  { 
+                    "@type": "ListItem", 
+                    "position": 3, 
+                    "name": "填写1040-NR", 
+                    "item": "https://www.mapleworld.online/1040-nr-filling-guide" 
+                  },
+                  { 
+                    "@type": "ListItem", 
+                    "position": 4, 
+                    "name": "申报8843表", 
+                    "item": "https://www.mapleworld.online/form-8843-tutorial-2026" 
+                  },
+                  { 
+                    "@type": "ListItem", 
+                    "position": 5, 
+                    "name": "邮寄/电子提交(e-file)", 
+                    "item": "https://www.mapleworld.online/turbotax-pitfalls-2026" 
+                  }
+                ]
               }
             ]
           })
