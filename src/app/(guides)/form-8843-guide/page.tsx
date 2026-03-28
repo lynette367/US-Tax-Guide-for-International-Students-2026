@@ -39,6 +39,19 @@ export default function Form8843GuidePage() {
                                 无论你 2025 年是否有收入，只要你依然被定义为 <strong>F1 Non-resident</strong>（非居民），这份表就是你的“身份保命符”。
                             </p>
 
+                            {/* 1040-NR Promotion Banner */}
+                            <Link 
+                                href="/1040-nr-filling-guide"
+                                className="mt-6 group block rounded-2xl border-2 border-dashed border-brand-pink/40 bg-brand-pink/5 p-5 transition-all hover:bg-brand-pink/10 hover:border-brand-pink/60 active:scale-[0.98]"
+                            >
+                                <div className="flex items-center gap-3">
+                                    <span className="text-2xl animate-bounce">✨</span>
+                                    <p className="text-brand-pinkdeep font-bold text-base sm:text-lg">
+                                        【2026最新】1040-NR 交互式填写指南与罚款计算器已上线，点击直达 →
+                                    </p>
+                                </div>
+                            </Link>
+
                             {/* Interactive Tool Placement */}
                             <TaxQuiz />
 

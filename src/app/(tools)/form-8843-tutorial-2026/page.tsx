@@ -85,6 +85,21 @@ export default function Form8843Tutorial() {
              <p className="mt-6 text-lg text-brand-ink/70 leading-relaxed max-w-2xl">
                Form 8843 是每一位在美留学生（即使没有收入）都必须提交的身份状态声明。本助手将带你逐行核对，确保 2026 报税季合规安全。
              </p>
+             
+             {/* 1040-NR Promotion Banner */}
+             <div className="mt-8">
+               <Link 
+                   href="/1040-nr-filling-guide"
+                   className="group block rounded-2xl border-2 border-dashed border-brand-pink/40 bg-white/60 p-5 transition-all hover:bg-white/80 hover:border-brand-pink/60 active:scale-[0.98] shadow-sm"
+               >
+                   <div className="flex items-center gap-3">
+                       <span className="text-2xl animate-bounce">✨</span>
+                       <p className="text-brand-pinkdeep font-bold text-base sm:text-lg">
+                           【2026最新】1040-NR 交互式填写指南与罚款计算器已上线，点击直达 →
+                       </p>
+                   </div>
+               </Link>
+             </div>
           </div>
         </div>
       </section>

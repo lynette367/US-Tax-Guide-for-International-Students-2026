@@ -449,6 +449,46 @@ function Form8843Tutorial() {
                                 fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
                                 lineNumber: 85,
                                 columnNumber: 14
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "mt-8",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/1040-nr-filling-guide",
+                                    className: "group block rounded-2xl border-2 border-dashed border-brand-pink/40 bg-white/60 p-5 transition-all hover:bg-white/80 hover:border-brand-pink/60 active:scale-[0.98] shadow-sm",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center gap-3",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-2xl animate-bounce",
+                                                children: "✨"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
+                                                lineNumber: 96,
+                                                columnNumber: 24
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-brand-pinkdeep font-bold text-base sm:text-lg",
+                                                children: "【2026最新】1040-NR 交互式填写指南与罚款计算器已上线，点击直达 →"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
+                                                lineNumber: 97,
+                                                columnNumber: 24
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
+                                        lineNumber: 95,
+                                        columnNumber: 20
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
+                                    lineNumber: 91,
+                                    columnNumber: 16
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
+                                lineNumber: 90,
+                                columnNumber: 14
                             }, this)
                         ]
                     }, void 0, true, {
@@ -474,22 +514,22 @@ function Form8843Tutorial() {
                         className: "max-w-5xl mx-auto",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Form8843Stepper$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                            lineNumber: 95,
+                            lineNumber: 110,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                        lineNumber: 94,
+                        lineNumber: 109,
                         columnNumber: 12
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                    lineNumber: 93,
+                    lineNumber: 108,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                lineNumber: 92,
+                lineNumber: 107,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
@@ -505,7 +545,7 @@ function Form8843Tutorial() {
                                     children: "为什么 8843 这么重要/不填的后果？"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                    lineNumber: 103,
+                                    lineNumber: 118,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -513,7 +553,7 @@ function Form8843Tutorial() {
                                     children: "Form 8843 虽然不是税表，但它决定了你的税务居民身份。如果不按时提交，IRS 可能会认定你为 Resident Alien，从而导致无法享受中美税收协定，甚至影响未来的签证或绿卡申请。对于 F/J 签证持有人，这是保持“非居民”身份合法豁免天数的唯一凭证。"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                    lineNumber: 104,
+                                    lineNumber: 119,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -521,7 +561,7 @@ function Form8843Tutorial() {
                                     children: "如何准确计算 2023-2025 年的在美天数？"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 123,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -535,7 +575,7 @@ function Form8843Tutorial() {
                                                     children: "离境旅游的天数要扣除吗？"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                    lineNumber: 111,
+                                                    lineNumber: 126,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -543,13 +583,13 @@ function Form8843Tutorial() {
                                                     children: "是的，只要物理上不在美国境内，哪怕只有 24 小时，也不计入。这包括回国寒暑假、前往加拿大或墨西哥的短期旅游。"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 127,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                            lineNumber: 110,
+                                            lineNumber: 125,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -560,7 +600,7 @@ function Form8843Tutorial() {
                                                     children: "F1 学生的“豁免天数”和这里的“实际天数”有什么区别？"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 133,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -568,7 +608,7 @@ function Form8843Tutorial() {
                                                     children: "这是最易错点！"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                    lineNumber: 119,
+                                                    lineNumber: 134,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -576,13 +616,13 @@ function Form8843Tutorial() {
                                                     children: "Form 8843 第 4 问要填的是你物理存在于美国的**实际天数**；而只有在进行 SPT（实质居留测试）时，系统才会帮你扣除“豁免天数”。填 8843 时，请务必如实填写实际待在美国的日子。"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                    lineNumber: 120,
+                                                    lineNumber: 135,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 132,
                                             columnNumber: 13
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -593,7 +633,7 @@ function Form8843Tutorial() {
                                                     children: "如何通过 I-94 查 8843 天数？"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 141,
                                                     columnNumber: 15
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -608,26 +648,26 @@ function Form8843Tutorial() {
                                                             children: "I-94 官网"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                            lineNumber: 128,
+                                                            lineNumber: 143,
                                                             columnNumber: 31
                                                         }, this),
                                                         ' 点击 "View Travel History"，你可以导出最近五年的出入境时间列表，对照计算出每年的精准天数。'
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                    lineNumber: 127,
+                                                    lineNumber: 142,
                                                     columnNumber: 15
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                            lineNumber: 125,
+                                            lineNumber: 140,
                                             columnNumber: 13
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                    lineNumber: 109,
+                                    lineNumber: 124,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -635,7 +675,7 @@ function Form8843Tutorial() {
                                     children: "填好后寄往哪里？"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                    lineNumber: 133,
+                                    lineNumber: 148,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -643,7 +683,7 @@ function Form8843Tutorial() {
                                     children: "如果你是与 1040-NR 一起提交，请随税表一同邮寄至税表指定的处理中心。如果你是**单独提交（即 2025 年无收入）**，请在 2026 年 6 月 15 日前寄往以下地址："
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                    lineNumber: 134,
+                                    lineNumber: 149,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -656,12 +696,12 @@ function Form8843Tutorial() {
                                                 children: "📮"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                lineNumber: 139,
+                                                lineNumber: 154,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                            lineNumber: 138,
+                                            lineNumber: 153,
                                             columnNumber: 14
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -669,7 +709,7 @@ function Form8843Tutorial() {
                                             children: "Internal Revenue Service Center"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                            lineNumber: 141,
+                                            lineNumber: 156,
                                             columnNumber: 14
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -678,26 +718,26 @@ function Form8843Tutorial() {
                                                 "Department of the Treasury",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                    lineNumber: 143,
+                                                    lineNumber: 158,
                                                     columnNumber: 42
                                                 }, this),
                                                 "Austin, TX 73301-0215",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                                    lineNumber: 144,
+                                                    lineNumber: 159,
                                                     columnNumber: 37
                                                 }, this),
                                                 "USA"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                            lineNumber: 142,
+                                            lineNumber: 157,
                                             columnNumber: 14
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                    lineNumber: 137,
+                                    lineNumber: 152,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -705,36 +745,36 @@ function Form8843Tutorial() {
                                     children: "* 提示：建议使用 USPS Certified Mail 邮寄，并保留 Tracking Number 以防丢件。"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 163,
                                     columnNumber: 11
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                            lineNumber: 102,
+                            lineNumber: 117,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
                             className: "lg:sticky lg:top-24",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Sidebar8843$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                lineNumber: 153,
+                                lineNumber: 168,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                            lineNumber: 152,
+                            lineNumber: 167,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                    lineNumber: 101,
+                    lineNumber: 116,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                lineNumber: 100,
+                lineNumber: 115,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -747,7 +787,7 @@ function Form8843Tutorial() {
                             children: "还有疑问？不确定天数？"
                         }, void 0, false, {
                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                            lineNumber: 160,
+                            lineNumber: 175,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -755,7 +795,7 @@ function Form8843Tutorial() {
                             children: "我们的学长学姐帮你人肉核对，避开报税雷区。"
                         }, void 0, false, {
                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                            lineNumber: 161,
+                            lineNumber: 176,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -767,28 +807,28 @@ function Form8843Tutorial() {
                                     children: "💬 扫码添加微信"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                    lineNumber: 169,
+                                    lineNumber: 184,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                                lineNumber: 165,
+                                lineNumber: 180,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                            lineNumber: 164,
+                            lineNumber: 179,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                    lineNumber: 159,
+                    lineNumber: 174,
                     columnNumber: 10
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(tools)/form-8843-tutorial-2026/page.tsx",
-                lineNumber: 158,
+                lineNumber: 173,
                 columnNumber: 7
             }, this)
         ]

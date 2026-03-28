@@ -367,11 +367,11 @@ export default function Home() {
             </Link>
             <Link
               href="/1040-nr-filling-guide"
-              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep bg-brand-pink/10 p-4 rounded-2xl border border-brand-pink/20 transition hover:scale-[1.01]"
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
-              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
-                《2026 留学生 1040-NR 填写指南：手把手教你申报 $5000 免税额 (附 PDF 下载)》
+              <h3 className="font-bold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep text-brand-ink">
+                ✨【2026 强推】留学生 1040-NR 填写指南：手把手教你申报 $5000 免税额 (附 PDF 下载)
               </h3>
             </Link>
           </div>
