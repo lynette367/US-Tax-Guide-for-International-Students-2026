@@ -442,7 +442,7 @@ export default function Form8843Stepper() {
             <div className="pt-8 border-t border-brand-pink/20 text-center">
                <p className="text-sm text-brand-ink/70 mb-4">天数算不准？有其他细节拿不准？</p>
                <Link 
-                href="/#footer" 
+                href="#footer" 
                 className="inline-flex items-center gap-2 rounded-full bg-[#a6968a] px-8 py-4 text-white font-bold transition hover:scale-105 shadow-lg"
                >
                  💬 扫码添加微信，学长学姐帮你人肉核对

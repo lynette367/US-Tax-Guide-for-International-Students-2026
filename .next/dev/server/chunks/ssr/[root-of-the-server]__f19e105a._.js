@@ -177,7 +177,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Breadcr
 const metadata = {
     title: "2026 留学生报税倒计时 & 1042-S 截止日期提醒 - MapleWorld",
     description: "实时查看 2026 美国留学生报税倒计时。包含 1042-S、W-2 关键申报节点提醒，助你避开逾期罚款（最高可达 $660）。",
-    keywords: "报税截止日期 2026, F1 报税倒计时, 1042-S deadline, OPT tax filing dates"
+    keywords: "报税截止日期 2026, F1 报税倒计时, 1042-S deadline, OPT tax filing dates",
+    alternates: {
+        canonical: "https://www.mapleworld.online/tax-deadlines-2026"
+    }
 };
 const deadlines = [
     {
@@ -218,7 +221,7 @@ function TaxDeadlinesPage() {
         "description": "2026 报税季关键节点：1042-S 发放（3月16日），W-2 发放（1月31日），报税截止（4月15日）。",
         "location": {
             "@type": "VirtualLocation",
-            "url": "https://www.mapleworld.online/tax-deadlines-2026"
+            "url": "https://www.mapleworld.online/guides/tax-deadlines-2026"
         },
         "organizer": {
             "@type": "Organization",
@@ -233,7 +236,7 @@ function TaxDeadlinesPage() {
             "@type": "Offer",
             "price": "0",
             "priceCurrency": "USD",
-            "url": "https://www.mapleworld.online/tax-deadlines-2026"
+            "url": "https://www.mapleworld.online/guides/tax-deadlines-2026"
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -256,7 +259,7 @@ function TaxDeadlinesPage() {
                             ]
                         }, void 0, false, {
                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                            lineNumber: 76,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -265,7 +268,7 @@ function TaxDeadlinesPage() {
                             children: "← 返回首页"
                         }, void 0, false, {
                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                            lineNumber: 82,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -273,7 +276,7 @@ function TaxDeadlinesPage() {
                             children: "2026 报税时间表"
                         }, void 0, false, {
                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                            lineNumber: 88,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -281,30 +284,30 @@ function TaxDeadlinesPage() {
                             children: "2026 留学生报税截止倒计时"
                         }, void 0, false, {
                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                            lineNumber: 91,
+                            lineNumber: 94,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "glass-panel mx-auto max-w-2xl rounded-[32px] p-8 shadow-2xl",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TaxCountdown$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                                lineNumber: 96,
+                                lineNumber: 99,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                            lineNumber: 95,
+                            lineNumber: 98,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                    lineNumber: 75,
+                    lineNumber: 78,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                lineNumber: 74,
+                lineNumber: 77,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -317,7 +320,7 @@ function TaxDeadlinesPage() {
                             children: "关键报税节点提醒"
                         }, void 0, false, {
                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                            lineNumber: 104,
+                            lineNumber: 107,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -332,12 +335,12 @@ function TaxDeadlinesPage() {
                                                 children: item.date
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                                                lineNumber: 115,
+                                                lineNumber: 118,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                                            lineNumber: 114,
+                                            lineNumber: 117,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -348,7 +351,7 @@ function TaxDeadlinesPage() {
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 128,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -356,24 +359,24 @@ function TaxDeadlinesPage() {
                                                     children: item.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                                                    lineNumber: 126,
+                                                    lineNumber: 129,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                                            lineNumber: 124,
+                                            lineNumber: 127,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                                    lineNumber: 110,
+                                    lineNumber: 113,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                            lineNumber: 108,
+                            lineNumber: 111,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -387,14 +390,14 @@ function TaxDeadlinesPage() {
                                             children: "⚠️"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                                            lineNumber: 136,
+                                            lineNumber: 139,
                                             columnNumber: 15
                                         }, this),
                                         " 为什么要重视截止日期？"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                                    lineNumber: 135,
+                                    lineNumber: 138,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -402,24 +405,24 @@ function TaxDeadlinesPage() {
                                     children: "美国报税逾期罚款非常昂贵。即使你不需要交税，延迟提交 Form 8843 也可能影响你的 F1 身份合规性。特别是对于有欠税的情况，罚款（Failure to File & Failure to Pay）会随时间迅速累积。"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                                    lineNumber: 138,
+                                    lineNumber: 141,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                            lineNumber: 134,
+                            lineNumber: 137,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                    lineNumber: 103,
+                    lineNumber: 106,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                lineNumber: 102,
+                lineNumber: 105,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -429,13 +432,13 @@ function TaxDeadlinesPage() {
                 }
             }, void 0, false, {
                 fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-                lineNumber: 146,
+                lineNumber: 149,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/(guides)/tax-deadlines-2026/page.tsx",
-        lineNumber: 72,
+        lineNumber: 75,
         columnNumber: 5
     }, this);
 }

@@ -89,7 +89,7 @@ export default function Form8843Tutorial() {
              {/* 1040-NR Promotion Banner */}
              <div className="mt-8">
                <Link 
-                   href="/tools/1040-nr-filling-guide"
+                   href="/1040-nr-filling-guide"
                    className="group block rounded-2xl border-2 border-dashed border-brand-pink/40 bg-white/60 p-5 transition-all hover:bg-white/80 hover:border-brand-pink/60 active:scale-[0.98] shadow-sm"
                >
                    <div className="flex items-center gap-3">
@@ -178,7 +178,7 @@ export default function Form8843Tutorial() {
             </p>
             <div className="mt-10">
               <Link 
-                href="/#footer" 
+                href="#footer" 
                 className="inline-flex items-center gap-3 rounded-full bg-brand-pinkdeep px-10 py-4 text-white font-bold text-lg transition hover:scale-105 shadow-xl"
               >
                 <span>💬 扫码添加微信</span>

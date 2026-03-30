@@ -8,14 +8,11 @@ export default function GuidesPage() {
       <section className="px-4 py-12 sm:py-16">
         <div className="page-shell">
           <div className="max-w-3xl">
-            <Breadcrumbs 
-                items={[
-                    { label: "报税攻略" }
-                ]} 
+            <Breadcrumbs
+              items={[
+                { label: "报税攻略" }
+              ]}
             />
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
-                Guides
-            </p>
             <h1 className="mt-2 text-3xl sm:text-4xl font-semibold">
               2026 美国报税攻略：F1/OPT 留学生 IRS 免费申报与避坑指南
             </h1>
@@ -28,8 +25,8 @@ export default function GuidesPage() {
 
           <div className="mt-8 grid gap-6 md:grid-cols-2">
             {guides.map((guide) => (
-              <Link 
-                key={guide.slug} 
+              <Link
+                key={guide.slug}
                 href={`/guides/${guide.slug}`}
                 className="soft-card block transition hover:translate-y-[-4px] hover:shadow-lg group"
               >

@@ -59,9 +59,6 @@ export default function Page() {
                                 { label: "1042 专题" }
                             ]}
                         />
-                        <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 mt-4">
-                            Guide / 2026 报税
-                        </p>
                         <h1 className="mt-2 text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
                             1042 是啥？2026 留学生 1042-S 报税终极解惑
                         </h1>

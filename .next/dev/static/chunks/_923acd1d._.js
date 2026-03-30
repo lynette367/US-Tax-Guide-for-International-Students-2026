@@ -291,23 +291,23 @@ const steps = [
     },
     {
         title: "准备W-2/1099表格",
-        href: "/guides/w2-missing-guide",
+        href: "/w2-missing-guide",
         trackId: "home-step-2"
     },
     {
         title: "填写1040-NR",
-        href: "/tools/1040-nr-filling-guide",
+        href: "/1040-nr-filling-guide",
         trackId: "home-step-3",
         highlight: true
     },
     {
         title: "申报8843表",
-        href: "/tools/form-8843-tutorial-2026",
+        href: "/form-8843-tutorial-2026",
         trackId: "home-step-4"
     },
     {
         title: "邮寄/电子提交(e-file)",
-        href: "/tools/turbotax-pitfalls-2026",
+        href: "/turbotax-pitfalls-2026",
         trackId: "home-step-5"
     }
 ];
@@ -334,7 +334,7 @@ function ProcessSteps() {
                         "aria-hidden": "true"
                     }, void 0, false, {
                         fileName: "[project]/src/components/ProcessSteps.tsx",
-                        lineNumber: 59,
+                        lineNumber: 60,
                         columnNumber: 15
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -360,7 +360,7 @@ function ProcessSteps() {
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/ProcessSteps.tsx",
-                                lineNumber: 77,
+                                lineNumber: 78,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -368,7 +368,7 @@ function ProcessSteps() {
                                 children: step.title
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ProcessSteps.tsx",
-                                lineNumber: 86,
+                                lineNumber: 87,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -376,25 +376,25 @@ function ProcessSteps() {
                                 children: "立即查看 →"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/ProcessSteps.tsx",
-                                lineNumber: 90,
+                                lineNumber: 91,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/ProcessSteps.tsx",
-                        lineNumber: 62,
+                        lineNumber: 63,
                         columnNumber: 13
                     }, this)
                 ]
             }, step.title, true, {
                 fileName: "[project]/src/components/ProcessSteps.tsx",
-                lineNumber: 53,
+                lineNumber: 54,
                 columnNumber: 11
             }, this);
         })
     }, void 0, false, {
         fileName: "[project]/src/components/ProcessSteps.tsx",
-        lineNumber: 48,
+        lineNumber: 49,
         columnNumber: 5
     }, this);
 }

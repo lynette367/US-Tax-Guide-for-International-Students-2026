@@ -83,7 +83,7 @@ export default function FicaRefundCalculatorPage() {
 
           <div className="prose prose-brand max-w-none prose-headings:text-brand-ink prose-p:text-brand-ink/80 prose-li:text-brand-ink/80">
 
-            <h2 className="text-2xl font-bold mt-0 mb-6 pb-2 border-b border-brand-pink/20">为什么 F1/OPT 学生通常不需要交 FICA 税？</h2>
+            <h2 id="eligibility" className="text-2xl font-bold mt-0 mb-6 pb-2 border-b border-brand-pink/20">为什么 F1/OPT 学生通常不需要交 FICA 税？</h2>
             <div className="pl-4">
               <h3 className="text-xl font-semibold mt-6 mb-3">什么是 Social Security 和 Medicare Tax？</h3>
               <p>

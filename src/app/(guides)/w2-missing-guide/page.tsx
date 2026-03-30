@@ -126,7 +126,7 @@ export default function W2MissingGuidePage() {
                 <h2 className="text-xl sm:text-2xl font-bold mb-4 text-brand-ink">下一步建议</h2>
                 <p className="text-brand-ink/75 mb-6">如果你自测是 NRI 且年收入低于一定额度，可能只需要填 8843。请参考我们的专项教程：</p>
                 <Link
-                  href="/guides/form-8843-guide"
+                  href="/form-8843-guide"
                   className="inline-flex items-center text-brand-pinkdeep font-bold hover:underline"
                 >
                   《8843 填写教程：无收入也能保身份》 →

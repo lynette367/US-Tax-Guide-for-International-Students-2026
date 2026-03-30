@@ -193,7 +193,7 @@ const metadata = {
     openGraph: {
         title: "报税漏报了？这有一份 2026 OPT 补救清单（建议收藏）",
         description: "别等 IRS 发信才后悔，手把手教你合规补报收入。",
-        url: "https://www.mapleworld.online/amend-w2-1099",
+        url: "https://www.mapleworld.online/tools/amend-w2-1099",
         type: "article",
         images: [
             "/images/1040x-flowchart.png"

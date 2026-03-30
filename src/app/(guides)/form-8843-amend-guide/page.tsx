@@ -116,7 +116,7 @@ export default function Form8843AmendGuidePage() {
                                     <div className="soft-card !bg-brand-pink/5">
                                         <h3 className="font-semibold mb-2">身份判定复核</h3>
                                         <p className="text-sm text-brand-ink/70 mb-4">不确定漏了哪张表？先去我们的 8843 保姆级教程看看。</p>
-                                        <Link href="/guides/form-8843-guide" className="text-sm text-brand-pinkdeep font-bold hover:underline">查看 8843 填写教程 →</Link>
+                                        <Link href="/form-8843-guide" className="text-sm text-brand-pinkdeep font-bold hover:underline">查看 8843 填写教程 →</Link>
                                     </div>
                                 </div>
                             </div>

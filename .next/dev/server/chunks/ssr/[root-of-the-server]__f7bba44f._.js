@@ -248,20 +248,12 @@ function Page() {
                                 lineNumber: 56,
                                 columnNumber: 25
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 mt-4",
-                                children: "Guide / 2026 报税"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                lineNumber: 62,
-                                columnNumber: 25
-                            }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "mt-2 text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight",
                                 children: "1042 是啥？2026 留学生 1042-S 报税终极解惑"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                lineNumber: 65,
+                                lineNumber: 62,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -277,7 +269,7 @@ function Page() {
                                                     children: "1042"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 69,
                                                     columnNumber: 47
                                                 }, this),
                                                 " 字样，它通常指的就是 ",
@@ -285,24 +277,24 @@ function Page() {
                                                     children: "Form 1042-S"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 69,
                                                     columnNumber: 80
                                                 }, this),
                                                 "。这是留学生因为奖学金或中美税收协定免税额而收到的一张非常关键的税表。"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 68,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 70,
+                                        lineNumber: 67,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Tax1042SAssessment$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Tax1042SAssessment"], {}, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 76,
+                                        lineNumber: 73,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -311,7 +303,7 @@ function Page() {
                                         children: "快速扫盲：你手里的“1042”到底是什么？"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 75,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -322,14 +314,14 @@ function Page() {
                                                 children: "Form 1042-S"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 82,
+                                                lineNumber: 79,
                                                 columnNumber: 57
                                             }, this),
                                             " (Foreign Person's U.S. Source Income Subject to Withholding) 是一张记录你作为非居民（Non-resident）在美收入的凭证。"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 81,
+                                        lineNumber: 78,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -343,7 +335,7 @@ function Page() {
                                                         children: "Box 1 & Box 2：解读免税额度"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 86,
+                                                        lineNumber: 83,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -351,7 +343,7 @@ function Page() {
                                                         children: "这两个框里的代码决定了你的收入性质。如果你看到了 $5,000 的金额，那通常就是中美税收协定的免税部分。"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 87,
+                                                        lineNumber: 84,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -360,13 +352,13 @@ function Page() {
                                                         children: "了解中美税收协定详情 →"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 90,
+                                                        lineNumber: 87,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 85,
+                                                lineNumber: 82,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -377,7 +369,7 @@ function Page() {
                                                         children: "为什么不是每人都有？"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 95,
+                                                        lineNumber: 92,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -385,19 +377,19 @@ function Page() {
                                                         children: "只有涉及奖学金、助研金（RA/TA）中免税部分，或者明确申请了 Treaty 免税的同学才会收到。"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 96,
+                                                        lineNumber: 93,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 91,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 84,
+                                        lineNumber: 81,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -406,7 +398,7 @@ function Page() {
                                         children: "傻傻分不清？1042-S vs. W-2 vs. 1099 核心区别对比"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 99,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -420,12 +412,12 @@ function Page() {
                                             className: "rounded-2xl border border-brand-pink/30 shadow-lg"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                            lineNumber: 106,
+                                            lineNumber: 103,
                                             columnNumber: 33
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 105,
+                                        lineNumber: 102,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -433,7 +425,7 @@ function Page() {
                                         children: "1042-S：奖学金与协议免税"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 116,
+                                        lineNumber: 113,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -441,7 +433,7 @@ function Page() {
                                         children: "它是专门给“非居民个人”发的。如果你的学校把你的 $5,000 免税额度从 W-2 中扣除了，那么这部分钱就会单独出现在 1042-S 上。"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 117,
+                                        lineNumber: 114,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -449,7 +441,7 @@ function Page() {
                                         children: "W-2：校内打工与实习工资"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 121,
+                                        lineNumber: 118,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -457,7 +449,7 @@ function Page() {
                                         children: "这是最常见的工资表。如果你在图书馆打工或在外面实习（CPT/OPT），公司会发 W-2。注意：W-2 记录的是应税工资。"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 122,
+                                        lineNumber: 119,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -466,7 +458,7 @@ function Page() {
                                         children: "2026 关键节点：3.21 还没收到 1042-S 怎么办？"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 126,
+                                        lineNumber: 123,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -477,14 +469,14 @@ function Page() {
                                                 children: "2026.3.21"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 130,
+                                                lineNumber: 127,
                                                 columnNumber: 60
                                             }, this),
                                             " 还没收到："
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 126,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -497,14 +489,14 @@ function Page() {
                                                         children: "确定你是否真的有："
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 133,
+                                                        lineNumber: 130,
                                                         columnNumber: 70
                                                     }, this),
                                                     " 使用上方的判定器自测。"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 133,
+                                                lineNumber: 130,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -514,14 +506,14 @@ function Page() {
                                                         children: "检查电子版："
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 134,
+                                                        lineNumber: 131,
                                                         columnNumber: 70
                                                     }, this),
                                                     " 登录学校的 GLACIER 或财务系统，通常电子版比纸质快。"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 134,
+                                                lineNumber: 131,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -531,7 +523,7 @@ function Page() {
                                                         children: "该等还是该报？"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 135,
+                                                        lineNumber: 132,
                                                         columnNumber: 70
                                                     }, this),
                                                     " 如果你确定有 1042-S 却没收到，",
@@ -539,20 +531,20 @@ function Page() {
                                                         children: "严禁先按 W-2 提交"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 135,
+                                                        lineNumber: 132,
                                                         columnNumber: 114
                                                     }, this),
                                                     "。漏报 1042-S 会导致 IRS 查税，后期修改（1040-X）非常麻烦。"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 135,
+                                                lineNumber: 132,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 129,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -561,7 +553,7 @@ function Page() {
                                         children: "报税实操：如何将 1042-S 填入 1040-NR 申报表？"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 138,
+                                        lineNumber: 135,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -569,7 +561,7 @@ function Page() {
                                         children: "在填写 1040-NR 时，1042-S 的信息主要对应在“Income Exempt from Tax”部分。"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 138,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -580,7 +572,7 @@ function Page() {
                                                 children: "💡 专业提示："
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 145,
+                                                lineNumber: 142,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -588,13 +580,13 @@ function Page() {
                                                 children: "“确保 1042-S 上的 Income Code 和 Tax Rate 与你的实际情况相符。常见的 1042-S 错误包括姓名拼写不一致或 SSN/ITIN 缺失，这会直接影响你的退税速度。”"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 146,
+                                                lineNumber: 143,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 144,
+                                        lineNumber: 141,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -603,7 +595,7 @@ function Page() {
                                         children: "常见问题 (FAQ)"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 148,
                                         columnNumber: 29
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -617,7 +609,7 @@ function Page() {
                                                         children: "1042 和 1042-S 有什么区别？"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 156,
+                                                        lineNumber: 153,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -625,13 +617,13 @@ function Page() {
                                                         children: "1042 是雇主向 IRS 提交的年度汇总表，而 1042-S 是发给留学生个人的收入凭证。留学生报税时使用的是 1042-S。"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 157,
+                                                        lineNumber: 154,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 155,
+                                                lineNumber: 152,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -642,7 +634,7 @@ function Page() {
                                                         children: "错过 3.16 还没收到 1042-S 怎么办？"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 160,
+                                                        lineNumber: 157,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -650,13 +642,13 @@ function Page() {
                                                         children: "如果你确定有奖学金或使用了 Tax Treaty，请联系学校财务处。如果 3.21 仍未收到，建议先等待，不要盲目提交以免后期需要修正申报。"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 161,
+                                                        lineNumber: 158,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 159,
+                                                lineNumber: 156,
                                                 columnNumber: 33
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -667,7 +659,7 @@ function Page() {
                                                         children: "收到 1042-S 还需要报 W2 吗？"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 164,
+                                                        lineNumber: 161,
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -680,32 +672,32 @@ function Page() {
                                                                 children: "漏报补救指南"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                                lineNumber: 167,
+                                                                lineNumber: 164,
                                                                 columnNumber: 41
                                                             }, this),
                                                             "准备 1040-X。"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                        lineNumber: 165,
+                                                        lineNumber: 162,
                                                         columnNumber: 37
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                                lineNumber: 163,
+                                                lineNumber: 160,
                                                 columnNumber: 33
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                        lineNumber: 154,
+                                        lineNumber: 151,
                                         columnNumber: 29
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                lineNumber: 69,
+                                lineNumber: 66,
                                 columnNumber: 25
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -716,12 +708,12 @@ function Page() {
                                     children: "免责声明：本内容仅为个人经验分享与税务信息整理，不构成法律、税务或专业建议。 如有疑问，请咨询专业会计师 (CPA) 或直接联系 IRS。"
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                    lineNumber: 175,
+                                    lineNumber: 172,
                                     columnNumber: 29
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/1042-vs-1042-s/page.tsx",
-                                lineNumber: 174,
+                                lineNumber: 171,
                                 columnNumber: 25
                             }, this)
                         ]

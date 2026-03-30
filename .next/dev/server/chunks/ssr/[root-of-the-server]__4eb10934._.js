@@ -81,7 +81,7 @@ function FicaRefundCalculatorPage() {
         "name": "F1/OPT 留学生 FICA 退税自动计算器 2026",
         "operatingSystem": "All",
         "applicationCategory": "FinanceApplication",
-        "url": "https://www.mapleworld.online/fica-refund-calculator",
+        "url": "https://www.mapleworld.online/tools/fica-refund-calculator",
         "description": "专门为 F1/OPT 留学生设计的 FICA (Social Security & Medicare) 退税计算工具。自动判定免税资格并估算可退金额。",
         "image": "https://www.mapleworld.online/images/fica-calculator-icon.webp",
         "offers": {
@@ -138,7 +138,7 @@ function FicaRefundCalculatorPage() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/",
                                         className: "hover:text-brand-pinkdeep transition",
-                                        children: "Home"
+                                        children: "首页"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
                                         lineNumber: 64,
@@ -154,7 +154,7 @@ function FicaRefundCalculatorPage() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/tools",
                                         className: "hover:text-brand-pinkdeep transition",
-                                        children: "Tools"
+                                        children: "报税工具"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
                                         lineNumber: 66,
@@ -169,7 +169,7 @@ function FicaRefundCalculatorPage() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-brand-ink font-medium",
-                                        children: "FICA Calculator"
+                                        children: "FICA 计算器"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/fica-refund-calculator/page.tsx",
                                         lineNumber: 68,
@@ -232,6 +232,7 @@ function FicaRefundCalculatorPage() {
                             className: "prose prose-brand max-w-none prose-headings:text-brand-ink prose-p:text-brand-ink/80 prose-li:text-brand-ink/80",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    id: "eligibility",
                                     className: "text-2xl font-bold mt-0 mb-6 pb-2 border-b border-brand-pink/20",
                                     children: "为什么 F1/OPT 学生通常不需要交 FICA 税？"
                                 }, void 0, false, {

@@ -191,7 +191,7 @@ const metadata = {
     openGraph: {
         title: "2026 留学生 OPT 报税省钱攻略：中美税收协定 (Tax Treaty) $5000 免税额详解",
         description: "中美税收协定 Article 20(c) 为 F1/OPT 留学生提供每年 $5000 的免税额度。一文详解申请流程。",
-        url: "https://www.mapleworld.online/f1-tax-treaty-calculator",
+        url: "https://www.mapleworld.online/tools/f1-tax-treaty-calculator",
         type: "article",
         images: [
             "/images/tax-treaty-vs-std-deduction.png"

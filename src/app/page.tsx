@@ -90,7 +90,7 @@ const stories = [
     content:
       "收到1042-s表格的时候我都懵了，我根本不知道这是什么。我只是一个拿F1签证的留学生，只是在学校里面帮了一下下教授整理资料……\n真的只有一小下下，总共就收了562刀……\n不要告诉我这么点钱也会交税吧？",
     href: "/1042-vs-1042-s",
-    image: "/images/1042-vs-1042-s-comparison.webp",
+    image: "/images/form-1042-vs-1042-s-comparison.webp",
     alt: "F1/OPT 留学生 1042-s 报税指南",
     anchorText: "扫盲指南：2026 留学生 1042-S 表格申报方法",
     ariaLabel: "2026 留学生 1042-S 表格申报方法",
@@ -146,44 +146,54 @@ const pricingTiers = [
 
 const faqs = [
   {
-    question: "F1 为什么很多时候是 Nonresident？",
+    question: "1. 美国报税 TurboTax 和 FreeTaxUSA 哪个更适合留学生？",
     answer:
-      "通常按在美停留天数和“实质居留测试”来判断。F1 前几年往往被视为 exempt individual，因此很多情况下仍是 nonresident。",
+      "这是一个常见深坑。TurboTax 和 FreeTaxUSA 主要面向 Resident (RA) 开发。对于 F1 前 5 年的 Non-resident (NRA) 同学，直接使用这些软件极易导致身份报错。如果你是 NRA，建议首选 Sprintax 等适配软件；如果你已满 5 年转为 RA，FreeTaxUSA 通常比 TurboTax 更划算（联邦税申报常年免费）。",
   },
   {
-    question: "我能不能用 TurboTax？",
+    question: "2. 留学生使用 AI 工具（如 ChatGPT/Claude）辅助报税的方法和风险？",
     answer:
-      "需要小心。TurboTax 主要面向居民报税，国际学生很多情况要走 nonresident 路径。可以了解 Sprintax 等 NR 常用工具之一，但不替任何平台背书。",
+      "AI 可以帮你快速理解 1042-S 等税表名词，但绝不能直接让它计算税额。AI 无法实时更新 2026 年的最细微税法变动（如具体的 Standard Deduction 调整），也无法准确判定你的 $5000 中美税收协定适用性。建议将 AI 作为“名词解释器”，操作请参考本站保姆级指南。",
   },
   {
-    question: "没收入也要报吗？",
+    question: "3. 既有 W-2 又有 1099 收入，留学生该如何联合报税？",
     answer:
-      "很多 F1 即使没有收入，也常需要提交 8843。是否需要报联邦/州税，取决于你当年的身份与收入情况。",
+      "很多 OPT 同学既有校内工作 (W-2) 又有兼职/自雇 (1099-NEC)。F1 NRA 同学需注意，1099 收入涉及 Self-employment 范畴，需填写不同的附表（如 Schedule C）。漏报任何一份 1099 收入都极易触发 IRS 审计，建议在 1040-NR 中统一汇总申报。",
   },
   {
-    question: "州税怎么办？",
+    question: "4. 2026 年有哪些推荐的美国联邦税免费申报软件？",
     answer:
-      "州税规则各州不同，NR 与 resident 的处理方式也可能不同。先确认你所在州是否要求申报，再决定工具与路径。",
+      "对于 NRA 身份：几乎没有完全免费的商业软件，建议先看学校是否提供 Sprintax 免费码。对于 RA 身份：推荐使用 IRS Free File 平台，或者直接使用 FreeTaxUSA。本站也提供了针对 8843 表格的免费辅助工具。",
   },
   {
-    question: "退税多久到？",
+    question: "5. 留学生报税找 CPA 还是自己报划算？",
     answer:
-      "时间会因报税方式、身份与 IRS 处理速度而异。一般是几周到数月不等，具体以 IRS 实际进度为准。",
+      "如果你的情况只有 W-2 和 8843，按照本站的“五步走”教程完全可以 DIY，省下 $200-$500 的服务费。但如果你涉及多州报税、大量股票交易或海外资产申报（FBAR），找专业的 CPA 能有效规避合规风险，特别是面临 H1B 或绿卡申请时，合规性远比省钱重要。",
   },
   {
-    question: "我去年报错了怎么办？",
+    question: "6. 为什么我的补税/退税金额和同学差异巨大？",
     answer:
-      "先定位错误项，再考虑走修正申报/补交的方向。不同身份与表格可能有不同流程，建议先把材料和错误点整理清楚。",
+      "原因通常有三：1. 是否正确申报了 $5000 的中美税收协定（Treaty）；2. 是否存在 FICA 误扣（OPT 前五年免缴社保医保税）；3. 各州税法差异。例如加州不承认 $5000 协定，这会导致联邦退税多、州税补税多的情况。",
   },
   {
-    question: "我只有 W-2，没有 1099/1042-S，也需要看吗？",
+    question: "7. 美国州税（State Tax）低价甚至免费申报平台推荐？",
     answer:
-      "需要。是否只用 W-2 取决于你的收入来源与身份，判断流程能帮你确认有没有遗漏。",
+      "州税通常是商业软件的额外付费项。RA 同学可以尝试 MyFreeTaxes 等公益平台。NRA 同学如果想追求“0 元方案”，最稳妥的方法是从州税务局官网下载 PDF 手填后邮寄。若想图省事，Sprintax 等软件提供州税加购服务。",
   },
   {
-    question: "这份清单能保证我一定退到钱吗？",
+    question: "8. 美国报税 IRS 官方免费申报（Direct File）流程适用于留学生吗？",
     answer:
-      "不能。清单的目标是降低选错表格与流程的风险，结果仍取决于你的真实情况与 IRS 审核。",
+      "IRS Direct File 目前主要针对简单的 Resident 报税。由于大多数 F1 留学生涉及 Non-resident 身份或特殊的 Treaty 协定减免，目前仍需通过传统的 1040-NR 路径申报。建议先使用本站的“身份自测工具”确认你的报税类别。",
+  },
+  {
+    question: "9. 2026 留学生 / 海外工作者（F1/OPT/H1B）报税核心攻略？",
+    answer:
+      "核心在于“身份判定”。F1/OPT 阶段重点是 Form 8843 和 $5000 协定；转 H1B 后则需关注全球收入申报。本站提供一站式工具箱，帮助你精准避开 TurboTax 误选身份、FICA 税误扣等高频坑位。",
+  },
+  {
+    question: "10. 留学生买股票、撸羊毛（开卡奖励）产生的资本增值如何报税？",
+    answer:
+      "股票买卖产生的 Capital Gain，NRA 身份通常按 30% 固定税率申报（除非符合特定天数要求），且不能抵扣 $3000 损失。银行开卡奖励通常会收到 1099-INT，需视同普通收入申报。具体请参考本站《股票与数字货币报税专题》。",
   },
 ];
 
@@ -294,10 +304,14 @@ export default function Home() {
             </h2>
           </div>
           <div className="mt-6 rounded-[28px] border border-brand-pink/40 bg-white/85 p-6 sm:p-8 shadow-[0_18px_60px_rgba(244,185,200,0.3)] flex flex-col gap-4">
-            <Link href="/guides" className="block hover:opacity-80 transition-opacity">
-              <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
+            <Link 
+              href="/guides" 
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-pink/10 border border-brand-pink/20 text-brand-pinkdeep hover:bg-brand-pink/20 hover:scale-[1.02] transition-all group w-fit"
+            >
+              <span className="text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">
                 Guides / 教程
-              </p>
+              </span>
+              <span className="text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity translate-x-[-10px] group-hover:translate-x-0">→</span>
             </Link>
             <Link
               href="/form-8843-guide"
@@ -339,10 +353,14 @@ export default function Home() {
           <div
             className="mt-6 block rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)] flex flex-col gap-4"
           >
-            <Link href="/tools" className="block hover:opacity-80 transition-opacity">
-              <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
+            <Link 
+              href="/tools" 
+              className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-pink/10 border border-brand-pink/20 text-brand-pinkdeep hover:bg-brand-pink/20 hover:scale-[1.02] transition-all group w-fit"
+            >
+              <span className="text-xs sm:text-sm uppercase tracking-[0.2em] font-bold">
                 Tools / 工具
-              </p>
+              </span>
+              <span className="text-sm font-bold opacity-0 group-hover:opacity-100 transition-opacity translate-x-[-10px] group-hover:translate-x-0">→</span>
             </Link>
 
             <Link

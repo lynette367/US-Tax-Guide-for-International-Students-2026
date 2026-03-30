@@ -176,7 +176,7 @@ export default function OptLateFilingGuidePage() {
                 <h3 className="font-bold mb-2 group-hover:text-brand-pinkdeep transition-colors">W2/1099 收入漏报补救 →</h3>
                 <p className="text-sm opacity-60">发现之前的工资单没报全？教你如何纠正。</p>
               </Link>
-              <Link href="/guides/form-8843-guide" className="group p-6 rounded-2xl bg-gray-50 hover:bg-brand-pink/5 transition-colors border border-gray-100">
+              <Link href="/form-8843-guide" className="group p-6 rounded-2xl bg-gray-50 hover:bg-brand-pink/5 transition-colors border border-gray-100">
                 <h3 className="font-bold mb-2 group-hover:text-brand-pinkdeep transition-colors">零收入 Form 8843 申报指南 →</h3>
                 <p className="text-sm opacity-60">没收入也想维持身份？8843 填报细节。</p>
               </Link>

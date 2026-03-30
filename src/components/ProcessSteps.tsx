@@ -11,25 +11,26 @@ const steps = [
   },
   {
     title: "准备W-2/1099表格",
-    href: "/guides/w2-missing-guide",
+    href: "/w2-missing-guide",
     trackId: "home-step-2"
   },
   {
     title: "填写1040-NR",
-    href: "/tools/1040-nr-filling-guide",
+    href: "/1040-nr-filling-guide",
     trackId: "home-step-3",
     highlight: true
   },
   {
     title: "申报8843表",
-    href: "/tools/form-8843-tutorial-2026",
+    href: "/form-8843-tutorial-2026",
     trackId: "home-step-4"
   },
   {
     title: "邮寄/电子提交(e-file)",
-    href: "/tools/turbotax-pitfalls-2026",
+    href: "/turbotax-pitfalls-2026",
     trackId: "home-step-5"
   }
+
 ];
 
 export default function ProcessSteps() {

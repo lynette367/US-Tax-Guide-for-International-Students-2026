@@ -223,7 +223,7 @@ export default function AmendW21099Page() {
               <div className="sticky top-24 p-6 rounded-3xl border border-brand-pink/30 bg-white shadow-xl">
                 <h3 className="font-bold text-lg mb-4 text-brand-ink">相关专题</h3>
                 <Link 
-                  href="/guides/1042-vs-1042-s" 
+                  href="/1042-vs-1042-s" 
                   className="group block p-5 rounded-2xl bg-brand-pink/5 hover:bg-brand-pink/10 transition border border-brand-pink/10"
                 >
                   <p className="text-sm font-semibold text-brand-ink leading-relaxed group-hover:text-brand-pinkdeep transition-colors">

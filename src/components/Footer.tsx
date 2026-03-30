@@ -1,10 +1,34 @@
 import Link from "next/link";
 import Image from "next/image";
 
-const quickLinks = [
-  { label: "1042-S 攻略", href: "/guides/1042-vs-1042-s" },
-  { label: "报税倒计时", href: "/guides/tax-deadlines-2026" },
-  { label: "NRA 身份自测", href: "/tools/opt-tax" },
+const footerNav = [
+  {
+    title: "申报专区 (F1/OPT Filing)",
+    links: [
+      { label: "1040-NR 填表指南", href: "/1040-nr-filling-guide" },
+      { label: "Form 8843 申报教程", href: "/form-8843-guide" },
+      { label: "W2/1099 漏报修正", href: "/amend-w2-1099" },
+      { label: "州税申报低价平台", href: "#", disabled: true },
+    ],
+  },
+  {
+    title: "政策扫盲 (Knowledge Base)",
+    links: [
+      { label: "中美税收协定 $5000 详解", href: "/f1-tax-treaty-calculator" },
+      { label: "FICA 税退税资格说明", href: "/fica-refund-calculator#eligibility" },
+      { label: "TurboTax vs Sprintax 对比", href: "/turbotax-pitfalls-2026" },
+      { label: "IRS 2026 关键截止日期", href: "/tax-deadlines-2026" },
+    ],
+  },
+  {
+    title: "快速工具 (Quick Tools)",
+    links: [
+      { label: "SPT 报税身份自测", href: "/tools/opt-tax" },
+      { label: "FICA 退税金额计算器", href: "/fica-refund-calculator" },
+      { label: "Form 8843 在线助手", href: "/form-8843-tutorial-2026" },
+      { label: "2026 报税倒计时", href: "/tax-deadlines-2026" },
+    ],
+  },
 ];
 
 const seoKeywords = [
@@ -15,6 +39,29 @@ const seoKeywords = [
   "1040-NR filing",
   "Tax Treaty USA China",
 ];
+
+function FooterLink({ label, href, disabled }: { label: string, href: string, disabled?: boolean }) {
+  if (disabled) {
+    return (
+      <span 
+        className="block py-1 text-sm font-medium text-brand-ink/30 cursor-not-allowed select-none group relative"
+        title="专题建设中 (Coming Soon)"
+      >
+        {label}
+        <span className="hidden group-hover:inline ml-2 text-[10px] bg-brand-ink/5 px-1.5 py-0.5 rounded opacity-60">Soon</span>
+      </span>
+    );
+  }
+
+  return (
+    <Link
+      href={href}
+      className="block py-1 text-sm font-medium text-brand-ink/65 transition hover:text-brand-pinkdeep hover:translate-x-1"
+    >
+      {label}
+    </Link>
+  );
+}
 
 export function Footer() {
   return (
@@ -53,22 +100,25 @@ export function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-6">
-            <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-brand-ink/40">
-              快速入口 / Quick Links
-            </p>
-            <div className="grid grid-cols-1 gap-3 sm:grid-cols-3 lg:w-[480px]">
-              {quickLinks.map((item) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className="flex items-center justify-center rounded-full border border-white/80 bg-white/60 px-6 py-4 text-sm font-bold text-brand-ink shadow-sm transition hover:scale-[1.05] hover:bg-white hover:text-brand-pinkdeep hover:shadow-lg active:scale-95"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </div>
-          </div>
+          <nav className="grid grid-cols-1 gap-10 sm:grid-cols-3 sm:gap-6 lg:w-[600px]">
+            {footerNav.map((category) => (
+              <div key={category.title} className="flex flex-col gap-4">
+                <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-brand-ink/40">
+                  {category.title}
+                </p>
+                <div className="flex flex-col gap-2">
+                  {category.links.map((link) => (
+                    <FooterLink 
+                      key={link.label} 
+                      label={link.label} 
+                      href={link.href} 
+                      disabled={link.disabled} 
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </nav>
         </div>
 
         <div className="mt-16 space-y-8 border-t border-brand-ink/5 pt-10">
