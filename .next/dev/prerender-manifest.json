@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/guides/f1-tax-residency":{},"/guides/turbotax-pitfalls":{},"/guides/1040nr-guide":{},"/guides/1040x-fix":{}},"dynamicRoutes":{"/guides/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/guides/[slug]","routeRegex":"^\\/guides\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"b5a131ece6dfc658642973f956782e7d","previewModeSigningKey":"fc8069575e64e7db58994a1b7822e9bae3eb0b60c7d8c23dcbf72c12c2605a64","previewModeEncryptionKey":"b27643a6e8c0ea5e462dd2d2bd170bdbbb0b6dcf90372b023f2f647b3256c6dc"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "2cd28ae33fe4d1f835def825c6d6603b",
+    "previewModeSigningKey": "916f55366c4fc90ee2dcc7e50077e58b4dc4f038b840b63221514d09d3f6d312",
+    "previewModeEncryptionKey": "5537d0b6d86ca042b7dbf3e7de181570a7749d0ef033fb361840b824a67e870d"
+  }
+}

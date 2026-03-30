@@ -1,6 +1,6 @@
 {
-  "/(guides)/guides/[slug]/page": "app/(guides)/guides/[slug]/page.js",
-  "/(guides)/guides/page": "app/(guides)/guides/page.js",
+  "/(tools)/opt-turbotax/page": "app/(tools)/opt-turbotax/page.js",
+  "/(tools)/turbotax-pitfalls-2026/page": "app/(tools)/turbotax-pitfalls-2026/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js"
 }

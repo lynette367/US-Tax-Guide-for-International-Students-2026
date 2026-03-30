@@ -113,6 +113,38 @@ a {
   .airplane-glide {
     animation: airplane-glide 22s ease-in-out infinite alternate;
   }
+
+  .washi-tape-cta {
+    @apply relative inline-flex items-center justify-center px-10 py-4 text-base font-medium tracking-wide transition-all duration-300;
+    background-color: #d6c5b7; /* Clay Gray */
+    color: #5d4e46; /* Espresso Brown */
+    border: 1px solid #b9a394; /* Light Tan Border */
+    box-shadow: 2px 2px 0px rgba(93, 78, 70, 0.05);
+    border-radius: 4px; /* Slightly softer than before */
+  }
+
+  .washi-tape-cta:hover {
+    background-color: #5d4e46; /* Inverse: Espresso Brown */
+    color: #fdf6f8; /* Soft Pink Text */
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(93, 78, 70, 0.2);
+    border-color: #5d4e46;
+  }
+
+  /* Refined Folded Corner for the new palette */
+  .washi-tape-cta::after {
+    content: "";
+    @apply absolute bottom-0 right-0 h-0 w-0 transition-all duration-300;
+    border-style: solid;
+    border-width: 0 0 0 0;
+    border-color: transparent transparent transparent rgba(253, 246, 248, 0.4);
+    opacity: 0;
+  }
+
+  .washi-tape-cta:hover::after {
+    border-width: 0 0 10px 10px;
+    opacity: 1;
+  }
 }
 
 .bg-paper {

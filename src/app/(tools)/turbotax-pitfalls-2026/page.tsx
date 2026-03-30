@@ -4,9 +4,9 @@ import Image from "next/image";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
-  title: "2026 避坑：为什么留学生 OPT 报税不建议直接用 TurboTax？(含正确软件推荐)",
-  description: "详解 F1/OPT 留学生报税误区：为什么 TurboTax 默认不处理 Non-Resident 身份？用错软件报税会有什么后果？本文对比 Sprintax vs TurboTax，助你避开报税红线，确保 H1B/绿卡申请不受影响。",
-  keywords: "OPT 报税软件, TurboTax 留学生, F1 报税 TurboTax 错误, Sprintax 优惠码 2026, Non-resident 报税报错",
+  title: "2026 留学生报税红线：用错 TurboTax 的后果与 H1B 身份风险详解",
+  description: "详解 F1/OPT 留学生错用 TurboTax 报税的严重后果：补交罚金、利息，以及对未来 H1B/绿卡申请的潜在负面影响。对比 Sprintax 差异，助你规避税务合规风险。",
+  keywords: "OPT 报税软件, TurboTax 留学生错误, H1B 身份风险, Sprintax 优惠码, 1040-NR 填表报错",
   alternates: {
     canonical: "https://www.mapleworld.online/turbotax-pitfalls-2026",
   },
@@ -29,7 +29,23 @@ export default function TurbotaxPitfallsPage() {
         "name": "留学生算税务居民吗?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "F1 或 OPT 学生通常在前 5 年被视为非税务居民 (Non-Resident Alien)。超过 5 年并满足实质居留测试后才会成为税务居民。"
+          "text": "根据 IRS Publication 519，持有 F-1 签证的学生在入境前 5 个日历年属于豁免个人（Exempt Individual），在实质居留测试（SPT）中不计入居住天数。因此，大多数留学生在税务意义上是非居民（Non-resident Alien）。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "为什么 1040-NR 不支持 Standard Deduction？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "根据美国税法，标准扣除额（Standard Deduction）通常仅适用于税务居民（RA）。1040-NR 的非居民通常只能选择逐项扣除（Itemized Deductions），这也是 TurboTax 默认流程中最容易产生错误补税的根源。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如果被 IRS 审计发现错误申报，处罚标准是什么？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "根据 IRC § 6662，因疏忽或故意漠视规则导致的报税错误，可处以应缴补税金额 20% 的罚款。若涉及民事税务欺诈，罚款可高达 75%。此外，逾期利息（Underpayment Interest）将每日复利计算。"
         }
       },
       {
@@ -37,23 +53,7 @@ export default function TurbotaxPitfallsPage() {
         "name": "美国转账多少会被查？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "原则上，任何高于 10,000 美元的单笔或关联现金交易都会被银行自动向国税局 (IRS) 报告 (Form 8300)，如果是正常的跨国汇款或生活费，并不一定会被查，但要保存好资金来源证明。"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "1099和W-2有什么区别？",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "W-2 是给全职雇员 (Employee) 的薪资总计表，包含了已代扣代缴的税款；1099 则发给独立承包商 (Independent Contractor) 或零工，一般没有代扣税，需要自己预交。"
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "留学生没有收入需要报税吗？",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "需要。即使没有收入，如果在美停留天数符合要求，也要提交 Form 8843，向 IRS 声明你的非居民豁免天数，维持身份合规。"
+          "text": "原则上，任何高于 10,000 美元的单笔或关联现金交易都会被银行自动向国税局 (IRS) 报告 (Form 8300)。对于正常的跨国汇款或生活费，并不一定会被查，但要保存好资金来源证明以应对潜在审计。"
         }
       }
     ]
@@ -201,6 +201,26 @@ export default function TurbotaxPitfallsPage() {
                     </tr>
                   </tbody>
                 </table>
+              </div>
+
+              {/* Bottom Funnel Section */}
+              <div className="mt-16 rounded-[32px] bg-brand-pinkdeep p-8 sm:p-12 text-center text-white shadow-xl shadow-brand-pink/20">
+                <h2 className="text-2xl sm:text-3xl font-bold mb-4 text-white">
+                  已经看晕了？试试我们的自动化判定工具
+                </h2>
+                <p className="mt-4 text-white/90 max-w-2xl mx-auto leading-relaxed">
+                  税务身份的判定涉及到入境年份、签证类型、以及精密的 SPT 天数计算。与其钻研税法条文，不如回答 8 个简单问题，让我们帮您锁定 2026 报税的最佳路径。
+                </p>
+                <Link
+                  href="/opt-turbotax"
+                  className="mt-8 washi-tape-cta group"
+                >
+                  <span className="mr-2 text-lg">✧</span>
+                  立即开始：2026 TurboTax 适用性判定
+                </Link>
+                <p className="mt-4 text-xs text-white/70">
+                  基于 IRS Publication 519 规则逻辑 • 100% 匿名判定 • 耗时约 3 分钟
+                </p>
               </div>
 
             </article>
