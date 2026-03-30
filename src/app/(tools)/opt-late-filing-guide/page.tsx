@@ -172,7 +172,7 @@ export default function OptLateFilingGuidePage() {
           <section className="mt-24 border-t border-brand-pink/20 pt-16">
             <h2 className="text-xl font-bold mb-8">相关补救指南</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <Link href="/tools/amend-w2-1099" className="group p-6 rounded-2xl bg-gray-50 hover:bg-brand-pink/5 transition-colors border border-gray-100">
+              <Link href="/amend-w2-1099" className="group p-6 rounded-2xl bg-gray-50 hover:bg-brand-pink/5 transition-colors border border-gray-100">
                 <h3 className="font-bold mb-2 group-hover:text-brand-pinkdeep transition-colors">W2/1099 收入漏报补救 →</h3>
                 <p className="text-sm opacity-60">发现之前的工资单没报全？教你如何纠正。</p>
               </Link>

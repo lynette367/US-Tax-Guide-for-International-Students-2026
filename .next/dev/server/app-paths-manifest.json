@@ -1,17 +1,4 @@
 {
-  "/(guides)/1042-vs-1042-s/page": "app/(guides)/1042-vs-1042-s/page.js",
-  "/(guides)/form-8843-amend-guide/page": "app/(guides)/form-8843-amend-guide/page.js",
-  "/(guides)/form-8843-guide/page": "app/(guides)/form-8843-guide/page.js",
-  "/(guides)/guides/[slug]/page": "app/(guides)/guides/[slug]/page.js",
-  "/(guides)/guides/page": "app/(guides)/guides/page.js",
-  "/(guides)/tax-deadlines-2026/page": "app/(guides)/tax-deadlines-2026/page.js",
-  "/(guides)/w2-missing-guide/page": "app/(guides)/w2-missing-guide/page.js",
-  "/(tools)/1040-nr-filling-guide/page": "app/(tools)/1040-nr-filling-guide/page.js",
-  "/(tools)/amend-w2-1099/page": "app/(tools)/amend-w2-1099/page.js",
-  "/(tools)/fica-refund-calculator/page": "app/(tools)/fica-refund-calculator/page.js",
-  "/(tools)/form-8843-tutorial-2026/page": "app/(tools)/form-8843-tutorial-2026/page.js",
-  "/(tools)/opt-turbotax/page": "app/(tools)/opt-turbotax/page.js",
-  "/(tools)/tools/opt-tax/page": "app/(tools)/tools/opt-tax/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js"
 }
