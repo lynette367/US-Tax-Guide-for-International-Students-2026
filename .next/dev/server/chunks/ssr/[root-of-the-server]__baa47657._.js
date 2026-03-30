@@ -115,11 +115,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 const quickLinks = [
     {
         label: "1042-S 攻略",
-        href: "/1042-vs-1042-s"
+        href: "/guides/1042-vs-1042-s"
     },
     {
         label: "报税倒计时",
-        href: "/tax-deadlines-2026"
+        href: "/guides/tax-deadlines-2026"
     },
     {
         label: "NRA 身份自测",

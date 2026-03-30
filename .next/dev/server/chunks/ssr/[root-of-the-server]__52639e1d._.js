@@ -171,7 +171,7 @@ function NR1040FillingGuidePage() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/",
                                         className: "hover:text-brand-pinkdeep transition",
-                                        children: "Home"
+                                        children: "首页"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/1040-nr-filling-guide/page.tsx",
                                         lineNumber: 91,
@@ -185,9 +185,9 @@ function NR1040FillingGuidePage() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/guides",
+                                        href: "/tools",
                                         className: "hover:text-brand-pinkdeep transition",
-                                        children: "Guides"
+                                        children: "报税工具"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/1040-nr-filling-guide/page.tsx",
                                         lineNumber: 93,
@@ -202,7 +202,7 @@ function NR1040FillingGuidePage() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "text-brand-ink font-medium",
-                                        children: "1040-NR Guide"
+                                        children: "1040-NR 指南"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/1040-nr-filling-guide/page.tsx",
                                         lineNumber: 95,

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Form8843Stepper from "../../../components/Form8843Stepper";
-import { Breadcrumbs } from "../../../components/Breadcrumbs";
-import Sidebar8843 from "../../../components/Sidebar8843";
+import Form8843Stepper from "@/components/Form8843Stepper";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Sidebar8843 from "@/components/Sidebar8843";
 
 export const metadata: Metadata = {
   title: "2026 Form 8843 填写教学：F1/J1 留学生免税声明全攻略 - MapleWorld",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "2026 Form 8843 填写教学：F1/J1 留学生免税声明全攻略",
     description: "手把手教你填写 2026 最新 Form 8843，规避身份合规风险。",
-    url: "https://www.mapleworld.online/form-8843-tutorial-2026",
+    url: "https://www.mapleworld.online/tools/form-8843-tutorial-2026",
     type: "article",
   },
 };
@@ -89,7 +89,7 @@ export default function Form8843Tutorial() {
              {/* 1040-NR Promotion Banner */}
              <div className="mt-8">
                <Link 
-                   href="/1040-nr-filling-guide"
+                   href="/tools/1040-nr-filling-guide"
                    className="group block rounded-2xl border-2 border-dashed border-brand-pink/40 bg-white/60 p-5 transition-all hover:bg-white/80 hover:border-brand-pink/60 active:scale-[0.98] shadow-sm"
                >
                    <div className="flex items-center gap-3">

@@ -19,7 +19,7 @@ export default function FicaRefundCalculatorPage() {
     "name": "F1/OPT 留学生 FICA 退税自动计算器 2026",
     "operatingSystem": "All",
     "applicationCategory": "FinanceApplication",
-    "url": "https://www.mapleworld.online/fica-refund-calculator",
+    "url": "https://www.mapleworld.online/tools/fica-refund-calculator",
     "description": "专门为 F1/OPT 留学生设计的 FICA (Social Security & Medicare) 退税计算工具。自动判定免税资格并估算可退金额。",
     "image": "https://www.mapleworld.online/images/fica-calculator-icon.webp",
     "offers": {
@@ -61,11 +61,11 @@ export default function FicaRefundCalculatorPage() {
             priority
           />
           <nav className="mb-6 flex justify-center space-x-2 text-sm text-brand-ink/50">
-            <Link href="/" className="hover:text-brand-pinkdeep transition">Home</Link>
+            <Link href="/" className="hover:text-brand-pinkdeep transition">首页</Link>
             <span>›</span>
-            <Link href="/tools" className="hover:text-brand-pinkdeep transition">Tools</Link>
+            <Link href="/tools" className="hover:text-brand-pinkdeep transition">报税工具</Link>
             <span>›</span>
-            <span className="text-brand-ink font-medium">FICA Calculator</span>
+            <span className="text-brand-ink font-medium">FICA 计算器</span>
           </nav>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-brand-ink leading-tight">
             2026 最新：F1/OPT 留学生 FICA<br className="hidden sm:block" />

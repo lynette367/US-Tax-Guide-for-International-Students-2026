@@ -2,8 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 const quickLinks = [
-  { label: "1042-S 攻略", href: "/1042-vs-1042-s" },
-  { label: "报税倒计时", href: "/tax-deadlines-2026" },
+  { label: "1042-S 攻略", href: "/guides/1042-vs-1042-s" },
+  { label: "报税倒计时", href: "/guides/tax-deadlines-2026" },
   { label: "NRA 身份自测", href: "/tools/opt-tax" },
 ];
 

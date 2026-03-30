@@ -1,6 +1,6 @@
 {
-  "/(tools)/1040-nr-filling-guide/page": "app/(tools)/1040-nr-filling-guide/page.js",
-  "/(tools)/form-8843-tutorial-2026/page": "app/(tools)/form-8843-tutorial-2026/page.js",
+  "/(guides)/guides/[slug]/page": "app/(guides)/guides/[slug]/page.js",
+  "/(guides)/guides/page": "app/(guides)/guides/page.js",
   "/_not-found/page": "app/_not-found/page.js",
   "/page": "app/page.js"
 }

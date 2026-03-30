@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Breadcrumbs } from "../../../components/Breadcrumbs";
-import { Tax1042SAssessment } from "../../../components/Tax1042SAssessment";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { Tax1042SAssessment } from "@/components/Tax1042SAssessment";
 
 export const metadata: Metadata = {
     title: '1042 是啥？2026 留学生 1042-S 报税终极解惑',
@@ -87,7 +87,7 @@ export default function Page() {
                                     <p className="text-sm text-brand-ink/70 leading-relaxed">
                                         这两个框里的代码决定了你的收入性质。如果你看到了 $5,000 的金额，那通常就是中美税收协定的免税部分。
                                     </p>
-                                    <Link href="/f1-tax-treaty-calculator" className="text-brand-pinkdeep text-sm font-bold hover:underline block mt-4">
+                                    <Link href="/tools/f1-tax-treaty-calculator" className="text-brand-pinkdeep text-sm font-bold hover:underline block mt-4">
                                         了解中美税收协定详情 →
                                     </Link>
                                 </div>
@@ -112,7 +112,7 @@ export default function Page() {
                                     className="rounded-2xl border border-brand-pink/30 shadow-lg"
                                 />
                             </div>
-                            
+
                             <h3 className="text-xl font-bold mt-10 mb-4 text-brand-ink">1042-S：奖学金与协议免税</h3>
                             <p className="text-brand-ink/75 leading-7 text-sm sm:text-base">
                                 它是专门给“非居民个人”发的。如果你的学校把你的 $5,000 免税额度从 W-2 中扣除了，那么这部分钱就会单独出现在 1042-S 上。
@@ -163,8 +163,8 @@ export default function Page() {
                                 <div className="pb-4">
                                     <h3 className="text-lg font-bold text-brand-ink">收到 1042-S 还需要报 W2 吗？</h3>
                                     <p className="text-sm text-brand-ink/75 mt-2">
-                                        是的。已经按 W-2 报完税才收到 1042-S 怎么补救？请尽快参考我们的 
-                                        <Link href="/amend-w2-1099" className="text-brand-pinkdeep underline ml-1">漏报补救指南</Link> 
+                                        是的。已经按 W-2 报完税才收到 1042-S 怎么补救？请尽快参考我们的
+                                        <Link href="/tools/amend-w2-1099" className="text-brand-pinkdeep underline ml-1">漏报补救指南</Link>
                                         准备 1040-X。
                                     </p>
                                 </div>

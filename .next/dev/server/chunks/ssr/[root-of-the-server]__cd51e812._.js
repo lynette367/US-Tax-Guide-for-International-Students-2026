@@ -866,15 +866,15 @@ function GuidesPage() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 className: "mt-2 text-3xl sm:text-4xl font-semibold",
-                                children: "判断型指南：先定路径，再做决定"
+                                children: "2026 美国报税攻略：F1/OPT 留学生 IRS 免费申报与避坑指南"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/guides/page.tsx",
                                 lineNumber: 19,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "mt-4 text-sm sm:text-base text-brand-ink/70",
-                                children: "这些指南为“要不要/能不能/选哪个/怎么办”的问题提供清晰判断，帮助在美中国留学生避免走错报税路径。"
+                                className: "mt-4 text-sm sm:text-base text-brand-ink/70 leading-relaxed",
+                                children: "针对美国 F1/OPT 留学生面临的“身份判定、软件选择、税务协定申请、漏报补救”等核心痛点，我们为您整理了这些深度判断指南。 涵盖 1040-NR 填写、Form 8843 申报，深度对比 TurboTax vs Sprintax vs FreeTaxUSA 优劣。 无论您是 W2/1099 联合报税，还是需要申请 $5000 中美税收协定优惠，通过以下逻辑拆解，您可以清晰判定自己的报税路径，从源头规避身份合规风险，确保退税无忧。"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/guides/page.tsx",
                                 lineNumber: 22,
@@ -888,23 +888,24 @@ function GuidesPage() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "mt-8 grid gap-6 md:grid-cols-2",
-                        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$guides$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["guides"].map((guide)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "soft-card block",
+                        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$guides$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["guides"].map((guide)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                href: `/guides/${guide.slug}`,
+                                className: "soft-card block transition hover:translate-y-[-4px] hover:shadow-lg group",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-xs uppercase tracking-[0.35em] text-brand-ink/50",
-                                        children: "指南"
-                                    }, void 0, false, {
-                                        fileName: "[project]/src/app/(guides)/guides/page.tsx",
-                                        lineNumber: 33,
-                                        columnNumber: 17
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "mt-2 text-lg sm:text-xl font-semibold",
-                                        children: guide.title
+                                        className: "text-xs uppercase tracking-[0.35em] text-brand-ink/50 group-hover:text-brand-pinkdeep transition-colors",
+                                        children: "深度攻略"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/page.tsx",
                                         lineNumber: 36,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "mt-2 text-lg sm:text-xl font-semibold text-brand-pinkdeep group-hover:text-brand-pinkhover transition-colors",
+                                        children: guide.title
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/(guides)/guides/page.tsx",
+                                        lineNumber: 39,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -912,7 +913,7 @@ function GuidesPage() {
                                         children: guide.description
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/page.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 42,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -923,29 +924,37 @@ function GuidesPage() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/guides/page.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 45,
+                                        columnNumber: 17
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "mt-4 flex items-center text-sm font-medium text-brand-pinkdeep group-hover:gap-2 transition-all",
+                                        children: "阅读 2026 报税补税教程 →"
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/(guides)/guides/page.tsx",
+                                        lineNumber: 48,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, guide.slug, true, {
                                 fileName: "[project]/src/app/(guides)/guides/page.tsx",
-                                lineNumber: 29,
+                                lineNumber: 31,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/src/app/(guides)/guides/page.tsx",
-                        lineNumber: 27,
+                        lineNumber: 29,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "mt-10 rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-lg font-semibold",
+                                className: "text-lg font-semibold text-brand-ink",
                                 children: "想直接做判断？"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/guides/page.tsx",
-                                lineNumber: 50,
+                                lineNumber: 56,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -953,22 +962,22 @@ function GuidesPage() {
                                 children: "3 分钟判断工具会给你更明确的路径建议与材料清单。"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/guides/page.tsx",
-                                lineNumber: 51,
+                                lineNumber: 57,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/tools/opt-tax",
-                                className: "mt-4 inline-flex rounded-full bg-brand-pinkdeep px-6 py-3 text-sm font-semibold text-white shadow-[0_20px_50px_rgba(200,127,155,0.4)] transition hover:bg-brand-pinkhover",
-                                children: "去工具页"
+                                className: "mt-4 inline-flex rounded-full bg-brand-pinkdeep px-6 py-3 text-sm font-semibold text-white shadow-[0_20px_50px_rgba(200,127,155,0.4)] transition hover:bg-brand-pinkhover hover:scale-[1.02]",
+                                children: "立即使用：美国报税身份 (NRA/RA) 自动判定工具"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/guides/page.tsx",
-                                lineNumber: 54,
+                                lineNumber: 60,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(guides)/guides/page.tsx",
-                        lineNumber: 49,
+                        lineNumber: 55,
                         columnNumber: 11
                     }, this)
                 ]

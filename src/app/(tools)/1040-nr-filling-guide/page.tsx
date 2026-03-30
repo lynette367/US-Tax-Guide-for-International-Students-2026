@@ -88,11 +88,11 @@ export default function NR1040FillingGuidePage() {
       <article className="page-shell pt-12 sm:pt-20 mx-auto max-w-4xl px-4">
         <header className="mb-12">
           <nav className="mb-6 flex space-x-2 text-sm text-brand-ink/50">
-            <Link href="/" className="hover:text-brand-pinkdeep transition">Home</Link>
+            <Link href="/" className="hover:text-brand-pinkdeep transition">首页</Link>
             <span>›</span>
-            <Link href="/guides" className="hover:text-brand-pinkdeep transition">Guides</Link>
+            <Link href="/tools" className="hover:text-brand-pinkdeep transition">报税工具</Link>
             <span>›</span>
-            <span className="text-brand-ink font-medium">1040-NR Guide</span>
+            <span className="text-brand-ink font-medium">1040-NR 指南</span>
           </nav>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-brand-ink leading-tight">
             2026 留学生 1040-NR 报税全攻略：<br className="hidden sm:block" />

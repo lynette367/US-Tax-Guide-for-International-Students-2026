@@ -26,13 +26,13 @@ export default function OptLateFilingGuidePage() {
     "description": "专为 F1 留学生设计的逾期报税罚款计算器，支持 Failure to File 和 Failure to Pay 自动估算，并提供针对 Form 8843 零收入申报的风险判定。",
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": "https://www.mapleworld.online/opt-late-filing-guide"
+      "@id": "https://www.mapleworld.online/tools/opt-late-filing-guide"
     },
     "potentialAction": {
       "@type": "CalculateAction",
       "target": {
         "@type": "EntryPoint",
-        "urlTemplate": "https://www.mapleworld.online/opt-late-filing-guide#calculator"
+        "urlTemplate": "https://www.mapleworld.online/tools/opt-late-filing-guide#calculator"
       }
     },
     "offers": {
@@ -103,11 +103,11 @@ export default function OptLateFilingGuidePage() {
       <article className="page-shell pt-12 sm:pt-20 mx-auto max-w-4xl px-4">
         <header className="mb-12">
           <nav className="mb-6 flex space-x-2 text-sm text-brand-ink/50">
-            <Link href="/" className="hover:text-brand-pinkdeep transition">Home</Link>
+            <Link href="/" className="hover:text-brand-pinkdeep transition">首页</Link>
             <span>›</span>
-            <Link href="/guides" className="hover:text-brand-pinkdeep transition">Guides</Link>
+            <Link href="/tools" className="hover:text-brand-pinkdeep transition">报税工具</Link>
             <span>›</span>
-            <span className="text-brand-ink font-medium font-serif">Late Filing Guide</span>
+            <span className="text-brand-ink font-medium">逾期补救</span>
           </nav>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-brand-ink leading-tight">
             2026 OPT 报税逾期补救指南：<br className="hidden sm:block" />
@@ -172,11 +172,11 @@ export default function OptLateFilingGuidePage() {
           <section className="mt-24 border-t border-brand-pink/20 pt-16">
             <h2 className="text-xl font-bold mb-8">相关补救指南</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <Link href="/amend-w2-1099" className="group p-6 rounded-2xl bg-gray-50 hover:bg-brand-pink/5 transition-colors border border-gray-100">
+              <Link href="/tools/amend-w2-1099" className="group p-6 rounded-2xl bg-gray-50 hover:bg-brand-pink/5 transition-colors border border-gray-100">
                 <h3 className="font-bold mb-2 group-hover:text-brand-pinkdeep transition-colors">W2/1099 收入漏报补救 →</h3>
                 <p className="text-sm opacity-60">发现之前的工资单没报全？教你如何纠正。</p>
               </Link>
-              <Link href="/form-8843-guide" className="group p-6 rounded-2xl bg-gray-50 hover:bg-brand-pink/5 transition-colors border border-gray-100">
+              <Link href="/guides/form-8843-guide" className="group p-6 rounded-2xl bg-gray-50 hover:bg-brand-pink/5 transition-colors border border-gray-100">
                 <h3 className="font-bold mb-2 group-hover:text-brand-pinkdeep transition-colors">零收入 Form 8843 申报指南 →</h3>
                 <p className="text-sm opacity-60">没收入也想维持身份？8843 填报细节。</p>
               </Link>

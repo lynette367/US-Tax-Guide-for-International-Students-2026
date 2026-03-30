@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Breadcrumbs } from "../../../components/Breadcrumbs";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "2026 避坑：为什么留学生 OPT 报税不建议直接用 TurboTax？(含正确软件推荐)",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "2026 留学生 OPT 报税避坑指南：为什么不建议直接用 TurboTax？",
     description: "详解 F1/OPT 留学生报税误区：为什么 TurboTax 默认不处理 Non-Resident 身份？用错软件报税会有什么后果？本文对比 Sprintax vs TurboTax，助你避开报税红线，确保 H1B/绿卡申请不受影响。",
-    url: "https://www.mapleworld.online/turbotax-pitfalls-2026",
+    url: "https://www.mapleworld.online/tools/turbotax-pitfalls-2026",
     type: "article",
   },
 };

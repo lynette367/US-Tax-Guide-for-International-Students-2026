@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import TaxQuiz from "../../../components/TaxQuiz";
+import TaxQuiz from "@/components/TaxQuiz";
 import Link from "next/link";
-import { Breadcrumbs } from "../../../components/Breadcrumbs";
-import Sidebar8843 from "../../../components/Sidebar8843";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import Sidebar8843 from "@/components/Sidebar8843";
 
 export const metadata: Metadata = {
     title: "2026 F1留学生没收入也要报税吗？不报税的后果惩罚？（附Form 8843 填报指南）",
@@ -41,7 +41,7 @@ export default function Form8843GuidePage() {
 
                             {/* 1040-NR Promotion Banner */}
                             <Link 
-                                href="/1040-nr-filling-guide"
+                                href="/tools/1040-nr-filling-guide"
                                 className="mt-6 group block rounded-2xl border-2 border-dashed border-brand-pink/40 bg-brand-pink/5 p-5 transition-all hover:bg-brand-pink/10 hover:border-brand-pink/60 active:scale-[0.98]"
                             >
                                 <div className="flex items-center gap-3">
@@ -103,7 +103,7 @@ export default function Form8843GuidePage() {
                                         </div>
                                     </div>
                                     <Link
-                                        href="/form-8843-tutorial-2026"
+                                        href="/tools/form-8843-tutorial-2026"
                                         className="block w-full py-5 text-center bg-brand-pinkdeep text-white font-bold text-lg hover:bg-brand-pinkdeep/90 transition-all active:scale-[0.99]"
                                     >
                                         点击查看：8843 手把手填报教程 →
@@ -174,7 +174,7 @@ export default function Form8843GuidePage() {
                                         2026 年 3 月 16 日是学校发放 1042-S 的法定截止日。如果你至今未收到，<strong>请务必联系学校国际办 (ISSO)</strong>。
                                         <br /><br />
                                         <span className="font-semibold">核心提醒：</span>
-                                        不知道1042是啥？一键查看<a href="/1042-vs-1042-s" className="text-brand-pinkdeep font-bold hover:underline">1042-S 到底是什么？</a>
+                                        不知道1042是啥？一键查看<Link href="/guides/1042-vs-1042-s" className="text-brand-pinkdeep font-bold hover:underline">1042-S 到底是什么？</Link>
                                     </p>
                                 </div>
 

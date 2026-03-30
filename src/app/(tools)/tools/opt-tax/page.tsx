@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { Breadcrumbs } from "../../../../components/Breadcrumbs";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 type ViewState = "quiz" | "result" | "exit";
 
@@ -582,7 +582,7 @@ export default function OptTaxToolPage() {
                         <p className="text-sm text-white/90 leading-relaxed mb-4">
                           你通常需要申报 1040-NR。恭喜，你大概率符合 <strong>$5,000 中美税务协定 (Treaty)</strong> 免税额。
                         </p>
-                        <Link href="/1042-vs-1042-s" className="text-xs font-bold underline underline-offset-4 hover:text-white transition">
+                        <Link href="/guides/1042-vs-1042-s" className="text-xs font-bold underline underline-offset-4 hover:text-white transition">
                           查看 1042-S 报税攻略 →
                         </Link>
                       </div>
@@ -708,15 +708,15 @@ export default function OptTaxToolPage() {
               <div className="soft-card !p-6">
                 <h3 className="font-bold text-brand-ink mb-4">相关报税指南</h3>
                 <div className="space-y-4">
-                  <Link href="/w2-missing-guide" className="group block">
+                  <Link href="/guides/w2-missing-guide" className="group block">
                     <p className="text-[10px] text-brand-pinkdeep font-bold mb-1 uppercase tracking-wider">01. W-2 缺失补救</p>
                     <h4 className="text-sm font-bold group-hover:text-brand-pinkdeep transition leading-snug">W-2 还没收到怎么办？教你 4 步强制补救</h4>
                   </Link>
-                  <Link href="/form-8843-guide" className="group block pt-4 border-t border-brand-pink/10">
+                  <Link href="/guides/form-8843-guide" className="group block pt-4 border-t border-brand-pink/10">
                     <p className="text-[10px] text-brand-pinkdeep font-bold mb-1 uppercase tracking-wider">02. 8843 教程</p>
                     <h4 className="text-sm font-bold group-hover:text-brand-pinkdeep transition leading-snug">Form 8843 填写保姆级教程 (2026版)</h4>
                   </Link>
-                  <Link href="/form-8843-amend-guide" className="group block pt-4 border-t border-brand-pink/10">
+                  <Link href="/guides/form-8843-amend-guide" className="group block pt-4 border-t border-brand-pink/10">
                     <p className="text-[10px] text-brand-pinkdeep font-bold mb-1 uppercase tracking-wider">03. 修正申报</p>
                     <h4 className="text-sm font-bold group-hover:text-brand-pinkdeep transition leading-snug">8843 填错了/漏填了？手把手教你修正</h4>
                   </Link>

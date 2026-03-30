@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import TaxCountdown from "../../../components/TaxCountdown";
-import { Breadcrumbs } from "../../../components/Breadcrumbs";
+import TaxCountdown from "@/components/TaxCountdown";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "2026 留学生报税倒计时 & 1042-S 截止日期提醒 - MapleWorld",
   description: "实时查看 2026 美国留学生报税倒计时。包含 1042-S、W-2 关键申报节点提醒，助你避开逾期罚款（最高可达 $660）。",
   keywords: "报税截止日期 2026, F1 报税倒计时, 1042-S deadline, OPT tax filing dates",
+  alternates: {
+    canonical: "https://www.mapleworld.online/tax-deadlines-2026",
+  },
 };
 
 const deadlines = [
@@ -49,7 +52,7 @@ export default function TaxDeadlinesPage() {
     "description": "2026 报税季关键节点：1042-S 发放（3月16日），W-2 发放（1月31日），报税截止（4月15日）。",
     "location": {
       "@type": "VirtualLocation",
-      "url": "https://www.mapleworld.online/tax-deadlines-2026"
+      "url": "https://www.mapleworld.online/guides/tax-deadlines-2026"
     },
     "organizer": {
       "@type": "Organization",
@@ -64,7 +67,7 @@ export default function TaxDeadlinesPage() {
       "@type": "Offer",
       "price": "0",
       "priceCurrency": "USD",
-      "url": "https://www.mapleworld.online/tax-deadlines-2026"
+      "url": "https://www.mapleworld.online/guides/tax-deadlines-2026"
     }
   };
 

@@ -355,7 +355,7 @@ function Page() {
                                                         columnNumber: 37
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: "/f1-tax-treaty-calculator",
+                                                        href: "/tools/f1-tax-treaty-calculator",
                                                         className: "text-brand-pinkdeep text-sm font-bold hover:underline block mt-4",
                                                         children: "了解中美税收协定详情 →"
                                                     }, void 0, false, {
@@ -675,7 +675,7 @@ function Page() {
                                                         children: [
                                                             "是的。已经按 W-2 报完税才收到 1042-S 怎么补救？请尽快参考我们的",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                                href: "/amend-w2-1099",
+                                                                href: "/tools/amend-w2-1099",
                                                                 className: "text-brand-pinkdeep underline ml-1",
                                                                 children: "漏报补救指南"
                                                             }, void 0, false, {

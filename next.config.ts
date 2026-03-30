@@ -9,6 +9,10 @@ const archiveRoutes = [
 ];
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+    ];
+  },
   async rewrites() {
     return archiveRoutes.map((route) => ({
       source: route,

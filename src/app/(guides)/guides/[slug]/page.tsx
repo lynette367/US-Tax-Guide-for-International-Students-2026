@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGuideBySlug, guides } from "@/lib/guides";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 import TaxQuiz from "@/components/TaxQuiz";
 
 export function generateStaticParams() {
@@ -45,6 +46,12 @@ export default async function GuideDetailPage({
       <section className="px-4 py-12 sm:py-16">
         <div className="page-shell">
           <article className="max-w-3xl">
+            <Breadcrumbs 
+                items={[
+                    { label: "报税攻略", href: "/guides" },
+                    { label: guide.title }
+                ]} 
+            />
             <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50">
               Guide
             </p>

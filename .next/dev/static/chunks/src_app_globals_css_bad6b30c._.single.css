@@ -78,7 +78,6 @@
 
 @layer theme {
   :root, :host {
-    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --color-red-50: #fef2f2;
     --color-red-100: #ffe2e2;
@@ -772,6 +771,13 @@
 
   .ml-1\.5 {
     margin-left: calc(var(--spacing) * 1.5);
+  }
+
+  .line-clamp-3 {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
   }
 
   .block {
@@ -2379,10 +2385,6 @@
     font-family: var(--font-body);
   }
 
-  .font-serif {
-    font-family: var(--font-serif);
-  }
-
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -3320,6 +3322,12 @@
   }
 
   @media (hover: hover) {
+    .group-hover\:gap-2:is(:where(.group):hover *) {
+      gap: calc(var(--spacing) * 2);
+    }
+  }
+
+  @media (hover: hover) {
     .group-hover\:border-brand-pinkdeep:is(:where(.group):hover *) {
       border-color: var(--brand-pinkdeep);
     }
@@ -3346,6 +3354,12 @@
   @media (hover: hover) {
     .group-hover\:text-brand-pinkdeep:is(:where(.group):hover *) {
       color: var(--brand-pinkdeep);
+    }
+  }
+
+  @media (hover: hover) {
+    .group-hover\:text-brand-pinkhover:is(:where(.group):hover *) {
+      color: var(--brand-pinkhover);
     }
   }
 
@@ -3415,6 +3429,13 @@
   @media (hover: hover) {
     .hover\:-translate-y-2:hover {
       --tw-translate-y: calc(var(--spacing) * -2);
+      translate: var(--tw-translate-x) var(--tw-translate-y);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:translate-y-\[-4px\]:hover {
+      --tw-translate-y: -4px;
       translate: var(--tw-translate-x) var(--tw-translate-y);
     }
   }

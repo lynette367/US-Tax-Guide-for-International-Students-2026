@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import TaxQuiz from "@/components/TaxQuiz";
-import CopyableEmail from "../../../components/CopyableEmail";
-import W2Estimator from "../../../components/W2Estimator";
+import CopyableEmail from "@/components/CopyableEmail";
+import W2Estimator from "@/components/W2Estimator";
 import Link from "next/link";
-import { Breadcrumbs } from "../../../components/Breadcrumbs";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 export const metadata: Metadata = {
   title: "2026 报税季：F1 学生没收到 W-2 怎么办？(含联系雇主邮件模板与 Form 4852 教程)(附 PDF 下载)",
@@ -126,7 +126,7 @@ export default function W2MissingGuidePage() {
                 <h2 className="text-xl sm:text-2xl font-bold mb-4 text-brand-ink">下一步建议</h2>
                 <p className="text-brand-ink/75 mb-6">如果你自测是 NRI 且年收入低于一定额度，可能只需要填 8843。请参考我们的专项教程：</p>
                 <Link
-                  href="/form-8843-guide"
+                  href="/guides/form-8843-guide"
                   className="inline-flex items-center text-brand-pinkdeep font-bold hover:underline"
                 >
                   《8843 填写教程：无收入也能保身份》 →

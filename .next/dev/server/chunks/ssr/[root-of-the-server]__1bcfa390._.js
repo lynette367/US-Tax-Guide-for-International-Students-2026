@@ -90,13 +90,13 @@ function OptLateFilingGuidePage() {
         "description": "专为 F1 留学生设计的逾期报税罚款计算器，支持 Failure to File 和 Failure to Pay 自动估算，并提供针对 Form 8843 零收入申报的风险判定。",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.mapleworld.online/opt-late-filing-guide"
+            "@id": "https://www.mapleworld.online/tools/opt-late-filing-guide"
         },
         "potentialAction": {
             "@type": "CalculateAction",
             "target": {
                 "@type": "EntryPoint",
-                "urlTemplate": "https://www.mapleworld.online/opt-late-filing-guide#calculator"
+                "urlTemplate": "https://www.mapleworld.online/tools/opt-late-filing-guide#calculator"
             }
         },
         "offers": {
@@ -190,7 +190,7 @@ function OptLateFilingGuidePage() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
                                         href: "/",
                                         className: "hover:text-brand-pinkdeep transition",
-                                        children: "Home"
+                                        children: "首页"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/opt-late-filing-guide/page.tsx",
                                         lineNumber: 106,
@@ -204,9 +204,9 @@ function OptLateFilingGuidePage() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                        href: "/guides",
+                                        href: "/tools",
                                         className: "hover:text-brand-pinkdeep transition",
-                                        children: "Guides"
+                                        children: "报税工具"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/opt-late-filing-guide/page.tsx",
                                         lineNumber: 108,
@@ -220,8 +220,8 @@ function OptLateFilingGuidePage() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "text-brand-ink font-medium font-serif",
-                                        children: "Late Filing Guide"
+                                        className: "text-brand-ink font-medium",
+                                        children: "逾期补救"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(tools)/opt-late-filing-guide/page.tsx",
                                         lineNumber: 110,
@@ -569,7 +569,7 @@ function OptLateFilingGuidePage() {
                                         className: "grid grid-cols-1 sm:grid-cols-2 gap-6",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "/amend-w2-1099",
+                                                href: "/tools/amend-w2-1099",
                                                 className: "group p-6 rounded-2xl bg-gray-50 hover:bg-brand-pink/5 transition-colors border border-gray-100",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -595,7 +595,7 @@ function OptLateFilingGuidePage() {
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                href: "/form-8843-guide",
+                                                href: "/guides/form-8843-guide",
                                                 className: "group p-6 rounded-2xl bg-gray-50 hover:bg-brand-pink/5 transition-colors border border-gray-100",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {

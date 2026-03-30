@@ -186,7 +186,7 @@ function Sidebar8843() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/form-8843-tutorial-2026",
+                                href: "/tools/form-8843-tutorial-2026",
                                 className: "block mt-8 text-center bg-brand-pink hover:bg-brand-pinkdeep/90 text-white font-bold py-4 px-4 rounded-2xl transition-all shadow-[0_4px_15px_rgba(224,64,106,0.2)] hover:shadow-[0_6px_20px_rgba(224,64,106,0.3)] hover:-translate-y-0.5 active:scale-[0.98] text-sm leading-snug",
                                 children: [
                                     "已确认必须申报？",
@@ -203,7 +203,7 @@ function Sidebar8843() {
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/1042-vs-1042-s",
+                                href: "/guides/1042-vs-1042-s",
                                 className: "block mt-4 text-center bg-[#d4a373] hover:bg-[#c6915b] text-white font-bold py-4 px-4 rounded-2xl transition-all shadow-[0_4px_15px_rgba(212,163,115,0.2)] hover:shadow-[0_6px_20px_rgba(212,163,115,0.3)] hover:-translate-y-0.5 active:scale-[0.98] text-sm leading-snug",
                                 children: [
                                     "1042-S 还没收到？",
@@ -220,7 +220,7 @@ function Sidebar8843() {
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/fica-refund-calculator",
+                                href: "/tools/fica-refund-calculator",
                                 className: "block group",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm font-medium text-brand-ink/90 group-hover:text-brand-pinkdeep transition-colors leading-relaxed",
@@ -243,7 +243,7 @@ function Sidebar8843() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/opt-turbotax",
+                            href: "/tools/opt-turbotax",
                             className: "block group",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-sm font-medium text-brand-ink/90 group-hover:text-brand-pinkdeep transition-colors leading-relaxed",
@@ -265,7 +265,7 @@ function Sidebar8843() {
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/w2-missing-guide",
+                            href: "/guides/w2-missing-guide",
                             className: "block group",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-sm font-medium text-brand-ink/90 group-hover:text-brand-pinkdeep transition-colors leading-relaxed",
@@ -409,9 +409,42 @@ function Form8843GuidePage() {
                                     lineNumber: 36,
                                     columnNumber: 29
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TaxQuiz$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                    href: "/tools/1040-nr-filling-guide",
+                                    className: "mt-6 group block rounded-2xl border-2 border-dashed border-brand-pink/40 bg-brand-pink/5 p-5 transition-all hover:bg-brand-pink/10 hover:border-brand-pink/60 active:scale-[0.98]",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "flex items-center gap-3",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "text-2xl animate-bounce",
+                                                children: "✨"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
+                                                lineNumber: 48,
+                                                columnNumber: 37
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "text-brand-pinkdeep font-bold text-base sm:text-lg",
+                                                children: "【2026最新】1040-NR 交互式填写指南与罚款计算器已上线，点击直达 →"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
+                                                lineNumber: 49,
+                                                columnNumber: 37
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
+                                        lineNumber: 47,
+                                        columnNumber: 33
+                                    }, this)
+                                }, void 0, false, {
                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
                                     lineNumber: 43,
+                                    columnNumber: 29
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TaxQuiz$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                                    fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
+                                    lineNumber: 56,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -422,7 +455,7 @@ function Form8843GuidePage() {
                                             children: "什么是 Form 8843？为什么 F1/OPT 必须重视 Form 8843？"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 46,
+                                            lineNumber: 59,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -433,7 +466,7 @@ function Form8843GuidePage() {
                                                     children: "Statement for Exempt Individuals and Individuals with a Medical Condition"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 63,
                                                     columnNumber: 51
                                                 }, this),
                                                 "。 它的核心作用不是报钱，而是",
@@ -441,14 +474,14 @@ function Form8843GuidePage() {
                                                     children: "声明豁免身份"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 64,
                                                     columnNumber: 50
                                                 }, this),
                                                 "。"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 49,
+                                            lineNumber: 62,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -457,14 +490,14 @@ function Form8843GuidePage() {
                                                 "很多人会问：“我去年一整年都在找工作，没有任何收入（W2/1099），我也要报税吗？” 答案是肯定的。",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 55,
+                                                    lineNumber: 68,
                                                     columnNumber: 44
                                                 }, this),
                                                 "你要做的，就是通过这份表，向 IRS 说明：虽然我在美国待的天数可能符合“实质居住测试（SPT）”，但因为我是持 F1 项目的学生， 按照税法规定，我的天数不应计入判定，我依然可以维持 Non-resident 身份，享受学生专属的税务优惠。"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 66,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -475,7 +508,7 @@ function Form8843GuidePage() {
                                                     children: "五年规则（5-Year Rule）"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 60,
+                                                    lineNumber: 73,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -486,20 +519,20 @@ function Form8843GuidePage() {
                                                             children: "STEM 延期"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                            lineNumber: 64,
+                                                            lineNumber: 77,
                                                             columnNumber: 56
                                                         }, this),
                                                         "，只要没超过 5 年，你依然需要填 8843。"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 61,
+                                                    lineNumber: 74,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 59,
+                                            lineNumber: 72,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -507,7 +540,7 @@ function Form8843GuidePage() {
                                             children: "2026 年，你依然需要填 8843 吗？千万别拿 H1B 和绿卡开玩笑"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 81,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -527,14 +560,14 @@ function Form8843GuidePage() {
                                                                             children: "❌"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                            lineNumber: 77,
+                                                                            lineNumber: 90,
                                                                             columnNumber: 49
                                                                         }, this),
                                                                         " 不报税"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 76,
+                                                                    lineNumber: 89,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -542,13 +575,13 @@ function Form8843GuidePage() {
                                                                     children: "面临 H1B 风险 & 信用受损"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 79,
+                                                                    lineNumber: 92,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                            lineNumber: 75,
+                                                            lineNumber: 88,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -562,14 +595,14 @@ function Form8843GuidePage() {
                                                                             children: "✅"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                            lineNumber: 85,
+                                                                            lineNumber: 98,
                                                                             columnNumber: 49
                                                                         }, this),
                                                                         " 花 5 分钟报 8843"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 84,
+                                                                    lineNumber: 97,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -577,41 +610,41 @@ function Form8843GuidePage() {
                                                                     children: "换取 2026 全年身份无忧"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 87,
+                                                                    lineNumber: 100,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                            lineNumber: 83,
+                                                            lineNumber: 96,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 74,
+                                                    lineNumber: 87,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                                    href: "/form-8843-tutorial-2026",
+                                                    href: "/tools/form-8843-tutorial-2026",
                                                     className: "block w-full py-5 text-center bg-brand-pinkdeep text-white font-bold text-lg hover:bg-brand-pinkdeep/90 transition-all active:scale-[0.99]",
                                                     children: "点击查看：8843 手把手填报教程 →"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 92,
+                                                    lineNumber: 105,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 73,
+                                            lineNumber: 86,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             children: "1. 签证及未来移民申请受阻"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 99,
+                                            lineNumber: 112,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -622,21 +655,21 @@ function Form8843GuidePage() {
                                                     children: "H1B、OPT 延期或绿卡"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 101,
+                                                    lineNumber: 114,
                                                     columnNumber: 79
                                                 }, this),
                                                 "时，IRS 的不合规记录可能导致移民局认为你“未能遵守非移民签证条款”，从而产生身份衔接风险。"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 100,
+                                            lineNumber: 113,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             children: "2. 罚款与欠税风险"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 103,
+                                            lineNumber: 116,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -644,14 +677,14 @@ function Form8843GuidePage() {
                                             children: "如果你不仅没报 8843，还漏报了有收入的 1040-NR，IRS 会收取每月 5% 的未申报罚款。虽然纯 8843 申报（无收入）通常没有金钱罚款，但逾期申报会让你失去 3 年内申领历史退税的权利。"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 104,
+                                            lineNumber: 117,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             children: "3. 信用记录受损"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 107,
+                                            lineNumber: 120,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -659,7 +692,7 @@ function Form8843GuidePage() {
                                             children: "长期不报税可能导致欠税信息进入公共记录，进而影响你在美国的个人信用分数 (FICO)。这不仅会影响未来租房、贷款买车，甚至在极端欠税情况下，可能面临 IRS 的法律追讨及入籍时的“道德标准”审查。"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 121,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -667,7 +700,7 @@ function Form8843GuidePage() {
                                             children: "OPT 与 STEM 延期的特殊说明：1040-NR 与 Treaty"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 112,
+                                            lineNumber: 125,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -680,12 +713,12 @@ function Form8843GuidePage() {
                                                 className: "rounded-2xl border border-brand-pink/30 shadow-lg"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                lineNumber: 116,
+                                                lineNumber: 129,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 115,
+                                            lineNumber: 128,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -696,14 +729,14 @@ function Form8843GuidePage() {
                                                     children: "Form 1040-NR"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 125,
+                                                    lineNumber: 138,
                                                     columnNumber: 78
                                                 }, this),
                                                 "。"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 124,
+                                            lineNumber: 137,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -711,7 +744,7 @@ function Form8843GuidePage() {
                                             children: "“注意：中美之间有 $5000 的免税协定（Article 20(c) Treaty）。 如果你是 F1 身份，这 $5000 的工资收入是不需要交联邦税的。”"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 127,
+                                            lineNumber: 140,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -719,7 +752,7 @@ function Form8843GuidePage() {
                                             children: "此外，F1 学生在 OPT 期间通常可以豁免 FICA（Social Security & Medicare Tax）。 如果公司误扣了这些税，你需要通过 Form 843 申请退回。"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 144,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -727,7 +760,7 @@ function Form8843GuidePage() {
                                             children: "很多人都在说3.15是截止日期，这个是啥截止了？8843表格现在寄出还来得及吗？"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 136,
+                                            lineNumber: 149,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -741,13 +774,13 @@ function Form8843GuidePage() {
                                                             children: "Form 8843 的寄送并不依赖于 1042-S。"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                            lineNumber: 141,
+                                                            lineNumber: 154,
                                                             columnNumber: 47
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 140,
+                                                    lineNumber: 153,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -755,7 +788,7 @@ function Form8843GuidePage() {
                                                     children: "2026 年 3 月 16 日是学校发放 1042-S 的法定截止日。如果你至今未收到，大概率是因为你 2025 年没有符合 Treaty 免税的奖学金或收入。"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 143,
+                                                    lineNumber: 156,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -765,20 +798,20 @@ function Form8843GuidePage() {
                                                             children: "* 1042-S 发送截止日 (3.15)：这是学校/雇主把表寄给你的最后期限。因为 2026 年 3 月 15 日是周日，所以顺延到 3 月 16 日。"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                            lineNumber: 147,
+                                                            lineNumber: 160,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
                                                             children: "* 1042-S 接收截止日 (4.15)：这是你独立寄出 8843 的最终期限。"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                            lineNumber: 148,
+                                                            lineNumber: 161,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 146,
+                                                    lineNumber: 159,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -792,14 +825,14 @@ function Form8843GuidePage() {
                                                                     children: "💡"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 152,
+                                                                    lineNumber: 165,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 " 核心结论："
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                            lineNumber: 151,
+                                                            lineNumber: 164,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -810,7 +843,7 @@ function Form8843GuidePage() {
                                                                     children: "注定不会收到 1042-S"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 155,
+                                                                    lineNumber: 168,
                                                                     columnNumber: 55
                                                                 }, this),
                                                                 "，你依然有义务在 ",
@@ -818,26 +851,26 @@ function Form8843GuidePage() {
                                                                     children: "4.15 报税季结束前"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 155,
+                                                                    lineNumber: 168,
                                                                     columnNumber: 94
                                                                 }, this),
                                                                 " 独立寄出 Form 8843。千万不要因为“没收到表”就错过 8843 的截止日，以免影响未来的签证和身份转换。"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                            lineNumber: 154,
+                                                            lineNumber: 167,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 163,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 139,
+                                            lineNumber: 152,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -850,18 +883,18 @@ function Form8843GuidePage() {
                                                         children: "请务必联系学校国际办 (ISSO)"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                        lineNumber: 161,
+                                                        lineNumber: 174,
                                                         columnNumber: 85
                                                     }, this),
                                                     "。",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                        lineNumber: 162,
+                                                        lineNumber: 175,
                                                         columnNumber: 41
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                        lineNumber: 162,
+                                                        lineNumber: 175,
                                                         columnNumber: 47
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -869,28 +902,28 @@ function Form8843GuidePage() {
                                                         children: "核心提醒："
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                        lineNumber: 163,
+                                                        lineNumber: 176,
                                                         columnNumber: 41
                                                     }, this),
                                                     "不知道1042是啥？一键查看",
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                        href: "/1042-vs-1042-s",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/guides/1042-vs-1042-s",
                                                         className: "text-brand-pinkdeep font-bold hover:underline",
                                                         children: "1042-S 到底是什么？"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                        lineNumber: 164,
+                                                        lineNumber: 177,
                                                         columnNumber: 55
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                lineNumber: 160,
+                                                lineNumber: 173,
                                                 columnNumber: 37
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 172,
                                             columnNumber: 33
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -901,7 +934,7 @@ function Form8843GuidePage() {
                                                     children: "准备好开始了吗？"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 182,
                                                     columnNumber: 37
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -915,7 +948,7 @@ function Form8843GuidePage() {
                                                                     children: "官方下载"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 172,
+                                                                    lineNumber: 185,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -923,7 +956,7 @@ function Form8843GuidePage() {
                                                                     children: "从 IRS 官网获取最新的表单 pdf 文件。"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 173,
+                                                                    lineNumber: 186,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -936,7 +969,7 @@ function Form8843GuidePage() {
                                                                             children: "Form 8843 下载 →"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                            lineNumber: 175,
+                                                                            lineNumber: 188,
                                                                             columnNumber: 49
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -946,19 +979,19 @@ function Form8843GuidePage() {
                                                                             children: "Form 1040-NR 下载 →"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                            lineNumber: 176,
+                                                                            lineNumber: 189,
                                                                             columnNumber: 49
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 174,
+                                                                    lineNumber: 187,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                            lineNumber: 171,
+                                                            lineNumber: 184,
                                                             columnNumber: 41
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -969,7 +1002,7 @@ function Form8843GuidePage() {
                                                                     children: "需要更多帮助？"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 180,
+                                                                    lineNumber: 193,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -977,7 +1010,7 @@ function Form8843GuidePage() {
                                                                     children: "查看我们的 F1 身份判定自动工具，3 秒钟锁定你的报税路径。"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 181,
+                                                                    lineNumber: 194,
                                                                     columnNumber: 45
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
@@ -986,31 +1019,31 @@ function Form8843GuidePage() {
                                                                     children: "去使用身份判定工具 →"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                                    lineNumber: 182,
+                                                                    lineNumber: 195,
                                                                     columnNumber: 45
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                            lineNumber: 179,
+                                                            lineNumber: 192,
                                                             columnNumber: 41
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                                    lineNumber: 170,
+                                                    lineNumber: 183,
                                                     columnNumber: 37
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                            lineNumber: 168,
+                                            lineNumber: 181,
                                             columnNumber: 33
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 58,
                                     columnNumber: 29
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1021,12 +1054,12 @@ function Form8843GuidePage() {
                                         children: "免责声明：本内容仅为个人经验分享与税务信息整理，不构成法律、税务或专业建议。 报税规则可能因个人具体出入境记录而异，建议在提交前咨询 CPA 或使用 Sprintax 等专业留学生报税软件。"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                        lineNumber: 189,
+                                        lineNumber: 202,
                                         columnNumber: 33
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                    lineNumber: 188,
+                                    lineNumber: 201,
                                     columnNumber: 29
                                 }, this)
                             ]
@@ -1039,12 +1072,12 @@ function Form8843GuidePage() {
                             className: "lg:sticky lg:top-24",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Sidebar8843$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                                lineNumber: 196,
+                                lineNumber: 209,
                                 columnNumber: 29
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/(guides)/form-8843-guide/page.tsx",
-                            lineNumber: 195,
+                            lineNumber: 208,
                             columnNumber: 25
                         }, this)
                     ]

@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import { Breadcrumbs } from "../../../components/Breadcrumbs";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
 
 const totalSteps = 8;
 const entryYears = Array.from({ length: 9 }, (_, index) => 2018 + index);

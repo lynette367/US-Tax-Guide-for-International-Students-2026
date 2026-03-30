@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Breadcrumbs } from "../../../components/Breadcrumbs";
-import AmIScrewedWidget from "../../../components/AmIScrewedWidget";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import AmIScrewedWidget from "@/components/AmIScrewedWidget";
 
 export const viewport: Viewport = {
   width: "device-width",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "报税漏报了？这有一份 2026 OPT 补救清单（建议收藏）",
     description: "别等 IRS 发信才后悔，手把手教你合规补报收入。",
-    url: "https://www.mapleworld.online/amend-w2-1099",
+    url: "https://www.mapleworld.online/tools/amend-w2-1099",
     type: "article",
     images: ["/images/1040x-flowchart.png"],
   },
@@ -223,7 +223,7 @@ export default function AmendW21099Page() {
               <div className="sticky top-24 p-6 rounded-3xl border border-brand-pink/30 bg-white shadow-xl">
                 <h3 className="font-bold text-lg mb-4 text-brand-ink">相关专题</h3>
                 <Link 
-                  href="/1042-vs-1042-s" 
+                  href="/guides/1042-vs-1042-s" 
                   className="group block p-5 rounded-2xl bg-brand-pink/5 hover:bg-brand-pink/10 transition border border-brand-pink/10"
                 >
                   <p className="text-sm font-semibold text-brand-ink leading-relaxed group-hover:text-brand-pinkdeep transition-colors">

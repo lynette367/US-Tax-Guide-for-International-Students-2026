@@ -71,7 +71,8 @@ const stories = [
     href: "/fica-refund-calculator",
     image: "/images/fica-calculator-icon.webp",
     alt: "F1/OPT 留学生 FICA 退税金额计算器",
-    anchorText: "[自测：F1/OPT FICA 退税金额计算器]",
+    anchorText: "查看：2026 F1/OPT FICA 退税申请教程",
+    ariaLabel: "2026 F1/OPT FICA 退税申请教程"
   },
   {
     title: "留学生报税软件避坑",
@@ -80,19 +81,19 @@ const stories = [
     href: "/turbotax-pitfalls-2026",
     image: "/images/turbotax-warning-icon.webp",
     alt: "F1/OPT 留学生使用 TurboTax 报税的合规性风险提示",
-    anchorText: "立即避坑 →",
-    ariaLabel: "OPT 报税软件选择避坑",
+    anchorText: "深度对比：TurboTax vs Sprintax 留学生报税优劣",
+    ariaLabel: "对比 TurboTax vs Sprintax 留学生报税优劣",
     itemProp: "itemListElement"
   },
   {
-    title: "1042-s到底是啥？留学生报税为啥要报1042-s？",
+    title: "1042-s到底是啥？",
     content:
       "收到1042-s表格的时候我都懵了，我根本不知道这是什么。我只是一个拿F1签证的留学生，只是在学校里面帮了一下下教授整理资料……\n真的只有一小下下，总共就收了562刀……\n不要告诉我这么点钱也会交税吧？",
     href: "/1042-vs-1042-s",
     image: "/images/1042-vs-1042-s-comparison.webp",
     alt: "F1/OPT 留学生 1042-s 报税指南",
-    anchorText: "立即扫盲 →",
-    ariaLabel: "1042-s 报税指南",
+    anchorText: "扫盲指南：2026 留学生 1042-S 表格申报方法",
+    ariaLabel: "2026 留学生 1042-S 表格申报方法",
     itemProp: "itemListElement"
   },
   {
@@ -101,8 +102,8 @@ const stories = [
       "W2是雇佣薪资报表，1099是兼职/ freelance等杂项收入报表，IRS会同步收到两份报表数据。漏报任何一类收入，都会被IRS判定少缴税款，不仅要补缴欠税，还要加收利息和罚款。发现漏报需尽快提交1040-X修正表，主动补救可降低处罚力度，保护税务合规记录。",
     href: "/amend-w2-1099",
     image: "/images/lifebuoy-icon.png",
-    anchorText: "立即补救 →",
-    ariaLabel: "2026 留学生 W2 1099 漏报补救指南",
+    anchorText: "补救教程：美国 W2 和 1099 联合报税/漏报修正",
+    ariaLabel: "美国 W2 和 1099 联合报税/漏报修正",
     itemProp: "itemListElement",
     priority: "urgent"
   },
@@ -113,11 +114,12 @@ const stories = [
     href: "/f1-tax-treaty-calculator",
     image: "/images/tax-treaty-calculator-icon.png",
     alt: "F1 OPT 留学生中美税收协定减免额计算器",
-    anchorText: "立即计算 →",
-    ariaLabel: "F1 OPT 留学生税收协定减免额计算",
+    anchorText: "申请教程：中美税收协定 $5000 免税额度申报",
+    ariaLabel: "中美税收协定 $5000 免税额度申报",
     itemProp: "itemListElement"
   },
 ];
+
 
 const pricingTiers = [
   {
@@ -231,7 +233,7 @@ export default function Home() {
               href="/tax-deadlines-2026"
               className="text-sm font-semibold text-brand-ink/60 hover:text-brand-pinkdeep underline underline-offset-4 decoration-brand-pink/30 hover:decoration-brand-pinkdeep transition-all"
             >
-              查看 2026 报税关键时间表 →
+              查看 2026 美国 IRS 报税截止日期与关键时间表 →
             </Link>
           </div>
 
@@ -244,7 +246,7 @@ export default function Home() {
               href="/tools/opt-tax"
               className="mt-5 inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-3.5 text-sm font-bold text-brand-pinkdeep shadow-lg transition hover:scale-[1.02] hover:bg-white/90 hover:shadow-xl active:scale-[0.98]"
             >
-              3 秒自动判定我的身份 →
+              点击判定：2026 留学生报税身份 (NRA vs Resident)
             </Link>
           </div>
         </div>
@@ -292,9 +294,11 @@ export default function Home() {
             </h2>
           </div>
           <div className="mt-6 rounded-[28px] border border-brand-pink/40 bg-white/85 p-6 sm:p-8 shadow-[0_18px_60px_rgba(244,185,200,0.3)] flex flex-col gap-4">
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
-              Guides / 教程
-            </p>
+            <Link href="/guides" className="block hover:opacity-80 transition-opacity">
+              <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
+                Guides / 教程
+              </p>
+            </Link>
             <Link
               href="/form-8843-guide"
               className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
@@ -335,18 +339,12 @@ export default function Home() {
           <div
             className="mt-6 block rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)] flex flex-col gap-4"
           >
-            <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
-              Tools / 工具
-            </p>
-            <Link
-              href="/guides"
-              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
-            >
-              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
-              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
-                《判断型指南：先定路径，再做决定》
-              </h3>
+            <Link href="/tools" className="block hover:opacity-80 transition-opacity">
+              <p className="text-xs sm:text-sm uppercase tracking-[0.35em] text-brand-ink/50 font-bold">
+                Tools / 工具
+              </p>
             </Link>
+
             <Link
               href="/form-8843-tutorial-2026"
               className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep bg-brand-pink/10 p-4 rounded-2xl border border-brand-pink/20 transition hover:scale-[1.01]"
@@ -444,22 +442,32 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-4 pt-8 sm:pt-16 lg:pt-10">
+      <section className="px-4 pt-8 pb-10 sm:pt-16 lg:pt-10 lg:pb-10">
         <div className="page-shell">
           <div className="max-w-3xl">
             <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-brand-ink">
-              常用报税工具与指南
+              热门搜索
             </h2>
           </div>
-          <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {deliverables.map((item) => (
-              <div
-                key={item.title}
-                className="rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)]"
+          <div className="mt-8 flex flex-wrap gap-4 overflow-hidden">
+            {[
+              { label: "1040 填表", href: "/1040-nr-filling-guide", color: "#8E9775" },
+              { label: "美国报税 TurboTax", href: "/opt-turbotax", color: "#E28E8E" },
+              { label: "FreeTaxUSA", href: "/opt-turbotax", color: "#94B49F" },
+              { label: "FICA 退税", href: "/fica-refund-calculator", color: "#D4BEAD" },
+              { label: "Form 8843", href: "/form-8843-guide", color: "#A2B5BB" },
+              { label: "SPT 身份自测", href: "/tools/opt-tax", color: "#BB9981" },
+              { label: "税收协定", href: "/f1-tax-treaty-calculator", color: "#8E9775" },
+              { label: "W2/1099 漏报", href: "/amend-w2-1099", color: "#E28E8E" },
+            ].map((tag) => (
+              <Link
+                key={tag.label}
+                href={tag.href}
+                style={{ backgroundColor: tag.color }}
+                className="rounded-full px-6 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:scale-[1.05] hover:shadow-md active:scale-[0.98]"
               >
-                <h3 className="text-lg font-semibold text-brand-ink">{item.title}</h3>
-                <p className="mt-3 text-sm text-brand-ink/70">{item.description}</p>
-              </div>
+                {tag.label}
+              </Link>
             ))}
           </div>
         </div>
@@ -544,7 +552,7 @@ export default function Home() {
                   {
                     "@type": "ListItem",
                     "position": 1,
-                    "name": "确认“非税务居民”身份",
+                    "name": "2026 美国报税身份判定 (F1/OPT NRA 自测)",
                     "item": "https://www.mapleworld.online/tools/opt-tax"
                   },
                   {
@@ -556,7 +564,7 @@ export default function Home() {
                   {
                     "@type": "ListItem",
                     "position": 3,
-                    "name": "填写1040-NR",
+                    "name": "查看：2026 留学生 1040-NR 手把手填表教程",
                     "item": "https://www.mapleworld.online/1040-nr-filling-guide"
                   },
                   {
