@@ -1,5 +1,5 @@
 {
-  "/(guides)/guides/j1-tax-guide/page": "app/(guides)/guides/j1-tax-guide/page.js",
-  "/(tools)/fica-refund-calculator/page": "app/(tools)/fica-refund-calculator/page.js",
+  "/(guides)/form-8843-guide/page": "app/(guides)/form-8843-guide/page.js",
+  "/(tools)/tools/opt-tax/page": "app/(tools)/tools/opt-tax/page.js",
   "/page": "app/page.js"
 }
