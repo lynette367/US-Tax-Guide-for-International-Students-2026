@@ -8,6 +8,7 @@ const footerNav = [
       { label: "1040-NR 填表指南", href: "/1040-nr-filling-guide" },
       { label: "Form 8843 申报教程", href: "/form-8843-guide" },
       { label: "W2/1099 漏报修正", href: "/amend-w2-1099" },
+      { label: "J1 报税避坑指南", href: "/guides/j1-tax-guide" },
       { label: "州税申报低价平台", href: "#", disabled: true },
     ],
   },

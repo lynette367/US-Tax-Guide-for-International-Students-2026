@@ -349,6 +349,15 @@ export default function Home() {
                 《1042 vs 1042-S 有什么区别？2026 留学生报税表格最全解析(附 PDF 下载)》
               </h3>
             </Link>
+            <Link
+              href="/guides/j1-tax-guide"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep bg-brand-pink/5 p-3 rounded-2xl border border-brand-pink/10 transition hover:scale-[1.01]"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep text-brand-ink">
+                ✨《2026 J1 报税避坑：离 4.15 截止只剩最后几天，你漏报了吗？》
+              </h3>
+            </Link>
           </div>
           <div
             className="mt-6 block rounded-[28px] border border-brand-pink/40 bg-white/90 p-6 shadow-[0_18px_60px_rgba(244,185,200,0.25)] flex flex-col gap-4"
@@ -473,10 +482,10 @@ export default function Home() {
               { label: "美国报税 TurboTax", href: "/opt-turbotax", color: "#E28E8E" },
               { label: "FreeTaxUSA", href: "/opt-turbotax", color: "#94B49F" },
               { label: "FICA 退税", href: "/fica-refund-calculator", color: "#D4BEAD" },
-              { label: "Form 8843", href: "/form-8843-guide", color: "#A2B5BB" },
+              { label: "Form 8843", href: "/guides/j1-tax-guide", color: "#A2B5BB" },
               { label: "SPT 身份自测", href: "/tools/opt-tax", color: "#BB9981" },
-              { label: "税收协定", href: "/f1-tax-treaty-calculator", color: "#8E9775" },
-              { label: "W2/1099 漏报", href: "/amend-w2-1099", color: "#E28E8E" },
+              { label: "Tax Treaty", href: "/guides/j1-tax-guide", color: "#8E9775" },
+              { label: "J1 Tax", href: "/guides/j1-tax-guide", color: "#E28E8E" },
             ].map((tag) => (
               <Link
                 key={tag.label}
