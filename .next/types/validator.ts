@@ -83,6 +83,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../src/app/(guides)/guides/j1-tax-guide/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/guides/j1-tax-guide">> = Specific
+  const handler = {} as typeof import("../../src/app/(guides)/guides/j1-tax-guide/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/(guides)/guides/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/guides">> = Specific
@@ -110,6 +119,33 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../src/app/(tools)/1040-nr-filling-guide/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/1040-nr-filling-guide">> = Specific
+  const handler = {} as typeof import("../../src/app/(tools)/1040-nr-filling-guide/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/(tools)/amend-w2-1099/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/amend-w2-1099">> = Specific
+  const handler = {} as typeof import("../../src/app/(tools)/amend-w2-1099/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/(tools)/f1-tax-treaty-calculator/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/f1-tax-treaty-calculator">> = Specific
+  const handler = {} as typeof import("../../src/app/(tools)/f1-tax-treaty-calculator/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/(tools)/fica-refund-calculator/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/fica-refund-calculator">> = Specific
@@ -123,6 +159,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 {
   type __IsExpected<Specific extends AppPageConfig<"/form-8843-tutorial-2026">> = Specific
   const handler = {} as typeof import("../../src/app/(tools)/form-8843-tutorial-2026/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/(tools)/opt-late-filing-guide/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/opt-late-filing-guide">> = Specific
+  const handler = {} as typeof import("../../src/app/(tools)/opt-late-filing-guide/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

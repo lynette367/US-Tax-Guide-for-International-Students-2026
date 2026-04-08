@@ -250,13 +250,13 @@ export default function Home() {
           {/* Judgment Box */}
           <div className="mt-8 w-full max-w-lg rounded-[24px] border border-white/60 bg-white/40 p-6 backdrop-blur-md shadow-[0_20px_50px_rgba(247,198,217,0.4)] transition hover:shadow-[0_25px_60px_rgba(247,198,217,0.5)]">
             <p className="text-base sm:text-lg font-medium text-brand-ink/90">
-              2026 留学生报税，你是 Resident 还是 Non-Resident？
+              2026 留学生报税，你是 Resident 还是 Non-Resident(NRA)？
             </p>
             <Link
               href="/tools/opt-tax"
               className="mt-5 inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-3.5 text-sm font-bold text-brand-pinkdeep shadow-lg transition hover:scale-[1.02] hover:bg-white/90 hover:shadow-xl active:scale-[0.98]"
             >
-              点击判定：2026 留学生报税身份 (NRA vs Resident)
+              点击判定
             </Link>
           </div>
         </div>
@@ -356,6 +356,15 @@ export default function Home() {
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
               <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep text-brand-ink">
                 ✨《2026 J1 报税避坑：离 4.15 截止只剩最后几天，你漏报了吗？》
+              </h3>
+            </Link>
+            <Link
+              href="/guides/opt-1040-fix"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                《救急！OPT 报税发现填成了 1040 (Resident) 怎么办？4.15 前的最后补救指南》
               </h3>
             </Link>
           </div>
@@ -486,6 +495,7 @@ export default function Home() {
               { label: "SPT 身份自测", href: "/tools/opt-tax", color: "#BB9981" },
               { label: "Tax Treaty", href: "/guides/j1-tax-guide", color: "#8E9775" },
               { label: "J1 Tax", href: "/guides/j1-tax-guide", color: "#E28E8E" },
+              { label: "1040-X 修正", href: "/guides/opt-1040-fix", color: "#94B49F" },
             ].map((tag) => (
               <Link
                 key={tag.label}

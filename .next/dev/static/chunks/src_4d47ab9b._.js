@@ -1034,6 +1034,31 @@ function OptTaxToolPage() {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
                                             lineNumber: 506,
                                             columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "mt-4 p-4 rounded-2xl bg-red-50 border border-red-100 flex items-start gap-3",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "text-xl",
+                                                    children: "⚠️"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
+                                                    lineNumber: 510,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "text-sm font-bold text-red-900 leading-relaxed",
+                                                    children: "提示：90% 的 OPT 同学都是 Non-Resident，请务必确认你不需要填 1040-NR 再继续。"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
+                                                    lineNumber: 511,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
+                                            lineNumber: 509,
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
@@ -1057,7 +1082,7 @@ function OptTaxToolPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 513,
+                                                    lineNumber: 519,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1067,13 +1092,13 @@ function OptTaxToolPage() {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 514,
+                                                    lineNumber: 520,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                            lineNumber: 512,
+                                            lineNumber: 518,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1085,18 +1110,18 @@ function OptTaxToolPage() {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                lineNumber: 517,
+                                                lineNumber: 523,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                            lineNumber: 516,
+                                            lineNumber: 522,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                    lineNumber: 511,
+                                    lineNumber: 517,
                                     columnNumber: 15
                                 }, this),
                                 view === "quiz" && renderQuestion(),
@@ -1115,14 +1140,14 @@ function OptTaxToolPage() {
                                                             children: "01"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 532,
+                                                            lineNumber: 538,
                                                             columnNumber: 21
                                                         }, this),
                                                         "什么是 Substantial Presence Test (SPT)？"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 531,
+                                                    lineNumber: 537,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1136,14 +1161,14 @@ function OptTaxToolPage() {
                                                                     children: "Substantial Presence Test (SPT)"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                    lineNumber: 537,
+                                                                    lineNumber: 543,
                                                                     columnNumber: 30
                                                                 }, this),
                                                                 "，即“实质居住测试”，来判定你是否属于美国税法上的“居民外籍人士”(Resident Alien) 或“非居民外籍人士”(Non-Resident Alien)。"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 536,
+                                                            lineNumber: 542,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1154,7 +1179,7 @@ function OptTaxToolPage() {
                                                                     children: "SPT 计算公式"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                    lineNumber: 540,
+                                                                    lineNumber: 546,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1166,7 +1191,7 @@ function OptTaxToolPage() {
                                                                             children: "1/3"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                            lineNumber: 542,
+                                                                            lineNumber: 548,
                                                                             columnNumber: 32
                                                                         }, this),
                                                                         " × (前一年天数) + ",
@@ -1175,14 +1200,14 @@ function OptTaxToolPage() {
                                                                             children: "1/6"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                            lineNumber: 542,
+                                                                            lineNumber: 548,
                                                                             columnNumber: 93
                                                                         }, this),
                                                                         " × (前两年天数) ≥ 183"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                    lineNumber: 541,
+                                                                    lineNumber: 547,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1190,25 +1215,25 @@ function OptTaxToolPage() {
                                                                     children: "* 如果计算结果大于或等于 183 天，你即被视为 Resident Alien。"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                    lineNumber: 544,
+                                                                    lineNumber: 550,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 539,
+                                                            lineNumber: 545,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 535,
+                                                    lineNumber: 541,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                            lineNumber: 530,
+                                            lineNumber: 536,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1221,14 +1246,14 @@ function OptTaxToolPage() {
                                                             children: "02"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 553,
+                                                            lineNumber: 559,
                                                             columnNumber: 21
                                                         }, this),
                                                         "进阶规则：为什么 F1/J1 留学生通常被判定为 NRA？"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 552,
+                                                    lineNumber: 558,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1242,7 +1267,7 @@ function OptTaxToolPage() {
                                                                     children: "“豁免个人” (Exempt Individual) 规则详解"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                    lineNumber: 558,
+                                                                    lineNumber: 564,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1253,7 +1278,7 @@ function OptTaxToolPage() {
                                                                             children: "Exempt Individual"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                            lineNumber: 560,
+                                                                            lineNumber: 566,
                                                                             columnNumber: 48
                                                                         }, this),
                                                                         "。这并不意味着豁免缴税，而是意味着你在计算 SPT 时，前 5 个日历年的居住天数",
@@ -1261,45 +1286,10 @@ function OptTaxToolPage() {
                                                                             children: "不计入"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                            lineNumber: 560,
+                                                                            lineNumber: 566,
                                                                             columnNumber: 123
                                                                         }, this),
                                                                         " 183 天的统计。"
-                                                                    ]
-                                                                }, void 0, true, {
-                                                                    fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                    lineNumber: 559,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 557,
-                                                            columnNumber: 21
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "p-6 rounded-2xl border border-brand-pink/10 bg-white/40",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                    className: "text-lg font-bold mb-3",
-                                                                    children: "如何计算 F1 的 5 年豁免期？"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                    lineNumber: 564,
-                                                                    columnNumber: 23
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "text-sm text-brand-ink/75 leading-relaxed",
-                                                                    children: [
-                                                                        "5 年豁免期是按",
-                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                                            children: "日历年 (Calendar Year)"
-                                                                        }, void 0, false, {
-                                                                            fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                            lineNumber: 566,
-                                                                            columnNumber: 33
-                                                                        }, this),
-                                                                        " 计算的。只要你在某一年内在美国停留过（哪怕只有 1 天），该年即算作 1 年。例如，2023 年 12 月 31 日入境，2023 年就是你的第 1 年。"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
@@ -1311,17 +1301,52 @@ function OptTaxToolPage() {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
                                                             lineNumber: 563,
                                                             columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "p-6 rounded-2xl border border-brand-pink/10 bg-white/40",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                    className: "text-lg font-bold mb-3",
+                                                                    children: "如何计算 F1 的 5 年豁免期？"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
+                                                                    lineNumber: 570,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "text-sm text-brand-ink/75 leading-relaxed",
+                                                                    children: [
+                                                                        "5 年豁免期是按",
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                            children: "日历年 (Calendar Year)"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
+                                                                            lineNumber: 572,
+                                                                            columnNumber: 33
+                                                                        }, this),
+                                                                        " 计算的。只要你在某一年内在美国停留过（哪怕只有 1 天），该年即算作 1 年。例如，2023 年 12 月 31 日入境，2023 年就是你的第 1 年。"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
+                                                                    lineNumber: 571,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
+                                                            lineNumber: 569,
+                                                            columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 556,
+                                                    lineNumber: 562,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                            lineNumber: 551,
+                                            lineNumber: 557,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1334,14 +1359,14 @@ function OptTaxToolPage() {
                                                             children: "03"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 574,
+                                                            lineNumber: 580,
                                                             columnNumber: 21
                                                         }, this),
                                                         "判定身份后的下一步建议"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 573,
+                                                    lineNumber: 579,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1356,7 +1381,7 @@ function OptTaxToolPage() {
                                                                         children: "📄"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                        lineNumber: 580,
+                                                                        lineNumber: 586,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1364,7 +1389,7 @@ function OptTaxToolPage() {
                                                                         children: "如果你是 NRA (非居民)"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                        lineNumber: 581,
+                                                                        lineNumber: 587,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1375,14 +1400,14 @@ function OptTaxToolPage() {
                                                                                 children: "$5,000 中美税务协定 (Treaty)"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                                lineNumber: 583,
+                                                                                lineNumber: 589,
                                                                                 columnNumber: 53
                                                                             }, this),
                                                                             " 免税额。"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                        lineNumber: 582,
+                                                                        lineNumber: 588,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1391,13 +1416,13 @@ function OptTaxToolPage() {
                                                                         children: "查看 1042-S 报税攻略 →"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                        lineNumber: 585,
+                                                                        lineNumber: 591,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                lineNumber: 579,
+                                                                lineNumber: 585,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1408,7 +1433,7 @@ function OptTaxToolPage() {
                                                                         children: "💻"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                        lineNumber: 590,
+                                                                        lineNumber: 596,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1416,7 +1441,7 @@ function OptTaxToolPage() {
                                                                         children: "如果你是 RA (居民)"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                        lineNumber: 591,
+                                                                        lineNumber: 597,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1424,7 +1449,7 @@ function OptTaxToolPage() {
                                                                         children: "你现在和美国公民一样需要申报 1040 全球所得。"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                        lineNumber: 592,
+                                                                        lineNumber: 598,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1432,36 +1457,36 @@ function OptTaxToolPage() {
                                                                         children: "建议使用 TurboTax、H&R Block 或 Cash App Taxes 等主流软件进行申报。"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                        lineNumber: 595,
+                                                                        lineNumber: 601,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                                lineNumber: 589,
+                                                                lineNumber: 595,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                        lineNumber: 578,
+                                                        lineNumber: 584,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 577,
+                                                    lineNumber: 583,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                            lineNumber: 572,
+                                            lineNumber: 578,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                    lineNumber: 529,
+                                    lineNumber: 535,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1471,14 +1496,14 @@ function OptTaxToolPage() {
                                             children: "How to Determine F1 Tax Status (Resident vs Non-Resident)"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                            lineNumber: 606,
+                                            lineNumber: 612,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Use this tool to determine if you should file as a Resident Alien or Non-Resident Alien for tax purposes. This affects your eligibility for F1 Tax Refund and which forms (1040 vs 1040-NR) you need to use."
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                            lineNumber: 607,
+                                            lineNumber: 613,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
@@ -1489,14 +1514,14 @@ function OptTaxToolPage() {
                                                             children: "Step 1: Check Visa Status"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 614,
+                                                            lineNumber: 620,
                                                             columnNumber: 21
                                                         }, this),
                                                         " - Are you currently on an F-1 Visa and receiving income during OPT (Optional Practical Training)?"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 613,
+                                                    lineNumber: 619,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1505,14 +1530,14 @@ function OptTaxToolPage() {
                                                             children: "Step 2: Identify Income Sources"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 618,
+                                                            lineNumber: 624,
                                                             columnNumber: 21
                                                         }, this),
                                                         " - Do you have income reported on Form W-2, Form 1099, or self-employment income?"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 617,
+                                                    lineNumber: 623,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1521,14 +1546,14 @@ function OptTaxToolPage() {
                                                             children: "Step 3: Substantial Presence Test (SPT)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 622,
+                                                            lineNumber: 628,
                                                             columnNumber: 21
                                                         }, this),
                                                         " - Verify your entry year to see if you are exempt from the Substantial Presence Test (usually first 5 calendar years for F1 students)."
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 621,
+                                                    lineNumber: 627,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1537,14 +1562,14 @@ function OptTaxToolPage() {
                                                             children: "Step 4: Determine Tax Year"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 627,
+                                                            lineNumber: 633,
                                                             columnNumber: 21
                                                         }, this),
                                                         " - Confirm which tax year you are filing for (e.g., 2025, 2026) to apply correct IRS rules."
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 626,
+                                                    lineNumber: 632,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1553,14 +1578,14 @@ function OptTaxToolPage() {
                                                             children: "Step 5: Check for 1042-S"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 631,
+                                                            lineNumber: 637,
                                                             columnNumber: 21
                                                         }, this),
                                                         " - Did you receive Form 1042-S for scholarships or treaty-exempt income? This is common for international students."
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 630,
+                                                    lineNumber: 636,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1569,14 +1594,14 @@ function OptTaxToolPage() {
                                                             children: "Step 6: FICA Tax Exemption"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 636,
+                                                            lineNumber: 642,
                                                             columnNumber: 21
                                                         }, this),
                                                         " - Check your pay stubs for Social Security and Medicare tax deductions. Non-residents on F1 are typically exempt."
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 635,
+                                                    lineNumber: 641,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1585,14 +1610,14 @@ function OptTaxToolPage() {
                                                             children: "Step 7: Choose Filing Method"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 641,
+                                                            lineNumber: 647,
                                                             columnNumber: 21
                                                         }, this),
                                                         " - Decide between using DIY tax software (like Sprintax for non-residents) or hiring a CPA."
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 640,
+                                                    lineNumber: 646,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1601,26 +1626,26 @@ function OptTaxToolPage() {
                                                             children: "Step 8: Maximize F1 Tax Refund"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 645,
+                                                            lineNumber: 651,
                                                             columnNumber: 21
                                                         }, this),
                                                         " - Ensure you claim all treaty benefits and deductions available to your specific status (Resident vs Non-Resident)."
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 644,
+                                                    lineNumber: 650,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                            lineNumber: 612,
+                                            lineNumber: 618,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                    lineNumber: 605,
+                                    lineNumber: 611,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -1642,7 +1667,7 @@ function OptTaxToolPage() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                    lineNumber: 651,
+                                    lineNumber: 657,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -1681,7 +1706,7 @@ function OptTaxToolPage() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                    lineNumber: 670,
+                                    lineNumber: 676,
                                     columnNumber: 15
                                 }, this)
                             ]
@@ -1701,7 +1726,7 @@ function OptTaxToolPage() {
                                             children: "相关报税指南"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                            lineNumber: 709,
+                                            lineNumber: 715,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1716,7 +1741,7 @@ function OptTaxToolPage() {
                                                             children: "01. W-2 缺失补救"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 712,
+                                                            lineNumber: 718,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1724,13 +1749,13 @@ function OptTaxToolPage() {
                                                             children: "W-2 还没收到怎么办？教你 4 步强制补救"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 713,
+                                                            lineNumber: 719,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 711,
+                                                    lineNumber: 717,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1742,7 +1767,7 @@ function OptTaxToolPage() {
                                                             children: "02. 8843 教程"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 716,
+                                                            lineNumber: 722,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1750,13 +1775,13 @@ function OptTaxToolPage() {
                                                             children: "Form 8843 填写保姆级教程 (2026版)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 717,
+                                                            lineNumber: 723,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 715,
+                                                    lineNumber: 721,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1768,7 +1793,7 @@ function OptTaxToolPage() {
                                                             children: "03. 修正申报"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 720,
+                                                            lineNumber: 726,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1776,25 +1801,51 @@ function OptTaxToolPage() {
                                                             children: "8843 填错了/漏填了？手把手教你修正"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                            lineNumber: 721,
+                                                            lineNumber: 727,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                    lineNumber: 719,
+                                                    lineNumber: 725,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: "/1040-nr-filling-guide",
+                                                    className: "group block pt-4 border-t border-brand-pink/10",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "text-[10px] text-brand-pinkdeep font-bold mb-1 uppercase tracking-wider",
+                                                            children: "04. 1040-NR 指南"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
+                                                            lineNumber: 730,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                            className: "text-sm font-bold group-hover:text-brand-pinkdeep transition leading-snug",
+                                                            children: "2026 留学生 1040-NR 填写：手把手教你报税"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
+                                                            lineNumber: 731,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
+                                                    lineNumber: 729,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                            lineNumber: 710,
+                                            lineNumber: 716,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                    lineNumber: 708,
+                                    lineNumber: 714,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1808,25 +1859,25 @@ function OptTaxToolPage() {
                                                 children: "报税提醒："
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                                lineNumber: 728,
+                                                lineNumber: 738,
                                                 columnNumber: 22
                                             }, this),
                                             " 大多数 F1 学生在美前 5 年均为 Non-resident，务必确认后再选择报税工具，避免身份违规。"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                        lineNumber: 727,
+                                        lineNumber: 737,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                                    lineNumber: 726,
+                                    lineNumber: 736,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/(tools)/tools/opt-tax/page.tsx",
-                            lineNumber: 707,
+                            lineNumber: 713,
                             columnNumber: 13
                         }, this)
                     ]

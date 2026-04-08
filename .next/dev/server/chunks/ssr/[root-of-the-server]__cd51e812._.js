@@ -707,6 +707,289 @@ const guides = [
             label: "获取 IRS 沟通模板 →",
             href: "/tools/opt-tax"
         }
+    },
+    {
+        slug: "opt-1040-fix",
+        title: "你真的报对了吗？OPT 报税发现填成了 1040 (Resident) ？4.15 前的最后补救指南",
+        description: "我敢说，很多opt都弄不清楚1040 和1040-NR的区别，用错了报税软件，但这个后果很严重 —— 因为你可能错误领取了只有 Resident 才能享受的 Standard Deduction，这可能会影响到未来的移民申请。",
+        audience: "OPT 留学生，误将 1040 (Resident) 填错为 1040-NR (Non-resident) 的人群。",
+        sections: [
+            {
+                heading: "W-2 表格的设计具有极强的误导性，这是OPT 留学生群体中最常见的'视觉陷阱'",
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "对于初次接触美国税务的同学来说，看到 W-2 上的 Federal Income Tax Withheld，很自然地会去 Google 或在 YouTube 上搜索'How to file taxes with W-2'，而搜索结果的前 10 条通常都是教你如何填 1040 (Resident) ，或者是推广像 TurboTax 这样不支持 Non-resident (1040-NR) 的大众软件。"
+                    }
+                ]
+            },
+            {
+                heading: "W-2 上的'致命诱惑'：为什么它让你选错了表？",
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: ""
+                    }
+                ]
+            },
+            {
+                heading: "诱惑 1：熟悉的格式",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "大多数主流报税软件（如 TurboTax）的第一步就是'上传你的 W-2'。一旦上传，软件会自动带入 1040 流程。"
+                    }
+                ]
+            },
+            {
+                heading: "诱惑 2：预扣税（Box 2）",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "看到自己被扣了几千刀税，急于拿回退税的心情会让OPT学生忽略最顶部的'Filing Status'选项。"
+                    }
+                ]
+            },
+            {
+                heading: "诱惑 3：软件的'免费'陷阱",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "1040 有很多免费版本，而 1040-NR (Non-resident) 通常需要付费（如使用 Sprintax）。很多同学为了省那几十刀，被 W-2 引导着走进了 1040 的死胡同。"
+                    }
+                ]
+            },
+            {
+                heading: "我有 W-2 = 我能填 1040 吗？",
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "错误逻辑：  收到 W-2 ➡️ 打开 TurboTax ➡️ 填 1040 ➡️ 拿 Standard Deduction ➡️ [风险：身份违规，H1B 埋雷]"
+                    },
+                    {
+                        type: "paragraph",
+                        text: "正确逻辑：  收到 W-2 ➡️ 检查 F-1 身份是否满 5 年 ➡️ 依旧是 Non-resident ➡️ 填 1040-NR  ➡️ [安全：合法合规，保护移民身份]"
+                    }
+                ]
+            },
+            {
+                heading: "为什么这个误导对 OPT 极其危险？",
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: ""
+                    }
+                ]
+            },
+            {
+                heading: "Standard Deduction (标准扣除额)",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "1040 默认给每个人约 $15,000  的免税额度（2025/2026 财年数据）。"
+                    }
+                ]
+            },
+            {
+                heading: "1040-NR 的现实",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "Non-resident 绝大多数情况下没有标准扣除额。"
+                    }
+                ]
+            },
+            {
+                heading: "后果",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "如果你拿 W-2 填了 1040，IRS 会以为你多赚了 $15,000 的免税额，多退你几千刀。但这钱不是你该拿的，IRS 的审计系统（尤其是针对 F-1 转换 H1B 时）很容易查出这种身份不匹配。"
+                    }
+                ]
+            },
+            {
+                heading: "NRA 收到 W-2 是完全正常的",
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "绝大多数在 OPT 期间工作的 F-1 学生都会收到 W-2。"
+                    },
+                    {
+                        type: "paragraph",
+                        text: "为了让你彻底明白，我们需要拆解 W-2 和 1042-S 这两张表："
+                    }
+                ]
+            },
+            {
+                heading: "为什么你收到的是 W-2？",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "W-2 表格代表的是\"工资收入 (Wages)\"。"
+                    },
+                    {
+                        type: "paragraph",
+                        text: "只要你在美国公司做正式员工（Employee），公司通过薪酬系统（Payroll）给你发工资，他们法律上必须给你发 W-2。"
+                    },
+                    {
+                        type: "paragraph",
+                        text: "W-2 并不代表你的身份是 Resident 还是 Non-Resident，它只代表你的收入性质。"
+                    }
+                ]
+            },
+            {
+                heading: "NRA 什么时候会收到 1042-S？",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "很多同学听说 NRA 应该拿 1042-S，这通常只发生在以下两种情况："
+                    },
+                    {
+                        type: "list",
+                        ordered: false,
+                        items: [
+                            "奖学金/助学金 (Scholarships/Fellowships)：如果你在学校拿了免除学费以外的现金补助。",
+                            "提前申请了税收协定 (Treaty)：如果你在入职时给公司填了 Form 8233，要求公司直接不扣那 $5,000 的税，那么公司会将这 $5,000 呈现在 1042-S 表格上，而剩下的工资放在 W-2 上。"
+                        ]
+                    },
+                    {
+                        type: "paragraph",
+                        text: "注：大多数 OPT 公司的 HR 并不专业，他们通常不会帮你处理 8233。所以，他们会把你的所有收入都写在 W-2 上。"
+                    }
+                ]
+            },
+            {
+                heading: "正常途径逻辑",
+                level: 3,
+                blocks: [
+                    {
+                        type: "list",
+                        ordered: false,
+                        items: [
+                            "雇主角度：你是员工，我发 W-2。",
+                            "你的角度：我是 NRA，我拿着这张 W-2，在填报 1040-NR 表格时，手动减去那 $5,000 的 Treaty 免税额。",
+                            "结果：你通过报税（Tax Return）把针对那 $5,000 多缴的税款要回来。"
+                        ]
+                    }
+                ]
+            },
+            {
+                heading: "总结对比",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "W-2：证明你赚了钱，公司帮你预扣了税（Federal Income Tax Withheld）。"
+                    },
+                    {
+                        type: "paragraph",
+                        text: "1040-NR：这是你作为 NRA 的身份证明。你告诉 IRS：\"虽然我拿的是 W-2，但我适用 NRA 规则和中美协定。\""
+                    }
+                ]
+            },
+            {
+                heading: "核心补救方案：如何修正？",
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "如果你作为 F1/OPT 身份（在美未满 5 年）错误提交了 1040，必须通过 Form 1040-X（修改税表）进行修正。"
+                    }
+                ]
+            },
+            {
+                heading: "准备新表",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "重新填写一份完整的、正确的 Form 1040-NR。"
+                    }
+                ]
+            },
+            {
+                heading: "关键标注",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "在新的 1040-NR 每一页顶部用红笔或清晰字体写上 \"Amended\"。"
+                    }
+                ]
+            },
+            {
+                heading: "填写 1040-X",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "在 Part III (Explanation of Changes) 明确说明原因，例如：\"I am amending because I incorrectly filed Form 1040 as a Resident Alien when I should have filed Form 1040-NR as a Nonresident Alien.\""
+                    },
+                    {
+                        type: "paragraph",
+                        text: "附上 Form 8843（F1 必填项）。"
+                    }
+                ]
+            },
+            {
+                heading: "邮寄办理",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "1040 转 1040-NR 的修正通常不支持电子申报，必须打印并邮寄至 IRS 官网上指定的 1040-X 地址。"
+                    }
+                ]
+            },
+            {
+                heading: "时间策略",
+                level: 3,
+                blocks: [
+                    {
+                        type: "list",
+                        ordered: false,
+                        items: [
+                            "如果已退税：建议等收到原始退税后再寄出修正包，避免系统混乱。",
+                            "如果需补税：应在 4.15 前通过 IRS Direct Pay 先行缴纳欠款及利息，以减少罚金。"
+                        ]
+                    }
+                ]
+            }
+        ],
+        faqs: [
+            {
+                question: "我已经填了 1040，还能修正吗？",
+                answer: "可以。通过填写 1040-X 修正表，你可以将 Resident 身份修正为 Non-resident，并按正确的 1040-NR 路径重新申报。"
+            },
+            {
+                question: "修正申报会影响我的签证吗？",
+                answer: "及时修正通常比拖延更稳妥。主动修正表明你愿意遵守税法，这对签证状态通常是有利的。"
+            },
+            {
+                question: "误领的 Standard Deduction 怎么办？",
+                answer: "在 1040-X 修正表中，你需要将误领的 Standard Deduction 从免税额度中移除，可能需要补缴相应的税款。"
+            },
+            {
+                question: "4.15 截止日前需要完成修正吗？",
+                answer: "是的，为了避免可能的罚款和利息，建议在 4.15 截止日前完成修正申报。"
+            },
+            {
+                question: "我需要专业帮助吗？",
+                answer: "如果你的情况复杂，或对修正流程不确定，建议寻求专业税务顾问的帮助。"
+            }
+        ],
+        cta: {
+            label: "查看 1040-NR 填写全攻略 →",
+            href: "/guides/1040nr-guide"
+        }
     }
 ];
 const getGuideBySlug = (slug)=>guides.find((guide)=>guide.slug === slug);

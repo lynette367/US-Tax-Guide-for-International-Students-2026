@@ -1,12 +1,6 @@
 {
   "app": {
-    "[project]/src/app/(guides)/form-8843-guide/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/(tools)/tools/opt-tax/page": [
-      "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
-    ],
-    "[project]/src/app/page": [
+    "[project]/src/app/(guides)/guides/[slug]/page": [
       "static/media/07454f8ad8aaac57-s.p.fc65572f.woff2"
     ]
   },

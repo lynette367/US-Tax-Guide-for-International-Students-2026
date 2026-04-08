@@ -506,6 +506,12 @@ export default function OptTaxToolPage() {
                 <p className="mt-3 text-brand-ink/70 leading-relaxed max-w-2xl">
                   不确定是 NRA 还是 Resident？使用我们的 SPT 自动计算器。专为留学生设计，涵盖 F1 签证 5 年豁免规则。
                 </p>
+                <div className="mt-4 p-4 rounded-2xl bg-red-50 border border-red-100 flex items-start gap-3">
+                  <span className="text-xl">⚠️</span>
+                  <p className="text-sm font-bold text-red-900 leading-relaxed">
+                    提示：90% 的 OPT 同学都是 Non-Resident，请务必确认你不需要填 1040-NR 再继续。
+                  </p>
+                </div>
               </div>
 
               <div className="rounded-[20px] border border-brand-pink/40 bg-white/90 p-4 shadow-[0_12px_40px_rgba(244,185,200,0.25)]">
@@ -719,6 +725,10 @@ export default function OptTaxToolPage() {
                   <Link href="/form-8843-amend-guide" className="group block pt-4 border-t border-brand-pink/10">
                     <p className="text-[10px] text-brand-pinkdeep font-bold mb-1 uppercase tracking-wider">03. 修正申报</p>
                     <h4 className="text-sm font-bold group-hover:text-brand-pinkdeep transition leading-snug">8843 填错了/漏填了？手把手教你修正</h4>
+                  </Link>
+                  <Link href="/1040-nr-filling-guide" className="group block pt-4 border-t border-brand-pink/10">
+                    <p className="text-[10px] text-brand-pinkdeep font-bold mb-1 uppercase tracking-wider">04. 1040-NR 指南</p>
+                    <h4 className="text-sm font-bold group-hover:text-brand-pinkdeep transition leading-snug">2026 留学生 1040-NR 填写：手把手教你报税</h4>
                   </Link>
                 </div>
               </div>
