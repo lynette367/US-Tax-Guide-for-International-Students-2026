@@ -1135,6 +1135,10 @@
     height: calc(var(--spacing) * 14);
   }
 
+  .h-20 {
+    height: calc(var(--spacing) * 20);
+  }
+
   .h-32 {
     height: calc(var(--spacing) * 32);
   }
@@ -1486,10 +1490,6 @@
 
   .gap-2 {
     gap: calc(var(--spacing) * 2);
-  }
-
-  .gap-2\.5 {
-    gap: calc(var(--spacing) * 2.5);
   }
 
   .gap-3 {
@@ -2088,6 +2088,10 @@
     }
   }
 
+  .bg-amber-100 {
+    background-color: var(--color-amber-100);
+  }
+
   .bg-amber-100\/80 {
     background-color: #fef3c6cc;
   }
@@ -2272,6 +2276,10 @@
     }
   }
 
+  .bg-gray-100 {
+    background-color: var(--color-gray-100);
+  }
+
   .bg-gray-200 {
     background-color: var(--color-gray-200);
   }
@@ -2298,6 +2306,10 @@
     .bg-green-50\/80 {
       background-color: color-mix(in oklab, var(--color-green-50) 80%, transparent);
     }
+  }
+
+  .bg-green-100 {
+    background-color: var(--color-green-100);
   }
 
   .bg-green-100\/30 {
@@ -2735,6 +2747,10 @@
 
   .pt-0 {
     padding-top: calc(var(--spacing) * 0);
+  }
+
+  .pt-3 {
+    padding-top: calc(var(--spacing) * 3);
   }
 
   .pt-4 {
@@ -3315,18 +3331,6 @@
 
   .underline {
     text-decoration-line: underline;
-  }
-
-  .decoration-brand-pink\/30 {
-    -webkit-text-decoration-color: var(--brand-pink);
-    text-decoration-color: var(--brand-pink);
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .decoration-brand-pink\/30 {
-      -webkit-text-decoration-color: color-mix(in oklab, var(--brand-pink) 30%, transparent);
-      text-decoration-color: color-mix(in oklab, var(--brand-pink) 30%, transparent);
-    }
   }
 
   .decoration-brand-pink\/40 {
@@ -4286,13 +4290,6 @@
   }
 
   @media (hover: hover) {
-    .hover\:decoration-brand-pinkdeep:hover {
-      -webkit-text-decoration-color: var(--brand-pinkdeep);
-      text-decoration-color: var(--brand-pinkdeep);
-    }
-  }
-
-  @media (hover: hover) {
     .hover\:opacity-80:hover {
       opacity: .8;
     }
@@ -4515,12 +4512,6 @@
   }
 
   @media (min-width: 40rem) {
-    .sm\:h-6 {
-      height: calc(var(--spacing) * 6);
-    }
-  }
-
-  @media (min-width: 40rem) {
     .sm\:h-14 {
       height: calc(var(--spacing) * 14);
     }
@@ -4529,12 +4520,6 @@
   @media (min-width: 40rem) {
     .sm\:h-80 {
       height: calc(var(--spacing) * 80);
-    }
-  }
-
-  @media (min-width: 40rem) {
-    .sm\:w-6 {
-      width: calc(var(--spacing) * 6);
     }
   }
 

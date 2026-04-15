@@ -932,6 +932,210 @@ const guides = [
             label: "查看 1040-NR 填写全攻略 →",
             href: "/guides/1040nr-guide"
         }
+    },
+    {
+        slug: "f1-late-filing-guide",
+        title: "F1 报税迟交怎么办？最新留学生【逾期报税自救指南】及补救流程",
+        description: "不小心错过了 F1 报税截止日期？别慌！本指南详细讲解 F1 留学生报税迟交的自救步骤，包括 Form 8843 和 1040-NR 补交流程、潜在罚款解析，以及如何确保逾期申报不影响你的未来签证与身份申请。立即查看补救方案！",
+        audience: "F1 留学生，错过报税截止日期需要补救的人群。",
+        sections: [
+            {
+                heading: "F1 迟交【报税表】自救指南：从补救流程到风险规避",
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "作为 F1 留学生，如果你不小心错过了 4 月 15 日的报税截止日期，不要惊慌。IRS 提供了补救措施，关键在于及时采取行动。本指南将详细讲解逾期报税的后果、补救步骤以及如何最小化对签证和身份的影响。"
+                    }
+                ]
+            },
+            {
+                heading: "迟交报税表会有什么后果？",
+                level: 2,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "了解逾期报税的潜在后果是制定补救策略的第一步。"
+                    }
+                ]
+            },
+            {
+                heading: "罚款与利息",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "IRS 对逾期报税和逾期缴税分别征收罚款和利息："
+                    },
+                    {
+                        type: "list",
+                        ordered: false,
+                        items: [
+                            "逾期报税罚款：通常为每月 5% 的未缴税款，最高可达 25%",
+                            "逾期缴税罚款：通常为每月 0.5% 的未缴税款，最高可达 25%",
+                            "利息：按日计算，基于联邦短期利率加 3%"
+                        ]
+                    }
+                ]
+            },
+            {
+                heading: "对签证与身份的影响",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "虽然逾期报税本身不会直接导致签证被取消，但可能产生以下影响："
+                    },
+                    {
+                        type: "list",
+                        ordered: false,
+                        items: [
+                            "H1B 或绿卡申请时可能需要提供完整的税务记录",
+                            "长期不申报可能被视为违反 F1 身份的'维持合法身份'要求",
+                            "IRS 的欠税记录可能影响未来的签证申请"
+                        ]
+                    }
+                ]
+            },
+            {
+                heading: "核心补救步骤：如何补交 8843 和 1040-NR",
+                level: 2,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "及时补救是关键。以下是补交报税表的核心步骤："
+                    }
+                ]
+            },
+            {
+                heading: "Step 1：评估你的情况",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "首先确定你需要补交哪些表格："
+                    },
+                    {
+                        type: "list",
+                        ordered: false,
+                        items: [
+                            "无收入 F1 学生：只需提交 Form 8843",
+                            "有收入 F1 学生：需要提交 Form 1040-NR 和 Form 8843",
+                            "已缴税但有退税：尽快提交以获取退税",
+                            "未缴税且有欠税：尽快补缴以减少罚款和利息"
+                        ]
+                    }
+                ]
+            },
+            {
+                heading: "Step 2：准备补交材料",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "收集所有必要的税务文件："
+                    },
+                    {
+                        type: "list",
+                        ordered: false,
+                        items: [
+                            "W-2 表格（雇主提供）",
+                            "1099 表格（如有兼职或投资收入）",
+                            "1042-S 表格（如有奖学金或税收协定减免）",
+                            "护照和 I-20 复印件",
+                            "之前的报税记录（如有）"
+                        ]
+                    }
+                ]
+            },
+            {
+                heading: "Step 3：填写并提交表格",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "按照正常流程填写表格，但注意以下要点："
+                    },
+                    {
+                        type: "list",
+                        ordered: false,
+                        items: [
+                            "Form 8843：在顶部标注 'Late Filing'，解释迟交原因",
+                            "Form 1040-NR：如实填写所有收入，计算应缴税款或退税",
+                            "邮寄地址：查看 IRS 官网获取最新的邮寄地址",
+                            "保留副本：保留所有提交文件的复印件"
+                        ]
+                    }
+                ]
+            },
+            {
+                heading: "Step 4：支付欠税（如适用）",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "如果你需要补缴税款，尽快支付可以减少罚款和利息："
+                    },
+                    {
+                        type: "list",
+                        ordered: false,
+                        items: [
+                            "在线支付：通过 IRS Direct Pay 或 EFTPS 系统",
+                            "支票或汇票：邮寄时附上支票或汇票",
+                            "分期付款：如果无法一次性支付，可申请分期付款计划"
+                        ]
+                    }
+                ]
+            },
+            {
+                heading: "Step 5：跟进与记录",
+                level: 3,
+                blocks: [
+                    {
+                        type: "paragraph",
+                        text: "提交后保持跟进："
+                    },
+                    {
+                        type: "list",
+                        ordered: false,
+                        items: [
+                            "保留邮寄凭证：使用挂号信或快递，保留追踪号码",
+                            "等待 IRS 回复：通常需要 6-8 周处理",
+                            "如有罚款通知：及时响应并考虑申请罚款减免"
+                        ]
+                    }
+                ]
+            }
+        ],
+        faqs: [
+            {
+                question: "F1 留学生不报税会有什么后果？",
+                answer: "F1 留学生不报税可能导致 IRS 的罚款和利息累积，影响未来的签证申请（如 H1B 或绿卡），以及可能被视为违反 F1 身份的维持要求。即使无收入，也应提交 Form 8843 以证明你的非居民身份。"
+            },
+            {
+                question: "逾期报税可以申请罚款减免吗？",
+                answer: "是的，IRS 提供首次罚款减免（First-Time Penalty Abatement）和合理原因减免（Reasonable Cause）。如果你是首次逾期，或有合理原因（如疾病、自然灾害等），可以提交 Form 843 申请减免。"
+            },
+            {
+                question: "Form 8843 迟交需要罚款吗？",
+                answer: "Form 8843 本身不涉及税款，因此通常不会有罚款。但迟交可能导致你无法证明非居民身份，建议尽快补交并在顶部标注 'Late Filing'。"
+            },
+            {
+                question: "我已经离开美国，还需要补交报税表吗？",
+                answer: "是的，如果你在离开美国前的那一年有美国来源收入，或者需要提交 Form 8843，即使已经离开美国，也应补交报税表。这有助于保持你的税务记录完整，避免未来的签证问题。"
+            },
+            {
+                question: "补交报税表会影响我的 OPT 或 H1B 申请吗？",
+                answer: "及时补交通常比不申报更好。主动补交表明你愿意遵守税法，这对签证申请通常是有利的。但长期不申报或欠税未缴可能会被视为负面因素。建议在申请签证前确保所有税务问题已解决。"
+            },
+            {
+                question: "如何查询我是否有 IRS 的欠税记录？",
+                answer: "你可以通过 IRS 官网的 'View Your Tax Records' 功能查询，或拨打 IRS 客服电话。如果你有 IRS 在线账户，也可以登录查看账户余额和付款历史。"
+            }
+        ],
+        cta: {
+            label: "使用报税身份判定工具 →",
+            href: "/tools/opt-tax"
+        }
     }
 ];
 const getGuideBySlug = (slug)=>guides.find((guide)=>guide.slug === slug);
@@ -1115,11 +1319,80 @@ async function generateMetadata({ params }) {
     if (!guide) {
         return {};
     }
+    // 针对 f1-late-filing-guide 页面的特殊 SEO 优化
+    const isLateFilingGuide = slug === "f1-late-filing-guide";
     return {
         title: guide.title,
         description: guide.description,
         alternates: {
             canonical: `https://www.mapleworld.online/guides/${slug}`
+        },
+        openGraph: isLateFilingGuide ? {
+            title: guide.title,
+            description: guide.description,
+            url: `https://www.mapleworld.online/guides/${slug}`,
+            siteName: "MapleWorld",
+            locale: "zh_CN",
+            type: "article",
+            publishedTime: "2026-04-08T00:00:00.000Z",
+            modifiedTime: "2026-04-08T00:00:00.000Z",
+            authors: [
+                "https://www.mapleworld.online"
+            ],
+            tags: [
+                "F1报税",
+                "逾期报税",
+                "留学生报税",
+                "Form 8843",
+                "1040-NR",
+                "IRS罚款",
+                "报税补救"
+            ],
+            images: [
+                {
+                    url: "/og-image.png",
+                    width: 1200,
+                    height: 630,
+                    alt: "F1留学生逾期报税自救指南"
+                }
+            ]
+        } : undefined,
+        twitter: isLateFilingGuide ? {
+            card: "summary_large_image",
+            title: guide.title,
+            description: guide.description,
+            images: [
+                "/og-image.png"
+            ],
+            creator: "@mapleworld"
+        } : undefined,
+        keywords: isLateFilingGuide ? [
+            "F1报税迟交",
+            "留学生逾期报税",
+            "Form 8843迟交",
+            "1040-NR补交",
+            "IRS罚款减免",
+            "F1身份报税",
+            "OPT报税补救",
+            "留学生报税截止日期",
+            "逾期报税后果",
+            "F1签证报税指南"
+        ] : undefined,
+        robots: {
+            index: true,
+            follow: true,
+            googleBot: {
+                index: true,
+                follow: true,
+                "max-video-preview": -1,
+                "max-image-preview": "large",
+                "max-snippet": -1
+            }
+        },
+        viewport: {
+            width: "device-width",
+            initialScale: 1,
+            maximumScale: 5
         }
     };
 }
@@ -1133,7 +1406,7 @@ function W2DecisionFlow() {
                 children: "我有 W-2 = 我能填 1040 吗？"
             }, void 0, false, {
                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                lineNumber: 37,
+                lineNumber: 95,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1150,7 +1423,7 @@ function W2DecisionFlow() {
                                         children: "✗"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 45,
+                                        lineNumber: 103,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1158,13 +1431,13 @@ function W2DecisionFlow() {
                                         children: "错误逻辑"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 104,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 44,
+                                lineNumber: 102,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1178,7 +1451,7 @@ function W2DecisionFlow() {
                                                 children: "1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 50,
+                                                lineNumber: 108,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1186,13 +1459,13 @@ function W2DecisionFlow() {
                                                 children: "收到 W-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 51,
+                                                lineNumber: 109,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 49,
+                                        lineNumber: 107,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1200,7 +1473,7 @@ function W2DecisionFlow() {
                                         children: "⬇️"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 53,
+                                        lineNumber: 111,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1211,7 +1484,7 @@ function W2DecisionFlow() {
                                                 children: "2"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 55,
+                                                lineNumber: 113,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1219,13 +1492,13 @@ function W2DecisionFlow() {
                                                 children: "打开 TurboTax"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 56,
+                                                lineNumber: 114,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 54,
+                                        lineNumber: 112,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1233,7 +1506,7 @@ function W2DecisionFlow() {
                                         children: "⬇️"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 116,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1244,7 +1517,7 @@ function W2DecisionFlow() {
                                                 children: "3"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 60,
+                                                lineNumber: 118,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1252,13 +1525,13 @@ function W2DecisionFlow() {
                                                 children: "填 1040"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 61,
+                                                lineNumber: 119,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 59,
+                                        lineNumber: 117,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1266,7 +1539,7 @@ function W2DecisionFlow() {
                                         children: "⬇️"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 63,
+                                        lineNumber: 121,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1277,7 +1550,7 @@ function W2DecisionFlow() {
                                                 children: "4"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 65,
+                                                lineNumber: 123,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1285,13 +1558,13 @@ function W2DecisionFlow() {
                                                 children: "拿 Standard Deduction"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 66,
+                                                lineNumber: 124,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 64,
+                                        lineNumber: 122,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1299,7 +1572,7 @@ function W2DecisionFlow() {
                                         children: "⬇️"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 68,
+                                        lineNumber: 126,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1307,19 +1580,19 @@ function W2DecisionFlow() {
                                         children: "⚠️ 风险：身份违规，H1B 埋雷"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 69,
+                                        lineNumber: 127,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 48,
+                                lineNumber: 106,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                        lineNumber: 43,
+                        lineNumber: 101,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1333,7 +1606,7 @@ function W2DecisionFlow() {
                                         children: "✓"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 78,
+                                        lineNumber: 136,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1341,13 +1614,13 @@ function W2DecisionFlow() {
                                         children: "正确逻辑"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 79,
+                                        lineNumber: 137,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 77,
+                                lineNumber: 135,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1361,7 +1634,7 @@ function W2DecisionFlow() {
                                                 children: "1"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 83,
+                                                lineNumber: 141,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1369,13 +1642,13 @@ function W2DecisionFlow() {
                                                 children: "收到 W-2"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 84,
+                                                lineNumber: 142,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 82,
+                                        lineNumber: 140,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1383,7 +1656,7 @@ function W2DecisionFlow() {
                                         children: "⬇️"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 86,
+                                        lineNumber: 144,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1394,7 +1667,7 @@ function W2DecisionFlow() {
                                                 children: "2"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 88,
+                                                lineNumber: 146,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1402,13 +1675,13 @@ function W2DecisionFlow() {
                                                 children: "检查 F-1 身份是否满 5 年"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 89,
+                                                lineNumber: 147,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 87,
+                                        lineNumber: 145,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1416,7 +1689,7 @@ function W2DecisionFlow() {
                                         children: "⬇️"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 91,
+                                        lineNumber: 149,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1427,7 +1700,7 @@ function W2DecisionFlow() {
                                                 children: "3"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 93,
+                                                lineNumber: 151,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1435,13 +1708,13 @@ function W2DecisionFlow() {
                                                 children: "依旧是 Non-resident"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 94,
+                                                lineNumber: 152,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 92,
+                                        lineNumber: 150,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1449,7 +1722,7 @@ function W2DecisionFlow() {
                                         children: "⬇️"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 96,
+                                        lineNumber: 154,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1460,7 +1733,7 @@ function W2DecisionFlow() {
                                                 children: "4"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 98,
+                                                lineNumber: 156,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1468,13 +1741,13 @@ function W2DecisionFlow() {
                                                 children: "填 1040-NR"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 99,
+                                                lineNumber: 157,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 97,
+                                        lineNumber: 155,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1482,7 +1755,7 @@ function W2DecisionFlow() {
                                         children: "⬇️"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 101,
+                                        lineNumber: 159,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1490,25 +1763,25 @@ function W2DecisionFlow() {
                                         children: "✅ 安全：合法合规，保护移民身份"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 160,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 81,
+                                lineNumber: 139,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                        lineNumber: 76,
+                        lineNumber: 134,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                lineNumber: 41,
+                lineNumber: 99,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1521,25 +1794,25 @@ function W2DecisionFlow() {
                             children: "🎯"
                         }, void 0, false, {
                             fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                            lineNumber: 114,
+                            lineNumber: 172,
                             columnNumber: 11
                         }, this),
                         "不确定？3秒自测你的报税身份"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                    lineNumber: 110,
+                    lineNumber: 168,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                lineNumber: 109,
+                lineNumber: 167,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-        lineNumber: 36,
+        lineNumber: 94,
         columnNumber: 5
     }, this);
 }
@@ -1549,55 +1822,106 @@ async function GuideDetailPage({ params }) {
     if (!guide) {
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["notFound"])();
     }
+    // 针对 f1-late-filing-guide 页面的特殊 Schema.org 结构化数据
+    const isLateFilingGuide = slug === "f1-late-filing-guide";
+    const schemaData = isLateFilingGuide ? {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": guide.title,
+        "description": guide.description,
+        "image": "https://www.mapleworld.online/og-image.png",
+        "totalTime": "PT1H",
+        "estimatedCost": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "value": "0"
+        },
+        "step": [
+            {
+                "@type": "HowToStep",
+                "name": "Step 1：评估你的情况",
+                "text": "确定你需要补交哪些表格：无收入 F1 学生只需提交 Form 8843，有收入 F1 学生需要提交 Form 1040-NR 和 Form 8843",
+                "url": `https://www.mapleworld.online/guides/${slug}#step1`
+            },
+            {
+                "@type": "HowToStep",
+                "name": "Step 2：准备补交材料",
+                "text": "收集所有必要的税务文件：W-2 表格、1099 表格、1042-S 表格、护照和 I-20 复印件、之前的报税记录",
+                "url": `https://www.mapleworld.online/guides/${slug}#step2`
+            },
+            {
+                "@type": "HowToStep",
+                "name": "Step 3：填写并提交表格",
+                "text": "Form 8843 在顶部标注 'Late Filing'，Form 1040-NR 如实填写所有收入，查看 IRS 官网获取最新的邮寄地址",
+                "url": `https://www.mapleworld.online/guides/${slug}#step3`
+            },
+            {
+                "@type": "HowToStep",
+                "name": "Step 4：支付欠税（如适用）",
+                "text": "通过 IRS Direct Pay 或 EFTPS 系统在线支付，或邮寄支票/汇票，如无法一次性支付可申请分期付款计划",
+                "url": `https://www.mapleworld.online/guides/${slug}#step4`
+            },
+            {
+                "@type": "HowToStep",
+                "name": "Step 5：跟进与记录",
+                "text": "保留邮寄凭证，等待 IRS 回复（通常需要 6-8 周），如有罚款通知及时响应并考虑申请罚款减免",
+                "url": `https://www.mapleworld.online/guides/${slug}#step5`
+            }
+        ],
+        "audience": {
+            "@type": "Audience",
+            "audienceType": "F1留学生，错过报税截止日期需要补救的人群"
+        }
+    } : {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": guide.title,
+        "description": guide.description,
+        "image": "https://www.mapleworld.online/og-image.png",
+        "totalTime": "PT30M",
+        "estimatedCost": {
+            "@type": "MonetaryAmount",
+            "currency": "USD",
+            "value": "0"
+        },
+        "step": [
+            {
+                "@type": "HowToStep",
+                "name": "确认错误类型",
+                "text": "检查你是否误将 1040-NR 填成了 1040，并确认是否误领了 Standard Deduction",
+                "url": `https://www.mapleworld.online/guides/${slug}#step1`
+            },
+            {
+                "@type": "HowToStep",
+                "name": "准备 1040-X 修正表",
+                "text": "下载并填写 1040-X 修正表，将 Resident 身份修正为 Non-resident",
+                "url": `https://www.mapleworld.online/guides/${slug}#step2`
+            },
+            {
+                "@type": "HowToStep",
+                "name": "重新填写 1040-NR",
+                "text": "按照 Non-resident 身份重新填写 1040-NR 表格",
+                "url": `https://www.mapleworld.online/guides/${slug}#step3`
+            },
+            {
+                "@type": "HowToStep",
+                "name": "邮寄 IRS",
+                "text": "将修正后的表格邮寄至 IRS 指定地址",
+                "url": `https://www.mapleworld.online/guides/${slug}#step4`
+            }
+        ]
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
         className: "pb-16 text-brand-ink",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
                 type: "application/ld+json",
                 dangerouslySetInnerHTML: {
-                    __html: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "HowTo",
-                        "name": guide.title,
-                        "description": guide.description,
-                        "image": "https://www.mapleworld.online/og-image.png",
-                        "totalTime": "PT30M",
-                        "estimatedCost": {
-                            "@type": "MonetaryAmount",
-                            "currency": "USD",
-                            "value": "0"
-                        },
-                        "step": [
-                            {
-                                "@type": "HowToStep",
-                                "name": "确认错误类型",
-                                "text": "检查你是否误将 1040-NR 填成了 1040，并确认是否误领了 Standard Deduction",
-                                "url": `https://www.mapleworld.online/guides/${slug}#step1`
-                            },
-                            {
-                                "@type": "HowToStep",
-                                "name": "准备 1040-X 修正表",
-                                "text": "下载并填写 1040-X 修正表，将 Resident 身份修正为 Non-resident",
-                                "url": `https://www.mapleworld.online/guides/${slug}#step2`
-                            },
-                            {
-                                "@type": "HowToStep",
-                                "name": "重新填写 1040-NR",
-                                "text": "按照 Non-resident 身份重新填写 1040-NR 表格",
-                                "url": `https://www.mapleworld.online/guides/${slug}#step3`
-                            },
-                            {
-                                "@type": "HowToStep",
-                                "name": "邮寄 IRS",
-                                "text": "将修正后的表格邮寄至 IRS 指定地址",
-                                "url": `https://www.mapleworld.online/guides/${slug}#step4`
-                            }
-                        ]
-                    })
+                    __html: JSON.stringify(schemaData)
                 }
             }, void 0, false, {
                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                lineNumber: 137,
+                lineNumber: 286,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1619,7 +1943,7 @@ async function GuideDetailPage({ params }) {
                                 ]
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 185,
+                                lineNumber: 296,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1627,7 +1951,7 @@ async function GuideDetailPage({ params }) {
                                 children: guide.title
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 191,
+                                lineNumber: 302,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1635,7 +1959,7 @@ async function GuideDetailPage({ params }) {
                                 children: guide.description
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 194,
+                                lineNumber: 305,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1643,23 +1967,23 @@ async function GuideDetailPage({ params }) {
                                 children: "🚨 紧急提醒：4.15 截止前必须完成修正，避免罚款和签证风险！"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 197,
+                                lineNumber: 308,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                        lineNumber: 184,
+                        lineNumber: 295,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                    lineNumber: 183,
+                    lineNumber: 294,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                lineNumber: 182,
+                lineNumber: 293,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1678,7 +2002,7 @@ async function GuideDetailPage({ params }) {
                                         if (section.heading === "我有 W-2 = 我能填 1040 吗？") {
                                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(W2DecisionFlow, {}, index, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 216,
+                                                lineNumber: 327,
                                                 columnNumber: 26
                                             }, this);
                                         }
@@ -1735,7 +2059,7 @@ async function GuideDetailPage({ params }) {
                                                             children: "▸"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                            lineNumber: 254,
+                                                            lineNumber: 365,
                                                             columnNumber: 23
                                                         }, this),
                                                         " ",
@@ -1743,7 +2067,7 @@ async function GuideDetailPage({ params }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                    lineNumber: 253,
+                                                    lineNumber: 364,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1759,12 +2083,12 @@ async function GuideDetailPage({ params }) {
                                                                         children: block.text
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                        lineNumber: 263,
+                                                                        lineNumber: 374,
                                                                         columnNumber: 35
                                                                     }, this)
                                                                 }, blockIndex, false, {
                                                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                    lineNumber: 262,
+                                                                    lineNumber: 373,
                                                                     columnNumber: 33
                                                                 }, this);
                                                             }
@@ -1772,7 +2096,7 @@ async function GuideDetailPage({ params }) {
                                                                 children: block.text
                                                             }, blockIndex, false, {
                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                lineNumber: 267,
+                                                                lineNumber: 378,
                                                                 columnNumber: 36
                                                             }, this);
                                                         }
@@ -1785,12 +2109,12 @@ async function GuideDetailPage({ params }) {
                                                                         children: item
                                                                     }, itemIndex, false, {
                                                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                        lineNumber: 280,
+                                                                        lineNumber: 391,
                                                                         columnNumber: 33
                                                                     }, this))
                                                             }, blockIndex, false, {
                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                lineNumber: 272,
+                                                                lineNumber: 383,
                                                                 columnNumber: 29
                                                             }, this);
                                                         }
@@ -1808,17 +2132,17 @@ async function GuideDetailPage({ params }) {
                                                                                         children: header
                                                                                     }, header, false, {
                                                                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                                        lineNumber: 300,
+                                                                                        lineNumber: 411,
                                                                                         columnNumber: 39
                                                                                     }, this))
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                                lineNumber: 298,
+                                                                                lineNumber: 409,
                                                                                 columnNumber: 35
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                            lineNumber: 297,
+                                                                            lineNumber: 408,
                                                                             columnNumber: 33
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -1829,35 +2153,35 @@ async function GuideDetailPage({ params }) {
                                                                                             children: cell
                                                                                         }, `${rowIndex}-${cellIndex}`, false, {
                                                                                             fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                                            lineNumber: 313,
+                                                                                            lineNumber: 424,
                                                                                             columnNumber: 41
                                                                                         }, this))
                                                                                 }, rowIndex, false, {
                                                                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                                    lineNumber: 311,
+                                                                                    lineNumber: 422,
                                                                                     columnNumber: 37
                                                                                 }, this))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                            lineNumber: 309,
+                                                                            lineNumber: 420,
                                                                             columnNumber: 33
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                    lineNumber: 296,
+                                                                    lineNumber: 407,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             }, blockIndex, false, {
                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                lineNumber: 292,
+                                                                lineNumber: 403,
                                                                 columnNumber: 29
                                                             }, this);
                                                         }
                                                         if (block.type === "quiz") {
                                                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TaxQuiz$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, blockIndex, false, {
                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                lineNumber: 328,
+                                                                lineNumber: 439,
                                                                 columnNumber: 34
                                                             }, this);
                                                         }
@@ -1865,13 +2189,13 @@ async function GuideDetailPage({ params }) {
                                                     })
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                    lineNumber: 256,
+                                                    lineNumber: 367,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, `${section.heading}-${index}`, true, {
                                             fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                            lineNumber: 245,
+                                            lineNumber: 356,
                                             columnNumber: 19
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                                             className: `space-y-6 ${isSpecialSection ? `rounded-2xl p-6 sm:p-8 border-2 ${bgColor} shadow-md` : ''}`,
@@ -1881,7 +2205,7 @@ async function GuideDetailPage({ params }) {
                                                     children: section.heading
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                    lineNumber: 339,
+                                                    lineNumber: 450,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1897,12 +2221,12 @@ async function GuideDetailPage({ params }) {
                                                                         children: block.text
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                        lineNumber: 349,
+                                                                        lineNumber: 460,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 }, blockIndex, false, {
                                                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                    lineNumber: 348,
+                                                                    lineNumber: 459,
                                                                     columnNumber: 31
                                                                 }, this);
                                                             }
@@ -1910,7 +2234,7 @@ async function GuideDetailPage({ params }) {
                                                                 children: block.text
                                                             }, blockIndex, false, {
                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                lineNumber: 353,
+                                                                lineNumber: 464,
                                                                 columnNumber: 34
                                                             }, this);
                                                         }
@@ -1923,12 +2247,12 @@ async function GuideDetailPage({ params }) {
                                                                         children: item
                                                                     }, itemIndex, false, {
                                                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                        lineNumber: 366,
+                                                                        lineNumber: 477,
                                                                         columnNumber: 33
                                                                     }, this))
                                                             }, blockIndex, false, {
                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                lineNumber: 358,
+                                                                lineNumber: 469,
                                                                 columnNumber: 29
                                                             }, this);
                                                         }
@@ -1946,17 +2270,17 @@ async function GuideDetailPage({ params }) {
                                                                                         children: header
                                                                                     }, header, false, {
                                                                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                                        lineNumber: 386,
+                                                                                        lineNumber: 497,
                                                                                         columnNumber: 39
                                                                                     }, this))
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                                lineNumber: 384,
+                                                                                lineNumber: 495,
                                                                                 columnNumber: 35
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                            lineNumber: 383,
+                                                                            lineNumber: 494,
                                                                             columnNumber: 33
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -1967,35 +2291,35 @@ async function GuideDetailPage({ params }) {
                                                                                             children: cell
                                                                                         }, `${rowIndex}-${cellIndex}`, false, {
                                                                                             fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                                            lineNumber: 399,
+                                                                                            lineNumber: 510,
                                                                                             columnNumber: 41
                                                                                         }, this))
                                                                                 }, rowIndex, false, {
                                                                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                                    lineNumber: 397,
+                                                                                    lineNumber: 508,
                                                                                     columnNumber: 37
                                                                                 }, this))
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                            lineNumber: 395,
+                                                                            lineNumber: 506,
                                                                             columnNumber: 33
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                    lineNumber: 382,
+                                                                    lineNumber: 493,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             }, blockIndex, false, {
                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                lineNumber: 378,
+                                                                lineNumber: 489,
                                                                 columnNumber: 29
                                                             }, this);
                                                         }
                                                         if (block.type === "quiz") {
                                                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$TaxQuiz$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, blockIndex, false, {
                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                lineNumber: 414,
+                                                                lineNumber: 525,
                                                                 columnNumber: 34
                                                             }, this);
                                                         }
@@ -2003,13 +2327,13 @@ async function GuideDetailPage({ params }) {
                                                     })
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                    lineNumber: 342,
+                                                    lineNumber: 453,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, `${section.heading}-${index}`, true, {
                                             fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                            lineNumber: 335,
+                                            lineNumber: 446,
                                             columnNumber: 19
                                         }, this);
                                     }),
@@ -2021,7 +2345,7 @@ async function GuideDetailPage({ params }) {
                                                 children: "免责声明"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 425,
+                                                lineNumber: 536,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2029,19 +2353,19 @@ async function GuideDetailPage({ params }) {
                                                 children: "本文为报税修正指南的经验整理，不构成税务或法律建议。若你的情况涉及复杂收入或身份切换，请先做判断或咨询专业人士。"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 426,
+                                                lineNumber: 537,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 424,
+                                        lineNumber: 535,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 208,
+                                lineNumber: 319,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2052,7 +2376,7 @@ async function GuideDetailPage({ params }) {
                                         children: "常见问题"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 435,
+                                        lineNumber: 546,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2069,13 +2393,13 @@ async function GuideDetailPage({ params }) {
                                                                 children: "+"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                                lineNumber: 444,
+                                                                lineNumber: 555,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                        lineNumber: 442,
+                                                        lineNumber: 553,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2083,24 +2407,24 @@ async function GuideDetailPage({ params }) {
                                                         children: faq.answer
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                        lineNumber: 446,
+                                                        lineNumber: 557,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                                lineNumber: 438,
+                                                lineNumber: 549,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                        lineNumber: 436,
+                                        lineNumber: 547,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 434,
+                                lineNumber: 545,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2111,34 +2435,34 @@ async function GuideDetailPage({ params }) {
                                     children: guide.cta.label
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                    lineNumber: 456,
+                                    lineNumber: 567,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                                lineNumber: 455,
+                                lineNumber: 566,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                        lineNumber: 206,
+                        lineNumber: 317,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                    lineNumber: 205,
+                    lineNumber: 316,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-                lineNumber: 204,
+                lineNumber: 315,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/src/app/(guides)/guides/[slug]/page.tsx",
-        lineNumber: 135,
+        lineNumber: 284,
         columnNumber: 5
     }, this);
 }

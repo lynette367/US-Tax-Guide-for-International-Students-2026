@@ -1,3 +1,6 @@
 {
-  "/(guides)/guides/[slug]/page": "app/(guides)/guides/[slug]/page.js"
+  "/(guides)/guides/[slug]/page": "app/(guides)/guides/[slug]/page.js",
+  "/(tools)/tools/opt-tax/page": "app/(tools)/tools/opt-tax/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js"
 }

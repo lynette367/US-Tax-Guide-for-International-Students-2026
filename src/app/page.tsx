@@ -217,10 +217,7 @@ export default function Home() {
   return (
     <main className="pb-16 text-brand-ink">
       <span style={{ display: 'none' }}>Impact-Site-Verification: eed619a2-8edf-4f11-9504-97edd29deaf9</span>
-      {/* Top Notification Bar Mode */}
-      <div className="bg-brand-pink/10 py-3 text-center text-sm font-medium border-b border-brand-pink/20">
-        距离 4.15 报税截止还有：<TaxCountdown className="text-brand-pinkdeep ml-1 font-mono tracking-tighter" />
-      </div>
+
 
       <section className="relative isolate flex min-h-[90vh] items-center justify-center overflow-hidden bg-[#F7C6D9] bg-paper px-4 pb-12 sm:pb-20 lg:pb-32">
         <WorldMap />
@@ -232,33 +229,21 @@ export default function Home() {
             2026 F1/OPT 留学生<br className="hidden sm:block" />报税保姆级指南 & 避坑工具箱
           </h1>
 
-          <div className="flex flex-col items-center gap-5">
-            <div className="flex items-center gap-2.5 px-6 py-3 rounded-full bg-white/50 border border-white/60 backdrop-blur-md shadow-lg text-brand-pinkdeep transform hover:scale-[1.02] transition-transform cursor-default">
-              <ClockIcon className="w-5 h-5 sm:w-6 sm:h-6 shrink-0 animate-pulse" />
-              <p className="font-bold text-base sm:text-lg">
-                距离 4.15 报税截止还有：<TaxCountdown />
-              </p>
+          {/* 逾期报税自救指南入口 */}
+          <Link
+            href="/guides/f1-late-filing-guide"
+            className="mt-8 w-full max-w-lg rounded-[24px] border border-white/60 bg-white/40 p-6 backdrop-blur-md shadow-[0_20px_50px_rgba(247,198,217,0.4)] transition hover:shadow-[0_25px_60px_rgba(247,198,217,0.5)] block"
+          >
+            <div className="flex items-center gap-2 mb-3">
+              <span className="px-2 py-0.5 text-xs font-bold bg-green-100 text-green-700 rounded-full">新上线</span>
             </div>
-            <Link
-              href="/tax-deadlines-2026"
-              className="text-sm font-semibold text-brand-ink/60 hover:text-brand-pinkdeep underline underline-offset-4 decoration-brand-pink/30 hover:decoration-brand-pinkdeep transition-all"
-            >
-              查看 2026 美国 IRS 报税截止日期与关键时间表 →
-            </Link>
-          </div>
-
-          {/* Judgment Box */}
-          <div className="mt-8 w-full max-w-lg rounded-[24px] border border-white/60 bg-white/40 p-6 backdrop-blur-md shadow-[0_20px_50px_rgba(247,198,217,0.4)] transition hover:shadow-[0_25px_60px_rgba(247,198,217,0.5)]">
             <p className="text-base sm:text-lg font-medium text-brand-ink/90">
-              2026 留学生报税，你是 Resident 还是 Non-Resident(NRA)？
+              F1 报税迟交怎么办？最新留学生【逾期报税自救指南】及补救流程
             </p>
-            <Link
-              href="/tools/opt-tax"
-              className="mt-5 inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-3.5 text-sm font-bold text-brand-pinkdeep shadow-lg transition hover:scale-[1.02] hover:bg-white/90 hover:shadow-xl active:scale-[0.98]"
-            >
-              点击判定
-            </Link>
-          </div>
+            <div className="mt-5 inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-3.5 text-sm font-bold text-brand-pinkdeep shadow-lg transition hover:scale-[1.02] hover:bg-white/90 hover:shadow-xl">
+              查看指南 →
+            </div>
+          </Link>
         </div>
 
         <div className="absolute bottom-0 left-0 w-[60vw] h-[60vh] min-w-[200px] min-h-[200px] max-w-[600px] max-h-[600px] pointer-events-none">
@@ -382,12 +367,32 @@ export default function Home() {
             </Link>
 
             <Link
-              href="/form-8843-tutorial-2026"
-              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep bg-brand-pink/10 p-4 rounded-2xl border border-brand-pink/20 transition hover:scale-[1.01]"
+              href="/tax-deadlines-2026"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
             >
               <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
-              <h3 className="font-bold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep text-brand-ink">
-                ✨【2026 独家】Form 8843 在线填写助手 (手把手辅助版) —— 5 分钟搞定免税声明
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                查看 2026 美国 IRS 报税截止日期与关键时间表 →
+              </h3>
+            </Link>
+
+            <Link
+              href="/tools/opt-tax"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                2026 留学生报税，你是 Resident 还是 Non-Resident(NRA)？→
+              </h3>
+            </Link>
+
+            <Link
+              href="/form-8843-tutorial-2026"
+              className="group flex gap-3 text-sm sm:text-base text-brand-ink/80 hover:text-brand-pinkdeep"
+            >
+              <span className="mt-1.5 h-2 w-2 shrink-0 rounded-full bg-brand-pinkdeep group-hover:bg-brand-pinkhover" />
+              <h3 className="font-semibold underline underline-offset-4 decoration-brand-pink/40 group-hover:decoration-brand-pinkdeep">
+                《2026 Form 8843 在线填写助手：手把手辅助版 5 分钟搞定免税声明》
               </h3>
             </Link>
             <Link
@@ -496,6 +501,7 @@ export default function Home() {
               { label: "Tax Treaty", href: "/guides/j1-tax-guide", color: "#8E9775" },
               { label: "J1 Tax", href: "/guides/j1-tax-guide", color: "#E28E8E" },
               { label: "1040-X 修正", href: "/guides/opt-1040-fix", color: "#94B49F" },
+              { label: "逾期报税补救", href: "/guides/f1-late-filing-guide", color: "#D4BEAD" },
             ].map((tag) => (
               <Link
                 key={tag.label}

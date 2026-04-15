@@ -21,11 +21,69 @@ export async function generateMetadata({
     return {};
   }
 
+  // 针对 f1-late-filing-guide 页面的特殊 SEO 优化
+  const isLateFilingGuide = slug === "f1-late-filing-guide";
+  
   return {
     title: guide.title,
     description: guide.description,
     alternates: {
       canonical: `https://www.mapleworld.online/guides/${slug}`,
+    },
+    openGraph: isLateFilingGuide ? {
+      title: guide.title,
+      description: guide.description,
+      url: `https://www.mapleworld.online/guides/${slug}`,
+      siteName: "MapleWorld",
+      locale: "zh_CN",
+      type: "article",
+      publishedTime: "2026-04-08T00:00:00.000Z",
+      modifiedTime: "2026-04-08T00:00:00.000Z",
+      authors: ["https://www.mapleworld.online"],
+      tags: ["F1报税", "逾期报税", "留学生报税", "Form 8843", "1040-NR", "IRS罚款", "报税补救"],
+      images: [
+        {
+          url: "/og-image.png",
+          width: 1200,
+          height: 630,
+          alt: "F1留学生逾期报税自救指南",
+        },
+      ],
+    } : undefined,
+    twitter: isLateFilingGuide ? {
+      card: "summary_large_image",
+      title: guide.title,
+      description: guide.description,
+      images: ["/og-image.png"],
+      creator: "@mapleworld",
+    } : undefined,
+    keywords: isLateFilingGuide ? [
+      "F1报税迟交",
+      "留学生逾期报税",
+      "Form 8843迟交",
+      "1040-NR补交",
+      "IRS罚款减免",
+      "F1身份报税",
+      "OPT报税补救",
+      "留学生报税截止日期",
+      "逾期报税后果",
+      "F1签证报税指南",
+    ] : undefined,
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-video-preview": -1,
+        "max-image-preview": "large",
+        "max-snippet": -1,
+      },
+    },
+    viewport: {
+      width: "device-width",
+      initialScale: 1,
+      maximumScale: 5,
     },
   };
 }
@@ -131,51 +189,104 @@ export default async function GuideDetailPage({
     notFound();
   }
 
+  // 针对 f1-late-filing-guide 页面的特殊 Schema.org 结构化数据
+  const isLateFilingGuide = slug === "f1-late-filing-guide";
+  
+  const schemaData = isLateFilingGuide ? {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": guide.title,
+    "description": guide.description,
+    "image": "https://www.mapleworld.online/og-image.png",
+    "totalTime": "PT1H",
+    "estimatedCost": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": "0"
+    },
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Step 1：评估你的情况",
+        "text": "确定你需要补交哪些表格：无收入 F1 学生只需提交 Form 8843，有收入 F1 学生需要提交 Form 1040-NR 和 Form 8843",
+        "url": `https://www.mapleworld.online/guides/${slug}#step1`
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 2：准备补交材料",
+        "text": "收集所有必要的税务文件：W-2 表格、1099 表格、1042-S 表格、护照和 I-20 复印件、之前的报税记录",
+        "url": `https://www.mapleworld.online/guides/${slug}#step2`
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 3：填写并提交表格",
+        "text": "Form 8843 在顶部标注 'Late Filing'，Form 1040-NR 如实填写所有收入，查看 IRS 官网获取最新的邮寄地址",
+        "url": `https://www.mapleworld.online/guides/${slug}#step3`
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 4：支付欠税（如适用）",
+        "text": "通过 IRS Direct Pay 或 EFTPS 系统在线支付，或邮寄支票/汇票，如无法一次性支付可申请分期付款计划",
+        "url": `https://www.mapleworld.online/guides/${slug}#step4`
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Step 5：跟进与记录",
+        "text": "保留邮寄凭证，等待 IRS 回复（通常需要 6-8 周），如有罚款通知及时响应并考虑申请罚款减免",
+        "url": `https://www.mapleworld.online/guides/${slug}#step5`
+      }
+    ],
+    "audience": {
+      "@type": "Audience",
+      "audienceType": "F1留学生，错过报税截止日期需要补救的人群"
+    }
+  } : {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": guide.title,
+    "description": guide.description,
+    "image": "https://www.mapleworld.online/og-image.png",
+    "totalTime": "PT30M",
+    "estimatedCost": {
+      "@type": "MonetaryAmount",
+      "currency": "USD",
+      "value": "0"
+    },
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "确认错误类型",
+        "text": "检查你是否误将 1040-NR 填成了 1040，并确认是否误领了 Standard Deduction",
+        "url": `https://www.mapleworld.online/guides/${slug}#step1`
+      },
+      {
+        "@type": "HowToStep",
+        "name": "准备 1040-X 修正表",
+        "text": "下载并填写 1040-X 修正表，将 Resident 身份修正为 Non-resident",
+        "url": `https://www.mapleworld.online/guides/${slug}#step2`
+      },
+      {
+        "@type": "HowToStep",
+        "name": "重新填写 1040-NR",
+        "text": "按照 Non-resident 身份重新填写 1040-NR 表格",
+        "url": `https://www.mapleworld.online/guides/${slug}#step3`
+      },
+      {
+        "@type": "HowToStep",
+        "name": "邮寄 IRS",
+        "text": "将修正后的表格邮寄至 IRS 指定地址",
+        "url": `https://www.mapleworld.online/guides/${slug}#step4`
+      }
+    ]
+  };
+
   return (
     <main className="pb-16 text-brand-ink">
       {/* Schema.org 结构化数据 */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "HowTo",
-            "name": guide.title,
-            "description": guide.description,
-            "image": "https://www.mapleworld.online/og-image.png",
-            "totalTime": "PT30M",
-            "estimatedCost": {
-              "@type": "MonetaryAmount",
-              "currency": "USD",
-              "value": "0"
-            },
-            "step": [
-              {
-                "@type": "HowToStep",
-                "name": "确认错误类型",
-                "text": "检查你是否误将 1040-NR 填成了 1040，并确认是否误领了 Standard Deduction",
-                "url": `https://www.mapleworld.online/guides/${slug}#step1`
-              },
-              {
-                "@type": "HowToStep",
-                "name": "准备 1040-X 修正表",
-                "text": "下载并填写 1040-X 修正表，将 Resident 身份修正为 Non-resident",
-                "url": `https://www.mapleworld.online/guides/${slug}#step2`
-              },
-              {
-                "@type": "HowToStep",
-                "name": "重新填写 1040-NR",
-                "text": "按照 Non-resident 身份重新填写 1040-NR 表格",
-                "url": `https://www.mapleworld.online/guides/${slug}#step3`
-              },
-              {
-                "@type": "HowToStep",
-                "name": "邮寄 IRS",
-                "text": "将修正后的表格邮寄至 IRS 指定地址",
-                "url": `https://www.mapleworld.online/guides/${slug}#step4`
-              }
-            ]
-          })
+          __html: JSON.stringify(schemaData)
         }}
       />
 

@@ -916,6 +916,217 @@ export const guides: Guide[] = [
       href: "/guides/1040nr-guide",
     },
   },
+  {
+    slug: "f1-late-filing-guide",
+    title: "F1 报税迟交怎么办？最新留学生【逾期报税自救指南】及补救流程",
+    description:
+      "不小心错过了 F1 报税截止日期？别慌！本指南详细讲解 F1 留学生报税迟交的自救步骤，包括 Form 8843 和 1040-NR 补交流程、潜在罚款解析，以及如何确保逾期申报不影响你的未来签证与身份申请。立即查看补救方案！",
+    audience: "F1 留学生，错过报税截止日期需要补救的人群。",
+    sections: [
+      {
+        heading: "F1 迟交【报税表】自救指南：从补救流程到风险规避",
+        blocks: [
+          {
+            type: "paragraph",
+            text: "作为 F1 留学生，如果你不小心错过了 4 月 15 日的报税截止日期，不要惊慌。IRS 提供了补救措施，关键在于及时采取行动。本指南将详细讲解逾期报税的后果、补救步骤以及如何最小化对签证和身份的影响。",
+          },
+        ],
+      },
+      {
+        heading: "迟交报税表会有什么后果？",
+        level: 2,
+        blocks: [
+          {
+            type: "paragraph",
+            text: "了解逾期报税的潜在后果是制定补救策略的第一步。",
+          },
+        ],
+      },
+      {
+        heading: "罚款与利息",
+        level: 3,
+        blocks: [
+          {
+            type: "paragraph",
+            text: "IRS 对逾期报税和逾期缴税分别征收罚款和利息：",
+          },
+          {
+            type: "list",
+            ordered: false,
+            items: [
+              "逾期报税罚款：通常为每月 5% 的未缴税款，最高可达 25%",
+              "逾期缴税罚款：通常为每月 0.5% 的未缴税款，最高可达 25%",
+              "利息：按日计算，基于联邦短期利率加 3%",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "对签证与身份的影响",
+        level: 3,
+        blocks: [
+          {
+            type: "paragraph",
+            text: "虽然逾期报税本身不会直接导致签证被取消，但可能产生以下影响：",
+          },
+          {
+            type: "list",
+            ordered: false,
+            items: [
+              "H1B 或绿卡申请时可能需要提供完整的税务记录",
+              "长期不申报可能被视为违反 F1 身份的'维持合法身份'要求",
+              "IRS 的欠税记录可能影响未来的签证申请",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "核心补救步骤：如何补交 8843 和 1040-NR",
+        level: 2,
+        blocks: [
+          {
+            type: "paragraph",
+            text: "及时补救是关键。以下是补交报税表的核心步骤：",
+          },
+        ],
+      },
+      {
+        heading: "Step 1：评估你的情况",
+        level: 3,
+        blocks: [
+          {
+            type: "paragraph",
+            text: "首先确定你需要补交哪些表格：",
+          },
+          {
+            type: "list",
+            ordered: false,
+            items: [
+              "无收入 F1 学生：只需提交 Form 8843",
+              "有收入 F1 学生：需要提交 Form 1040-NR 和 Form 8843",
+              "已缴税但有退税：尽快提交以获取退税",
+              "未缴税且有欠税：尽快补缴以减少罚款和利息",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Step 2：准备补交材料",
+        level: 3,
+        blocks: [
+          {
+            type: "paragraph",
+            text: "收集所有必要的税务文件：",
+          },
+          {
+            type: "list",
+            ordered: false,
+            items: [
+              "W-2 表格（雇主提供）",
+              "1099 表格（如有兼职或投资收入）",
+              "1042-S 表格（如有奖学金或税收协定减免）",
+              "护照和 I-20 复印件",
+              "之前的报税记录（如有）",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Step 3：填写并提交表格",
+        level: 3,
+        blocks: [
+          {
+            type: "paragraph",
+            text: "按照正常流程填写表格，但注意以下要点：",
+          },
+          {
+            type: "list",
+            ordered: false,
+            items: [
+              "Form 8843：在顶部标注 'Late Filing'，解释迟交原因",
+              "Form 1040-NR：如实填写所有收入，计算应缴税款或退税",
+              "邮寄地址：查看 IRS 官网获取最新的邮寄地址",
+              "保留副本：保留所有提交文件的复印件",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Step 4：支付欠税（如适用）",
+        level: 3,
+        blocks: [
+          {
+            type: "paragraph",
+            text: "如果你需要补缴税款，尽快支付可以减少罚款和利息：",
+          },
+          {
+            type: "list",
+            ordered: false,
+            items: [
+              "在线支付：通过 IRS Direct Pay 或 EFTPS 系统",
+              "支票或汇票：邮寄时附上支票或汇票",
+              "分期付款：如果无法一次性支付，可申请分期付款计划",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Step 5：跟进与记录",
+        level: 3,
+        blocks: [
+          {
+            type: "paragraph",
+            text: "提交后保持跟进：",
+          },
+          {
+            type: "list",
+            ordered: false,
+            items: [
+              "保留邮寄凭证：使用挂号信或快递，保留追踪号码",
+              "等待 IRS 回复：通常需要 6-8 周处理",
+              "如有罚款通知：及时响应并考虑申请罚款减免",
+            ],
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        question: "F1 留学生不报税会有什么后果？",
+        answer:
+          "F1 留学生不报税可能导致 IRS 的罚款和利息累积，影响未来的签证申请（如 H1B 或绿卡），以及可能被视为违反 F1 身份的维持要求。即使无收入，也应提交 Form 8843 以证明你的非居民身份。",
+      },
+      {
+        question: "逾期报税可以申请罚款减免吗？",
+        answer:
+          "是的，IRS 提供首次罚款减免（First-Time Penalty Abatement）和合理原因减免（Reasonable Cause）。如果你是首次逾期，或有合理原因（如疾病、自然灾害等），可以提交 Form 843 申请减免。",
+      },
+      {
+        question: "Form 8843 迟交需要罚款吗？",
+        answer:
+          "Form 8843 本身不涉及税款，因此通常不会有罚款。但迟交可能导致你无法证明非居民身份，建议尽快补交并在顶部标注 'Late Filing'。",
+      },
+      {
+        question: "我已经离开美国，还需要补交报税表吗？",
+        answer:
+          "是的，如果你在离开美国前的那一年有美国来源收入，或者需要提交 Form 8843，即使已经离开美国，也应补交报税表。这有助于保持你的税务记录完整，避免未来的签证问题。",
+      },
+      {
+        question: "补交报税表会影响我的 OPT 或 H1B 申请吗？",
+        answer:
+          "及时补交通常比不申报更好。主动补交表明你愿意遵守税法，这对签证申请通常是有利的。但长期不申报或欠税未缴可能会被视为负面因素。建议在申请签证前确保所有税务问题已解决。",
+      },
+      {
+        question: "如何查询我是否有 IRS 的欠税记录？",
+        answer:
+          "你可以通过 IRS 官网的 'View Your Tax Records' 功能查询，或拨打 IRS 客服电话。如果你有 IRS 在线账户，也可以登录查看账户余额和付款历史。",
+      },
+    ],
+    cta: {
+      label: "使用报税身份判定工具 →",
+      href: "/tools/opt-tax",
+    },
+  },
 ];
 
 export const getGuideBySlug = (slug: string) =>
